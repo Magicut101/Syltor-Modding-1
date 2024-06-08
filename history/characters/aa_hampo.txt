@@ -1,0 +1,24 @@
+600039 = {
+	name = "Malgi"
+	dynasty = 30000029 # Tashili
+	religion = "twin_dragon"
+	culture = "hampo"
+	trait = education_learning_4
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600056 = {
+	name = "K'ebero al-Izul"
+	#dynasty = 30000013 #khamen
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_learning_3
+	stewardship = 12
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}

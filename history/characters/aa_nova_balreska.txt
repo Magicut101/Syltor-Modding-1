@@ -1,0 +1,65 @@
+﻿600013 = {
+	name = "Dimitri"
+	dynasty = 30000009 #Liberium
+	religion = "tossanism"
+	culture = "balreskan"
+	trait = education_martial_3
+	stewardship = 9
+	martial = 10
+	#father = 145930
+	1032.1.1 = {
+		birth = "824.1.1"
+	}
+	#dna = 
+}
+
+600021 = {
+	name = "Kartovski"
+	dynasty = 30000016 #Kartoffel
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	martial = 12
+	#father = 145930
+	1040.1.1 = {
+		birth = "824.1.1"
+	}
+	#dna = 
+}
+
+600030 = {
+	name = "Peter"
+	dynasty = 30000021 # Naryshkin
+	religion = "tossanism"
+	culture = "balreskan"
+	trait = education_martial_3
+  martial = 5
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600034 = {
+	name = "Wiiro"
+	dynasty = 30000025 # Erzhek
+	religion = "tossanism"
+	culture = "tontoni"
+	trait = education_intrigue_3
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600035 = {
+	name = "Napovic"
+	dynasty = 30000026 # Doyyek
+	religion = "tossanism"
+	culture = "ryzani"
+	trait = education_learning_2
+	1045.1.1 = {
+		birth = yes
+	}z
+	#dna = 
+}

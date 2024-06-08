@@ -1,0 +1,262 @@
+# Chkaset
+1430 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1431 = {
+	holding = none
+}
+
+1432 = {
+	holding = none
+}
+
+#Ilsip
+1433 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1434 = {
+	holding = none
+}
+
+#Taro
+1435 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1436 = {
+	holding = none
+}
+
+1437 = {
+	holding = none
+}
+
+1438 = {
+	holding = none
+}
+
+1439 = {
+	holding = none
+}
+
+#June
+1440 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1441 = {
+	holding = none
+}
+
+1442 = {
+	holding = none
+}
+
+1443 = {
+	holding = none
+}
+
+1444 = {
+	holding = none
+}
+
+#Khateum
+1445 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1446 = {
+	holding = none
+}
+
+1447 = {
+	holding = none
+}
+
+#Aleh
+1448 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1449 = {
+	holding = none
+}
+
+1450 = {
+	holding = none
+}
+
+#ZalRoc
+1451 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1452 = {
+	holding = none
+}
+
+1453 = {
+	holding = none
+}
+
+1453 = {
+	holding = none
+}
+
+1454 = {
+	holding = none
+}
+
+1455 = {
+	holding = none
+}
+
+#OstraVakten
+1456 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1457 = {
+	holding = none
+}
+
+1458 = {
+	holding = none
+}
+
+1459 = {
+	holding = none
+}
+
+#Lamebah
+1460 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1461 = {
+	holding = none
+}
+
+1462 = {
+	holding = none
+}
+
+1463 = {
+	holding = none
+}
+
+#Aragon
+1464 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1465 = {
+	holding = none
+}
+
+1466 = {
+	holding = none
+}
+
+1467 = {
+	holding = none
+}
+
+#Chronicle
+1468 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1469 = {
+	holding = none
+}
+
+1470 = {
+	holding = none
+}
+
+#Nermou
+1471 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1472 = {
+	holding = none
+}
+
+1473 = {
+	holding = none
+}
+
+1474 = {
+	holding = none
+}
+1475 = {
+	holding = none
+}
+
+#Dionysus
+1476 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1477 = {
+	holding = none
+}
+
+1478 = {
+	holding = none
+}
+
+#Abaton
+1479 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1480 = {
+	holding = none
+}
+1481 = {
+	holding = none
+}
+
+#Akh
+1482 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1483 = {
+	holding = none
+}

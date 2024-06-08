@@ -1,0 +1,165 @@
+# leeps
+1396 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1397 = {
+	holding = none
+}
+
+#Luperkenia
+1398 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1399 = {
+	holding = none
+}
+
+1400 = {
+	holding = none
+}
+
+#Leeperkenia
+1401 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1402 = {
+	holding = none
+}
+
+#Thura
+1403 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1404 = {
+	holding = none
+}
+
+1405 = {
+	holding = none
+}
+
+1406 = {
+	holding = none
+}
+
+# Night Haven
+1407 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1408 = {
+	holding = none
+}
+
+1409 = {
+	holding = none
+}
+
+1410 = {
+	holding = none
+}
+
+1411 = {
+	holding = none
+}
+
+#HillsValle
+1412 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1413 = {
+	holding = none
+}
+
+1414 = {
+	holding = none
+}
+
+1415 = {
+	holding = none
+}
+
+#ValleVerbe
+1416 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1417 = {
+	holding = none
+}
+
+1418 = {
+	holding = none
+}
+
+1419 = {
+	holding = none
+}
+
+#Altrik
+1420 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1421 = {
+	holding = none
+}
+
+1422 = {
+	holding = none
+}
+
+1423 = {
+	holding = none
+}
+
+1424 = {
+	holding = none
+}
+
+#IronTree
+1425 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+#AltrikSuburbs
+1426 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1427 = {
+	holding = none
+}
+
+1428 = {
+	holding = none
+}
+
+1429 = {
+	holding = none
+}

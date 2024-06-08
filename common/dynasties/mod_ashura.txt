@@ -1,0 +1,50 @@
+﻿30000012 = {
+	name = "Shaer"
+	culture = "ashuran"
+}
+
+#Khamens
+
+30000013 = {
+	name = "Khamen"
+	culture = "ashuran"
+}
+
+#Tyalu
+
+30000100 = {
+	name = "Amakiir"
+	culture = "ashuran"
+}
+
+#Ohros
+
+30000101 = {
+    name = "Ohros"
+    culture = "kadut"
+}
+#Attazer
+
+30000102 = {
+    name = "Attazer"
+    culture = "kadut"
+}
+
+30000103 = {
+    name = "Metimwe"
+    culture = "Heartlander"
+}
+
+#Ze-Boul
+
+30000104 = {
+    name = "Ze-Boul"
+    culture = "Ereket"
+}
+#A'Livé Sinya
+
+30000105 = {
+    name = "Sinya"
+    culture = "ashuran"
+}
+

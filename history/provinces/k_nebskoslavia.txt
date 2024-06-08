@@ -1,0 +1,275 @@
+# bjornsull
+1077 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1078 = {
+	holding = none
+}
+
+1079 = {
+	holding = none
+}
+
+1080 = {
+	holding = none
+}
+
+#phinks
+1094 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1095 = {
+	holding = none
+}
+
+1096 = {
+	holding = none
+}
+# orphus
+1097 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1098 = {
+	holding = none
+}
+
+1099 = {
+	holding = none
+}
+
+# kvarts
+1100 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1101 = {
+	holding = none
+}
+
+1102 = {
+	holding = none
+}
+
+1103 = {
+	holding = none
+}
+
+#Nebskograd
+1113 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1114 = {
+	holding = none
+}
+
+1115 = {
+	holding = none
+}
+
+1116 = {
+	holding = none
+}
+
+1117 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1118 = {
+	holding = none
+}
+
+1119 = {
+	holding = none
+}
+
+1120 = {
+	holding = none
+}
+
+1121 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1122 = {
+	holding = none
+}
+
+1123 = {
+	holding = none
+}
+
+1124 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1125 = {
+	holding = none
+}
+
+1126 = {
+	holding = none
+}
+
+1127 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1128 = {
+	holding = none
+}
+
+1129 = {
+	holding = none
+}
+
+# sloutawa
+1130 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1131 = {
+	holding = none
+}
+
+1132 = {
+	holding = none
+}
+
+1133 = {
+	holding = none
+}
+
+1134 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1135 = {
+	holding = none
+}
+
+1136 = {
+	holding = none
+}
+
+1137 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1138 = {
+	holding = none
+}
+
+1139 = {
+	holding = none
+}
+
+1140 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1141 = {
+	holding = none
+}
+
+1142 = {
+	holding = none
+}
+
+1143 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1144 = {
+	holding = none
+}
+
+1145 = {
+	holding = none
+}
+
+1146 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1147 = {
+	holding = none
+}
+
+1148 = {
+	holding = none
+}
+
+1150 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1151 = {
+	holding = none
+}
+
+1152 = {
+	holding = none
+}
+
+1153 = {
+	holding = none
+}
+
+1154 = {
+	holding = none
+}
+
+1155 = {
+	holding = none
+}
+
+1156 = {
+	culture = nebskoslav
+	religion = tossanism
+	holding = castle_holding
+}
+
+1157 = {
+	holding = none
+}
+
+1158 = {
+	holding = none
+}
+

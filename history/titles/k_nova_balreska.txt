@@ -1,0 +1,93 @@
+# Doys land
+
+c_Tsarograd = {
+		867.1.1 = {	change_development_level = 1 }
+
+		1054.1.1 = {
+			holder = 600035 # doy
+			liege = 0
+		}
+}
+
+c_Nepik = {
+		867.1.1 = {	change_development_level = 1 }
+
+		1054.1.1 = {
+			holder = 600035 # doy
+			liege = 0
+		}
+}
+
+c_Zelenria = {
+		867.1.1 = {	change_development_level = 1 }
+
+		1054.1.1 = {
+			holder = 600035 # doy
+			liege = 0
+		}
+}
+
+# Lebadbois land
+b_nova_balreska = {
+	1054.1.1 = {
+	effect = { set_capital_barony = yes }
+	}
+}
+
+d_nova_balreska = {
+	867.1.1 = {	change_development_level = 3 }
+
+	1054.1.1 = {
+		holder = 600013 # Lebadboi
+	}
+}
+
+c_nova_balreska = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		holder = 600013 # Lebadboi
+		}
+}
+
+c_DuristBog = {
+	867.1.1 = {	change_development_level = 2 }
+	1054.1.1 = {
+		holder = 600013 # Lebadboi
+		}
+}
+
+c_sovogrod = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+		holder = 600013 # Lebadboi
+		}
+}
+
+#kartoffel lmao
+c_orenia = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+			holder = 600021 # Kartoffel
+			liege = 0
+		}
+}
+
+d_shkidnyy = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = {
+			holder = 600030 # peter
+			liege = 0
+		}
+}
+
+d_tonton = {
+	867.1.1 = {	change_development_level = 3 }
+
+	1054.1.1 = {
+		holder = 600034 # Fynd
+	}
+}
+
+c_tonton = {
+		867.1.1 = {	change_development_level = 7 }
+}

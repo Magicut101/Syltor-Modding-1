@@ -1,0 +1,21 @@
+d_ruscon = {
+	867.1.1 = {	change_development_level = 8 }
+	1054.1.1 = {
+	holder = 600039 
+	} #Maalgi
+}
+
+c_Tashili = {
+	867.1.1 = {	change_development_level = 10 }
+	1054.1.1 = {
+	holder = 600039
+	}
+}
+
+
+c_AlIzula= {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	holder = 600056 #al-Izula
+	}
+}

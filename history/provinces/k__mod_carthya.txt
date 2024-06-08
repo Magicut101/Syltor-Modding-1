@@ -1,0 +1,376 @@
+#c_verkhnya
+996 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+997 = {
+	holding = none
+}
+
+998 = {
+	holding = none
+}
+
+999 = {
+	holding = none
+}
+
+#c_slimehost
+1000 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1001 = {
+	holding = none
+}
+
+1002 = {
+	holding = none
+}
+
+#c_neuheim
+989 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+990 = {
+	holding = church_holding
+}
+
+1014 = {
+	holding = city_holding
+}
+
+1015 = {
+	holding = none
+}
+
+#Carthya City
+1016 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+	1053.1.1 = {
+		special_building = generic_university
+	}
+}
+
+1017 = {
+	holding = city_holding
+}
+
+1018 = {
+	holding = church_holding
+}
+
+1019 = {
+	holding = none
+}
+
+1020 = {
+	holding = none
+}
+
+1021 = {
+	holding = none
+}
+
+# angels peak
+1022 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1023 = {
+	holding = none
+}
+
+1024 = {
+	holding = none
+}
+
+1025 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1026 = {
+	holding = none
+}
+
+1027 = {
+	holding = none
+}
+
+1028 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1029 = {
+	holding = none
+}
+
+1030 = {
+	holding = none
+}
+
+1031 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1032 = {
+	holding = none
+}
+
+1033 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1034 = {
+	holding = none
+}
+
+1035 = {
+	holding = none
+}
+
+1036 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1037 = {
+	holding = none
+}
+
+1038 = {
+	holding = none
+}
+
+1039 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1040 = {
+	holding = none
+}
+
+1041 = {
+	holding = none
+}
+
+1042 = {
+	holding = none
+}
+
+1043 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1044 = {
+	holding = none
+}
+
+1045 = {
+	holding = none
+}
+
+1046 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1047 = {
+	holding = none
+}
+
+1048 = {
+	holding = none
+}
+
+1049 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1050 = {
+	holding = none
+}
+
+1051 = {
+	holding = none
+}
+
+1052 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1053 = {
+	holding = none
+}
+
+1054 = {
+	holding = none
+}
+
+1055 = {
+	culture = carthyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1056 = {
+	holding = none
+}
+
+1057 = {
+	holding = none
+}
+
+1058 = {
+	holding = none
+}
+
+1059 = {
+	holding = none
+}
+
+#lebadville
+1159 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1160 = {
+	holding = none
+}
+
+1161 = {
+	holding = none
+}
+
+# chudniv
+1162 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1163 = {
+	holding = none
+}
+
+1164 = {
+	holding = none
+}
+
+# khyriv
+1165 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1166 = {
+	holding = none
+}
+
+1167 = {
+	holding = none
+}
+
+# skalati
+1168 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1169 = {
+	holding = none
+}
+
+1170 = {
+	holding = none
+}
+
+1171 = {
+	holding = none
+}
+
+# novyikalyniv
+1172 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1173 = {
+	holding = none
+}
+
+1174 = {
+	holding = none
+}
+
+# xaburya
+1176 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1175 = {
+	holding = city_holding
+}
+
+1177 = {
+	holding = city_holding
+}
+
+1178 = {
+	holding = none
+}
+
+1179 = {
+	holding = church_holding
+}
+
+# Star
+1180 = {
+	culture = xaburyan
+	religion = tossanism
+	holding = castle_holding
+}
+
+1181 = {
+	holding = none
+}
+
+1182 = {
+	holding = none
+}

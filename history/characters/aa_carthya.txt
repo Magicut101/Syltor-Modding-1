@@ -1,0 +1,94 @@
+﻿600014 = {
+	name = "Bruhovich"
+	dynasty = 30000010 #Aasimar
+	religion = "tossanism"
+	culture = "carthyan"
+	trait = education_stewardship_2
+	stewardship = 11
+	martial = 9
+	#father = 145930
+	1032.1.1 = {
+		birth = "824.1.1"
+	}
+	#dna = 
+}
+
+600022 = {
+	name = "Darrow"
+	dynasty = 30000010 #Aasimar
+	religion = "tossanism"
+	culture = "carthyan"
+	trait = education_stewardship_4
+  trait = just
+	stewardship = 13
+	1020.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600023 = {
+	name = "Raphie"
+	dynasty = 30000010 #Aasimar
+	religion = "tossanism"
+	culture = "carthyan"
+	trait = education_stewardship_3
+  trait = just
+  trait = diligent
+	stewardship = 9
+	father = 600022
+	1050.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+# Xaburyans
+
+600024 = {
+	name = "Jay"
+	dynasty = 30000017 #Burrow
+	religion = "tossanism"
+	culture = "xaburyan"
+	trait = education_martial_4
+	stewardship = 12
+	1020.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+    death = yes
+	}
+	#dna = 
+}
+
+600025 = {
+	name = "Javorn"
+	dynasty = 30000017 #Burrow
+	religion = "tossanism"
+	culture = "xaburyan"
+	trait = education_martial_3
+	stewardship = 8
+  trait = diligent
+  learning = 11
+	1040.1.1 = {
+		birth = yes
+	}
+	father = 600024
+	#dna = 
+}
+
+600026 = {
+	name = "Adelisa"
+	dynasty = 30000017 #Burrow
+	religion = "tossanism"
+	culture = "xaburyan"
+	trait = education_martial_3
+  trait = zealous
+	stewardship = 12
+  female = yes
+	1042.1.1 = {
+		birth = yes
+	}
+	father = 600024
+	#dna = 
+}

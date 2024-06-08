@@ -1,0 +1,19 @@
+﻿30000016 = {
+	name = "Kartoffel"
+	culture = "dorastterocker"
+}
+
+30000021 = {
+	name = "Naryshkin"
+	culture = "balreskan"
+}
+
+30000025 = {
+	name = "Erzhek"
+	culture = "tontoni"
+}
+
+30000026 = {
+	name = "Doyyek"
+	culture = "ryzani"
+}

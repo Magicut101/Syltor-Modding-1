@@ -1,0 +1,20 @@
+d_volkore = {
+	867.1.1 = {	change_development_level = 5 }
+
+	1054.1.1 = {
+	holder = 600032
+	}
+}
+
+c_Volkoregrod = {
+  867.1.1 = {	change_development_level = 12 }
+}
+
+c_Azurov = {
+  	867.1.1 = {	change_development_level = 5 }
+
+	1054.1.1 = {
+    holder = 600033
+    liege = 0
+	}
+}

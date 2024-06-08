@@ -1,0 +1,27 @@
+d_nebskoslavia = {
+	867.1.1 = {	change_development_level = 1 }
+
+	1054.1.1 = {
+	  holder = 600031
+	}
+}
+
+c_Slouttawa = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	  holder = 600031
+	}
+}
+
+c_Nebskograd = {
+	1054.1.1 = {
+	  holder = 600036
+	}
+}
+
+d_nebskograd = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+	  holder = 600036
+	}
+}

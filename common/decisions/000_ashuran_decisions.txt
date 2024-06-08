@@ -1,0 +1,104 @@
+﻿#Creating Erume Kingdom
+form_erume_kingdom_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	#desc = form_erume_kingdom_decision_desc
+	selection_tooltip = form_erume_kingdom_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_landed = yes
+		is_independent_ruler = yes
+		NOT = { exists = title:k_erume.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_erume_kingdom
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		#Must have Erume cores
+		has_title = title:k_ereketconfederation
+		has_title = title:k_mianditribe
+		has_title = title:k_kadutconfederation
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 1
+	}
+
+	effect = {
+		form_erume_scripted_effect = yes
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+form_sharla_kingdom_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	#desc = form_erume_kingdom_decision_desc
+	selection_tooltip = form_sharla_kingdom_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_landed = yes
+		is_independent_ruler = yes
+		NOT = { exists = title:k_sharla.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_sharla_kingdom
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		#Must have Erume cores
+		has_title = title:k_qamiya
+		has_title = title:k_beletea
+		has_title = title:k_cornedaofjordlands
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 1
+	}
+
+	effect = {
+		form_sharla_scripted_effect = yes
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,41 @@
+
+600052 = {
+	name = "Krawlub Ohorsi"
+	#dynasty = 30000101  #Ohorsi	
+	religion = "ashuran_pantheon"
+	culture = "kadut"
+	trait = education_martial_3
+	martial = 12
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+
+600053 = {
+	name = "Attazeria Attazer"
+	#dynasty = 30000102 #Attazer
+	religion = "ashuran_pantheon"
+	culture = "kadut"
+	trait = education_stewardship_3
+	stewardship = 10
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600055 = {
+	name = "Andar Metimwe"
+	#dynasty = 30000103 #Metimwe
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_intrigue_4
+	intrigue = 20
+	stewadrship = 14 
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}

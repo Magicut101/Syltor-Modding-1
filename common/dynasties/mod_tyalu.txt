@@ -1,0 +1,9 @@
+30000100 = {
+	name = "Amakiir"
+	culture = "ashuran"
+}
+
+30000101 = {
+    name = "Ohros"
+    culture = "kadut"
+}

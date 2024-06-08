@@ -1,0 +1,60 @@
+c_MinaAlMal = {
+		867.1.1 = {	change_development_level = 7 }
+
+		1054.1.1 = {
+			holder = 600037 # Astrid
+			liege = 0
+		}
+}
+
+d_erekettribe = {
+		867.1.1 = {	change_development_level = 7 }
+
+		1054.1.1 = {
+			holder = 600037 #Astrid
+			liege = 0
+		}
+}
+
+d_easternwastes = {
+	867.1.1 = {	change_development_level = 7 }
+
+		1054.1.1 = {
+			holder = 600058 #Beel
+	
+		}
+
+}
+c_Kahulwahah = {
+	867.1.1 = {	change_development_level = 9 }
+
+		1054.1.1 = {
+			holder = 600058 #Beel
+	
+		}
+}
+c_DjinnsBottle = {
+	867.1.1 = {	change_development_level = 3 }
+
+		1054.1.1 = {
+			holder = 600058 #Beel
+		
+		}
+}
+c_Principium = {
+	867.1.1 = {	change_development_level = 5 }
+
+		1054.1.1 = {
+			holder = 600058 #Beel
+		
+		}
+}
+
+c_PrincipiumCrossing = {
+	867.1.1 = {	change_development_level = 2 }
+
+		1054.1.1 = {
+			holder = 600058 #Beel
+		
+		}
+}

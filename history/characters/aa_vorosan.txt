@@ -1,0 +1,11 @@
+600041 = {
+	name = "Soeun"
+	dynasty = 30000029 # Tashili
+	religion = "twin_dragon"
+	culture = "vorosani"
+	trait = education_stewardship_3
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}

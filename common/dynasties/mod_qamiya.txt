@@ -1,0 +1,14 @@
+﻿30000012 = {
+	name = "Shaer"
+	culture = "ashuran"
+}
+
+30000013 = {
+	name = "Khamen"
+	culture = "ashuran"
+}
+
+30000030 = {
+	name = "Hoots"
+	culture = "Heartlander"
+}

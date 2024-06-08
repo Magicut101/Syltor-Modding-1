@@ -1,0 +1,11 @@
+c_MaPona = {
+	1054.1.1 = {
+	  holder = 600041 # Soeun
+	}
+}
+
+d_sarapalar = {
+	1054.1.1 = {
+	  holder = 600041 # Soeun
+	}
+}

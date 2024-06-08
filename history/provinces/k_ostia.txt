@@ -1,0 +1,71 @@
+# Arvik
+1381 = {
+	culture = dorastterocker
+	religion = dandelism
+	holding = castle_holding
+}
+
+1382 = {
+	holding = none
+}
+
+1383 = {
+	holding = none
+}
+
+#Mavos
+1384 = {
+	culture = dorastterocker
+	religion = dandelism
+	holding = castle_holding
+}
+
+1385 = {
+	holding = none
+}
+
+1386 = {
+	holding = none
+}
+
+1387 = {
+	holding = none
+}
+
+#Ost
+1388 = {
+	culture = dorastterocker
+	religion = dandelism
+	holding = castle_holding
+}
+
+1389 = {
+	holding = none
+}
+
+#NewSavras
+1390 = {
+	culture = dorastterocker
+	religion = dandelism
+	holding = castle_holding
+}
+
+1391 = {
+	holding = none
+}
+
+1392 = {
+	holding = none
+}
+
+1393 = {
+	holding = none
+}
+
+1394 = {
+	holding = none
+}
+
+1395 = {
+	holding = none
+}

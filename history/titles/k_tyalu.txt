@@ -1,0 +1,37 @@
+#Oshotty
+c_tyalu = {
+867.1.1 = {	change_development_level = 12 }
+1054.1.1 = { holder = 600051} # Oshotty
+}
+
+k_beletea = {
+867.1.1 = {	change_development_level = 5
+1054.1.1 = { holder = 600051} # Oshotty}
+liege = 0
+government = fuedal_government
+}
+
+d_tyalu = {
+867.1.1 = {	change_development_level = 5}
+1054.1.1 = { holder = 600051} # Oshotty
+}
+
+d_gottrick= {
+867.1.1 = {	change_development_level = 3 }
+1054.1.1 = { holder = 600043} # Previse
+liege = "k_beletea"
+}
+c_gottrick = {
+867.1.1 = {	change_development_level = 3 }
+1054.1.1 = { holder = 600043} # Previse
+	}
+
+d_pripyat = {
+   		 867.1.1 = {	change_development_level = 5 }
+		1054.1.1 = { holder = 600044 } # Mikey
+		liege = "k_beletea"
+	}
+		c_pripyat = {
+    		867.1.1 = {	change_development_level = 5 }
+			1054.1.1 = { holder = 6600044 } # Mikey
+		}

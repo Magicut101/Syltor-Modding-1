@@ -1,0 +1,110 @@
+# Darrow
+c_Carthya = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		holder = 600022
+	}
+}
+
+d_carthya = {
+	867.1.1 = {	change_development_level = 7 }
+
+	1054.1.1 = {
+	holder = 600022
+	}
+}
+
+# Raphie
+
+c_RaphieIsle = {
+
+	1054.1.1 = {
+	  holder = 600023
+    liege = d_carthya
+	}
+}
+
+c_AngelsPeak = {
+
+	1054.1.1 = {
+	  holder = 600023
+    liege = d_carthya
+	}
+}
+
+# Javorn
+d_xaburya = {
+	867.1.1 = {	change_development_level = 5 }
+
+	1054.1.1 = {
+	  holder = 600025
+	}
+}
+
+c_Xaburya = {
+	867.1.1 = {	change_development_level = 7 }
+}
+
+c_StaryiSambir = {
+	1054.1.1 = {
+	  holder = 600025
+	}
+}
+
+c_NovyiKalyniv = {
+	1054.1.1 = {
+	  holder = 600025
+	}
+}
+
+c_Khyriv = {
+	1054.1.1 = {
+	  holder = 600025
+	}
+}
+
+# Adelisa
+
+c_Skalati = {
+	1054.1.1 = {
+	  holder = 600026
+		liege = d_xaburya
+	}
+}
+
+c_Chudniv = {
+	1054.1.1 = {
+	  holder = 600026
+		liege = d_xaburya
+	}
+}
+
+c_Lebadville = {
+	1054.1.1 = {
+	  holder = 600026
+		liege = d_xaburya
+	}
+}
+
+# Bruhs land
+
+c_neuheim = {
+	867.1.1 = {	change_development_level = 8 }
+	1054.1.1 = {
+		holder = 600014 # Bruh_
+		}
+}
+
+c_verkhnya = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+		holder = 600014 # Bruh_
+		}
+}
+
+c_slime_host = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		holder = 600014 # Bruh_
+		}
+}

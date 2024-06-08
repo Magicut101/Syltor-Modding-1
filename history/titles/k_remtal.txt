@@ -1,0 +1,67 @@
+# remtal duchy
+
+d_remtal = {
+	867.1.1 = {	change_development_level = 4 }
+
+	1054.1.1 = {
+	holder = 600027 # donklas
+	}
+}
+
+c_GekanBay = {
+	1054.1.1 = {
+	  holder = 600028 # tavin
+    liege = d_remtal
+	}
+}
+
+c_Burken = {
+	1054.1.1 = {
+	  holder = 600028 # tavin
+    liege = d_remtal
+	}
+}
+
+c_Karlsfell = {
+	1054.1.1 = {
+	  holder = 600028 # tavin
+    liege = d_remtal
+	}
+}
+
+c_Torchtown = {
+	1054.1.1 = {
+	  holder = 600028 # tavin
+    liege = d_remtal
+	}
+}
+
+c_Liberium = {
+	1054.1.1 = {
+	  holder = 600029 # geo
+	}
+}
+
+c_Zoromir = {
+	1054.1.1 = {
+	  holder = 600029 # geo
+	}
+}
+
+c_Stoyanka = {
+	1054.1.1 = {
+	  holder = 600029 # geo
+	}
+}
+
+c_Gekimir = {
+	1054.1.1 = {
+	  holder = 600040 # Josbar
+	}
+}
+
+c_Remira = {
+	1054.1.1 = {
+	  holder = 600040 # Josbar
+	}
+}

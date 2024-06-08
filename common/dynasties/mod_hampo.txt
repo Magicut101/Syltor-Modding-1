@@ -1,0 +1,4 @@
+﻿30000029 = {
+	name = "Tashili"
+	culture = "hampo"
+}

@@ -1,0 +1,94 @@
+﻿600016 = {
+	name = "Azan"
+	dynasty = 30000012 # shaer
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = patient
+	trait = just
+	trait = diligent
+	trait = education_stewardship_4
+	martial = 9
+	stewardship = 12
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600017 = {
+	name = "Jun Se"
+	dynasty = 30000013 # khamen
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_intrigue_3
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	employer = 600016
+	#dna = 
+}
+600045 = {
+	name = "K'ebero Al-Izula"
+	dynasty = 30000013 # khamen
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600047 = {
+	name = "Se-khem-ka Al-Qamiya"
+	dynasty = 30000013 # khamen
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_stewardship_3
+	intrigue = 16
+	stewardship = 12
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	employer = 600016
+	#dna = 
+}
+
+600048 = {
+	name = "Nashabet"
+	#dynasty = 30000301 #Nashabet
+	religion = "ashuran_pantheon"
+	culture = "nabut"
+	trait = education_learning_3
+	stewardship = 12
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600057 = {
+	name = "Nefer Khamen"
+	#dynasty = 30000013 #Nashabet
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_learning_3
+	learning = 30
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600059 = {
+	name = "Hem-Netjer A'Livé Sinya"
+	#dynasty = 30000105 #Nashabet
+	religion = "ashuran_pantheon"
+	culture = "Miandi"
+	trait = education_stewardship_3
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+

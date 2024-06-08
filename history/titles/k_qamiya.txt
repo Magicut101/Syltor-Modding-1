@@ -1,0 +1,75 @@
+#AzanShaer
+k_qamiya = {
+	
+
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600016
+		government = fuedal_government
+	} # azan
+}
+d_qamiya = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600016} # azan
+	
+
+c_qamiya = {
+	867.1.1 = {	change_development_level = 12 }
+	1054.1.1 = { holder = 600016} # azan
+	}
+}
+#Froyo
+d_khamen = {
+		867.1.1 = {	change_development_level = 3 }
+		1054.1.1 = { holder = 600017
+					liege = k_qamiya
+		} # froyo
+		
+	}
+c_nabutanmanors = {
+	867.1.1 = {	change_development_level = 9 }
+	1054.1.1 = { holder = 600017} # froyo
+	}
+
+c_oroman = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600017} # froyo
+	}
+
+c_oroman = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600017} # froyo
+	}
+
+c_djunse = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600017} # froyo
+	}
+
+c_djinnsmanor = {
+	867.1.1 = {	change_development_level = 7 }
+	1054.1.1 = { holder = 600017} # froyo
+	}
+
+#Sakhemka
+d_yenedu = {
+	
+	867.1.1 = {	change_development_level = 4 }
+	1054.1.1 = 	{ holder = 600047 
+		liege = k_qamiya
+	} #Sakhemka
+}
+c_hewepetnair = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = 	{ holder = 600047 } #Sakhemka
+	}	
+
+c_anopis = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = 	{ holder = 600048 } Nashabet
+		}	
+	
+c_pimedjay = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = 	{ holder = 600049 } #Nefer
+	}	
+

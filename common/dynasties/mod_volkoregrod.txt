@@ -1,0 +1,9 @@
+﻿30000023 = {
+	name = "Sigrun"
+	culture = "valkyries"
+}
+
+30000024 = {
+	name = "Azurov"
+	culture = "dorastterocker"
+}

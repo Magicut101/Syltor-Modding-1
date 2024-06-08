@@ -1,0 +1,86 @@
+﻿l_english:
+ #Common lemebah Localization
+ tototl_religion:0 "Tototl"
+ tototl_religion_adj:0 "Tototl"
+ tototl_religion_adherent:0 "Tototl"
+ tototl_religion_adherent_plural:0 "Tototls"
+ tototl_religion_desc:0 "Tototl is a polytheistic faith dedicated to their sun god, patron of blood and war Tototetl. Ritual sacrifices, and celebrations of blood are commonplace in this war-mongering religion."
+
+ tototl_high_god_name:0 "Tototetl"
+ tototl_high_god_name_2:0 "$tototl_high_god_name$" # Optional translation alt
+ tototl_high_god_name_possessive:0 "Solaris'"
+ tototl_high_god_name_alternate:0 "Anetos"
+ tototl_high_god_name_alternate_possessive:0 "Anetos'"
+ tototl_good_god_name_three_pure_ones:0 "the All-Father and his Cohort"
+ tototl_devil_name:0 "Caligo"
+ tototl_evil_name_possessive:0 "Caligo's"
+ tototl_house_of_worship:0 "$paganism_house_of_worship$"
+ tototl_house_of_worship_2:0 "$paganism_house_of_worship_2$" # Optional translation alt
+ tototl_house_of_worship_3:0 "$paganism_house_of_worship_3$" # Optional translation alt
+ tototl_house_of_worship_plural:0 "$paganism_house_of_worship_plural$"
+ tototl_religious_symbol:0 "Solaris and Anetos"
+ tototl_religious_symbol_2:0 "$soleannen_religious_symbol$" # Optional translation alt
+ tototl_religious_symbol_3:0 "$soleannen_religious_symbol$" # Optional translation alt
+ tototl_religious_text:0 "The Principles of Honor"
+ tototl_religious_text_2:0 "$soleannen_religious_text$" # Optional translation alt
+ tototl_religious_text_3:0 "$soleannen_religious_text$" # Optional translation alt
+ tototl_religious_head_title:0 "Severiones"
+ tototl_religious_head_title_name:0 "The Exalted"
+ tototl_devotee_male:0 "$soleannen_devotee_neuter$"
+ tototl_devotee_male_plural:0 "$soleannen_devotee_neuter_plural$"
+ tototl_devotee_female:0 "$soleannen_devotee_neuter$"
+ tototl_devotee_female_plural:0 "$soleannen_devotee_neuter_plural$"
+ tototl_devotee_neuter:0 "Ileri"
+ tototl_devotee_neuter_plural:0 "Ileri"
+ tototl_priest_male:0 "$soleannen_priest_neuter$"
+ tototl_priest_male_plural:0 "$soleannen_priest_neuter_plural$"
+ tototl_priest_female:0 "$soleannen_priest_neuter$"
+ tototl_priest_female_plural:0 "$soleannen_priest_neuter_plural$"
+ tototl_priest_neuter:0 "Orathi"
+ tototl_priest_neuter_plural:0 "Orathi"
+ tototl_alternate_priest_term_plural:0 "Orathi"
+ tototl_divine_realm:0 "the Red Sun"
+ tototl_divine_realm_2:0 "$soleannen_divine_realm$" # Optional translation alt
+ tototl_divine_realm_3:0 "$soleannen_divine_realm$" # Optional translation alt
+ tototl_positive_afterlife:0 "the Ultimare"
+ tototl_positive_afterlife_2:0 "$soleannen_divine_realm$" # Optional translation alt
+ tototl_positive_afterlife_3:0 "$soleannen_divine_realm$" # Optional translation alt
+ tototl_negative_afterlife:0 "the Void"
+ tototl_negative_afterlife_2:0 "$soleannen_divine_realm$" # Optional translation alt
+ tototl_negative_afterlife_3:0 "$soleannen_divine_realm$" # Optional translation alt
+
+ tototl_creator_god_name:0 "Solaris"
+ tototl_creator_god_name_possessive:0 "Solaris'"
+ tototl_health_god_name:0 "Hicarys"
+ tototl_health_god_name_possessive:0 "Hicarys's"
+ tototl_fertility_god_name:0 "Arose"
+ tototl_fertility_god_name_possessive:0 "Arose's"
+ tototl_wealth_god_name:0 "Domari"
+ tototl_wealth_god_name_possessive:0 "Domari"
+ tototl_household_god_name:0 "Meruvia"
+ tototl_household_god_name_possessive:0 "Meruvia's"
+ tototl_fate_god_name:0 "Solaris"
+ tototl_fate_god_name_possessive:0 "Solaris'"
+ tototl_knowledge_god_name:0 "Saint Eimi"
+ tototl_knowledge_god_name_possessive:0 "Saint Eimi's"
+ tototl_war_god_name:0 "Ivoras"
+ tototl_war_god_name_possessive:0 "Ivaros'"
+ tototl_trickster_god_name:0 "Caligo"
+ tototl_trickster_god_name_possessive:0 "Caligo's"
+ tototl_night_god_name:0 "$soleannen_trickster_god_name$"
+ tototl_night_god_name_possessive:0 "$soleannen_trickster_god_name_possessive$"
+ tototl_water_god_name:0 "Sylene"
+ tototl_water_god_name_possessive:0 "Sylene's"
+ witchgodname_lunatwa_daode_tianzun:0 "Daode Tianzun"
+ witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
+
+ #lemebah
+ lemebah:0 "Lemebah"
+ lemebah_adj:0 "Lemebah"
+ lemebah_adherent:0 "Lemebahite"
+ lemebah_adherent_plural:0 "Lemebahites"
+ lemebah_desc:0 "A native religion to southern Yulara, the faith is a bitheistic faith worshipping Lemebah, the goddess of nature, healing, and light. Her counterpart is Vaaran, the goddess of industrialization and war. Practitioners of the faith believe that both must be kept in equilibrium as light cannot exist without the dark."
+ 
+  # cause error in code as this is already defined unsure if its supposed to be a alt translation or not - j
+  #tototl_positive_afterlife:0 "the Luminarium"
+  #tototl_negative_afterlife:0 "the Immerium"

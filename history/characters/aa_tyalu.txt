@@ -1,0 +1,43 @@
+600051 = {
+	name = "Gildun Avaros Salah"
+	dynasty = 30000100 # Amakiir    
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = brave
+    trait = lustful
+	trait = education_martial_4
+	martial = 20
+	Prowess = 15
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600043 = {
+	name = "Previse"
+	dynasty = 30000100 # Amakiir    
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_martial_4
+	martial = 12
+	Prowess = 43
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600044 = {
+	name = "Mik'y"
+	dynasty = 30000100 # Amakiir    
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_stewardship_4
+	martial = 12
+	Prowess = 21
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}

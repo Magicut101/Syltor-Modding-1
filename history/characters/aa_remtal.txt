@@ -1,0 +1,52 @@
+﻿600027 = {
+	name = "Donklas" 
+	dynasty = 30000018 # tise dynasty
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_stewardship_2
+  trait = zealous
+	stewardship = 7
+	1033.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600028 = {
+	name = "Tavin"
+	dynasty = 30000019 # Chernik
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_stewardship_2
+	stewardship = 7
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600029 = {
+	name = "Geo"
+	dynasty = 30000020 # Shan
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_learning_4
+	stewardship = 13
+  martial = 5
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600040 = {
+	name = "Josbar"
+	dynasty = 30000009 # Liberium
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_martial_1
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}

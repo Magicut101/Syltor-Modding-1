@@ -1,0 +1,11 @@
+600049 = {
+	name = "Nefer"
+	dynasty = 30000013 # khamen
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_stewardship_4
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}

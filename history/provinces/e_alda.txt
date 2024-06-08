@@ -1,0 +1,551 @@
+1886 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1887 = {
+	holding = none
+}
+
+1888 = {
+	holding = none
+}
+
+1889 = {
+	holding = none
+}
+
+1890 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1891 = {
+	holding = none
+}
+
+1892 = {
+	holding = none
+}
+
+1893 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1894 = {
+	holding = none
+}
+
+1895 = {
+	holding = none
+}
+
+1896 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1897 = {
+	holding = none
+}
+
+1898 = {
+	holding = none
+}
+
+1899 = {
+	holding = none
+}
+
+1900 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1901 = {
+	holding = none
+}
+
+1902 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1903 = {
+	holding = none
+}
+
+1904 = {
+	holding = none
+}
+
+1905 = {
+	holding = none
+}
+
+1906 = {
+	holding = none
+}
+
+1907 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1908 = {
+	holding = none
+}
+
+1909 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1910 = {
+	holding = none
+}
+
+1911 = {
+	holding = none
+}
+
+1912 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1913 = {
+	holding = none
+}
+
+1914 = {
+	holding = none
+}
+
+1915 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1916 = {
+	holding = none
+}
+
+1917 = {
+	holding = none
+}
+
+1918 = {
+	holding = none
+}
+
+1919 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1920 = {
+	holding = none
+}
+
+1921 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1922 = {
+	holding = none
+}
+
+1923 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1924 = {
+	holding = none
+}
+
+1925 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1926 = {
+	holding = none
+}
+
+1927 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1928 = {
+	holding = none
+}
+
+1929 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1930 = {
+	holding = none
+}
+
+1931 = {
+	holding = none
+}
+
+1932 = {
+	holding = none
+}
+
+1933 = {
+	holding = none
+}
+
+1934 = {
+	holding = none
+}
+
+1935 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1936 = {
+	holding = none
+}
+
+1937 = {
+	holding = none
+}
+
+1938 = {
+	holding = none
+}
+
+1939 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1940 = {
+	holding = none
+}
+
+1941 = {
+	holding = none
+}
+
+1942 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1943 = {
+	holding = none
+}
+
+1944 = {
+	holding = none
+}
+
+1945 = {
+	holding = none
+}
+
+1946 = {
+	holding = none
+}
+
+1947 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1948 = {
+	holding = none
+}
+
+1949 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1950 = {
+	holding = none
+}
+
+1951 = {
+    holding = none
+}
+
+1952 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1953 = {
+	holding = none
+}
+
+1954 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1955 = {
+	holding = none
+}
+
+1956 = {
+	holding = none
+}
+
+1957 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1958 = {
+	holding = none
+}
+
+1959 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1960 = {
+	holding = none
+}
+
+1961 = {
+	holding = none
+}
+
+1962 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1963 = {
+	holding = none
+}
+
+1964 = {
+	holding = none
+}
+
+1965 = {
+	holding = none
+}
+
+1966 = {
+	holding = none
+}
+
+1967 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1968 = {
+	holding = none
+}
+
+1969 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1970 = {
+	holding = none
+}
+
+1971 = {
+	holding = none
+}
+
+1972 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1973 = {
+	holding = none
+}
+
+1974 = {
+	holding = none
+}
+
+1975 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1976 = {
+	holding = none
+}
+
+1977 = {
+	holding = none
+}
+
+1978 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1979 = {
+	holding = none
+}
+
+1980 = {
+	holding = none
+}
+
+1981 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1982 = {
+	holding = none
+}
+
+1983 = {
+	holding = none
+}
+
+1984 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1985 = {
+	holding = none
+}
+
+1986 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1987 = {
+	holding = none
+}
+
+1988 = {
+	holding = none
+}
+
+1989 = {
+	holding = none
+}
+
+1990 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1991 = {
+	holding = none
+}
+
+1992 = {
+	holding = none
+}
+
+1993 = {
+	holding = none
+}
+
+1994 = {
+	holding = none
+}
+
+1995 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1996 = {
+	holding = none
+}
+
+1997 = {
+	holding = none
+}
+
+1998 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+1999 = {
+	holding = none
+}
+
+2000 = {
+	holding = none
+}
+
+2001 = {
+    culture = heartlander
+	religion = almadorian
+	holding = castle_holding
+}
+
+2002 = {
+	holding = none
+}
+
+2003 = {
+	holding = none
+}
+
+2004 = {
+	holding = none
+}

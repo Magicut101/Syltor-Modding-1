@@ -1,0 +1,25 @@
+﻿6000011 = {
+	name = "Sareariel" 
+	dynasty = 30000007 #Lelya-Earcala
+	religion = "twin_dragon"
+	culture = "heartlander"
+	female = yes
+	trait = education_learning_4
+	1038.1.1 = {
+		birth = "821.1.1"
+	}
+	#dna = 
+}
+
+600060 = {
+	name = "Cru'Cho "
+	#dynasty = 30000106 #Maxion
+	religion = "twin_dragon"
+	culture = "almador"
+	trait = education_stewardship_4
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+

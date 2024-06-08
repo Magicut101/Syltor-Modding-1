@@ -1,0 +1,24 @@
+﻿600037 = {
+	name = "Astrid"
+	dynasty = 30000027 # Sindarin
+	religion = "ashuran_pantheon"
+	culture = "nabut"
+	female = yes
+	trait = education_stewardship_3
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600058 = {
+	name = "Beel"
+	#dynasty = 30000104 #Beel
+	religion = "ashuran_pantheon"
+	culture = "ashuran"
+	trait = education_stewardship_3
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}

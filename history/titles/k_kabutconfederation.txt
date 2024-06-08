@@ -1,0 +1,29 @@
+d_kabuttribe = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600052
+    liege = 0
+    } #Ohorsi
+}
+
+c_Ohros = {
+	867.1.1 = {	change_development_level = 12 }
+	1054.1.1 = { holder = 600052} #Ohrosguy
+	}
+
+c_Attazeria = {
+    867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = { holder = 600053} #attazar
+	}
+
+c_Listemeril = {
+      867.1.1 = {	change_development_level = 8 }
+	1054.1.1 = { holder = 600055
+    liege = 0
+    } #hollywoodHoots
+	}
+
+c_Dennura = {
+    867.1.1 = {	change_development_level = 2 }
+	1054.1.1 = { holder = 600055
+    liege = 0} #hollywoodHoots
+	}

@@ -1,0 +1,75 @@
+1060 = {
+	culture = valkyries
+	religion = tossanism
+	holding = castle_holding
+}
+1061 = {
+	holding = none
+}
+
+1062 = {
+	holding = none
+}
+
+1063 = {
+	holding = none
+}
+
+1064 = {
+	holding = none
+}
+
+1065 = {
+	holding = none
+}
+
+1066 = {
+	culture = valkyries
+	religion = tossanism
+	holding = castle_holding
+}
+
+1067 = {
+	holding = none
+}
+
+1068 = {
+	holding = none
+}
+
+1069 = {
+	holding = none
+}
+
+1070 = {
+	holding = none
+}
+
+1071 = {
+	culture = valkyries
+	religion = tossanism
+	holding = castle_holding
+}
+
+1072 = {
+	holding = none
+}
+
+1073 = {
+	holding = none
+}
+
+# Azurov
+1074 = {
+	culture = valkyries
+	religion = tossanism
+	holding = castle_holding
+}
+
+1075 = {
+	holding = none
+}
+
+1076 = {
+	holding = none
+}

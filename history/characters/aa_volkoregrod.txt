@@ -1,0 +1,25 @@
+﻿600032 = {
+	name = "Anastasia"
+	dynasty = 30000023 # Sigrun
+	religion = "tossanism"
+	culture = "valkyries"
+	trait = education_stewardship_3
+  female = yes
+  martial = 4
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600033 = {
+	name = "Jacob"
+	dynasty = 30000024 # Azurov
+	religion = "tossanism"
+	culture = "dorastterocker"
+	trait = education_intrigue_3
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}

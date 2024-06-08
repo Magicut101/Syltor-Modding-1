@@ -1,0 +1,19 @@
+﻿30000009 = {
+	name = "Liberium"
+	culture = "remtali"
+}
+
+30000018 = {
+	name = "Tise"
+	culture = "remtali"
+}
+
+30000019 = {
+	name = "Chernik"
+	culture = "remtali"
+}
+
+30000020 = {
+	name = "Shan"
+	culture = "remtali"
+}

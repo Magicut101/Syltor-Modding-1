@@ -1,0 +1,11 @@
+600038 = {
+	name = "Duskic"
+	dynasty = 30000028 # Tizoc
+	religion = "cardinal"
+	culture = "ashuran" # replace this with syndian
+	trait = education_stewardship_3
+	1045.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}

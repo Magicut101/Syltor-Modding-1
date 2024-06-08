@@ -1,0 +1,334 @@
+# dragoonios
+1312 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1313 = {
+	holding = none
+}
+
+1314 = {
+	holding = none
+}
+
+1315 = {
+	holding = none
+}
+
+1316 = {
+	holding = none
+}
+
+1317 = {
+	holding = none
+}
+
+1318 = {
+	holding = none
+}
+
+#tenebrisa
+1319 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1320 = {
+	holding = none
+}
+
+1321 = {
+	holding = none
+}
+
+# Eastbank
+1322 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1323 = {
+	holding = none
+}
+
+1324 = {
+	holding = none
+}
+
+#taxanios
+1325 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1326 = {
+	holding = none
+}
+
+1327 = {
+	holding = none
+}
+
+#khonepos
+1328 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1329 = {
+	holding = none
+}
+
+#ramptopia
+1330 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1331 = {
+	holding = none
+}
+
+1333 = {
+	holding = none
+}
+
+1334 = {
+	holding = none
+}
+
+1335 = {
+	holding = none
+}
+
+#buzaxios
+1332 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+#heliosion
+1336 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1337 = {
+	holding = none
+}
+
+1338 = {
+	holding = none
+}
+
+1339 = {
+	holding = none
+}
+
+#ZasRo
+1340 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1341 = {
+	holding = none
+}
+
+#lucius
+1342 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1343 = {
+	holding = none
+}
+
+1345 = {
+	holding = none
+}
+
+1346 = {
+	holding = none
+}
+
+#theylsia
+1347 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1348 = {
+	holding = none
+}
+
+1349 = {
+	holding = none
+}
+
+1350 = {
+	holding = none
+}
+
+#nefertankcrest
+1351 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1352 = {
+	holding = none
+}
+
+#epipsic
+1353 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1354 = {
+	holding = none
+}
+
+1355 = {
+	holding = none
+}
+
+#amunshroudknoll
+1356 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1357 = {
+	holding = none
+}
+
+#theylsia
+1358 = {
+	culture = nebskoslav
+	religion = lennox-luxite
+	holding = castle_holding
+}
+
+1359 = {
+	holding = none
+}
+
+1360 = {
+	holding = none
+}
+
+1361 = {
+	holding = none
+}
+
+#riverrun
+1362 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1363 = {
+	holding = none
+}
+
+1364 = {
+	holding = none
+}
+
+#mephet
+1365 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1366 = {
+	holding = none
+}
+
+#inqui
+1367 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1368 = {
+	holding = none
+}
+
+1369 = {
+	holding = none
+}
+
+#fortemperor
+1370 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1371 = {
+	holding = none
+}
+
+1372 = {
+	holding = none
+}
+
+#nardak
+1373 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1374 = {
+	holding = none
+}
+
+#riverrunproper
+1375 = {
+	culture = nebskoslav
+	religion = lemebah
+	holding = castle_holding
+}
+
+1376 = {
+	holding = none
+}
+
+1377 = {
+	holding = none
+}
+
+1378 = {
+	holding = none
+}
+
+1379 = {
+	holding = none
+}
+
+1380 = {
+	holding = none
+}
