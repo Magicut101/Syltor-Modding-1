@@ -145,7 +145,71 @@ obelisk_of_qamiya_02 = {
 
 	type_icon = "icon_structure_palace_of_achen.dds"
 	
+	cost_gold = 250
+
+	character_modifier = {
+		powerful_vassal_opinion = 5
+		different_culture_opinion = 5
+	}
+	
+	county_modifier = {
+	}
+
+	province_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = duchy_capital
+	next_building = obelisk_of_qamiya_03
+}
+
+obelisk_of_qamiya_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
 	cost_gold = 500
+
+	character_modifier = {
+		powerful_vassal_opinion = 10
+		different_culture_opinion = 10
+	}
+	
+	county_modifier = {
+
+	}
+
+	province_modifier = {
+		monthly_income = 1.025
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = duchy_capital
+	next_building = obelisk_of_qamiya_04
+}
+
+obelisk_of_qamiya_04 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	cost_gold = 750
 
 	character_modifier = {
 		powerful_vassal_opinion = 15
@@ -157,7 +221,7 @@ obelisk_of_qamiya_02 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1.05
+		monthly_income = 1.5
 	}
 	
 	ai_value = {
