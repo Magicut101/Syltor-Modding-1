@@ -1126,7 +1126,7 @@ e_ashura = {
 					}
 				}
 			}
-			c_Exousia1 = {
+ 			c_exousia = {
 				color = {
 					8
 					24
