@@ -11,3 +11,12 @@
 	}
 	#dna = 
 }
+600061 = {
+	name = "Yeetus Christ III"
+	dynasty = 3000
+	culture = "fornoisan"
+	trait = education_learning_3
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+}

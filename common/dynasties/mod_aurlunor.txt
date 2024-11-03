@@ -2,3 +2,8 @@
 	name = "Maxion"
 	culture = "Heartlander"
 }
+
+30000109 = {
+	name = " Fornois"
+	culture = " Fornoisan "
+}
