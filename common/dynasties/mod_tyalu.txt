@@ -1,9 +1,9 @@
 30000100 = {
-	name = "Amakiir"
+	name = "dynn_Amakiir"
 	culture = "ashuran"
 }
 
 30000101 = {
-    name = "Ohros"
+    name = "dynn_Ohros"
     culture = "kadut"
 }

@@ -1,9 +1,9 @@
 ﻿20000001 = {
-	name = "Di Nekomar"
+	name = "dynn_DiNekomar"
 	culture = "nekojin"
 }
 
 20000006 = {
-	name = "Taku"
+	name = "dynn_Taku"
 	culture = "crowfolk"
 }

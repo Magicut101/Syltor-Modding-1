@@ -1,50 +1,50 @@
 ﻿30000012 = {
-	name = "Shaer"
+	name = "dynn_Shaer"
 	culture = "ashuran"
 }
 
 #Khamens
 
 30000013 = {
-	name = "Khamen"
+	name = "dynn_Khamen"
 	culture = "ashuran"
 }
 
 #Tyalu
 
 30000100 = {
-	name = "Amakiir"
+	name = "dynn_Amakiir"
 	culture = "ashuran"
 }
 
 #Ohros
 
 30000101 = {
-    name = "Ohros"
+    name = "dynn_Ohros"
     culture = "kadut"
 }
 #Attazer
 
 30000102 = {
-    name = "Attazer"
+    name = "dynn_Attazer"
     culture = "kadut"
 }
 
 30000103 = {
-    name = "Metimwe"
+    name = "dynn_Metimwe"
     culture = "Heartlander"
 }
 
 #Ze-Boul
 
 30000104 = {
-    name = "Ze-Boul"
+    name = "dynn_Ze-Boul"
     culture = "Ereket"
 }
 #A'Livé Sinya
 
 30000105 = {
-    name = "Sinya"
+    name = "dynn_Sinya"
     culture = "ashuran"
 }
 

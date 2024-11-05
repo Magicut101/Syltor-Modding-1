@@ -1,4 +1,4 @@
 ﻿30000014 = {
-	name = "Austris"
+	name = "dynn_Austris"
 	culture = "fornoisan"
 }

@@ -1,9 +1,9 @@
 ﻿30000008 = {
-	name = "Meili"
+	name = "dynn_Meili"
 	culture = "angan"
 }
 
 30000015 = {
-	name = "Lei"
+	name = "dynn_Lei"
 	culture = "angan"
 }

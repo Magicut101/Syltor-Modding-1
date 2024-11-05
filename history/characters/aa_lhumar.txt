@@ -13,7 +13,7 @@
 
 600060 = {
 	name = "Cru'Cho "
-	#dynasty = 30000106 #Maxion
+	dynasty = 30000106 #Maxion
 	religion = "twin_dragon"
 	culture = "almador"
 	trait = education_stewardship_4

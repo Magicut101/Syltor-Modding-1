@@ -1,19 +1,19 @@
 ﻿30000016 = {
-	name = "Kartoffel"
+	name = "dynn_Kartoffel"
 	culture = "dorastterocker"
 }
 
 30000021 = {
-	name = "Naryshkin"
+	name = "dynn_Naryshkin"
 	culture = "balreskan"
 }
 
 30000025 = {
-	name = "Erzhek"
+	name = "dynn_Erzhek"
 	culture = "tontoni"
 }
 
 30000026 = {
-	name = "Doyyek"
+	name = "dynn_Doyyek"
 	culture = "ryzani"
 }
