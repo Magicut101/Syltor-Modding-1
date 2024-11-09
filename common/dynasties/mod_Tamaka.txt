@@ -1,5 +1,5 @@
 ﻿20000001 = {
-	name = "dynn_DiNekomar"
+	name = "dynn_Dinekomar"
 	culture = "nekojin"
 }
 

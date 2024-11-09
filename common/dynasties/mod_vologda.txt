@@ -1,4 +1,4 @@
 ﻿30000003 = {
-	name = "dynn_heesHephneer"
+	name = "dynn_Heeshephneer"
 	culture = "vologdan"
 }
