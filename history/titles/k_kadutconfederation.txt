@@ -1,3 +1,13 @@
+k_kadutconfederation = {
+	1054.1.1 = { holder = 600052
+} #Ohorsi
+}
+k_mianditribe = {
+	1054.1.1 = { holder = 600052
+} #Ohorsi
+}
+
+
 d_kaduttribe = {
 	867.1.1 = {	change_development_level = 3 }
 	1054.1.1 = { holder = 600052

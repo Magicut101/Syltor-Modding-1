@@ -1,0 +1,6 @@
+k_cornedaofjordlands = {
+    867.1.1 = {	change_development_level = 5 } 
+    1054.1.1 = { 
+    holder = 600070 #Ancestor of the original Qanti tribe that unified the region
+    }
+    }

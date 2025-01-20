@@ -91,4 +91,13 @@
 	}
 	#dna = 
 }
+600070 = {
+	name = "Ishqaji"
+	religion = "Qanti_folkway"
+	culture = "Qanti"
+	trait = education_martial_4
+	1040.1.1 = {
+		birth = "1000.1.1"
+	}
+}
 
