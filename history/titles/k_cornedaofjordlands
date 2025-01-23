@@ -4,3 +4,8 @@ k_cornedaofjordlands = {
     holder = 600070 #Ancestor of the original Qanti tribe that unified the region
     }
     }
+c_Kittarius = {
+    1054.1.1 = { 
+        holder = 600070 #Ancestor of the original Qanti tribe that unified the region
+        }
+}

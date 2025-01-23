@@ -24,5 +24,6 @@ c_AlIzula= {
 	867.1.1 = {	change_development_level = 5 }
 	1054.1.1 = {
 	holder = 600056 #al-Izula
+	liege = 600039
 	}
 }

@@ -24,6 +24,14 @@ c_nadzjieja = {
 }
 
 #Balreska under greentoss
+
+d_balreska = {
+	1054.1.1 = {
+		holder = 600008
+		liege = 0
+	}
+}
+
 b_Balreska = {
 	1054.1.1 = {
 		effect = { set_capital_barony = yes }
