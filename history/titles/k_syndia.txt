@@ -15,3 +15,11 @@ d_tahat = {
 			liege = 0
 		}
 }
+d_hiarllia = {
+	867.1.1 = {	change_development_level = 3 }
+
+	1054.1.1 = {
+		holder = 600038 # Duskic
+		liege = 0
+	}
+}

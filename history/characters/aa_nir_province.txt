@@ -4,6 +4,7 @@
 	religion = "twin_dragon"
 	culture = "angan"
 	trait = education_learning_4
+	trait = immortal
 	female = yes
 	stewardship = 8
 	#father = 145930

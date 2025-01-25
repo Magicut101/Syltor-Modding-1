@@ -10,6 +10,7 @@ k_beletea = {
 liege = 0
 government = fuedal_government
 }
+}
 
 d_tyalu = {
 867.1.1 = {	change_development_level = 5}

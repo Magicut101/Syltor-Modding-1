@@ -56,7 +56,7 @@
 
 600048 = {
 	name = "Nashabet"
-	#dynasty = 30000301 #Nashabet
+	dynasty = 30000301 #Nashabet
 	religion = "ashuran_pantheon"
 	culture = "nabut"
 	trait = education_learning_3
@@ -69,7 +69,7 @@
 
 600057 = {
 	name = "Nefer Khamen"
-	#dynasty = 30000013 #Nashabet
+	dynasty = 30000301 #Nashabet
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
 	trait = education_learning_3
@@ -81,8 +81,8 @@
 }
 
 600059 = {
-	name = "Hem-Netjer A'Livé Sinya"
-	#dynasty = 30000105 #Nashabet
+	name = "Hem-Netjer A'Livé"
+	dynasty = 30000105 #Nashabet
 	religion = "ashuran_pantheon"
 	culture = "Miandi"
 	trait = education_stewardship_3

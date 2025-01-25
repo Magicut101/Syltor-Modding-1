@@ -1,0 +1,16 @@
+30000201 = {
+	name = "dynn_Amakiir"
+	culture = "heartlander" #Need to Change all heartlander to culture Aldan, Agrarian, Kiesarian.
+}
+30000202 = {
+	name = "dynn_Dusksworn"
+	culture = "heartlander" #Need to Change all heartlander to culture Aldan, Agrarian, Kiesarian.
+}
+30000203 = {
+	name = "dynn_Saxon"
+	culture = "heartlander" #Need to Change all heartlander to culture Aldan, Agrarian, Kiesarian.
+}
+30000204 = {
+	name = "dynn_Karhu"
+	culture = "heartlander" #Need to Change all heartlander to culture Aldan, Agrarian, Kiesarian.
+}
