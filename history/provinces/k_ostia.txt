@@ -2,7 +2,9 @@
 1381 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1382 = {
@@ -17,7 +19,9 @@
 1384 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1385 = {
@@ -36,7 +40,9 @@
 1388 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1389 = {
@@ -47,7 +53,9 @@
 1390 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1391 = {

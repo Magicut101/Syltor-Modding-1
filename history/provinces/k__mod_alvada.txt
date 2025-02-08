@@ -1,7 +1,9 @@
 747 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 748 = {
@@ -15,7 +17,9 @@
 750 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 751 = {
@@ -33,7 +37,9 @@
 754 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 755 = {
@@ -48,13 +54,19 @@
 587 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 757 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 758 = {
@@ -68,7 +80,9 @@
 760 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 761 = {
@@ -82,7 +96,9 @@
 763 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 764 = {
@@ -100,7 +116,9 @@
 767 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 768 = {
@@ -114,7 +132,9 @@
 770 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 771 = {
@@ -128,7 +148,9 @@
 773 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 774 = {
@@ -147,7 +169,9 @@
 777 = {
 	culture = almalie
 	religion = fornoisan
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 778 = {
@@ -161,7 +185,9 @@
 780 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 781 = {
@@ -180,7 +206,9 @@
 784 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 785 = {
@@ -195,7 +223,9 @@
 787 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 788 = {
@@ -210,7 +240,9 @@
 790 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 791 = {
@@ -225,7 +257,9 @@
 793 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 794 = {
@@ -240,7 +274,9 @@
 796 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 797 = {
@@ -255,7 +291,9 @@
 799 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 800 = {
@@ -270,7 +308,9 @@
 802 = {
 	culture = fornoisan
 	religion = fornoisan
-	holding = castle_holdinga
+	1054.1.1 = {
+		holding = castle_holding
+		}a
 }
 
 803 = {

@@ -88,13 +88,19 @@
 105 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 106 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 107 = {
@@ -106,7 +112,11 @@
 108 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 109 = {
 	holding = none

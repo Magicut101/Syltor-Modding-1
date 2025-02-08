@@ -44,7 +44,11 @@
 }
 
 1014 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 1015 = {
@@ -62,7 +66,11 @@
 }
 
 1017 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 1018 = {
@@ -345,11 +353,19 @@
 }
 
 1175 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 1177 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 1178 = {

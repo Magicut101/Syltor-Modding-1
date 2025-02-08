@@ -1,6 +1,6 @@
 30000100 = {
 	name = "dynn_Amakiir"
-	culture = "ashuran"
+	culture = "ashuran" #Should be Aldan
 }
 
 30000101 = {

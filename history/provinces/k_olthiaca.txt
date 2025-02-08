@@ -1,5 +1,7 @@
 1183 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -12,7 +14,9 @@
 }
 
 1186 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -27,7 +31,9 @@
 
 #Remtal City
 1189 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -49,7 +55,9 @@
 }
 
 1194 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -63,7 +71,9 @@
 }
 
 1197 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -73,7 +83,9 @@
 }
 
 1199 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -83,7 +95,9 @@
 }
 
 1201 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -97,7 +111,9 @@
 }
 
 1204 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -112,7 +128,9 @@
 
 # nadia
 1207 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -130,7 +148,9 @@
 }
 
 1211 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -140,7 +160,9 @@
 }
 
 1213 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -154,7 +176,9 @@
 }
 
 1216 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -164,7 +188,9 @@
 }
 
 1218 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -182,7 +208,9 @@
 }
 
 1222 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -200,7 +228,9 @@
 }
 
 1226 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -214,7 +244,9 @@
 }
 
 1229 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -232,7 +264,9 @@
 }
 
 1233 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -250,7 +284,9 @@
 }
 
 1237 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -276,7 +312,9 @@
 }
 
 1243 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }
@@ -295,14 +333,18 @@
 
 #Novogrod
 1249 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = nebskoslav
 }
 
 # tatyanka
 1247 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	religion = tossanism
 	culture = remtali
 }

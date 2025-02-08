@@ -18624,6 +18624,7 @@ e_viridia = {
 			125
 			20
 		}
+		can_be_named_after_dynasty = no
 		capital = c_Greenhaven
 		d_greenhaven = {
 			color = {
@@ -18903,6 +18904,7 @@ e_viridia = {
 			82
 			9
 		}
+		can_be_named_after_dynasty = no
 		capital = c_Haleos
 		d_valkora = {
 			color = {
@@ -19565,12 +19567,13 @@ e_viridia = {
 			}
 		}
 	}
-	k_angarian = {
+	k_agnarian = {
 		color = {
 			165 
 			30 
 			46
 		} 
+		can_be_named_after_dynasty = no
 		capital = c_Zerith
 		d_sommankum = {
 			color = {

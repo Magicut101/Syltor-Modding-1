@@ -1,0 +1,78 @@
+k_alda= {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600200 # dusk should have it for now it's gonna be Helena
+
+    }
+}
+d_valkora = {
+    c_Haleos = {
+        867.1.1 = {	change_development_level = 5 }
+        1054.1.1 = {
+            holder = 600200 # dusk should have it
+        }
+    }
+}
+
+c_Haleos = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600200 # dusk should have it
+    }
+}
+
+d_westmarch = {
+        867.1.1 = {	change_development_level = 5 }
+        1054.1.1 = {   holder = 600201 
+        liege = k_alda
+    } # Ciprilu should have it  
+}
+
+
+c_Kala =  {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600201 # Ciprilu should have it
+     }
+}
+
+
+k_agnarian = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600202 # For now some dude named Titanino will have it
+    }
+}
+d_zerith = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600202 # For now some dude named Titanino will have it
+    }
+}
+c_Zerith = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600202 # dusk should have it for now it's gonna be Helena
+    }
+}
+
+k_kiesaria = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600203 # dusk should have it for now it's gonna be Helena
+    }
+}
+d_greenhaven = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+         holder = 600203 # dusk should have it for now it's gonna be Helena
+    }
+
+}
+c_Kiesaria = {
+    867.1.1 = {	change_development_level = 5 }
+    1054.1.1 = {
+        holder = 600203 # dusk should have it for now it's gonna be Helena
+    }
+}
+

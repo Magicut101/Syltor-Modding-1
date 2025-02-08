@@ -89,3 +89,11 @@
     culture = "ashuran"
 }
 
+30000030 = {
+	name = "dynn_Hoots"
+	culture = "Heartlander"
+}
+30000031 = {
+    name = "Ishqaji"
+    culture = "qanti"
+}

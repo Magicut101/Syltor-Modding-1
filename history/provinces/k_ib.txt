@@ -2,7 +2,9 @@
 1312 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1313 = {
@@ -33,7 +35,9 @@
 1319 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1320 = {
@@ -48,7 +52,9 @@
 1322 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1323 = {
@@ -63,7 +69,9 @@
 1325 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1326 = {
@@ -78,7 +86,9 @@
 1328 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1329 = {
@@ -89,7 +99,9 @@
 1330 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1331 = {
@@ -112,14 +124,18 @@
 1332 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 #heliosion
 1336 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1337 = {
@@ -138,7 +154,9 @@
 1340 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1341 = {
@@ -149,7 +167,9 @@
 1342 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1343 = {
@@ -168,7 +188,9 @@
 1347 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1348 = {
@@ -187,7 +209,9 @@
 1351 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1352 = {
@@ -198,7 +222,9 @@
 1353 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1354 = {
@@ -213,7 +239,9 @@
 1356 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1357 = {
@@ -224,7 +252,9 @@
 1358 = {
 	culture = nebskoslav
 	religion = lennox-luxite
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1359 = {
@@ -243,7 +273,9 @@
 1362 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1363 = {
@@ -258,7 +290,9 @@
 1365 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1366 = {
@@ -269,7 +303,9 @@
 1367 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1368 = {
@@ -284,7 +320,9 @@
 1370 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1371 = {
@@ -299,7 +337,9 @@
 1373 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1374 = {
@@ -310,7 +350,9 @@
 1375 = {
 	culture = nebskoslav
 	religion = lemebah
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1376 = {

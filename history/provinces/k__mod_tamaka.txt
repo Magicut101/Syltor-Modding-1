@@ -1,7 +1,9 @@
 520 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 521 = {
@@ -29,13 +31,17 @@
 523 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 524 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 525 = {
 	holding = none
@@ -49,9 +55,13 @@
 527 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -73,9 +83,13 @@
 530 = {
 	culture = angan
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -96,7 +110,9 @@
 533 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 534 = {
@@ -110,7 +126,9 @@
 535 = {
 	culture = crowfolk
 	religion = tototl
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 536 = {
@@ -121,20 +139,34 @@
 537 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 538 = {
-	holding = city_holding
 	1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 		}
 }
 
 539 = {
-	holding = castle_holding
 	1054.1.1 = {
 		holding = castle_holding
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 
@@ -156,16 +188,24 @@
 542 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
 	1054.1.1 = {
 		holding = castle_holding
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = castle_holding
+		}
 		}
 }
 
 543 = {
 	holding = none
 	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
 		}
 }
 
@@ -187,9 +227,13 @@
 546 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
 	1054.1.1 = {
 		holding = castle_holding
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = castle_holding
+		}
 		}
 }
 
@@ -204,7 +248,9 @@
 548 = {
 	culture = crowfolk
 	religion = tototl
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 549 = {
@@ -215,7 +261,9 @@
 550 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 551 = {
@@ -236,7 +284,9 @@
 553 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 554 = {
@@ -257,7 +307,9 @@
 556 = {
 	culture = heartlander
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 557 = {
@@ -285,7 +337,9 @@
 560 = {
 	culture = crowfolk
 	religion = tototl
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 561 = {
@@ -306,9 +360,13 @@
 563 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -330,9 +388,13 @@
 566 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -347,9 +409,13 @@
 568 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -364,9 +430,13 @@
 570 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
-	1054.1.1 = {
+		1054.1.1 = {
 		holding = tribal_holding
+		}
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
 		}
 }
 
@@ -385,7 +455,9 @@
 573 = {
 	culture = nekojin
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 575 = {
@@ -396,7 +468,9 @@
 }
 
 576 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	1054.1.1 = {
 		holding = none
 		}
@@ -414,13 +488,23 @@
 579 = {
 	culture = fornoisan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 580 = {
-	holding = city_holding
 	1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 		}
 }
 
@@ -446,7 +530,9 @@
 584 = {
 	culture = crowfolk
 	religion = tototl
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 585 = {
