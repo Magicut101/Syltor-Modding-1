@@ -16,8 +16,9 @@
 
 ### Custom MAA ###
 
-nekomar_hunters = {
+nekojin_hunters = {
 	type = archers
+	# todo turn this into horse archer
 	
 	damage = 35
 	toughness = 20
@@ -35,7 +36,7 @@ nekomar_hunters = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_nekomar_hunters }
+		culture = { has_cultural_parameter = unlock_maa_nekojin_hunters }
 	}
 
 	buy_cost = { gold = archers_of_the_nile_recruitment_cost }
