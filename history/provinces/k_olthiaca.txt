@@ -32,7 +32,8 @@
 #Remtal City
 1189 = {
 	1054.1.1 = {
-		holding = castle_holding
+			holding = castle_holding
+			special_building = remtal_port_01
 		}
 	religion = tossanism
 	culture = remtali

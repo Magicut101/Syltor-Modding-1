@@ -350,6 +350,7 @@
 	culture = xaburyan
 	religion = tossanism
 	holding = castle_holding
+	special_building = xaburya_hold_01
 }
 
 1175 = {

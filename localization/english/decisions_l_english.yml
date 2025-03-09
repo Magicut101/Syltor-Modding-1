@@ -1,4 +1,12 @@
 ﻿l_english:
+ # MODS DECISIONS
+ form_norenya_decision_decision:0 "Found the Kingdom of Norenya"
+ form_norenya_decision_decision_desc:0 "The forges of xaburya burn bright as the oathbound forces forge a new status-co over their newly conquered land crowning themselves the center of a new freehold of Norenya."
+ form_norenya_decision_decision_tooltip:0 "Norenya becomes a [de_jure|E] [kingdom|E]."
+ form_norenya_decision_effects_de_jure_tt:0 "If owned, the [kingdom|E] of [norenya_carthya.GetNameNoTier] and [norenya_nebskoslavia.GetNameNoTier] will each become [de_jure|E] Norenya."
+ form_norenya_decision_decision_confirm:0 "The Oathbound reign supreme!"
+ # MODS DECISIONS
+
  DECISION_ON_COOLDOWN:0 "@warning_icon! #X $DECISION_NAME$ unavailable until [DATE.GetStringLong]#!"
  ALREADY_PLANNING_ACTIVITY:0 "You are already planning another [activity|E]"
  ALREADY_IN_ACTIVITY_FIRST_NOT:0 "You are currently busy [CHARACTER.Custom('GetActivityName')]"
@@ -11,14 +19,6 @@
  unavailable_tour_stop:0 "preparing for your liege's [tour|E]"
  
  GENERIC_CHOOSE_OPTION: "Choose Option"
- # MODS DECISIONS
- form_norenya_decision_decision:0 "Found the Kingdom of Norenya"
- form_norenya_decision_decision_desc:0 "The forges of xaburya burn bright as the oathbound forces forge a new status-co over their newly conquered land crowning themselves the center of a new freehold of Norenya."
- form_norenya_decision_decision_tooltip:0 "Norenya becomes a [de_jure|E] [kingdom|E]."
- form_norenya_decision_effects_de_jure_tt:0 "If owned, the [kingdom|E] of [norenya_carthya.GetNameNoTier] and [norenya_nebskoslavia.GetNameNoTier] will each become [de_jure|E] Norenya."
- form_norenya_decision_decision_confirm:0 "The Oathbound reign supreme!"
- # MODS DECISIONS
-
  start_hunt_decision:0 "Call Hunt"
  start_hunt_decision_tooltip:2 "A [GetActivityType('activity_hunt').GetName] will be held"
  start_hunt_decision_desc:0 "#F The untamed wilds are calling, and all manner of beasts are awaiting my spear and arrow!#!"
