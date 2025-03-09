@@ -300,6 +300,37 @@ e_ashura = {
 				1
 			}
 			capital = c_menatkahun
+			c_menatkahun = {
+				color = {
+					7
+					83
+					74
+				}
+				b_Anopis = {
+					province = 38
+					color = {
+						7
+						83
+						74
+					}
+				}
+				b_MenatKahunCity = {
+					province = 39
+					color = {
+						4
+						118
+						103
+					}
+				}
+				b_MenatKahunHolding = {
+					province = 40
+					color = {
+						21
+						124
+						113
+					}
+				}
+			}
 			c_djinnsmanor = {
 				color = {
 					21
@@ -454,38 +485,7 @@ e_ashura = {
 						221
 					}
 				}
-			}
-			c_menatkahun = {
-				color = {
-					7
-					83
-					74
-				}
-				b_Anopis = {
-					province = 38
-					color = {
-						7
-						83
-						74
-					}
-				}
-				b_MenatKahunCity = {
-					province = 39
-					color = {
-						4
-						118
-						103
-					}
-				}
-				b_MenatKahunHolding = {
-					province = 40
-					color = {
-						21
-						124
-						113
-					}
-				}
-			}
+			
 		}
 		d_yenedu = {
 			color = {
@@ -3945,6 +3945,45 @@ e_ryzan = {
 		}
 		d_zkhadinyylis = {
 			capital = c_Mocogrod
+			c_Mocogrod = {
+				color = {
+					20
+					20
+					200
+				}
+				b_Mocogrod1 = {
+					province = 949
+					color = {
+						161
+						95
+						123
+					}
+				}
+				b_Mocogrod2 = {
+					province = 950
+					color = {
+						154
+						91
+						117
+					}
+				}
+				b_Mocogrod3 = {
+					province = 951
+					color = {
+						148
+						87
+						113
+					}
+				}
+				b_Mocogrod4 = {
+					province = 952
+					color = {
+						137
+						81
+						104
+					}
+				}
+			}
 			color = {
 				40
 				52
@@ -3993,45 +4032,6 @@ e_ryzan = {
 						185
 						110
 						154
-					}
-				}
-			}
-			c_Mocogrod = {
-				color = {
-					20
-					20
-					200
-				}
-				b_Mocogrod1 = {
-					province = 949
-					color = {
-						161
-						95
-						123
-					}
-				}
-				b_Mocogrod2 = {
-					province = 950
-					color = {
-						154
-						91
-						117
-					}
-				}
-				b_Mocogrod3 = {
-					province = 951
-					color = {
-						148
-						87
-						113
-					}
-				}
-				b_Mocogrod4 = {
-					province = 952
-					color = {
-						137
-						81
-						104
 					}
 				}
 			}
@@ -4479,6 +4479,53 @@ e_ryzan = {
 				252
 			}
 			capital = c_Chernik
+			c_Chernik = {
+				color = {
+					170
+					46
+					90
+				}
+				b_CherniksClearing1 = {
+					province = 1055
+					color = {
+						188
+						48
+						97
+					}
+				}
+				b_CherniksClearing2 = {
+					province = 1056
+					color = {
+						178
+						49
+						95
+					}
+				}
+				b_CherniksClearing3 = {
+					province = 1057
+					color = {
+						170
+						46
+						90
+					}
+				}
+				b_CherniksClearing4 = {
+					province = 1058
+					color = {
+						157
+						43
+						84
+					}
+				}
+				b_CherniksClearing5 = {
+					province = 1059
+					color = {
+						163
+						43
+						86
+					}
+				}
+			}
 			c_BedOfRed = {
 				color = {
 					175
@@ -4600,53 +4647,6 @@ e_ryzan = {
 						189
 						53
 						126
-					}
-				}
-			}
-			c_Chernik = {
-				color = {
-					170
-					46
-					90
-				}
-				b_CherniksClearing1 = {
-					province = 1055
-					color = {
-						188
-						48
-						97
-					}
-				}
-				b_CherniksClearing2 = {
-					province = 1056
-					color = {
-						178
-						49
-						95
-					}
-				}
-				b_CherniksClearing3 = {
-					province = 1057
-					color = {
-						170
-						46
-						90
-					}
-				}
-				b_CherniksClearing4 = {
-					province = 1058
-					color = {
-						157
-						43
-						84
-					}
-				}
-				b_CherniksClearing5 = {
-					province = 1059
-					color = {
-						163
-						43
-						86
 					}
 				}
 			}
@@ -5354,34 +5354,6 @@ e_ryzan = {
 		}
 		d_shkidnyy = {
 			capital = c_astor
-			color = {
-				165
-				129
-				202
-			}
-			c_khirov = {
-				color = {
-					171
-					143
-					48
-				}
-				b_Khirov1 = {
-					province = 956
-					color = {
-						207
-						134
-						210
-					}
-				}
-				b_Khirov2 = {
-					province = 957
-					color = {
-						203
-						130
-						206
-					}
-				}
-			}
 			c_astor = {
 				color = {
 					197
@@ -5410,6 +5382,34 @@ e_ryzan = {
 						175
 						110
 						150
+					}
+				}
+			}
+			color = {
+				165
+				129
+				202
+			}
+			c_khirov = {
+				color = {
+					171
+					143
+					48
+				}
+				b_Khirov1 = {
+					province = 956
+					color = {
+						207
+						134
+						210
+					}
+				}
+				b_Khirov2 = {
+					province = 957
+					color = {
+						203
+						130
+						206
 					}
 				}
 			}
@@ -6254,37 +6254,6 @@ e_ryzan = {
 				90
 			}
 			capital = c_Neuminster
-			c_Veldski = {
-				color = {
-					64
-					205
-					117
-				}
-				b_Veldski1 = {
-					province = 1143
-					color = {
-						64
-						205
-						117
-					}
-				}
-				b_Veldski2 = {
-					province = 1144
-					color = {
-						67
-						212
-						122
-					}
-				}
-				b_Veldski3 = {
-					province = 1145
-					color = {
-						68
-						217
-						124
-					}
-				}
-			}
 			c_Neuminster = {
 				color = {
 					42
@@ -6329,6 +6298,37 @@ e_ryzan = {
 						72
 						208
 						122
+					}
+				}
+			}
+			c_Veldski = {
+				color = {
+					64
+					205
+					117
+				}
+				b_Veldski1 = {
+					province = 1143
+					color = {
+						64
+						205
+						117
+					}
+				}
+				b_Veldski2 = {
+					province = 1144
+					color = {
+						67
+						212
+						122
+					}
+				}
+				b_Veldski3 = {
+					province = 1145
+					color = {
+						68
+						217
+						124
 					}
 				}
 			}
@@ -6418,6 +6418,53 @@ e_ryzan = {
 				25
 			}
 			capital = c_Remtal
+			c_Remtal = {
+				color = {
+					56
+					140
+					25
+				}
+				b_RemtalCity1 = {
+					province = 1189
+					color = {
+						56
+						140
+						25
+					}
+				}
+				b_RemtalCity2 = {
+					province = 1190
+					color = {
+						56
+						140
+						31
+					}
+				}
+				b_RemtalCity3 = {
+					province = 1191
+					color = {
+						56
+						140
+						29
+					}
+				}
+				b_RemtalCity4 = {
+					province = 1192
+					color = {
+						56
+						149
+						29
+					}
+				}
+				b_RemtalCity5 = {
+					province = 1193
+					color = {
+						56
+						140
+						27
+					}
+				}
+			}
 			c_NovogrodCity = {
 				color = {
 					46
@@ -6477,53 +6524,6 @@ e_ryzan = {
 						49
 						89
 						11
-					}
-				}
-			}
-			c_Remtal = {
-				color = {
-					56
-					140
-					25
-				}
-				b_RemtalCity1 = {
-					province = 1189
-					color = {
-						56
-						140
-						25
-					}
-				}
-				b_RemtalCity2 = {
-					province = 1190
-					color = {
-						56
-						140
-						31
-					}
-				}
-				b_RemtalCity3 = {
-					province = 1191
-					color = {
-						56
-						140
-						29
-					}
-				}
-				b_RemtalCity4 = {
-					province = 1192
-					color = {
-						56
-						149
-						29
-					}
-				}
-				b_RemtalCity5 = {
-					province = 1193
-					color = {
-						56
-						140
-						27
 					}
 				}
 			}
@@ -6666,6 +6666,56 @@ e_ryzan = {
 				255
 			}
 			capital = c_Liberium
+			c_Liberium = {
+				b_Liberium1 = {
+					province = 1237
+					color = {
+						40
+						143
+						40
+					}
+				}
+				b_Liberium2 = {
+					province = 1238
+					color = {
+						40
+						149
+						40
+					}
+				}
+				b_Liberium3 = {
+					province = 1239
+					color = {
+						40
+						146
+						40
+					}
+				}
+				b_Liberium4 = {
+					province = 1240
+					color = {
+						40
+						155
+						40
+					}
+				}
+				b_Liberium5 = {
+					province = 1241
+					color = {
+						40
+						152
+						40
+					}
+				}
+				b_Liberium6 = {
+					province = 1242
+					color = {
+						40
+						155
+						43
+					}
+				}
+			}
 			c_Irinika = {
 				color = {
 					32
@@ -6811,56 +6861,6 @@ e_ryzan = {
 						40
 						150
 						56
-					}
-				}
-			}
-			c_Liberium = {
-				b_Liberium1 = {
-					province = 1237
-					color = {
-						40
-						143
-						40
-					}
-				}
-				b_Liberium2 = {
-					province = 1238
-					color = {
-						40
-						149
-						40
-					}
-				}
-				b_Liberium3 = {
-					province = 1239
-					color = {
-						40
-						146
-						40
-					}
-				}
-				b_Liberium4 = {
-					province = 1240
-					color = {
-						40
-						155
-						40
-					}
-				}
-				b_Liberium5 = {
-					province = 1241
-					color = {
-						40
-						152
-						40
-					}
-				}
-				b_Liberium6 = {
-					province = 1242
-					color = {
-						40
-						155
-						43
 					}
 				}
 			}
@@ -10272,45 +10272,6 @@ e_almalie = {
 				43
 			}
 			capital = c_Kaline
-			c_Soluna = {
-				color = {
-					137
-					67
-					15
-				}
-				b_Soluna1 = {
-					province = 301
-					color = {
-						137
-						67
-						15
-					}
-				}
-				b_Soluna2 = {
-					province = 302
-					color = {
-						157
-						76
-						17
-					}
-				}
-				b_Soluna3 = {
-					province = 303
-					color = {
-						151
-						73
-						15
-					}
-				}
-				b_Soluna4 = {
-					province = 304
-					color = {
-						123
-						59
-						12
-					}
-				}
-			}
 			c_Kaline = {
 				color = {
 					175
@@ -10347,6 +10308,45 @@ e_almalie = {
 						170
 						27
 						46
+					}
+				}
+			}
+			c_Soluna = {
+				color = {
+					137
+					67
+					15
+				}
+				b_Soluna1 = {
+					province = 301
+					color = {
+						137
+						67
+						15
+					}
+				}
+				b_Soluna2 = {
+					province = 302
+					color = {
+						157
+						76
+						17
+					}
+				}
+				b_Soluna3 = {
+					province = 303
+					color = {
+						151
+						73
+						15
+					}
+				}
+				b_Soluna4 = {
+					province = 304
+					color = {
+						123
+						59
+						12
 					}
 				}
 			}
@@ -10482,6 +10482,45 @@ e_almalie = {
 				81
 			}
 			capital = c_Kale
+			c_Kale = {
+				color = {
+					6
+					7
+					81
+				}
+				b_Kale1 = {
+					province = 333
+					color = {
+						6
+						7
+						81
+					}
+				}
+				b_Kale2 = {
+					province = 334
+					color = {
+						5
+						7
+						66
+					}
+				}
+				b_Kale3 = {
+					province = 335
+					color = {
+						5
+						6
+						54
+					}
+				}
+				b_Kale4 = {
+					province = 336
+					color = {
+						9
+						11
+						74
+					}
+				}
+			}
 			c_Ysideria = {
 				color = {
 					16
@@ -10606,45 +10645,6 @@ e_almalie = {
 					}
 				}
 			}
-			c_Kale = {
-				color = {
-					6
-					7
-					81
-				}
-				b_Kale1 = {
-					province = 333
-					color = {
-						6
-						7
-						81
-					}
-				}
-				b_Kale2 = {
-					province = 334
-					color = {
-						5
-						7
-						66
-					}
-				}
-				b_Kale3 = {
-					province = 335
-					color = {
-						5
-						6
-						54
-					}
-				}
-				b_Kale4 = {
-					province = 336
-					color = {
-						9
-						11
-						74
-					}
-				}
-			}
 		}
 		d_ruscon = {
 			color = {
@@ -10653,45 +10653,6 @@ e_almalie = {
 				21
 			}
 			capital = c_Nanseong
-			c_AlIzula = {
-				color = {
-					63
-					184
-					40
-				}
-				b_AlIzula1 = {
-					province = 337
-					color = {
-						63
-						184
-						40
-					}
-				}
-				b_AlIzula2 = {
-					province = 338
-					color = {
-						73
-						207
-						47
-					}
-				}
-				b_AlIzula3 = {
-					province = 339
-					color = {
-						67
-						196
-						42
-					}
-				}
-				b_AlIzula4 = {
-					province = 340
-					color = {
-						60
-						175
-						38
-					}
-				}
-			}
 			c_Nanseong = {
 				color = {
 					102
@@ -10736,6 +10697,45 @@ e_almalie = {
 						143
 						152
 						29
+					}
+				}
+			}
+			c_AlIzula = {
+				color = {
+					63
+					184
+					40
+				}
+				b_AlIzula1 = {
+					province = 337
+					color = {
+						63
+						184
+						40
+					}
+				}
+				b_AlIzula2 = {
+					province = 338
+					color = {
+						73
+						207
+						47
+					}
+				}
+				b_AlIzula3 = {
+					province = 339
+					color = {
+						67
+						196
+						42
+					}
+				}
+				b_AlIzula4 = {
+					province = 340
+					color = {
+						60
+						175
+						38
 					}
 				}
 			}
@@ -15261,6 +15261,53 @@ e_bardonia = {
 				9
 			}
 			capital = c_Astriya
+			c_Astriya = {
+				color = {
+					80
+					32
+					9
+				}
+				b_Astriya1 = {
+					province = 1531
+					color = {
+						80
+						32
+						9
+					}
+				}
+				b_Astriya2 = {
+					province = 1532
+					color = {
+						80
+						33
+						9
+					}
+				}
+				b_Astriya3 = {
+					province = 1533
+					color = {
+						80
+						34
+						9
+					}
+				}
+				b_Astriya4 = {
+					province = 1534
+					color = {
+						80
+						35
+						9
+					}
+				}
+				b_Astriya5 = {
+					province = 1535
+					color = {
+						80
+						36
+						9
+					}
+				}
+			}
 			c_NieuwBruggedam = {
 				color = {
 					80
@@ -15319,53 +15366,6 @@ e_bardonia = {
 					color = {
 						80
 						40
-						9
-					}
-				}
-			}
-			c_Astriya = {
-				color = {
-					80
-					32
-					9
-				}
-				b_Astriya1 = {
-					province = 1531
-					color = {
-						80
-						32
-						9
-					}
-				}
-				b_Astriya2 = {
-					province = 1532
-					color = {
-						80
-						33
-						9
-					}
-				}
-				b_Astriya3 = {
-					province = 1533
-					color = {
-						80
-						34
-						9
-					}
-				}
-				b_Astriya4 = {
-					province = 1534
-					color = {
-						80
-						35
-						9
-					}
-				}
-				b_Astriya5 = {
-					province = 1535
-					color = {
-						80
-						36
 						9
 					}
 				}
@@ -16702,6 +16702,61 @@ e_bardonia = {
 				40
 			}
 			capital = c_MediciManor
+			c_MediciManor = {
+				color = {
+					12
+					52
+					40
+				}
+				b_MediciManor1 = {
+					province = 1678
+					color = {
+						12
+						52
+						40
+					}
+				}
+				b_MediciManor2 = {
+					province = 1679
+					color = {
+						12
+						53
+						40
+					}
+				}
+				b_MediciManor3 = {
+					province = 1680
+					color = {
+						12
+						54
+						40
+					}
+				}
+				b_MediciManor4 = {
+					province = 1681
+					color = {
+						12
+						55
+						40
+					}
+				}
+				b_MediciManor5 = {
+					province = 1682
+					color = {
+						12
+						56
+						40
+					}
+				}
+				b_MediciManor6 = {
+					province = 1683
+					color = {
+						12
+						57
+						40
+					}
+				}
+			}
 			c_MediciEstate = {
 				color = {
 					12
@@ -16779,61 +16834,6 @@ e_bardonia = {
 					}
 				}
 			}
-			c_MediciManor = {
-				color = {
-					12
-					52
-					40
-				}
-				b_MediciManor1 = {
-					province = 1678
-					color = {
-						12
-						52
-						40
-					}
-				}
-				b_MediciManor2 = {
-					province = 1679
-					color = {
-						12
-						53
-						40
-					}
-				}
-				b_MediciManor3 = {
-					province = 1680
-					color = {
-						12
-						54
-						40
-					}
-				}
-				b_MediciManor4 = {
-					province = 1681
-					color = {
-						12
-						55
-						40
-					}
-				}
-				b_MediciManor5 = {
-					province = 1682
-					color = {
-						12
-						56
-						40
-					}
-				}
-				b_MediciManor6 = {
-					province = 1683
-					color = {
-						12
-						57
-						40
-					}
-				}
-			}
 		}
 		d_yuzhen = {
 			color = {
@@ -16842,6 +16842,61 @@ e_bardonia = {
 				33
 			}
 			capital = c_Yuzhen
+			c_Yuzhen = {
+				color = {
+					10
+					52
+					27
+				}
+				b_Yuzhen1 = {
+					province = 1693
+					color = {
+						10
+						52
+						27
+					}
+				}
+				b_Yuzhen2 = {
+					province = 1694
+					color = {
+						10
+						53
+						27
+					}
+				}
+				b_Yuzhen3 = {
+					province = 1695
+					color = {
+						10
+						54
+						27
+					}
+				}
+				b_Yuzhen4 = {
+					province = 1696
+					color = {
+						10
+						55
+						27
+					}
+				}
+				b_Yuzhen5 = {
+					province = 1697
+					color = {
+						10
+						56
+						27
+					}
+				}
+				b_Yuzhen6 = {
+					province = 1698
+					color = {
+						10
+						57
+						27
+					}
+				}
+			}
 			c_Suzhou = {
 				color = {
 					16
@@ -16935,61 +16990,6 @@ e_bardonia = {
 					}
 				}
 			}
-			c_Yuzhen = {
-				color = {
-					10
-					52
-					27
-				}
-				b_Yuzhen1 = {
-					province = 1693
-					color = {
-						10
-						52
-						27
-					}
-				}
-				b_Yuzhen2 = {
-					province = 1694
-					color = {
-						10
-						53
-						27
-					}
-				}
-				b_Yuzhen3 = {
-					province = 1695
-					color = {
-						10
-						54
-						27
-					}
-				}
-				b_Yuzhen4 = {
-					province = 1696
-					color = {
-						10
-						55
-						27
-					}
-				}
-				b_Yuzhen5 = {
-					province = 1697
-					color = {
-						10
-						56
-						27
-					}
-				}
-				b_Yuzhen6 = {
-					province = 1698
-					color = {
-						10
-						57
-						27
-					}
-				}
-			}
 		}
 	}
 	k_eastreach = {
@@ -17006,6 +17006,53 @@ e_bardonia = {
 				10
 			}
 			capital = c_Lobopolis
+			c_Lobopolis = {
+				color = {
+					4
+					59
+					10
+				}
+				b_Lobopolis1 = {
+					province = 1709
+					color = {
+						4
+						59
+						10
+					}
+				}
+				b_Lobopolis2 = {
+					province = 1710
+					color = {
+						4
+						60
+						10
+					}
+				}
+				b_Lobopolis3 = {
+					province = 1711
+					color = {
+						4
+						61
+						10
+					}
+				}
+				b_Lobopolis4 = {
+					province = 1712
+					color = {
+						4
+						62
+						10
+					}
+				}
+				b_Lobopolis5 = {
+					province = 1713
+					color = {
+						4
+						63
+						10
+					}
+				}
+			}
 			c_Chema = {
 				color = {
 					11
@@ -17114,53 +17161,6 @@ e_bardonia = {
 					}
 				}
 			}
-			c_Lobopolis = {
-				color = {
-					4
-					59
-					10
-				}
-				b_Lobopolis1 = {
-					province = 1709
-					color = {
-						4
-						59
-						10
-					}
-				}
-				b_Lobopolis2 = {
-					province = 1710
-					color = {
-						4
-						60
-						10
-					}
-				}
-				b_Lobopolis3 = {
-					province = 1711
-					color = {
-						4
-						61
-						10
-					}
-				}
-				b_Lobopolis4 = {
-					province = 1712
-					color = {
-						4
-						62
-						10
-					}
-				}
-				b_Lobopolis5 = {
-					province = 1713
-					color = {
-						4
-						63
-						10
-					}
-				}
-			}
 			c_Boccanza = {
 				color = {
 					6
@@ -17223,6 +17223,61 @@ e_bardonia = {
 				4
 			}
 			capital = c_Fluenta
+			c_Fluenta = {
+				color = {
+					9
+					59
+					4
+				}
+				b_Fluenta1 = {
+					province = 1736
+					color = {
+						9
+						59
+						4
+					}
+				}
+				b_Fluenta2 = {
+					province = 1737
+					color = {
+						9
+						60
+						4
+					}
+				}
+				b_Fluenta3 = {
+					province = 1738
+					color = {
+						9
+						61
+						4
+					}
+				}
+				b_Fluenta4 = {
+					province = 1739
+					color = {
+						9
+						62
+						4
+					}
+				}
+				b_Fluenta5 = {
+					province = 1740
+					color = {
+						9
+						63
+						4
+					}
+				}
+				b_Fluenta6 = {
+					province = 1741
+					color = {
+						9
+						64
+						4
+					}
+				}
+			}
 			c_NewBaronov = {
 				color = {
 					13
@@ -17394,61 +17449,6 @@ e_bardonia = {
 					}
 				}
 			}
-			c_Fluenta = {
-				color = {
-					9
-					59
-					4
-				}
-				b_Fluenta1 = {
-					province = 1736
-					color = {
-						9
-						59
-						4
-					}
-				}
-				b_Fluenta2 = {
-					province = 1737
-					color = {
-						9
-						60
-						4
-					}
-				}
-				b_Fluenta3 = {
-					province = 1738
-					color = {
-						9
-						61
-						4
-					}
-				}
-				b_Fluenta4 = {
-					province = 1739
-					color = {
-						9
-						62
-						4
-					}
-				}
-				b_Fluenta5 = {
-					province = 1740
-					color = {
-						9
-						63
-						4
-					}
-				}
-				b_Fluenta6 = {
-					province = 1741
-					color = {
-						9
-						64
-						4
-					}
-				}
-			}
 		}
 		d_dorasterrock = {
 			color = {
@@ -17457,6 +17457,61 @@ e_bardonia = {
 				24
 			}
 			capital = c_Dorasterrock
+			c_Dorasterrock = {
+				color = {
+					10
+					97
+					24
+				}
+				b_Dorasterrock1 = {
+					province = 1755
+					color = {
+						10
+						97
+						24
+					}
+				}
+				b_Dorasterrock2 = {
+					province = 1756
+					color = {
+						10
+						98
+						24
+					}
+				}
+				b_Dorasterrock3 = {
+					province = 1757
+					color = {
+						10
+						99
+						24
+					}
+				}
+				b_Dorasterrock4 = {
+					province = 1758
+					color = {
+						10
+						100
+						24
+					}
+				}
+				b_Dorasterrock5 = {
+					province = 1759
+					color = {
+						10
+						101
+						24
+					}
+				}
+				b_Dorasterrock6 = {
+					province = 1760
+					color = {
+						10
+						102
+						24
+					}
+				}
+			}
 			c_Pintano = {
 				color = {
 					6
@@ -17589,61 +17644,6 @@ e_bardonia = {
 					}
 				}
 			}
-			c_Dorasterrock = {
-				color = {
-					10
-					97
-					24
-				}
-				b_Dorasterrock1 = {
-					province = 1755
-					color = {
-						10
-						97
-						24
-					}
-				}
-				b_Dorasterrock2 = {
-					province = 1756
-					color = {
-						10
-						98
-						24
-					}
-				}
-				b_Dorasterrock3 = {
-					province = 1757
-					color = {
-						10
-						99
-						24
-					}
-				}
-				b_Dorasterrock4 = {
-					province = 1758
-					color = {
-						10
-						100
-						24
-					}
-				}
-				b_Dorasterrock5 = {
-					province = 1759
-					color = {
-						10
-						101
-						24
-					}
-				}
-				b_Dorasterrock6 = {
-					province = 1760
-					color = {
-						10
-						102
-						24
-					}
-				}
-			}
 			c_Terrock = {
 				color = {
 					13
@@ -17729,6 +17729,53 @@ e_bardonia = {
 				32
 			}
 			capital = c_NewRosa
+			c_NewRosa = {
+				color = {
+					10
+					116
+					32
+				}
+				b_NewRosa1 = {
+					province = 1780
+					color = {
+						10
+						116
+						32
+					}
+				}
+				b_NewRosa2 = {
+					province = 1781
+					color = {
+						10
+						117
+						32
+					}
+				}
+				b_NewRosa3 = {
+					province = 1782
+					color = {
+						10
+						118
+						32
+					}
+				}
+				b_NewRosa4 = {
+					province = 1783
+					color = {
+						10
+						119
+						32
+					}
+				}
+				b_NewRosa5 = {
+					province = 1784
+					color = {
+						10
+						120
+						32
+					}
+				}
+			}
 			c_Ficino = {
 				color = {
 					20
@@ -17850,53 +17897,6 @@ e_bardonia = {
 						8
 						109
 						29
-					}
-				}
-			}
-			c_NewRosa = {
-				color = {
-					10
-					116
-					32
-				}
-				b_NewRosa1 = {
-					province = 1780
-					color = {
-						10
-						116
-						32
-					}
-				}
-				b_NewRosa2 = {
-					province = 1781
-					color = {
-						10
-						117
-						32
-					}
-				}
-				b_NewRosa3 = {
-					province = 1782
-					color = {
-						10
-						118
-						32
-					}
-				}
-				b_NewRosa4 = {
-					province = 1783
-					color = {
-						10
-						119
-						32
-					}
-				}
-				b_NewRosa5 = {
-					province = 1784
-					color = {
-						10
-						120
-						32
 					}
 				}
 			}
