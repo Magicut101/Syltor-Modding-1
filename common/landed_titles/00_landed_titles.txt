@@ -1,6 +1,7 @@
 ﻿@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
+
 d_vologdan_knighthood = {
 	color = {
 		165
@@ -3062,6 +3063,15 @@ e_ryzan = {
 		119
 	}
 	capital = c_Tossagrad
+	k_norenya = {
+		color = {
+			80
+			71
+			252
+		}
+		capital = c_Xaburya
+	}
+
 	k_deutzan = {
 		cultural_names = {
 			name_list_greek = cn_syrosi_empire
