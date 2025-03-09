@@ -73,7 +73,7 @@ xaburyan = {
 		204
 	 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_bellicose
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
@@ -105,7 +105,7 @@ carthyan = {
 		26
 		69
 		235
-		 }
+	}
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_brothian

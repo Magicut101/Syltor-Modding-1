@@ -15,8 +15,10 @@
 #############################################
 
 secure_high_kingdom_north_sea_decision = {
-	picture = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
+	}
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -27,7 +29,7 @@ secure_high_kingdom_north_sea_decision = {
 		#DLC check.
 		has_fp1_dlc_trigger = yes
 		#Standard filter checks.
-		is_landed = yes
+		is_playable_character = yes
 		exists = dynasty
 		OR = {
 			government_has_flag = government_is_tribal
@@ -108,6 +110,7 @@ secure_high_kingdom_north_sea_decision = {
 	effect = {
 		save_scope_as = founder
 		show_as_tooltip = { secure_high_kingdom_north_sea_scripted_effect = yes }
+		gain_heroic_legend_seed_tooltip_effect = yes
 		trigger_event = { id = fp1_major_decisions.0001 }
 		#Notify other players.
 		every_player = {
@@ -159,8 +162,10 @@ secure_high_kingdom_north_sea_decision = {
 #############################################
 
 found_capital_of_the_rus_decision = {
-	picture = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
+	}
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -171,7 +176,7 @@ found_capital_of_the_rus_decision = {
 		#DLC check.
 		has_fp1_dlc_trigger = yes
 		#Standard filter checks.
-		is_landed = yes
+		is_playable_character = yes
 		exists = dynasty
 		#Must be within the North Germanic cultural sphere.
 		OR = {
@@ -297,8 +302,10 @@ found_capital_of_the_rus_decision = {
 
 # This decision is intentionally fairly whimsical, and in no way intended to reflect historical reality or possibility, nor is it in any way affiliated with affiliated with the Isle of Mann Tourism Board.
 elevate_mann_and_the_isles_decision = {
-	picture = "gfx/interface/illustrations/decisions/fp1_decision_forge_jomsvikings.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -309,7 +316,7 @@ elevate_mann_and_the_isles_decision = {
 		#DLC check.
 		has_fp1_dlc_trigger = yes
 		#Standard filter checks.
-		is_landed = yes
+		is_playable_character = yes
 		exists = dynasty
 		OR = {
 			government_has_flag = government_is_tribal
@@ -365,6 +372,7 @@ elevate_mann_and_the_isles_decision = {
 	}
 
 	effect = {
+		gain_heroic_legend_seed_tooltip_effect = yes
 		save_scope_as = founder
 		# Trigger effects.
 		show_as_tooltip = { elevate_mann_and_the_isles_scripted_effect = yes }
@@ -413,8 +421,10 @@ elevate_mann_and_the_isles_decision = {
 #############################################
 
 forge_the_jomsvikings_decision = {
-	picture = "gfx/interface/illustrations/decisions/fp1_decision_forge_jomsvikings.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp1_decision_forge_jomsvikings.dds"
+	}
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -425,7 +435,7 @@ forge_the_jomsvikings_decision = {
 		# DLC check.
 		has_fp1_dlc_trigger = yes
 		# Standard filter checks.
-		is_landed = yes
+		is_playable_character = yes
 		exists = dynasty
 		OR = {
 			government_has_flag = government_is_tribal
