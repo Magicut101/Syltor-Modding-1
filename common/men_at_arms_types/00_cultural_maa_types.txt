@@ -17,7 +17,7 @@
 ### Custom MAA ###
 
 nekojin_hunters = {
-	type = archers
+	type = horse_archers
 	# todo turn this into horse archer
 	
 	damage = 35
