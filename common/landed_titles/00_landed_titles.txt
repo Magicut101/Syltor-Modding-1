@@ -294,6 +294,7 @@ e_ashura = {
 			}
 		}
 		d_khamen = {
+		
 			color = {
 				21
 				12
@@ -485,7 +486,7 @@ e_ashura = {
 						221
 					}
 				}
-			
+			}
 		}
 		d_yenedu = {
 			color = {
@@ -3055,7 +3056,6 @@ e_ashura = {
 		}
 	}
 	}
-}
 
 e_ryzan = {
 	color = {
