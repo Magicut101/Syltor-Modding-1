@@ -1,13 +1,17 @@
 1519 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1520 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1521 = {
@@ -29,7 +33,9 @@
 1525 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1526 = {
@@ -47,7 +53,9 @@
 1529 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1530 = {
@@ -57,7 +65,9 @@
 1531 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1532 = {
@@ -79,7 +89,9 @@
 1536 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1537 = {
@@ -89,7 +101,9 @@
 1538 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1539 = {
@@ -107,7 +121,9 @@
 1542 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1543 = {
@@ -121,7 +137,9 @@
 1545 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1546 = {
@@ -135,7 +153,9 @@
 1548 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1549 = {
@@ -145,7 +165,9 @@
 1550 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1551 = {
@@ -155,7 +177,9 @@
 1552 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1553 = {
@@ -169,7 +193,9 @@
 1555 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1556 = {
@@ -183,7 +209,9 @@
 1558 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1559 = {
@@ -193,7 +221,9 @@
 1560 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1561 = {
@@ -207,7 +237,9 @@
 1563 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1564 = {
@@ -217,7 +249,9 @@
 1565 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1566 = {
@@ -231,7 +265,9 @@
 1568 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1569 = {
@@ -253,7 +289,9 @@
 1573 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1574 = {
@@ -263,7 +301,9 @@
 1575 = {
 	culture = dorastterocker
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1576 = {

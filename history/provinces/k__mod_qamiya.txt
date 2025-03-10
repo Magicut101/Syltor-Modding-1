@@ -1,44 +1,56 @@
+1 = {
+	holding = none
+}
+
+2 { 
+	holding = none
+}
+
 3 = {
 	#b_CapeMasun
 	culture = ashuran
 	religion = ashuran_pantheon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	duchy_capital_building = obelisk_of_qamiya_01
+	
 }
 
 4 = {
 	#b_QamiyaCity
 	religion = ashuran_pantheon
-	holding = city_holding
 	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
 		}
+		}
+	}
 }
 
 5 = {
 	#b_QamiyaCastle
 	religion = ashuran_pantheon
-	holding = none
 	1054.1.1 = {
-		holding = none
+		holding = castle_holding
 		}
 }
 
 6 = {
 	#b_QamiyaTemple
 	religion = ashuran_pantheon
-	holding = none
 	1054.1.1 = {
-		holding = none
+		holding = temple_holding
 		}
+
 }
 
 7 = {
 	#b_QamiyaHolding
 	religion = ashuran_pantheon
-	holding = none
 	1054.1.1 = {
-		holding = none
+		holding = castle_holding
 		}
 }
 
@@ -46,9 +58,9 @@
 	#b_MukantagarasTemples
 	culture = ashuran
 	religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 	1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -73,9 +85,9 @@
 	#b_Nirine_IretuLeft
 	culture = ashuran
 	religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 	1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -117,9 +129,9 @@ religion = ashuran_pantheon
 	#b_aashkotis1
 	culture = ashuran
 religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 	1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -173,8 +185,8 @@ religion = ashuran_pantheon
 23 = {
 	#b_DjinnsManorTemple
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 }
 
 24 = {
@@ -204,8 +216,8 @@ religion = ashuran_pantheon
 27 = {
 	#b_DjunseStables
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 }
 
 28 = {
@@ -227,8 +239,8 @@ religion = ashuran_pantheon
 30 = {
 	#b_KhamenManor
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -238,7 +250,11 @@ religion = ashuran_pantheon
 	#b_KhamenExpanded1
 	holding = none
 	1065.1.1 = { 
+		1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
 	}
 }
 
@@ -254,7 +270,7 @@ religion = ashuran_pantheon
 	#b_OramanPass
 	culture = ashuran
 	religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 34 = {
@@ -277,7 +293,7 @@ religion = ashuran_pantheon
 	#b_AlQamiyasFarm
 	culture = ashuran
 religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 37 = {
@@ -291,7 +307,7 @@ religion = ashuran_pantheon
 38 = {
 	#b_Anopis
 	culture = ashuran
-religion = ashuran_pantheon
+	religion = ashuran_pantheon
 	holding = castle_holding
 }
 
@@ -299,7 +315,13 @@ religion = ashuran_pantheon
 	#b_MenatKahunCity
 	holding = none
 	1065.1.1 = { 
+		1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
+		}
 	}
 }
 
@@ -315,7 +337,7 @@ religion = ashuran_pantheon
 	#b_HewepetNatir
 	culture = ashuran
 religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 42 = {
@@ -340,7 +362,7 @@ religion = ashuran_pantheon
 	#b_Yenedu1	
 	culture = ashuran
 religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 46 = {
@@ -352,7 +374,7 @@ religion = ashuran_pantheon
 	#b_Yenedu3
 	culture = ashuran
 	religion = ashuran_pantheon
-	holding = tribal_holding
+	holding = castle_holding
 	}
 
 48 = {
@@ -363,8 +385,8 @@ religion = ashuran_pantheon
 49 = {
 	#b_NekalNedu1
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 }
 
 50 = {
@@ -375,8 +397,8 @@ religion = ashuran_pantheon
 51 = {
 	#b_Osaro
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 }
 
 52 = {
@@ -392,8 +414,8 @@ religion = ashuran_pantheon
 54 = {
 	#b_Tlallteyotlan1
 	culture = ashuran
-religion = ashuran_pantheon
-	holding = tribal_holding
+	religion = ashuran_pantheon
+	holding = castle_holding
 }
 
 55 = {

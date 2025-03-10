@@ -1,4 +1,4 @@
 ﻿30000027 = {
-	name = "Sindarin"
+	name = "dynn_Sindarin"
 	culture = "ereket"
 }

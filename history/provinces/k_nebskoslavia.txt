@@ -2,7 +2,9 @@
 1077 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1078 = {
@@ -21,7 +23,9 @@
 1094 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1095 = {
@@ -35,7 +39,9 @@
 1097 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1098 = {
@@ -50,7 +56,9 @@
 1100 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1101 = {
@@ -69,7 +77,9 @@
 1113 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1114 = {
@@ -87,7 +97,9 @@
 1117 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1118 = {
@@ -105,7 +117,9 @@
 1121 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1122 = {
@@ -119,7 +133,9 @@
 1124 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1125 = {
@@ -133,7 +149,9 @@
 1127 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1128 = {
@@ -148,7 +166,9 @@
 1130 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1131 = {
@@ -166,7 +186,9 @@
 1134 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1135 = {
@@ -180,7 +202,9 @@
 1137 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1138 = {
@@ -194,7 +218,9 @@
 1140 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1141 = {
@@ -208,7 +234,9 @@
 1143 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1144 = {
@@ -222,7 +250,9 @@
 1146 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1147 = {
@@ -236,7 +266,9 @@
 1150 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1151 = {
@@ -262,7 +294,9 @@
 1156 = {
 	culture = nebskoslav
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1157 = {

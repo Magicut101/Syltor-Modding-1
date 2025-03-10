@@ -2,7 +2,9 @@
 87 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 88 = {
@@ -16,19 +18,25 @@
 90 = {
 	culture = qanti
 	religion = ashuran_pantheon	
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 91 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 92 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 93 = {
@@ -38,7 +46,9 @@
 94 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding	
+		1054.1.1 = {
+		holding = tribal_holding
+		}	
 }
 
 95 = {
@@ -60,7 +70,9 @@
 99 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 100 = {
@@ -74,7 +86,11 @@
 102 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
+		}
 }
 
 103 = {
@@ -88,7 +104,9 @@
 105 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 106 = {
@@ -110,7 +128,9 @@
 110 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 111 = {
@@ -124,7 +144,9 @@
 113 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 114 = {
@@ -138,13 +160,17 @@
 116 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 117 = {
 	culture = qanti
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 118 = {

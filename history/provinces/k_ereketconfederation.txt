@@ -2,7 +2,9 @@
 119 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 120 = {
@@ -16,7 +18,9 @@
 122 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 123 = {
@@ -34,7 +38,9 @@
 126 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 127 = {
@@ -48,7 +54,9 @@
 129 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 130 = {
@@ -70,7 +78,9 @@
 134 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 135 = {
@@ -84,13 +94,17 @@
 137 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 138 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 139 = {
@@ -104,7 +118,9 @@
 141 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 142 = {
@@ -114,7 +130,9 @@
 143 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 144 = {
@@ -128,7 +146,9 @@
 146 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 147 = {
@@ -142,7 +162,9 @@
 149 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 150 = {
@@ -156,7 +178,9 @@
 152 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 153 = {
@@ -170,7 +194,9 @@
 155 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 156 = {
@@ -180,7 +206,9 @@
 157 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 158 = {
@@ -194,13 +222,17 @@
 160 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 161 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 162 = {
@@ -210,7 +242,9 @@
 163 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 164 = {
@@ -224,7 +258,9 @@
 166 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 167 = {
@@ -242,7 +278,9 @@
 170 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 171 = {
@@ -252,7 +290,9 @@
 172 = {
 	culture = ereket 
 	religion = soleannen
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 173 = {

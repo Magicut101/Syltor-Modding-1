@@ -2,7 +2,9 @@
 56 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_PiMedjay
@@ -19,7 +21,9 @@
 59 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_NashurForest
@@ -36,7 +40,9 @@
 62 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Balim
@@ -48,7 +54,9 @@
 64 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Vamorak1
@@ -70,7 +78,9 @@
 68 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_AlHamama1
@@ -87,7 +97,9 @@
 71 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Lavar1
@@ -104,7 +116,9 @@
 74 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Kittarius1
@@ -121,7 +135,9 @@
 77 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_CarnedaoFjordlandTemple
@@ -138,14 +154,18 @@
 80 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Karneidao
 81 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Sarlatova1
@@ -162,7 +182,9 @@
 84 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 #b_Issykeknahkatown1

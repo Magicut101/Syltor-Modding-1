@@ -1,7 +1,9 @@
 665 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 666 = {
@@ -11,7 +13,9 @@
 667 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding}
+	1054.1.1 = {
+		holding = castle_holding
+		}}
 
 668 = {
 	holding = none
@@ -24,7 +28,9 @@
 670 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 671 = {
@@ -38,7 +44,9 @@
 673 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 674 = {
@@ -52,7 +60,9 @@
 676 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 677 = {
@@ -62,7 +72,9 @@
 678 = {
 	culture = angan
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 679 = {
@@ -72,7 +84,9 @@
 680 = {
 	culture = heartlander
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 681 = {
@@ -86,7 +100,9 @@
 683 = {
 	culture = heartlander
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 684 = {
@@ -104,7 +120,9 @@
 687 = {
 	culture = heartlander
 	religion = twin_dragon
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 688 = {

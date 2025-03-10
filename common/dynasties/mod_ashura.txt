@@ -1,50 +1,99 @@
 ﻿30000012 = {
-	name = "Shaer"
+	name = "dynn_Shaer"
 	culture = "ashuran"
 }
 
 #Khamens
 
 30000013 = {
-	name = "Khamen"
+	name = "dynn_Khamen"
 	culture = "ashuran"
 }
 
 #Tyalu
 
 30000100 = {
-	name = "Amakiir"
+	name = "dynn_Amakiir"
 	culture = "ashuran"
+    coa_rd_title_3498995216={
+        custom=yes
+        pattern="pattern_checkers_02.dds"
+        color1=rgb { 102 155 33 }
+        color2=rgb { 115 167 45 }
+        color3=red
+        colored_emblem={
+            color1=white
+            texture="ce__empty_designer.dds"
+            instance={
+                position={ 0.750000 0.750000 }
+                scale={ 0.500000 0.500000 }
+                depth=2.010000
+            }
+    
+            instance={
+                position={ 0.250000 0.250000 }
+                scale={ 0.500000 0.500000 }
+                depth=3.010000
+            }
+    
+        }
+    
+        colored_emblem={
+            color1=white
+            texture="ce_martlet.dds"
+            instance={
+                position={ 0.290000 0.690000 }
+                scale={ -0.500000 -0.500000 }
+            }
+    
+            instance={
+                position={ 0.700000 0.220000 }
+                scale={ 0.500000 0.500000 }
+                depth=1.010000
+            }
+    
+        }
+    
+    }
+    
 }
 
 #Ohros
 
 30000101 = {
-    name = "Ohros"
+    name = "dynn_Ohros"
     culture = "kadut"
 }
 #Attazer
 
 30000102 = {
-    name = "Attazer"
+    name = "dynn_Attazer"
     culture = "kadut"
 }
 
 30000103 = {
-    name = "Metimwe"
-    culture = "Heartlander"
+    name = "dynn_Metimwe"
+    culture = "heartlander"
 }
 
 #Ze-Boul
 
 30000104 = {
-    name = "Ze-Boul"
-    culture = "Ereket"
+    name = "dynn_Ze-Boul"
+    culture = "ereket"
 }
 #A'Livé Sinya
 
 30000105 = {
-    name = "Sinya"
+    name = "dynn_Sinya"
     culture = "ashuran"
 }
 
+30000030 = {
+	name = "dynn_Hoots"
+	culture = "Heartlander"
+}
+30000031 = {
+    name = "Ishqaji"
+    culture = "qanti"
+}
