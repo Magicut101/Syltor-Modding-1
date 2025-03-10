@@ -36,7 +36,7 @@ nekojin_hunters = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_nekojin_hunters }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_nekojin_hunters }
 	}
 
 	buy_cost = { gold = archers_of_the_nile_recruitment_cost }
@@ -71,7 +71,7 @@ balreskan_guard = {
 	}
 	
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_balreskan_guard }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_balreskan_guard }
 	}
 
 	buy_cost = { gold = ranseur_recruitment_cost }
@@ -109,7 +109,7 @@ kaluko_rangers = {
 	provision_cost = @provisions_cost_infantry_cheap
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_kaluko_rangers }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_kaluko_rangers }
 	}
 
 	stack = 100
@@ -137,13 +137,13 @@ vologdan_knights = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_vologdan_knights }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_vologdan_knights }
 	}
 	
 	buy_cost = { gold = vologdan_knights_recruitment_cost }
 	low_maintenance_cost = { gold = vologdan_knights_low_maint_cost }
 	high_maintenance_cost = { gold = vologdan_knights_high_maint_cost }
-	provision_cost = @provisions_cost_infantry_moderate
+	provision_cost = @provisions_cost_infantry_cheap
 
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -179,7 +179,7 @@ medjay_Ranger = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_medjay_ranger }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_medjay_ranger }
 	}
 
 	buy_cost = { gold = medjay_Ranger_recruitment_cost }
@@ -213,13 +213,14 @@ hwatcha = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_hwatcha }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_hwatcha }
 	}
 
 	buy_cost = { gold = hwatcha_recruitment_cost }
 	low_maintenance_cost = { gold = hwatcha_low_maint_cost }
 	high_maintenance_cost = { gold = hwatcha_high_maint_cost }
-	
+	provision_cost = @provisions_cost_infantry_cheap
+
 	stack = 50
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 }
@@ -244,13 +245,14 @@ oathbound = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_oathbound }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_oathbound }
 	}
 
 	buy_cost = { gold = oathbound_recruitment_cost }
 	low_maintenance_cost = { gold = oathbound_low_maint_cost }
 	high_maintenance_cost = { gold = oathbound_high_maint_cost }
-	
+	provision_cost = @provisions_cost_infantry_cheap
+
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = heavy_infantry
@@ -278,13 +280,14 @@ ranseur = {
 	}
 	
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_ranseur }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_ranseur }
 	}
 
 	buy_cost = { gold = ranseur_recruitment_cost }
 	low_maintenance_cost = { gold = ranseur_low_maint_cost }
 	high_maintenance_cost = { gold = ranseur_high_maint_cost }
-	
+	provision_cost = @provisions_cost_infantry_cheap
+
 	stack = 125
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = pikemen
@@ -310,13 +313,14 @@ chloromancers = {
 	}
 
 	can_recruit = {
-		culture = { has_cultural_parameter = unlock_maa_chloromancers }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_chloromancers }
 	}
 
 	buy_cost = { gold = chloromancers_recruitment_cost }
 	low_maintenance_cost = { gold = chloromancers_low_maint_cost }
 	high_maintenance_cost = { gold = chloromancers_high_maint_cost }
-	
+	provision_cost = @provisions_cost_infantry_cheap
+
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = heavy_infantry

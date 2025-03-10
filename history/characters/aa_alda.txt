@@ -57,6 +57,4 @@
 	#Viridian guy
 	#Started the New Viridian Order, should be antagonistic to Alda, and refuse to be under them. 
 }
-
-#600204 = {
 	

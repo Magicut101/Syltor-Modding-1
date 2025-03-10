@@ -111,7 +111,7 @@
 	culture = nekojin
 	religion = twin_dragon
 	1054.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding
 		}
 }
 
@@ -127,7 +127,7 @@
 	culture = crowfolk
 	religion = tototl
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -338,7 +338,7 @@
 	culture = crowfolk
 	religion = tototl
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 

@@ -7,3 +7,9 @@
 	name = "dynn_Taku"
 	culture = "crowfolk"
 }
+
+# random dynasty
+20000901 = {
+	name = "dynn_Loren"
+	culture = "nekojin"
+}

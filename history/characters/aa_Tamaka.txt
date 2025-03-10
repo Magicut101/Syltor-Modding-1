@@ -16,7 +16,7 @@
 	#dna = 
 }
 
-# Crow Names
+# Crow characters
 
 600010 = {
 	name = "Krow"
@@ -24,10 +24,49 @@
 	religion = "tototl"
 	culture = "crowfolk"
 	trait = education_stewardship_3
-	stewardship = 8
+	stewardship = 12
 	#father = 145930
 	1038.1.1 = {
 		birth = "824.1.1"
+	}
+	#dna = 
+}
+
+# Link o pasta
+600071 = {
+	name = "Link"
+	dynasty = 20000006 #Taku
+	religion = "tototl"
+	culture = "crowfolk"
+	trait = education_stewardship_3
+	1040.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+# Aesop
+600072 = {
+	name = "Aesop"
+	female = yes
+	dynasty = 20000006 #Taku
+	religion = "tototl"
+	culture = "crowfolk"
+	trait = education_learning_3
+	1042.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600073 = {
+	name = "Neloren"
+	religion = "twin_dragon"
+		trait = education_marshal_1
+	dynasty = 20000901 #Loren random bullshit
+	culture = "nekojin"
+	1045.1.1 = {
+		birth = yes
 	}
 	#dna = 
 }

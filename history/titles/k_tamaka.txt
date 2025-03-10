@@ -1,4 +1,10 @@
 # kaluko duchy
+d_kaluko = {
+	1054.1.1 = {
+	holder = 600010 # Krow
+	}
+}
+
 c_Kaluko = {
 	867.1.1 = {	change_development_level = 11 }
 	1054.1.1 = {
@@ -6,34 +12,70 @@ c_Kaluko = {
 	}
 	}
 
-	c_Zalisko = {
-		867.1.1 = {	change_development_level = 7 }
-		1054.1.1 = {
-		holder = 600010
-		}
-		}
+c_Zalisko = {
+	867.1.1 = {	change_development_level = 7 }
+	1054.1.1 = {
+	holder = 600010
+	}
+	}
 
-	c_Que = {
-		867.1.1 = {	change_development_level = 3 }
-		1054.1.1 = {
-		holder = 600010
-			}
-		}
+c_Que = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = {
+			holder = 600010
+	}
+	}
 
-	c_Ajmenkol = {
-		867.1.1 = {	change_development_level = 4 }
-		1054.1.1 = {
-		holder = 600010
-			}
+# Aesop Land
+c_Noaztalol = {
+	867.1.1 = {	change_development_level = 4 }
+	1054.1.1 = {
+		holder = 600072
+		liege = d_kaluko		
 		}
-	c_Bayalis = {
-		867.1.1 = {	change_development_level = 1 }
-		1054.1.1 = {
-		holder = 600010
-			}
+	}
+
+c_Ajmenkol = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+		holder = 600072
+		liege = d_kaluko		
 		}
+	}
+
+# linkopastas land
+c_Pantoko= {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = {
+		holder = 600071
+		liege = d_kaluko
+		}
+	}
+
+c_Bayalis = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+			holder = 600071
+			liege = d_kaluko
+		}
+	}
+
+# independent random nekojin
+c_LaicaRille = {
+	867.1.1 = {	change_development_level = 2 }
+	1054.1.1 = {
+		holder = 600073
+		}
+	}
 
 #Nekomar Duchy
+# add in a fake count under nori
+	d_nekomar = {
+	1054.1.1 = {
+	holder = 600002 # Nori
+	}
+}
+
 c_nekomar = {
 867.1.1 = {	change_development_level = 3 }
 1054.1.1 = {
