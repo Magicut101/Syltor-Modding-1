@@ -1,10 +1,4 @@
 ﻿l_english:
- #Common lemebah Localization
- tototl_religion:0 "Tototl"
- tototl_religion_adj:0 "Tototl"
- tototl_religion_adherent:0 "Tototl"
- tototl_religion_adherent_plural:0 "Tototls"
- tototl_religion_desc:0 "Tototl is a polytheistic faith dedicated to their sun god, patron of blood and war Tototetl. Ritual sacrifices, and celebrations of blood are commonplace in this war-mongering religion."
 
  tototl_high_god_name:0 "Tototetl"
  tototl_high_god_name_2:0 "$tototl_high_god_name$" # Optional translation alt
@@ -75,6 +69,8 @@
  witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #lemebah
+ lemebah_faithful_religion:0 "Lemebah"
+ lemebah_faithful_religion_adj:0 "Lemebah"
  lemebah:0 "Lemebah"
  lemebah_adj:0 "Lemebah"
  lemebah_adherent:0 "Lemebahite"

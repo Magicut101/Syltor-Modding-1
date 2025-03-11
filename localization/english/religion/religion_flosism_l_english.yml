@@ -1,11 +1,11 @@
 ﻿l_english:
 
  #Common vologdan Localization
- dandelism_religion:0 "Dandelism"
- dandelism_religion_adj:0 "Dandelism"
- dandelism_religion_adherent:0 "Dandelist"
- dandelism_religion_adherent_plural:0 "Dandelists"
- dandelism_religion_desc:0 "While the origin of the faith is unknown, many theorize that it originates from monks meditating in fields of dandelions. These early Dandelists associated their faith with the namesake - however much like the flower it derives its name from, not all paths are equal, nor pure."
+ flosism_religion:0 "Flosism"
+ flosism_religion_religion_adj:0 "Flosism"
+ flosism_religion_religion_adherent:0 "Flosist"
+ flosism_religion_religion_adherent_plural:0 "Flosists"
+ flosism_religion_religion_desc:0 "A primordial faith believing in Flos - the mother goddess of vegetation, it emphasizes nature and creation, and maintaining the care of flowers. Founded in the tribe of Galínios, from the region known as Vastallos, they emphasize different attributes to different flowers. Whether this faith has connections to Dandelism is still undocumented."
 
  turtlepaganism_high_god_name:0 "God"
  turtlepaganism_high_god_name_2:0 "$turtlepaganism_high_god_name$" # Optional translation alt
@@ -77,17 +77,12 @@
  vologdan_water_god_name:0 "$vologdan_health_god_name$"
  vologdan_water_god_name_possessive:0 "$vologdan_health_god_name_possessive$"
 
-dandelism:0 "Dandelism"
-dandelism_adj:0 "Dandelism"
-dandelism_adherent:0 "Dandelist"
-dandelism_adherent_plural:0 "Dandelists"
-dandelism_desc:0 "While the origin of the faith is unknown, many theorize that it originates from monks meditating in fields of dandelions. These early Dandelists associated their faith with the namesake - however much like the flower it derives its name from, not all paths are equal, nor pure."
-
-trostian_dandelism:0 "White Dandelism"
-trostian_dandelism_adj:0 "White Dandelism"
-trostian_dandelism_adherent:0 "White Dandelist"
-trostian_dandelism_adherent_plural:0 "White Dandelists"
-trostian_dandelism_desc:0 "A variant of Dandelism, following the namesake of the white flower, this faith originates from the Bardonian city of Trost. It preaches peace and unity, and is considered a more pure path of Dandelism."
+flosism:0 "Flosism"
+flosism_religion:0 "Flosism"
+flosism_religion_adj:0 "Flosism"
+flosism_religion_adherent:0 "Flosist"
+flosism_religion_adherent_plural:0 "Flosists"
+flosism_religion_desc:0 "A primordial faith believing in Flos - the mother goddess of vegetation, it emphasizes nature and creation, and maintaining the care of flowers. Founded in the tribe of Galínios, from the region known as Vastallos, they emphasize different attributes to different flowers. Whether this faith has connections to Dandelism is still undocumented."
 
  #adamites:0 "Adamitism"
  #adamites_adj:0 "Adamite"
