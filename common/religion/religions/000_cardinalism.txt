@@ -225,13 +225,7 @@
 		cardinal = {
 			color = { 8 140 131 }
 			icon = cardinalism
-			#religious_head = d_celestial_matron
-
-			#holy_site = 
-
-			#Main Group
 			
-			#Tenents
 			doctrine = tenet_communion
 			doctrine = tenet_communal_identity
 			doctrine = tenet_human_sacrifice

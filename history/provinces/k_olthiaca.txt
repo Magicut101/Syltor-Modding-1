@@ -59,7 +59,7 @@
 	1054.1.1 = {
 		holding = castle_holding
 		}
-	religion = tossanism
+	religion = bluepheonix
 	culture = remtali
 }
 
@@ -248,7 +248,7 @@
 	1054.1.1 = {
 		holding = castle_holding
 		}
-	religion = tossanism
+	religion = bluepheonix
 	culture = remtali
 }
 
@@ -268,7 +268,7 @@
 	1054.1.1 = {
 		holding = castle_holding
 		}
-	religion = tossanism
+	religion = bluepheonix
 	culture = remtali
 }
 
@@ -288,7 +288,7 @@
 	1054.1.1 = {
 		holding = castle_holding
 		}
-	religion = tossanism
+	religion = bluepheonix
 	culture = remtali
 }
 
@@ -316,7 +316,7 @@
 	1054.1.1 = {
 		holding = castle_holding
 		}
-	religion = tossanism
+	religion = bluepheonix
 	culture = remtali
 }
 

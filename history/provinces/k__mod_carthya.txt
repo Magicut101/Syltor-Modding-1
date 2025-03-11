@@ -92,7 +92,7 @@
 # angels peak
 1022 = {
 	culture = carthyan
-	religion = tossanism
+	religion = bluepheonix
 	holding = castle_holding
 }
 
@@ -106,7 +106,7 @@
 
 1025 = {
 	culture = carthyan
-	religion = tossanism
+	religion = bluepheonix
 	holding = castle_holding
 }
 
