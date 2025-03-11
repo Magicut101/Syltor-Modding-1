@@ -75,6 +75,8 @@
  witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #luxite
+ luxite_faithful_religion_adj:0 "Luxite"
+ luxite_faithful_religion_desc:0 "The state religion of Soliosis, the faith is a bitheistic religion, focusing on the gods Lux, the goddess of light, and Tenebris, the god of the void. The distinction is made is propogating that good and righteous acts will allow a soul to join Lux, while 'evil' souls will be cast down into the void with Tenebris to be forgotten.""
  luxite:0 "Lux"
  luxite_adj:0 "Lux"
  luxite_adherent:0 "Luxite"

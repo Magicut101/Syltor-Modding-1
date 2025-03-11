@@ -75,7 +75,8 @@
  witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #ashuran pantheon
- ashuran_pantheon_religion:0 "Ashuran Pantheon"
+ ashuran_pantheon_adj:0 "Ashuran Pantheon"
+ ashuran_pantheon:0 "A'ashism"
  ashuran_religion:0 "A'ashism"
  ashuran_religion_adj:0 "Ashuran Pantheon"
  ashuran_religion_adherent:0 "Ashuric"
