@@ -1,7 +1,7 @@
 ﻿600001 = {
 	name = "Constatine"
 	dynasty = 30000002
-	religion = "tossanism"
+	religion = "easternlunatwa"
 	culture = "syrosi"
 	trait = content
 	trait = just
@@ -18,7 +18,7 @@
 600003 = {
 	name = "Theodorik"
 	dynasty = 8635
-	religion = "tossanism"
+	religion = "easternlunatwa"
 	culture = "syrosi"
 	martial = 10
 	#father = 145930
@@ -32,7 +32,7 @@
 600006 = {
 	name = "Anstolis"
 	dynasty = 30000004
-	religion = "tossanism"
+	religion = "easternlunatwa"
 	culture = "deutzani"
 	#father = 145930
 	trait = education_stewardship_3
@@ -45,7 +45,7 @@
 600007 = {
 	name = "Igor"
 	dynasty = 8637
-	religion = "tossanism"
+	religion = "turtlepaganism"
 	culture = "deutzani"
 	#father = 145930
 	trait = education_diplomacy_2
@@ -58,8 +58,8 @@
 600008 = {
 	name = "Nikolai"
 	dynasty = 30000004
-	religion = "tossanism"
-	culture = "balreskan"
+	religion = "easternlunatwa"
+	culture = "tossanism"
 	#give_nickname = #make nickname "green"
 	#father = 145930
 	trait = education_diplomacy_2

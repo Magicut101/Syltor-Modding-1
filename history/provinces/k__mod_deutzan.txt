@@ -116,7 +116,7 @@
 #c_nadzjieja
 271 = {
 	culture = syrosi
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -166,7 +166,7 @@
 #c_Syros
 281 = {
 	culture = syrosi
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 	duchy_capital_building = Anicent_Syrosi_walls_01
 	1065.1.1 = { 
@@ -261,7 +261,7 @@
 
 295 = {
 	culture = heartlander
-	religion = easternlunatwa
+	religion = twin_dragon
 	holding = church_holding
 }
 

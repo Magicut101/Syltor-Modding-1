@@ -30,11 +30,12 @@
 600023 = {
 	name = "Raphie"
 	dynasty = 30000010 #Aasimar
-	religion = "tossanism"
+	religion = "bluepheonix"
 	culture = "carthyan"
 	trait = education_stewardship_3
   trait = just
   trait = diligent
+  trait = zealous
 	stewardship = 9
 	father = 600022
 	1050.1.1 = {

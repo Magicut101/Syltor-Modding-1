@@ -80,6 +80,18 @@
  twin_dragon_adherent:0 "Lunatwa"
  twin_dragon_adherent_plural:0 "Lunatwas"
  twin_dragon_desc:0 "Originating from Shunhua in Nir, the core philosophical nature of Twin Dragon is of universal order, harmony, and legalism. It propogates the concept that everything follows a certain natural order. If not, it will lead to catastrophic results."
+
+ bluepheonix:0 "Blue Pheonix"
+ bluepheonix_adj:0 "Blue Pheonixian"
+ bluepheonix_adherent:0 "Pheonixian"
+ bluepheonix_adherent_plural:0 "Pheonixians"
+ bluepheonix_desc:0 "."
+
+ easternlunatwa:0 "Eastern Lûnatwa"
+ easternlunatwa_adj:0 "Eastern Twin Dragon"
+ easternlunatwa_adherent:0 "Eastern Lunatwa"
+ easternlunatwa_adherent_plural:0 "Eastern Lunatwas"
+ easternlunatwa_desc:0 "."
  
  # cause error in code as this is already defined unsure if its supposed to be a alt translation or not - j
  #twin_dragon_positive_afterlife:0 "Palace of Grand Darkness"

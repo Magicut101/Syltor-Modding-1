@@ -28,7 +28,7 @@
 600029 = {
 	name = "Geo"
 	dynasty = 30000020 # Shan
-	religion = "tossanism"
+	religion = "bluepheonix"
 	culture = "remtali"
 	trait = education_learning_4
 	stewardship = 13
