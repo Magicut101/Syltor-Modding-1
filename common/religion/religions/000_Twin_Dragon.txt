@@ -288,7 +288,7 @@
 
 		almadorian = {
 			color = { 15 30 120 }
-			icon = akanism
+			icon = celestial
 			reformed_icon = akanism_reformed
 
 			doctrine = reformed_faith_doctrine
