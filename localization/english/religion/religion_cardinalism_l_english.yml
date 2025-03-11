@@ -72,11 +72,11 @@
  cardinal_water_god_name_possessive:0 "$cardinal_household_god_name_possesive$"
 
  #twin_dragon
- cardinal:0 "Cardinalism"
- cardinal_adj:0 "Cardinalist"
- cardinal_adherent:0 "Cardinalist"
- cardinal_adherent_plural:0 "Cardilists"
- cardinal_desc:0 "Founded on the great four cardinal directions - these four are balanced through many rituals to keep them satisfied."
+ cardinalism_religion:0 "Cardinalism"
+ cardinalism_religion_adj:0 "Cardinalist"
+ cardinalism_religion_adherent:0 "Cardinalist"
+ cardinalism_religion_adherent_plural:0 "Cardilists"
+ cardinalism_religion_desc:0 "Founded on the great four cardinal directions - these four are balanced through many rituals to keep them satisfied."
  
  # cause error in code as this is already defined unsure if its supposed to be a alt translation or not - j
  #cardinal_positive_afterlife:0 "the afterlife"
