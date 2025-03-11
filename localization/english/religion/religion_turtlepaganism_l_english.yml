@@ -1,0 +1,90 @@
+﻿l_english:
+
+ #Common vologdan Localization
+ turtlepaganism_religion:0 "Teyōlaivism"
+ turtlepaganism_religion_adj:0 "Teyōlaivism"
+ turtlepaganism_religion_adherent:0 "Follower"
+ turtlepaganism_religion_adherent_plural:0 "Followers"
+ turtlepaganism_religion_desc:0 "A Proto-Deutzani faith hailing from the times of the Lechian Nomads, Teyolaivists hold their faith in "Aspects" that would appear in the form of marine animals most notably turtles, each of these aspects represent the virtues of the Teyolaivist belief."
+
+ turtlepaganism_high_god_name:0 "God"
+ turtlepaganism_high_god_name_2:0 "$turtlepaganism_high_god_name$" # Optional translation alt
+ turtlepaganism_high_god_name_3:0 "$turtlepaganism_high_god_name$" # Optional translation alt
+ turtlepaganism_high_god_name_possessive:0 "One's"
+ turtlepaganism_high_god_name_alternate:0 "the true gods"
+ turtlepaganism_high_god_name_alternate_possessive:0 "One God's"
+ turtlepaganism_good_god_jesus:0 "$vologdan_health_god_name$"
+ turtlepaganism_good_god_christ:0 "God"
+ turtlepaganism_devil_name:0 "Chaos"
+ turtlepaganism_devil_name_possessive:0 "Chaos's"
+ turtlepaganism_evil_god_lucifer:0 "Lucifer"
+ turtlepaganism_evil_god_beelzebub:0 "Beelzebub"
+ turtlepaganism_evil_god_mephistopheles:0 "Mephistopheles"
+ turtlepaganism_death_deity_name:0 "Death"
+ turtlepaganism_death_deity_name_possessive:0 "Death's"
+ turtlepaganism_house_of_worship:0 "church"
+ turtlepaganism_house_of_worship_2:0 "$vologdan_house_of_worship$" # Optional translation alt
+ turtlepaganism_house_of_worship_3:0 "$vologdan_house_of_worship$" # Optional translation alt
+ turtlepaganism_house_of_worship_plural:0 "churches"
+ turtlepaganism_religious_symbol:0 "tree"
+ turtlepaganism_religious_symbol_2:0 "$vologdan_religious_symbol$" # Optional translation alt
+ turtlepaganism_religious_symbol_3:0 "$vologdan_religious_symbol$" # Optional translation alt
+ turtlepaganism_religious_text:0 "scriptures"
+ turtlepaganism_religious_text_2:0 "$vologdan_religious_text$" # Optional translation alt
+ turtlepaganism_religious_text_3:0 "$vologdan_religious_text$" # Optional translation alt
+ turtlepaganism_religious_head_title:0 "Captain Regent"
+ turtlepaganism_religious_head_title_name:0 "Knighthood"
+ turtlepaganism_devotee_male:0 "squire"
+ turtlepaganism_devotee_male_plural:0 "squires"
+ turtlepaganism_devotee_female:0 "knight"
+ turtlepaganism_devotee_female_plural:0 "knights"
+ turtlepaganism_devotee_neuter:0 "monastic"
+ turtlepaganism_devotee_neuter_plural:0 "monastics"
+ turtlepaganism_priest_male:0 "priest"
+ turtlepaganism_priest_male_plural:0 "priests"
+ turtlepaganism_priest_alternate_plural:0 "missionary"
+ turtlepaganism_bishop:0 "knight"
+ turtlepaganismn_bishop_plural:0 "knights"
+ turtlepaganism_positive_afterlife:0 "the one's realm"
+ turtlepaganism_positive_afterlife_2:1 "paradise" # Optional translation alt
+ turtlepaganism_positive_afterlife_3:1 "$vologdan_high_god_name_possessive$ Kingdom" # Optional translation alt
+ turtlepaganism_negative_afterlife:0 "chaos"
+ turtlepaganism_negative_afterlife_2:1 "the Pit of Chaos" # Optional translation alt
+ turtlepaganism_negative_afterlife_3:1 "Destruction" # Optional translation alt
+ turtlepaganism_witchgodname_the_horned_god:0 "the Deceiver"
+ turtlepaganism_witchgodname_the_horned_god_possessive:0 "the Deceiver's"
+
+ turtlepaganism_creator_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_creator_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_health_god_name:0 "god"
+ turtlepaganism_health_god_name_possessive:0 "god's"
+ turtlepaganism_fertility_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_fertility_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_wealth_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_wealth_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_household_god_name:0 "$vologdan_health_god_name$"
+ turtlepaganism_household_god_name_possessive:0 "$vologdan_health_god_name_possessive$"
+ turtlepaganism_fate_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_fate_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_knowledge_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_knowledge_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_war_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_war_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_trickster_god_name:0 "Fortuna"
+ turtlepaganism_trickster_god_name_possessive:0 "Fortuna's"
+ turtlepaganism_night_god_name:0 "$vologdan_high_god_name$"
+ turtlepaganism_night_god_name_possessive:0 "$vologdan_high_god_name_possessive$"
+ turtlepaganism_water_god_name:0 "$vologdan_health_god_name$"
+ turtlepaganism_water_god_name_possessive:0 "$vologdan_health_god_name_possessive$"
+
+turtlepaganism:0 "Teyōlaivism"
+turtlepaganism_adj:0 "Teyōlaivism"
+turtlepaganism_adherent:0 "Faithful"
+turtlepaganism_adherent_plural:0 "Followers"
+turtlepaganism_desc:0 "A Proto-Deutzani faith hailing from the times of the Lechian Nomads, Teyolaivists hold their faith in "Aspects" that would appear in the form of marine animals most notably turtles, each of these aspects represent the virtues of the Teyolaivist belief."
+
+ #adamites:0 "Adamitism"
+ #adamites_adj:0 "Adamite"
+ #adamites_adherent:0 "Adamite"
+ #adamites_adherent_plural:0 "Adamites"
+ #adamites_desc:0 "The Adamites claim to have recaptured Adam and Eve's original state of innocence by shedding their clothes. Groups of Adamites often live in a state of absolute lawlessness, claiming that due to #this innocence their actions can be neither good nor evil."

@@ -222,7 +222,7 @@
 
 	faiths = {
 		twin_dragon = {
-			color = { 8 140 131 }
+			color = { 75 0 130 }
 			icon = twindragon
 			religious_head = d_celestial_matron
 
@@ -248,6 +248,80 @@
 			
 			#Tenents
 			doctrine = tenet_astrology
+			doctrine = tenet_reincarnation
+			doctrine = tenet_inner_journey
+		}
+
+		bluepheonix = {
+			color = { 7 22 48 }
+			icon = twindragon
+			religious_head = d_celestial_matron
+
+			#Main Group
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_pluralism_fundamentalist
+
+			#Crimes
+			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_deviancy_shunned
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_taxation
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+			
+			#Tenents
+			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_inner_journey
+			
+			traits = {
+				virtues = {
+				calm
+				compassionate
+				ambitious
+				}
+				sins = {
+					sadistic
+					greedy
+					vengeful
+					callous
+				}
+	}
+
+		}
+
+		easternlunatwa = {
+			color = { 250 156 28 }
+			icon = twindragon
+			religious_head = d_celestial_matron
+
+			holy_site = lhumar
+			holy_site = nantianmonastary
+			holy_site = haegiel
+			holy_site = volkoregrod
+			holy_site = vamorak
+
+			#Main Group
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_monogamy
+
+			#Crimes
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_witchcraft_accepted
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_marriage_disallowed
+			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+			
+			#Tenents
+			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_reincarnation
 			doctrine = tenet_inner_journey
 		}

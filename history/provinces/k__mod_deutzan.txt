@@ -1,7 +1,7 @@
 # C_Haegiel
 252 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -41,7 +41,7 @@
 
 256 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -63,7 +63,7 @@
 
 260 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -73,7 +73,7 @@
 
 262 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -87,7 +87,7 @@
 
 265 = {
 	culture = deutzani
-	religion = tossanism
+	religion = turtlepaganism
 	holding = castle_holding
 }
 
@@ -101,7 +101,7 @@
 
 268 = {
 	culture = deutzani
-	religion = tossanism
+	religion = turtlepaganism
 	holding = castle_holding
 }
 
@@ -130,7 +130,7 @@
 
 274 = {
 	culture = syrosi
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -148,7 +148,7 @@
 
 277 = {
 	culture = syrosi
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 	1065.1.1 = { 
 		holding = castle_holding 
@@ -195,7 +195,7 @@
 
 284 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 
@@ -261,7 +261,7 @@
 
 295 = {
 	culture = heartlander
-	religion = twin_dragon
+	religion = easternlunatwa
 	holding = church_holding
 }
 
@@ -283,7 +283,7 @@
 
 299 = {
 	culture = deutzani
-	religion = tossanism
+	religion = easternlunatwa
 	holding = castle_holding
 }
 

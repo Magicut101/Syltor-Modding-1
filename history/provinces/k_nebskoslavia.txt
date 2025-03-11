@@ -1,7 +1,7 @@
 # bjornsull
 1077 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -22,7 +22,7 @@
 #phinks
 1094 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -38,7 +38,7 @@
 # orphus
 1097 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -55,7 +55,7 @@
 # kvarts
 1100 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -76,7 +76,7 @@
 #Nebskograd
 1113 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -96,7 +96,7 @@
 
 1117 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -116,7 +116,7 @@
 
 1121 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -132,7 +132,7 @@
 
 1124 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -148,7 +148,7 @@
 
 1127 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -165,7 +165,7 @@
 # sloutawa
 1130 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -185,7 +185,7 @@
 
 1134 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -201,7 +201,7 @@
 
 1137 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -217,7 +217,7 @@
 
 1140 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -233,7 +233,7 @@
 
 1143 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -249,7 +249,7 @@
 
 1146 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -265,7 +265,7 @@
 
 1150 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
@@ -293,7 +293,7 @@
 
 1156 = {
 	culture = nebskoslav
-	religion = tossanism
+	religion = vjara
 	1054.1.1 = {
 		holding = castle_holding
 		}
