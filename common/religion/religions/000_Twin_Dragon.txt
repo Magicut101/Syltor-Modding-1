@@ -252,46 +252,6 @@
 			doctrine = tenet_inner_journey
 		}
 
-		bluepheonix = {
-			color = { 7 22 48 }
-			icon = twindragon
-			religious_head = d_celestial_matron
-
-			#Main Group
-			doctrine = doctrine_spiritual_head
-			doctrine = doctrine_pluralism_fundamentalist
-
-			#Crimes
-			doctrine = doctrine_adultery_men_crime
-			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_deviancy_shunned
-
-			#Clerical Functions
-			doctrine = doctrine_clerical_function_taxation
-			doctrine = doctrine_clerical_marriage_allowed
-			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
-			
-			#Tenents
-			doctrine = tenet_armed_pilgrimages
-			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_inner_journey
-			
-			traits = {
-				virtues = {
-				calm
-				compassionate
-				ambitious
-				}
-				sins = {
-					sadistic
-					greedy
-					vengeful
-					callous
-				}
-	}
-
-		}
-
 		easternlunatwa = {
 			color = { 250 156 28 }
 			icon = twindragon

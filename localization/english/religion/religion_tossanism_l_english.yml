@@ -77,11 +77,23 @@
  caelus_faithful_water_god_name:0 "$caelus_faithful_health_god_name$"
  caelus_faithful_water_god_name_possessive:0 "$caelus_faithful_health_god_name_possessive$"
 
-tossanism:0 "Tossanism"
-tossanism_adj:0 "Tossanism"
-tossanism_adherent:0 "Tossanist"
-tossanism_adherent_plural:0 "Tossanists"
-tossanism_desc:0 "Tossanism is a loose faith based around the worship of Caelus and various other gods brought in by the Tossovich family after the Brothian migration into the region."
+ tossanism:0 "Bookkeeper's Tossanism"
+ tossanism_adj:0 "Bookkeeper's Tossanism"
+ tossanism_adherent:0 "Bookkeeper"
+ tossanism_adherent_plural:0 "Bookkeepers"
+ tossanism_desc:0 "Tossanism is a loose faith based around the worship of Caelus and various other gods brought in by the Tossovich family after the Brothian migration into the region. This faith is the closest to the original orthodox Tossanist faith."
+
+ bluepheonix:0 "Blue Pheonix"
+ bluepheonix_adj:0 "Blue Pheonixian"
+ bluepheonix_adherent:0 "Pheonixian"
+ bluepheonix_adherent_plural:0 "Pheonixians"
+ bluepheonix_desc:0 "An amalgamation of Lunatwa, Bookkeeper's Tossanism, and Soleannen, followers of this faith believe in the concept of keep balance and maintaining peace. Similar to Tossanism they believe in Elemental Spirits, but follow the concept of the Three Pheonix's, with the Blue Pheonix standing for balance, the Red Pheonix for death, and the Yellow Pheonix representing peace."
+
+ pheonixtossanist:0 "Pheonix Tossanism"
+ pheonixtossanist_adj:0 "Pheonix Tossanism"
+ pheonixtossanist_adherent:0 "Tossanite"
+ pheonixtossanist_adherent_plural:0 "Tossanists"
+ pheonixtossanist_desc:0 "A polytheistic pantheon following a modified pantheon, faith has seen blending with Twin Dragon, leading to a hybrid faith. This faith follows five major deities, and several minor deities, each tied to a region of Ryzan and an element."
 
  #adamites:0 "Tossanism"
  #adamites_adj:0 "Tossanism"
