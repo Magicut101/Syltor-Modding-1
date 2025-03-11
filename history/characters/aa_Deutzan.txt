@@ -58,8 +58,8 @@
 600008 = {
 	name = "Nikolai"
 	dynasty = 30000004
-	religion = "easternlunatwa"
-	culture = "tossanism"
+	religion = "tossanism"
+	culture = "balreskan"
 	#give_nickname = #make nickname "green"
 	#father = 145930
 	trait = education_diplomacy_2
