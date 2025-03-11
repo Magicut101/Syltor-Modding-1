@@ -1,11 +1,11 @@
 ﻿600005 = {
-	name = "Canadsky"
+	name = "Aveleksei" # Aveleksei Tossovich McSpiegel
 	dynasty = 30000004
 	religion = "tossanism"
 	culture = "ryzani"
 	trait = ambitious
 	trait = just
-	trait = craven
+	trait = Calm
 	trait = education_stewardship_3
 	martial = 10
 	#father = 145930
