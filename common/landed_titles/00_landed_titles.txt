@@ -9664,7 +9664,7 @@ e_aurlunor = {
 					}
 				}
 			}
-			c_AlmadoarianHill = {
+			c_AlmadorianHill = {
 				color = {
 					127
 					167
@@ -9929,7 +9929,7 @@ e_aurlunor = {
 					}
 				}
 			}
-			c_YamuWei = {
+			c_Yamuwei = {
 				color = {
 					86
 					201
@@ -12019,7 +12019,7 @@ e_almalie = {
 				213
 			}
 			capital = c_Plagateamar
-			c_AlmadoarianTower = {
+			c_AlmadorianTower = {
 				color = {
 					80
 					137

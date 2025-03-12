@@ -3,7 +3,3 @@
 	culture = "Heartlander"
 }
 
-30000109 = {
-	name = "dynn_ Fornois"
-	culture = " Fornoisan "
-}

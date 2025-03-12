@@ -12,11 +12,24 @@
 	#dna = 
 }
 600061 = {
-	name = "Yeetus Christ III"
-	dynasty = 3000
+	name = "Julian"
+	dynasty = 30000109
 	culture = "fornoisan"
 	trait = education_learning_3
 	1040.1.1 = {
 		birth = "820.1.1"
 	}
+}
+
+600084 = { name = "Sofia"
+    dynasty = 20000001
+    religion = "twin_dragon"
+    culture = "fornoisan"
+    1040.1.1 = {
+    birth = "820.1.1"
+    }
+	employer = 600061
+	father = 600061
+	mother = 600002
+	female = yes
 }

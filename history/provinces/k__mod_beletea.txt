@@ -3,7 +3,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -19,7 +19,7 @@
 	culture = qanti
 	religion = ashuran_pantheon	
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -27,7 +27,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -35,7 +35,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -47,7 +47,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}	
 }
 
@@ -71,7 +71,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -88,7 +88,7 @@
 	religion = ashuran_pantheon
 		1054.1.1 = {
 			1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 		}
 }
@@ -105,7 +105,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -129,7 +129,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -145,7 +145,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -161,7 +161,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -169,7 +169,7 @@
 	culture = qanti
 	religion = ashuran_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 

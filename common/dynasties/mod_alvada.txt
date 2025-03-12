@@ -2,3 +2,8 @@
 	name = "dynn_Austris"
 	culture = "fornoisan"
 }
+
+30000109 = {
+	name = "dynn_Fornois"
+	culture = " fornoisan "
+}

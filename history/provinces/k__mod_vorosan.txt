@@ -79,7 +79,7 @@
 }
 
 399 = {
-	culture = nabut
+	culture = fornoisan
 	religion = twin_dragon
 	holding = tribal_holding
 }
