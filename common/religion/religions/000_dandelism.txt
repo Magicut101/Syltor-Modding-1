@@ -207,8 +207,8 @@ dandelism_religion = {
 	faiths = {
 		dandelism = {
 			color = { 255 255 0 }
-			icon = dandelism
-			reformed_icon = akanism_reformed
+			icon = dandelism2
+			reformed_icon = dandelism2
 
 			doctrine = reformed_faith_doctrine
 
@@ -220,7 +220,7 @@ dandelism_religion = {
 		trostian_dandelism = {
 			color = { 15 30 120 }
 			icon = trostdandelism
-			reformed_icon = akanism_reformed
+			reformed_icon = trostdandelism
 
 			doctrine = reformed_faith_doctrine
 
@@ -238,8 +238,8 @@ dandelism_religion = {
 
 		consumer_dandelism = {
 			color = { 170 255 0 }
-			icon = trostdandelism
-			reformed_icon = akanism_reformed
+			icon = consumerdandelism
+			reformed_icon = consumerdandelism
 
 			doctrine = reformed_faith_doctrine
 
