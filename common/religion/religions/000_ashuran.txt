@@ -226,8 +226,8 @@ ashuran_religion = {
 		qantifolkway_pantheon = {
 			color = { 210 180 140 }
 			graphical_faith = "catholic_gfx"
-			icon = akanism
-			reformed_icon = akanism_reformed
+			icon = qantipaganism
+			reformed_icon = qantipaganism
 
 			traits = {
 				virtues = { brave stubborn strong }
@@ -248,8 +248,8 @@ ashuran_religion = {
 		
 		nabutfolkway_pantheon = {
 			color = { 255 255 237 }
-			icon = akanism
-			reformed_icon = akanism_reformed
+			icon = nabutpaganism
+			reformed_icon = nabutpaganism
 
 			traits = {
 				virtues = { generous calm just }
@@ -271,8 +271,8 @@ ashuran_religion = {
 
 		nomadicfolkway_pantheon = {
 			color = { 255 213 128 }
-			icon = akanism
-			reformed_icon = akanism_reformed
+			icon = nomadicfolkway
+			reformed_icon = nomadicfolkway
 
 			traits = {
 				virtues = { generous calm just }

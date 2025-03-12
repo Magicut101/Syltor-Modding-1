@@ -285,8 +285,7 @@
 
 		bluepheonix = {
 			color = { 7 22 48 }
-			icon = twindragon
-			religious_head = d_celestial_matron
+			icon = bluepheonix
 
 			#Main Group
 			doctrine = doctrine_spiritual_head
@@ -315,7 +314,7 @@
 
 		pheonixtossanist = {
 			color = { 173 216 230 }
-			icon = twindragon
+			icon = bluepheonix
 
 			#Main Group
 			doctrine = doctrine_spiritual_head

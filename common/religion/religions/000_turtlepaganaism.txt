@@ -207,8 +207,8 @@ turtlepaganism_religion = {
 	faiths = {
 		turtlepaganism = {
 			color = { 73 103 65 }
-			icon = akanism
-			reformed_icon = akanism_reformed
+			icon = tortlefaith
+			reformed_icon = tortlefaith
 
 			doctrine = reformed_faith_doctrine
 

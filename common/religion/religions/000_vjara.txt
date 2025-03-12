@@ -207,8 +207,8 @@ vjara_religion = {
 	faiths = {
 		vjara = {
 			color = { 152 255 152 }
-			icon = akanism
-			reformed_icon = akanism_reformed
+			icon = vjara
+			reformed_icon = vjara
 
 			doctrine = reformed_faith_doctrine
 
