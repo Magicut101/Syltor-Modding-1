@@ -146,10 +146,11 @@
 }
 
 773 = {
-	culture = fornoisan
-	religion = fornoisan
+
 	1054.1.1 = {
 		holding = castle_holding
+		culture = fornoisan
+		religion = fornoisan
 		}
 }
 
@@ -167,10 +168,10 @@
 
 #C IsolatedTemple
 777 = {
-	culture = almalie
-	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
+		culture = almalie
+		religion = fornoisan
 		}
 }
 
@@ -187,7 +188,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 781 = {
@@ -208,7 +209,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 785 = {
@@ -225,7 +226,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 788 = {
@@ -242,7 +243,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 791 = {
@@ -259,7 +260,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 794 = {
@@ -276,7 +277,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 797 = {
@@ -293,7 +294,7 @@
 	religion = fornoisan
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		}
 }
 
 800 = {
@@ -306,11 +307,12 @@
 
 #c fanamarport
 802 = {
-	culture = fornoisan
-	religion = fornoisan
+
 	1054.1.1 = {
 		holding = castle_holding
-		}a
+		culture = fornoisan
+		religion = fornoisan
+		}
 }
 
 803 = {

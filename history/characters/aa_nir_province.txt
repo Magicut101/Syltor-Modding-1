@@ -28,3 +28,62 @@
 	}
 	#dna = 
 }
+
+600083 = {
+	name = "Ja'al"
+    dynasty = 30000207
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+    birth = "820.1.1"
+	trait = education_martial_3
+	trait = wrathful
+	trait = callous
+	trait = brave
+    }
+}
+
+600101 = {  #owns Ecir
+
+    name = "Hayalal" 
+    dynasty = 30000007 
+    religion = "twin_dragon" 
+    culture = "heartlander" 
+	trait = education_martial_4
+    1040.1.1 = {
+                birth = "820.1.1"
+        } 
+	female = yes
+	prowess = 20
+	father = 600077
+	mother = 6000011
+}
+
+
+
+
+600087 = {
+    name = "Tara"
+    dynasty = 30000209
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = eduacation_learning_3
+	trait = scholar
+	female = yes
+	employer = 600012
+}
+
+600096 = {
+    name = "John P."
+    dynasty = 30000213
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = education_diplomacy_3
+	employer = 600012
+}

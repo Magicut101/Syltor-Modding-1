@@ -22,7 +22,7 @@
 	culture = qanti
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -41,7 +41,7 @@
 	culture = qanti
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -55,7 +55,7 @@
 	culture = qanti
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 
@@ -79,7 +79,7 @@
 	culture = qanti
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = temple_holding
 		}
 }
 
@@ -117,7 +117,7 @@
 	culture = qanti
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 		}
 }
 

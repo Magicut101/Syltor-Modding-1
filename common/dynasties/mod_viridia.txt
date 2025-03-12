@@ -11,7 +11,7 @@
 	name = "dynn_Karhu"
 	culture = "heartlander" #Need to Change all heartlander to culture Aldan, Agrarian, Kiesarian.
 }
-30000205 = {
+30000201 = {
 	name = "dynn_Zerith" # use for most of the Agnarians I guess, they don't have any dynasty names for their characters
 	culture = "heartlander"
 }

@@ -5,7 +5,7 @@
 	culture = "heartlander" #Need to add Aldan Culture
 	trait = education_stewardship_4
 	stewardship = 25
-    isfemale = yes
+    female = yes
 	#father = 145930
 	1040.1.1 = {
 		birth = "820.1.1"
@@ -29,7 +29,7 @@
 
 600202 = {
 	name = "Titanino"
-	dynasty = 30000205 # Saxon
+	dynasty = 30000201 # Saxon
 	religion = "twin_dragon"
 	culture = "heartlander"
 	trait = education_diplomacy_2

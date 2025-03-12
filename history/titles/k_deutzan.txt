@@ -97,3 +97,10 @@ c_AlumHighlands = {
 		liege = 0
 	}
 }
+c_DuckIsland = {
+	867.1.1 = {	change_development_level = 9 }
+	1054.1.1 = {
+		holder = 600078
+		liege = 0
+	}
+}

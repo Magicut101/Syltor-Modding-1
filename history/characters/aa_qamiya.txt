@@ -64,6 +64,8 @@
 	1040.1.1 = {
 		birth = "820.1.1"
 	}
+	female = Yes
+	
 	#dna = 
 }
 
@@ -94,7 +96,7 @@
 
 600070 = {
 	name = "Ishqaji"
-	dyansty = ""
+	dyansty = "30000105" #not right, need to find alternative name
 	religion = "qantifolkway_pantheon"
 	culture = "qanti"
 	trait = education_martial_4

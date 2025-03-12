@@ -19,7 +19,7 @@
 	religion = "tossanism"
 	culture = "carthyan"
 	trait = education_stewardship_4
-  trait = just
+  	trait = just
 	stewardship = 13
 	1020.1.1 = {
 		birth = yes
@@ -33,9 +33,9 @@
 	religion = "bluepheonix"
 	culture = "carthyan"
 	trait = education_stewardship_3
-  trait = just
-  trait = diligent
-  trait = zealous
+  	trait = just
+ 	trait = diligent
+ 	trait = zealous
 	stewardship = 9
 	father = 600022
 	1050.1.1 = {

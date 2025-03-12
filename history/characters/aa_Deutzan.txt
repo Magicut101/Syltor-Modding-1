@@ -68,3 +68,30 @@
 	}
 	#dna = 
 }
+600094 = {
+    name = "Katherineke"
+    dynasty = 30000214
+    religion = "twin_dragon"
+    culture = "deutzani"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	female = yes
+	employer = 600003
+}
+
+600078 = {
+    name = "Anming"
+    dynasty = 30000301
+    religion = "twin_dragon"
+    culture = "ashuran"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	female = yes
+	mother = 600012
+	father = 600047
+    trait = education_learning_4
+    trait = zealous
+	trait = patient
+}

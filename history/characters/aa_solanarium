@@ -1,0 +1,12 @@
+600100 = {
+    name = "Zion"
+    dynasty = 30000007
+    religion = "dandelism" #should be tuberism
+    culture = "solaner"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    female = yes
+    mother = 6000011
+    trait = education_martial_3
+}
