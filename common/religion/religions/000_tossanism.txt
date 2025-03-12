@@ -285,7 +285,7 @@
 
 		bluepheonix = {
 			color = { 7 22 48 }
-			icon = bluepheonix
+			icon = bluepheonix2
 
 			#Main Group
 			doctrine = doctrine_spiritual_head
