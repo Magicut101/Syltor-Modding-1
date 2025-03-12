@@ -27,15 +27,20 @@
 
 600029 = {
 	name = "Geo"
-	dynasty = 30000020 # Shan
+	dynasty = 30000004 # Tossovich
 	religion = "bluepheonix"
 	culture = "remtali"
 	trait = education_learning_4
+	trait = bastard
 	stewardship = 13
-  martial = 5
-	1045.1.1 = {
+	martial = 5
+	1047.1.31 = {
 		birth = yes
 	}
+	1065.1.1 = {
+        add_matrilineal_spouse = 600127  # Shan's ID
+    }
+	father = 600005
 	#dna = 
 }
 
@@ -48,5 +53,23 @@
 	1045.1.1 = {
 		birth = yes
 	}
+	#dna = 
+}
+
+600127 = {
+	name = "Shan"
+	dynasty_house = house_Shan
+	religion = "pheonixtossanist"
+	culture = "dorastterocker"
+	female = yes
+	trait = education_diplomacy_3
+	1050.1.31 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		add_matrilineal_spouse = 600029  # Geo's ID
+	}
+	mother = 600125
+	father = 600126
 	#dna = 
 }

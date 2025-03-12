@@ -1,0 +1,66 @@
+600122 = {
+	name = "Jay"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	1010.1.1 = {
+		birth = yes
+	}
+}
+
+600123 = {
+	name = "Howert"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	1015.1.1 = {
+		birth = yes
+	}
+	father = 600122
+}
+600124 = {
+	name = "Crinky"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	1022.1.1 = {
+		birth = yes
+	}
+	father = 600122
+}
+600125 = {
+	name = "Celine Dion"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	female = yes
+	trait = education_diplomacy_3
+	1030.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		add_matrilineal_spouse = 600126  # Capna's ID
+	}
+	1060.1.1 = {
+		death = yes
+	}
+	#dna = 
+	father = 600123
+}
+600126 = {
+	name = "Capna"
+	dynasty = 30000024 # Azurov
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	1030.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		add_matrilineal_spouse = 600125  # Capna's ID
+	}
+	father = 600033
+}
