@@ -4,7 +4,7 @@
 	religion = "dandelism"
 	culture = "dorastterocker"
 	trait = education_martial_4
-	1010.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
 }
@@ -15,7 +15,7 @@
 	religion = "dandelism"
 	culture = "dorastterocker"
 	trait = education_martial_4
-	1015.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
 	father = 600122
@@ -26,7 +26,7 @@
 	religion = "dandelism"
 	culture = "dorastterocker"
 	trait = education_martial_4
-	1022.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
 	father = 600122
@@ -38,13 +38,13 @@
 	culture = "dorastterocker"
 	female = yes
 	trait = education_diplomacy_3
-	1030.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
-	1045.1.1 = {
+	1060.1.1 = {
 		add_matrilineal_spouse = 600126  # Capna's ID
 	}
-	1060.1.1 = {
+	1063.1.1 = {
 		death = yes
 	}
 	#dna = 
@@ -56,10 +56,10 @@
 	religion = "dandelism"
 	culture = "dorastterocker"
 	trait = education_martial_4
-	1030.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
-	1045.1.1 = {
+	1060.1.1 = {
 		add_matrilineal_spouse = 600125  # Capna's ID
 	}
 	father = 600033
