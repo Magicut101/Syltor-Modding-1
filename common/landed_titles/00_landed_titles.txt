@@ -7109,535 +7109,6 @@ e_aurlunor = {
 		31
 	}
 	capital = c_Lhumar
-	k_taral = {
-		color = {
-			111
-			109
-			198
-		}
-		capital = c_LunwirmarCity
-		d_valdamar = {
-			color = {
-				88
-				127
-				150
-			}
-			capital = c_Valdamar
-			c_VadamarPath = {
-				color = {
-					91
-					109
-					166
-				}
-				b_ValdamarPath1 = {
-					province = 589
-					color = {
-						91
-						109
-						166
-					}
-				}
-				b_ValdamarPath2 = {
-					province = 590
-					color = {
-						103
-						122
-						185
-					}
-				}
-				b_ValdamarPath3 = {
-					province = 591
-					color = {
-						99
-						117
-						176
-					}
-				}
-			}
-			c_SoironRiverFarms = {
-				color = {
-					91
-					125
-					166
-				}
-				b_SoironRiverFarms1 = {
-					province = 592
-					color = {
-						91
-						125
-						166
-					}
-				}
-				b_SoironRiverFarms2 = {
-					province = 593
-					color = {
-						85
-						117
-						157
-					}
-				}
-				b_SoironRiverFarms3 = {
-					province = 594
-					color = {
-						77
-						109
-						149
-					}
-				}
-			}
-			c_NornanField = {
-				color = {
-					65
-					105
-					128
-				}
-				b_NornanField1 = {
-					province = 595
-					color = {
-						65
-						105
-						128
-					}
-				}
-				b_NornanField2 = {
-					province = 596
-					color = {
-						77
-						125
-						149
-					}
-				}
-				b_NornanField3 = {
-					province = 597
-					color = {
-						71
-						115
-						140
-					}
-				}
-			}
-			c_ValdamarLowlands = {
-				color = {
-					84
-					146
-					141
-				}
-				b_ValdamarLowlands1 = {
-					province = 598
-					color = {
-						84
-						146
-						141
-					}
-				}
-				b_ValdamarLowlands2 = {
-					province = 599
-					color = {
-						65
-						126
-						128
-					}
-				}
-				b_ValdamarLowlands3 = {
-					province = 600
-					color = {
-						68
-						135
-						137
-					}
-				}
-			}
-			c_Valdamar = {
-				color = {
-					88
-					127
-					150
-				}
-				b_Valdamar1 = {
-					province = 601
-					color = {
-						88
-						127
-						150
-					}
-				}
-				b_Valdamar2 = {
-					province = 602
-					color = {
-						93
-						135
-						159
-					}
-				}
-				b_Valdamar3 = {
-					province = 603
-					color = {
-						103
-						149
-						175
-					}
-				}
-				b_Valdamar4 = {
-					province = 604
-					color = {
-						99
-						142
-						167
-					}
-				}
-			}
-		}
-		d_natsuragitagi = {
-			color = {
-				111
-				109
-				198
-			}
-			capital = c_NatsuragiTagi
-			c_FornoisianFarms = {
-				color = {
-					89
-					155
-					150
-				}
-				b_FornoisianFarms1 = {
-					province = 605
-					color = {
-						89
-						155
-						150
-					}
-				}
-				b_FornoisianFarms2 = {
-					province = 606
-					color = {
-						93
-						163
-						157
-					}
-				}
-				b_FornoisianFarms3 = {
-					province = 607
-					color = {
-						89
-						145
-						147
-					}
-				}
-				b_FornoisianFarms4 = {
-					province = 608
-					color = {
-						94
-						153
-						155
-					}
-				}
-			}
-			c_NatsuragiTagi = {
-				color = {
-					111
-					109
-					198
-				}
-				b_NatsuragiTagi1 = {
-					province = 609
-					color = {
-						111
-						109
-						198
-					}
-				}
-				b_NatsuragiTagi2 = {
-					province = 610
-					color = {
-						115
-						113
-						206
-					}
-				}
-				b_NatsuragiTagi3 = {
-					province = 611
-					color = {
-						122
-						120
-						217
-					}
-				}
-				b_NatsuragiTagi4 = {
-					province = 612
-					color = {
-						120
-						118
-						216
-					}
-				}
-			}
-			c_ThreeCitiesCross = {
-				color = {
-					67
-					52
-					178
-				}
-				b_ThreeCitiesCross1 = {
-					province = 613
-					color = {
-						67
-						52
-						178
-					}
-				}
-				b_ThreeCitiesCross2 = {
-					province = 614
-					color = {
-						69
-						56
-						165
-					}
-				}
-				b_ThreeCitiesCross3 = {
-					province = 615
-					color = {
-						68
-						56
-						154
-					}
-				}
-			}
-			c_Autepalar = {
-				color = {
-					93
-					104
-					182
-				}
-				b_Autepalar1 = {
-					province = 616
-					color = {
-						93
-						104
-						182
-					}
-				}
-				b_Autepalar2 = {
-					province = 617
-					color = {
-						83
-						93
-						164
-					}
-				}
-				b_Autepalar3 = {
-					province = 618
-					color = {
-						72
-						81
-						150
-					}
-				}
-			}
-		}
-		d_lunwirmar = {
-			color = {
-				100
-				17
-				56
-			}
-			capital = c_LunwirmarCity
-			c_LunwirmarPass = {
-				color = {
-					88
-					21
-					111
-				}
-				b_LunwirmarPass1 = {
-					province = 732
-					color = {
-						88
-						21
-						111
-					}
-				}
-				b_LunwirmarPass2 = {
-					province = 733
-					color = {
-						79
-						17
-						100
-					}
-				}
-			}
-			c_DrakoveinHill = {
-				color = {
-					158
-					75
-					185
-				}
-				b_DrakoveinHill1 = {
-					province = 734
-					color = {
-						158
-						75
-						185
-					}
-				}
-				b_DrakoveinHill2 = {
-					province = 735
-					color = {
-						172
-						83
-						201
-					}
-				}
-				b_DrakoveinHill3 = {
-					province = 736
-					color = {
-						187
-						91
-						218
-					}
-				}
-			}
-			c_LunwirmarCity = {
-				color = {
-					100
-					17
-					56
-				}
-				b_LunwirmarCity1 = {
-					province = 737
-					color = {
-						100
-						17
-						56
-					}
-				}
-				b_LunwirmarCity2 = {
-					province = 738
-					color = {
-						118
-						25
-						69
-					}
-				}
-				b_LunwirmarCity3 = {
-					province = 739
-					color = {
-						95
-						19
-						55
-					}
-				}
-				b_DragonStatue = {
-					province = 588
-					color = {
-						221
-						144
-						157
-					}
-				}
-			}
-			c_TempleOfLunwirmar = {
-				color = {
-					131
-					38
-					60
-				}
-				b_TempleOfLunwirmar1 = {
-					province = 740
-					color = {
-						131
-						38
-						60
-					}
-				}
-				b_TempleOfLunwirmar2 = {
-					province = 741
-					color = {
-						120
-						36
-						56
-					}
-				}
-				b_TempleOfLunwirmar3 = {
-					province = 742
-					color = {
-						107
-						31
-						49
-					}
-				}
-			}
-			c_ArenaOfLunwirmar = {
-				color = {
-					86
-					44
-					51
-				}
-				b_ArenaOfLunwirmar1 = {
-					province = 743
-					color = {
-						86
-						44
-						51
-					}
-				}
-				b_ArenaOfLunwirmar2 = {
-					province = 744
-					color = {
-						138
-						68
-						80
-					}
-				}
-				b_ArenaOfLunwirmar3 = {
-					province = 745
-					color = {
-						164
-						96
-						108
-					}
-				}
-				b_ArenaOfLunwirmar4 = {
-					province = 746
-					color = {
-						184
-						105
-						118
-					}
-				}
-			}
-			c_Grenouille = {
-				color = {
-					11
-					11
-					66
-				}
-				b_Grenouille1 = {
-					province = 627
-					color = {
-						11
-						11
-						66
-					}
-				}
-				b_Grenouille2 = {
-					province = 628
-					color = {
-						13
-						13
-						84
-					}
-				}
-				b_Grenouille3 = {
-					province = 629
-					color = {
-						9
-						9
-						53
-					}
-				}
-			}
-		}
-	}
 	k_dun = {
 		color = {
 			58
@@ -8002,231 +7473,6 @@ e_aurlunor = {
 				}
 			}
 		}
-	}
-	k_maerun = {
-		color = {
-			187
-			189
-			39
-		}
-		capital = c_Maerun
-		d_maerun = {
-			color = {
-				187
-				189
-				39
-			}
-			capital = c_Maerun
-			c_Maerun = {
-				color = {
-					181
-					183
-					37
-				}
-				b_Maerun1 = {
-					province = 655
-					color = {
-						181
-						183
-						37
-					}
-				}
-				b_Maerun2 = {
-					province = 656
-					color = {
-						167
-						169
-						31
-					}
-				}
-				b_Maerun3 = {
-					province = 657
-					color = {
-						161
-						163
-						27
-					}
-				}
-			}
-			c_Yongliang = {
-				color = {
-					202
-					176
-					29
-				}
-				b_Yongliang1 = {
-					province = 658
-					color = {
-						202
-						176
-						29
-					}
-				}
-				b_Yongliang2 = {
-					province = 659
-					color = {
-						221
-						193
-						40
-					}
-				}
-			}
-			c_YongliangFarms = {
-				color = {
-					145
-					98
-					24
-				}
-				b_YongliangFarms1 = {
-					province = 660
-					color = {
-						206
-						180
-						36
-					}
-				}
-				b_YongliangFarms2 = {
-					province = 661
-					color = {
-						121
-						83
-						23
-					}
-				}
-				b_YongliangFarms3 = {
-					province = 662
-					color = {
-						136
-						92
-						23
-					}
-				}
-			}
-			c_ChunSpring = {
-				color = {
-					231
-					233
-					58
-				}
-				b_ChunSpring1 = {
-					province = 663
-					color = {
-						231
-						233
-						58
-					}
-				}
-				b_ChunSpring2 = {
-					province = 664
-					color = {
-						236
-						238
-						57
-					}
-				}
-			}
-			c_SteppeOfMaerun = {
-				color = {
-					145
-					118
-					24
-				}
-				b_SteppeOfMaerun1 = {
-					province = 805
-					color = {
-						145
-						118
-						24
-					}
-				}
-				b_SteppeOfMaerun2 = {
-					province = 806
-					color = {
-						123
-						99
-						16
-					}
-				}
-				b_SteppeOfMaerun3 = {
-					province = 807
-					color = {
-						128
-						103
-						18
-					}
-				}
-			}
-			c_FarmingRiver = {
-				color = {
-					164
-					143
-					29
-				}
-				b_FarmingRiver1 = {
-					province = 808
-					color = {
-						164
-						143
-						29
-					}
-				}
-				b_FarmingRiver2 = {
-					province = 809
-					color = {
-						145
-						126
-						24
-					}
-				}
-				b_FarmingRiver3 = {
-					province = 810
-					color = {
-						153
-						133
-						25
-					}
-				}
-			}
-			c_ChunHotsprings = {
-				color = {
-					210
-					212
-					28
-				}
-				b_ChunHotSprings1 = {
-					province = 811
-					color = {
-						210
-						212
-						28
-					}
-				}
-				b_ChunHotSprings2 = {
-					province = 812
-					color = {
-						200
-						202
-						29
-					}
-				}
-				b_ChunHotSprings3 = {
-					province = 813
-					color = {
-						193
-						195
-						29
-					}
-				}
-			}
-		}
-	}
-	k_melwende = {
-		color = {
-			99
-			74
-			139
-		}
-		capital = c_GhurenTown
 		d_melwende = {
 			color = {
 				99
@@ -8678,13 +7924,222 @@ e_aurlunor = {
 			}
 		}
 	}
-	k_arasel = {
+	k_maerun = {
 		color = {
-			144
-			172
-			154
+			187
+			189
+			39
 		}
-		capital = c_DrakoMoindre
+		capital = c_Maerun
+		d_maerun = {
+			color = {
+				187
+				189
+				39
+			}
+			capital = c_Maerun
+			c_Maerun = {
+				color = {
+					181
+					183
+					37
+				}
+				b_Maerun1 = {
+					province = 655
+					color = {
+						181
+						183
+						37
+					}
+				}
+				b_Maerun2 = {
+					province = 656
+					color = {
+						167
+						169
+						31
+					}
+				}
+				b_Maerun3 = {
+					province = 657
+					color = {
+						161
+						163
+						27
+					}
+				}
+			}
+			c_Yongliang = {
+				color = {
+					202
+					176
+					29
+				}
+				b_Yongliang1 = {
+					province = 658
+					color = {
+						202
+						176
+						29
+					}
+				}
+				b_Yongliang2 = {
+					province = 659
+					color = {
+						221
+						193
+						40
+					}
+				}
+			}
+			c_YongliangFarms = {
+				color = {
+					145
+					98
+					24
+				}
+				b_YongliangFarms1 = {
+					province = 660
+					color = {
+						206
+						180
+						36
+					}
+				}
+				b_YongliangFarms2 = {
+					province = 661
+					color = {
+						121
+						83
+						23
+					}
+				}
+				b_YongliangFarms3 = {
+					province = 662
+					color = {
+						136
+						92
+						23
+					}
+				}
+			}
+			c_ChunSpring = {
+				color = {
+					231
+					233
+					58
+				}
+				b_ChunSpring1 = {
+					province = 663
+					color = {
+						231
+						233
+						58
+					}
+				}
+				b_ChunSpring2 = {
+					province = 664
+					color = {
+						236
+						238
+						57
+					}
+				}
+			}
+			c_SteppeOfMaerun = {
+				color = {
+					145
+					118
+					24
+				}
+				b_SteppeOfMaerun1 = {
+					province = 805
+					color = {
+						145
+						118
+						24
+					}
+				}
+				b_SteppeOfMaerun2 = {
+					province = 806
+					color = {
+						123
+						99
+						16
+					}
+				}
+				b_SteppeOfMaerun3 = {
+					province = 807
+					color = {
+						128
+						103
+						18
+					}
+				}
+			}
+			c_FarmingRiver = {
+				color = {
+					164
+					143
+					29
+				}
+				b_FarmingRiver1 = {
+					province = 808
+					color = {
+						164
+						143
+						29
+					}
+				}
+				b_FarmingRiver2 = {
+					province = 809
+					color = {
+						145
+						126
+						24
+					}
+				}
+				b_FarmingRiver3 = {
+					province = 810
+					color = {
+						153
+						133
+						25
+					}
+				}
+			}
+			c_ChunHotsprings = {
+				color = {
+					210
+					212
+					28
+				}
+				b_ChunHotSprings1 = {
+					province = 811
+					color = {
+						210
+						212
+						28
+					}
+				}
+				b_ChunHotSprings2 = {
+					province = 812
+					color = {
+						200
+						202
+						29
+					}
+				}
+				b_ChunHotSprings3 = {
+					province = 813
+					color = {
+						193
+						195
+						29
+					}
+				}
+			}
+		}
 		d_drakomoindre = {
 			color = {
 				144
@@ -9606,6 +9061,527 @@ e_aurlunor = {
 						68
 						108
 						150
+					}
+				}
+			}
+		}
+		d_valdamar = {
+			color = {
+				88
+				127
+				150
+			}
+			capital = c_Valdamar
+			c_VadamarPath = {
+				color = {
+					91
+					109
+					166
+				}
+				b_ValdamarPath1 = {
+					province = 589
+					color = {
+						91
+						109
+						166
+					}
+				}
+				b_ValdamarPath2 = {
+					province = 590
+					color = {
+						103
+						122
+						185
+					}
+				}
+				b_ValdamarPath3 = {
+					province = 591
+					color = {
+						99
+						117
+						176
+					}
+				}
+			}
+			c_SoironRiverFarms = {
+				color = {
+					91
+					125
+					166
+				}
+				b_SoironRiverFarms1 = {
+					province = 592
+					color = {
+						91
+						125
+						166
+					}
+				}
+				b_SoironRiverFarms2 = {
+					province = 593
+					color = {
+						85
+						117
+						157
+					}
+				}
+				b_SoironRiverFarms3 = {
+					province = 594
+					color = {
+						77
+						109
+						149
+					}
+				}
+			}
+			c_NornanField = {
+				color = {
+					65
+					105
+					128
+				}
+				b_NornanField1 = {
+					province = 595
+					color = {
+						65
+						105
+						128
+					}
+				}
+				b_NornanField2 = {
+					province = 596
+					color = {
+						77
+						125
+						149
+					}
+				}
+				b_NornanField3 = {
+					province = 597
+					color = {
+						71
+						115
+						140
+					}
+				}
+			}
+			c_ValdamarLowlands = {
+				color = {
+					84
+					146
+					141
+				}
+				b_ValdamarLowlands1 = {
+					province = 598
+					color = {
+						84
+						146
+						141
+					}
+				}
+				b_ValdamarLowlands2 = {
+					province = 599
+					color = {
+						65
+						126
+						128
+					}
+				}
+				b_ValdamarLowlands3 = {
+					province = 600
+					color = {
+						68
+						135
+						137
+					}
+				}
+			}
+			c_Valdamar = {
+				color = {
+					88
+					127
+					150
+				}
+				b_Valdamar1 = {
+					province = 601
+					color = {
+						88
+						127
+						150
+					}
+				}
+				b_Valdamar2 = {
+					province = 602
+					color = {
+						93
+						135
+						159
+					}
+				}
+				b_Valdamar3 = {
+					province = 603
+					color = {
+						103
+						149
+						175
+					}
+				}
+				b_Valdamar4 = {
+					province = 604
+					color = {
+						99
+						142
+						167
+					}
+				}
+			}
+		}
+		d_natsuragitagi = {
+			color = {
+				111
+				109
+				198
+			}
+			capital = c_NatsuragiTagi
+			c_FornoisianFarms = {
+				color = {
+					89
+					155
+					150
+				}
+				b_FornoisianFarms1 = {
+					province = 605
+					color = {
+						89
+						155
+						150
+					}
+				}
+				b_FornoisianFarms2 = {
+					province = 606
+					color = {
+						93
+						163
+						157
+					}
+				}
+				b_FornoisianFarms3 = {
+					province = 607
+					color = {
+						89
+						145
+						147
+					}
+				}
+				b_FornoisianFarms4 = {
+					province = 608
+					color = {
+						94
+						153
+						155
+					}
+				}
+			}
+			c_NatsuragiTagi = {
+				color = {
+					111
+					109
+					198
+				}
+				b_NatsuragiTagi1 = {
+					province = 609
+					color = {
+						111
+						109
+						198
+					}
+				}
+				b_NatsuragiTagi2 = {
+					province = 610
+					color = {
+						115
+						113
+						206
+					}
+				}
+				b_NatsuragiTagi3 = {
+					province = 611
+					color = {
+						122
+						120
+						217
+					}
+				}
+				b_NatsuragiTagi4 = {
+					province = 612
+					color = {
+						120
+						118
+						216
+					}
+				}
+			}
+			c_ThreeCitiesCross = {
+				color = {
+					67
+					52
+					178
+				}
+				b_ThreeCitiesCross1 = {
+					province = 613
+					color = {
+						67
+						52
+						178
+					}
+				}
+				b_ThreeCitiesCross2 = {
+					province = 614
+					color = {
+						69
+						56
+						165
+					}
+				}
+				b_ThreeCitiesCross3 = {
+					province = 615
+					color = {
+						68
+						56
+						154
+					}
+				}
+			}
+			c_Autepalar = {
+				color = {
+					93
+					104
+					182
+				}
+				b_Autepalar1 = {
+					province = 616
+					color = {
+						93
+						104
+						182
+					}
+				}
+				b_Autepalar2 = {
+					province = 617
+					color = {
+						83
+						93
+						164
+					}
+				}
+				b_Autepalar3 = {
+					province = 618
+					color = {
+						72
+						81
+						150
+					}
+				}
+			}
+		}
+		d_lunwirmar = {
+			color = {
+				100
+				17
+				56
+			}
+			capital = c_LunwirmarCity
+			c_LunwirmarPass = {
+				color = {
+					88
+					21
+					111
+				}
+				b_LunwirmarPass1 = {
+					province = 732
+					color = {
+						88
+						21
+						111
+					}
+				}
+				b_LunwirmarPass2 = {
+					province = 733
+					color = {
+						79
+						17
+						100
+					}
+				}
+			}
+			c_DrakoveinHill = {
+				color = {
+					158
+					75
+					185
+				}
+				b_DrakoveinHill1 = {
+					province = 734
+					color = {
+						158
+						75
+						185
+					}
+				}
+				b_DrakoveinHill2 = {
+					province = 735
+					color = {
+						172
+						83
+						201
+					}
+				}
+				b_DrakoveinHill3 = {
+					province = 736
+					color = {
+						187
+						91
+						218
+					}
+				}
+			}
+			c_LunwirmarCity = {
+				color = {
+					100
+					17
+					56
+				}
+				b_LunwirmarCity1 = {
+					province = 737
+					color = {
+						100
+						17
+						56
+					}
+				}
+				b_LunwirmarCity2 = {
+					province = 738
+					color = {
+						118
+						25
+						69
+					}
+				}
+				b_LunwirmarCity3 = {
+					province = 739
+					color = {
+						95
+						19
+						55
+					}
+				}
+				b_DragonStatue = {
+					province = 588
+					color = {
+						221
+						144
+						157
+					}
+				}
+			}
+			c_TempleOfLunwirmar = {
+				color = {
+					131
+					38
+					60
+				}
+				b_TempleOfLunwirmar1 = {
+					province = 740
+					color = {
+						131
+						38
+						60
+					}
+				}
+				b_TempleOfLunwirmar2 = {
+					province = 741
+					color = {
+						120
+						36
+						56
+					}
+				}
+				b_TempleOfLunwirmar3 = {
+					province = 742
+					color = {
+						107
+						31
+						49
+					}
+				}
+			}
+			c_ArenaOfLunwirmar = {
+				color = {
+					86
+					44
+					51
+				}
+				b_ArenaOfLunwirmar1 = {
+					province = 743
+					color = {
+						86
+						44
+						51
+					}
+				}
+				b_ArenaOfLunwirmar2 = {
+					province = 744
+					color = {
+						138
+						68
+						80
+					}
+				}
+				b_ArenaOfLunwirmar3 = {
+					province = 745
+					color = {
+						164
+						96
+						108
+					}
+				}
+				b_ArenaOfLunwirmar4 = {
+					province = 746
+					color = {
+						184
+						105
+						118
+					}
+				}
+			}
+			c_Grenouille = {
+				color = {
+					11
+					11
+					66
+				}
+				b_Grenouille1 = {
+					province = 627
+					color = {
+						11
+						11
+						66
+					}
+				}
+				b_Grenouille2 = {
+					province = 628
+					color = {
+						13
+						13
+						84
+					}
+				}
+				b_Grenouille3 = {
+					province = 629
+					color = {
+						9
+						9
+						53
 					}
 				}
 			}
