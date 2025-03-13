@@ -59,7 +59,10 @@
 	trait = education_learning_4
 	trait = bastard
 	stewardship = 13
-	martial = 5
+	martial = 15
+	learning = 13
+	diplomacy = 15
+	
 	1047.1.31 = {
 		birth = yes
 	}
