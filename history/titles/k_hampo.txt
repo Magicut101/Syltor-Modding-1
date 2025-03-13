@@ -1,6 +1,5 @@
 k_hampo = {
 	1054.1.1 = {
-		holder = 600039 
 		} #Maalgi
 }
 

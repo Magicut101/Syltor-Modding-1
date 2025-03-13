@@ -3,7 +3,19 @@ k_cornedaofjordlands = {
     1054.1.1 = {
         holder = 600070 #Ancestor of the original Qanti tribe that unified the region
     }
-    government = tribal
+}
+d_sarlatova = {
+    867.1.1 = {	change_development_level = 3 }
+    1054.1.1 = {
+        holder = 600070 #Ancestor of the original Qanti tribe that unified the region
+    }
+}
+
+d_lavar = {
+        867.1.1 = {	change_development_level = 4 }
+        1054.1.1 = {
+            holder = 600070 #Ancestor of the original Qanti tribe that unified the region
+        }
 }
 c_Kittarius = {
     1054.1.1 = {
