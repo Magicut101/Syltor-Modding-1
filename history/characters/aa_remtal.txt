@@ -4,17 +4,29 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_stewardship_2
-  trait = zealous
+	trait = zealous
 	stewardship = 7
 	1033.1.1 = {
 		birth = yes
 	}
 	#dna = 
 }
+600132 = {
+	name = "Brett"
+	dynasty = 30000009 # Liberium
+	religion = "tossanism"
+	culture = "remtali"
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
 
 600028 = {
 	name = "Tavin"
-	dynasty = 30000019 # Chernik
+	dynasty_house = house_Chernik # Chernik
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_stewardship_2
@@ -22,20 +34,39 @@
 	1045.1.1 = {
 		birth = yes
 	}
+	father = 600132
+	#dna = 
+}
+600131 = {
+	name = "Brett"
+	dynasty_house = house_Chernik # Chernik
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_stewardship_2
+	stewardship = 7
+	1065.1.1 = {
+		birth = yes
+	}
+	father = 600028
 	#dna = 
 }
 
 600029 = {
 	name = "Geo"
-	dynasty = 30000020 # Shan
+	dynasty = 30000004 # Tossovich
 	religion = "bluepheonix"
 	culture = "remtali"
 	trait = education_learning_4
+	trait = bastard
 	stewardship = 13
-  martial = 5
-	1045.1.1 = {
+	martial = 5
+	1047.1.31 = {
 		birth = yes
 	}
+	1065.1.1 = {
+        add_matrilineal_spouse = 600127  # Shan's ID
+    }
+	father = 600005
 	#dna = 
 }
 
@@ -45,8 +76,29 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_martial_1
+	diplomacy = 0
+	intrigue = 0
+	father = 600132
 	1045.1.1 = {
 		birth = yes
 	}
+	#dna = 
+}
+
+600127 = {
+	name = "Shan"
+	dynasty_house = house_Shan
+	religion = "pheonixtossanist"
+	culture = "dorastterocker"
+	female = yes
+	trait = education_diplomacy_3
+	1050.1.31 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		add_matrilineal_spouse = 600029  # Geo's ID
+	}
+	mother = 600125
+	father = 600126
 	#dna = 
 }

@@ -6,10 +6,10 @@
 	trait = education_martial_3
 	stewardship = 9
 	martial = 10
-	#father = 145930
 	1032.1.1 = {
 		birth = "824.1.1"
 	}
+	father = 600132
 	#dna = 
 }
 
@@ -33,7 +33,7 @@
 	religion = "tossanism"
 	culture = "balreskan"
 	trait = education_martial_3
-  martial = 5
+	martial = 5
 	1045.1.1 = {
 		birth = yes
 	}
