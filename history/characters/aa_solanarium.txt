@@ -8,5 +8,5 @@
     }
     female = yes
     mother = 6000011
-    trait = education_martial_3
+    trait = education_diplomacy_3
 }
