@@ -4,12 +4,24 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_stewardship_2
-  trait = zealous
+	trait = zealous
 	stewardship = 7
 	1033.1.1 = {
 		birth = yes
 	}
 	#dna = 
+}
+600132 = {
+	name = "Brett"
+	dynasty = 30000009 # Liberium
+	religion = "tossanism"
+	culture = "remtali"
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
 }
 
 600028 = {
@@ -22,6 +34,7 @@
 	1045.1.1 = {
 		birth = yes
 	}
+	father = 600132
 	#dna = 
 }
 600131 = {
@@ -63,6 +76,9 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_martial_1
+	diplomacy = -6
+	intrigue = -1
+	father = 600132
 	1045.1.1 = {
 		birth = yes
 	}
