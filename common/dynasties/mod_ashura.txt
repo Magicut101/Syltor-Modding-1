@@ -1,4 +1,18 @@
 ﻿
+
+30000218 = {
+	name = "dynn_Shaer"
+	culture = "ashuran"
+}
+
+#Khamens
+
+30000219 = {
+	name = "dynn_Khamen"
+	culture = "ashuran"
+}
+
+
 #Tyalu
 
 30000100 = {
@@ -46,3 +60,4 @@
     name = "dynn_Ishqaji"
     culture = "qanti"
 }
+

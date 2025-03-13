@@ -1,6 +1,6 @@
 600049 = {
 	name = "Nefer"
-	dynasty = 30000013 # khamen
+	dynasty = 30000219 # khamen
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
 	trait = education_stewardship_4
