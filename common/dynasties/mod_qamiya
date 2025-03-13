@@ -1,0 +1,11 @@
+30000012 = {
+	name = "dynn_Shaer"
+	culture = "ashuran"
+}
+
+#Khamens
+
+30000013 = {
+	name = "dynn_Khamen"
+	culture = "ashuran"
+}
