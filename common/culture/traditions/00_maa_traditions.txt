@@ -458,6 +458,7 @@ tradition_Oathbound_Order = {
 	}
 	parameters = { 
 		unlock_maa_oathbound = yes 
+		unlock_maa_spellweaver = yes 
 	}
 	
 	cost = {

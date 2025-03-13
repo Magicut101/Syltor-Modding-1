@@ -8,6 +8,7 @@
  tradition_vologdan_knights_name:0 "Vologdan Knights"
  tradition_vologdan_knights_desc:0 "the order of Vologdan knights has taken over most of vologdan society."
 
+ culture_parameter_unlock_maa_spellweaver:0 "Can recruit [GetMaA('spellweaver').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_oathbound:0 "Can recruit [GetMaA('oathbound').GetName] as [men_at_arms|E]"
  tradition_Oathbound_Order_name:0 "Oathbound Order"
  tradition_Oathbound_Order_desc:0 "Souls of xaburya's fallen woh forsake their afterlife to walk again as suits of hollow defenders of their people."
