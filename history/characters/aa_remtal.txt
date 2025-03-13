@@ -76,8 +76,8 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_martial_1
-	diplomacy = -6
-	intrigue = -1
+	diplomacy = 0
+	intrigue = 0
 	father = 600132
 	1045.1.1 = {
 		birth = yes
