@@ -1,9 +1,10 @@
 ﻿lunatwa_religion = {
-	family = rf_eastern #rf_lunatwa : perhaps?
+	family = rf_eastern
 	doctrine = eastern_hostility_doctrine
 	#graphical_faith = dharmic_gfx
 
 	#Main Group
+	doctrine = special_doctrine_is_eastern_faith
 	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_gender_female_dominated
 	doctrine = doctrine_pluralism_fundamentalist
@@ -289,7 +290,7 @@
 		almadorian = {
 			color = { 15 30 120 }
 			icon = celestial
-			reformed_icon = akanism_reformed
+			reformed_icon = celestial
 
 			doctrine = reformed_faith_doctrine
 
