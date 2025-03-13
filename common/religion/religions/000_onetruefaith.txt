@@ -221,7 +221,7 @@
 			color = { 0.8 0.8 0.6 }
 			religious_head = d_vologdan_knighthood
 			graphical_faith = "catholic_gfx"
-			icon = onetruefaith
+			icon = onetruefaith2
 			holy_site = vologda
 
 			
