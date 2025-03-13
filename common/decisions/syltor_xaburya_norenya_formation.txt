@@ -54,7 +54,7 @@ form_norenya_decision_decision = {
 		is_landed = yes
 		is_capable_adult = yes
 		is_imprisoned = no
-    has_title = title:d_xaburya
+    #has_title = title:d_xaburya
 	}
 
 	effect = {

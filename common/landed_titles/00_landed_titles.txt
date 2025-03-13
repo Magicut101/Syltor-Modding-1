@@ -2,6 +2,22 @@
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 
+d_xaburya_grandmaster = {
+		color = {
+		0
+		35
+		95
+	}
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	landless = yes
+	capital = c_Xaburya
+}
+
 d_vologdan_knighthood = {
 	color = {
 		165
@@ -3058,6 +3074,7 @@ e_ashura = {
 	}
 
 e_ryzan = {
+	can_be_named_after_dynasty = no
 	color = {
 		12
 		64
@@ -3070,10 +3087,12 @@ e_ryzan = {
 			71
 			252
 		}
+		if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
 		capital = c_Xaburya
 	}
 
 	k_deutzan = {
+		can_be_named_after_dynasty = no
 		cultural_names = {
 			name_list_greek = cn_syrosi_empire
 			name_list_han = cn_malyan
@@ -3631,6 +3650,7 @@ e_ryzan = {
 		}
 	}
 	k_tossagrad = {
+		can_be_named_after_dynasty = no
 		color = {
 			0
 			10
@@ -4070,6 +4090,7 @@ e_ryzan = {
 		}
 	}
 	k_carthya = {
+		can_be_named_after_dynasty = no
 		color = {
 			0
 			150
@@ -4653,6 +4674,10 @@ e_ryzan = {
 			}
 		}
 		d_xaburya = {
+			# makes it more likely for xaburyans to use this title
+			if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
+
+			can_be_named_after_dynasty = no
 			color = {
 				0
 				25
@@ -4903,6 +4928,7 @@ e_ryzan = {
 		}
 	}
 	k_vologda = {
+		can_be_named_after_dynasty = no
 		capital = c_Vologda
 		color = {
 			73

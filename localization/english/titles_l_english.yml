@@ -80,6 +80,8 @@ d_nuovarosa:0 "Eastreach"
 
 #Ryzan
 
+d_xaburya_grandmaster:0 "Xaburyan Grand Bishopric"
+
 d_liberium:0 "Highguard"
 d_remtal:0 "Remtal"
 d_gekan:0 "Genkan"
@@ -107,74 +109,16 @@ d_syros:0 "Syros"
 d_haegiel:0 "Haegiel"
 d_balreska:0 "Balreska"
 
-c_Tossagrad:0 "Tossagrad"
-
-c_coopers_landing:0 "Coopers Landing"
-c_Tsarogrod:0 "Forsickle Forest"
-c_Tsarograd:0 "Hallovire"
-c_Nebskograd:0 "Nebskogrod"
-c_Xaburya:0 "Xaburya"
 b_Xaburya1:0 "Xaburya"
+b_Xaburya5:0 "Loricyi"
 b_Xaburya2:0 "Minorin"
-c_Carthya:0 "Carthya"
-c_nova_balreska:0 "Nova Balreska"
-
-c_orenia:0 "Orenia"
+b_Liberium2:0 "Ornarium"
+b_Haegiel:0 "Haegiel"
 c_orenia_adj:0 "Orenian"
 
-c_NovyiKalyniv:0 "Turiya"
-c_Skalati:0 "Vierik"
-c_StaryiSambir:0 "Kopativir"
-c_Khyriv:0 "Mount Avimir"
-c_Chudniv:0 "twinevir"
+b_Erebor2:0 "Oriborn"
+b_CarthyaCity3:0 "Marinya"
 
-c_BakusForest:0 "Baku's Forest"
-c_AngelsPeak:0 "Angel's Peak"
-c_RaphieIsle:0 "Rykea"
-
-c_neuheim:0 "Neuheim"
-c_verkhnya:0 "Verknya"
-c_slime_host:0 "Slime Host"
-c_Volkoregrod:0 "Volkoregrod"
-c_Azurov:0 "Azurov"
-c_Bjornsnull:0 "Bjornsull"
-c_Erebor:0 "Erebor"
-c_FortErebor:0 "Verorin"
-c_astor:0 "Astor"
-c_khirov:0 "Khirov"
-c_sovogrod:0 "Sovogrod"
-c_DuristBog:0 "Durstoog"
-c_BalreskPik:0 "Balrespik"
-c_darrowgrod:0 "Darrowgrod"
-c_Balreska:0 "Balreska"
-c_Haegiel:0 "Haegiel"
-c_Mocogrod:0 "Mocogrod"
-c_DuckIsland:0 "Duck Island"
-c_Tossaroki:0 "Tossaroki"
-c_ForeignQuarter:0 "Foreign Quarter"
-c_Tonton:0 "Tonton"
-c_ShanPark:0 "Sanpari"
-c_RavenHills:0 "Ravenhill"
-c_heimsk:0 "Heimsk"
-c_luxor:0 "Luxor"
-c_Syros:0 "Syros"
-c_nadzjieja:0 "Lawrinos"
-c_HaegielPass:0 "Wandiel"
-c_SouthernHaegiel:0 "Lower Haegiel"
-c_AlumBadlands:0 "Daskar"
-c_DeutzanHill:0 "Rötesoi"
-c_coopers_landing:0 "Coopers Landing"
-c_AlumHighlands:0 "Volomūr"
-c_Remtal:0 "Remtal"
-c_GekanBay:0 "Genkan Bay"
-c_Torchtown:0 "Torch Town"
-c_ClockworkCity:0 "Clockwork Citadel"
-c_Liberium:0 "Liberium"
-c_Zoromir:0 "Zoromir"
-c_Stoyanka:0 "Stoyanka"
-c_Nepik:0 "Nepik"
-c_Slouttawa:0 "Slouttawa"
-c_NovogrodCity:0 "Novogrod"
 # tamaka
 
 d_kaluko:0 "Kaluko"
@@ -201,17 +145,11 @@ d_fortlingrewe:0 "Fort Lingrewe"
 d_karneihua:0 "Karneihua"
 d_linyemar:0 "Luyangmar"
 
-c_dun:0 "Dun"
 c_dun_adj:0 "Dunish"
-
-c_Maerun:0 "Maerun"
-c_Maerun:0 "Maerunei"
-
-c_TheLilyPad:0 "Lilypad"
-
-c_Umbravien:0 "Umbravien"
+c_Maerun_adj:0 "Maerunei"
 c_Umbravien_adj:0 "Umbravite"
 
+b_NantianMonastary1:0 "Nantian Monastary"
 
 #Ashura
 d_northernriver:0 "Northern River"
@@ -236,19 +174,6 @@ d_khamen:0 "Khamen"
 d_yenedu:0 "Yenedu"
 d_tahat:0 "Tahat"
 
-# sneedistans
-c_nabutanmanors:0 "Khamen Estate"
-c_FortGaneffevia:0 "Fort Ganeffvia"
-c_Tahat:0 "Tahat"
-c_Chichiltik:0 "Chichiltik"
-c_Gehirn:0 "Gehirn"
-c_Alum:0 "Alum"
-
-# ereket
-c_MinaAlMal:0 "Minaalmal"
-
-c_Ersiualmirsikh:0 "Ersiualmirsikh"
-c_AesperiiSenebu:0 "Aesperiisenebu"
 # Hampo
 d_pripyat:0 "Pripyat"
 d_ruscon:0 "Ruscon"
@@ -266,29 +191,7 @@ d_morcoronor:0 "Morcoronor"
 
 d_vologdan_knighthood:0 "Vologdan Knighthood"
 
-c_Vologda:0 "Vologda"
-c_Vologda_adj:0 "Vologdan"
-c_NorthVologda:0 "Northern Vologda"
-c_PheonoxianExodus:0 "Phoenixian Exodus"
-c_VologdanMarshes:0 "Vologdan Marsh"
-c_Spurdo_Tower:0 "Spurdo's Tower"
-
 b_Spurdo_Tower:0 "Spurdo's Tower"
-
-c_lhumar:0 "Lhumar"
-
-c_Hloamar:0 "Hloamar"
-
-c_Kaluko:0 "Kaluko"
-c_nekomar:0 "Nekomar"
-c_NantianMonastary:0 "Nantian Monastary"
-c_Zalisko:0 "Zaliskrow"
-c_Que:0 "Que"
-c_Baylis:0 "Baylis"
-c_Ajmenkol:0 "Ajmenkol"
-c_Levanese:0 "Levanese"
-
-c_Qamiya:0 "Qamiya"
 
 #Yulara
 
@@ -309,8 +212,6 @@ d_khaset:0 "Khaset"
 d_abaton:0 "Abaton"
 d_poiaborrea:0 "Poiaborrea"
 d_aragon:0 "Aragon"
-
-c_Dragoonios:0 "Dragoonios"
 
 #Viridia
 

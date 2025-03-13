@@ -33,12 +33,17 @@ c_AngelsPeak = {
 }
 
 # Javorn
+
 d_xaburya = {
 	867.1.1 = {	change_development_level = 5 }
 
 	1054.1.1 = {
 	  holder = 600025
 	}
+}
+
+d_xaburya_grandmaster = {
+	1054.1.1 = { holder = 600025}
 }
 
 c_Xaburya = {
