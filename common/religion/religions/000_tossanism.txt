@@ -31,11 +31,6 @@
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
-	traits = {
-		virtues = { forgiving vengeful calm just }
-		sins = { deceitful gluttonous lazy greedy }
-	}
-
 	#reserved_male_names = {	}
 	#reserved_female_names = { }
 
@@ -224,12 +219,12 @@
 			holy_site = tossagrad
 			holy_site = nova_balreska
 			holy_site = haegiel
-
 			
 			#Special Tolerance
 			#doctrine = special_doctrine_ecumenical_christian
 
 			#Tenets
+			doctrine = special_doctrine_is_tossanist_faith
 			doctrine = tenet_pentarchy
 			doctrine = tenet_legalism
 			doctrine = tenet_ancestor_worship
@@ -287,6 +282,7 @@
 			color = { 7 22 48 }
 			icon = bluepheonix2
 
+			doctrine = special_doctrine_is_bluephoenix_faith
 			#Main Group
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_pluralism_fundamentalist
@@ -306,10 +302,7 @@
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_unrelenting_faith
 			
-			traits = {
-				virtues = { compassionate just generous }
-				sins = { sadistic greedy vengeful }
-			}
+
 		}
 
 		pheonixtossanist = {
@@ -334,12 +327,8 @@
 			doctrine = tenet_eastern_syncretism
 			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_inner_journey
-			
-			traits = {
-				virtues = { calm compassionate ambitious
-				}
-				sins = { sadistic greedy callous }
-			}
+
+			doctrine = special_doctrine_is_phoenixtossanist_faith
 		}
 	}
 

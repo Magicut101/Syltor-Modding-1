@@ -220,7 +220,7 @@
 			color = { 50 40 135 }
 			religious_head = d_xaburya_grandmaster
 			graphical_faith = "catholic_gfx"
-			icon = xaburya_spirit
+			icon = xaburyafaith
 			holy_site = xaburya
 			holy_site = erebor
 			holy_site = carthya

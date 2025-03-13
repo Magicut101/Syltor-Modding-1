@@ -225,8 +225,8 @@ dandelism_religion = {
 			doctrine = reformed_faith_doctrine
 
 			traits = {
-				virtues = { calm compassionate forgiving wiseman }
-				sins = { vengeful august ambitious wrathful }
+				virtues = { calm compassionate content diligent }
+				sins = { vengeful wrathful ambitious sadistic }
 			}
 				doctrine = doctrine_adultery_men_shunned
 				doctrine = doctrine_kinslaying_familial_kin_crime
@@ -234,6 +234,24 @@ dandelism_religion = {
 				doctrine = tenet_adaptive
 				doctrine = tenet_legalism
 				doctrine = tenet_ritual_celebrations
+
+				doctrine = doctrine_spiritual_head
+				doctrine = doctrine_gender_female_dominated
+
+			#Marriage
+				doctrine = doctrine_divorce_disallowed
+				doctrine = doctrine_bastardry_legitimization
+				doctrine = doctrine_consanguinity_cousins
+
+			#Crimes
+				doctrine = doctrine_adultery_men_crime
+				doctrine = doctrine_adultery_women_accepted
+				doctrine = doctrine_kinslaying_any_dynasty_member_crime
+				doctrine = doctrine_deviancy_accepted
+
+			#Clerical Functions
+				doctrine = doctrine_clerical_function_alms_and_pacification
+				doctrine = doctrine_clerical_gender_female_only
 		}
 
 		consumer_dandelism = {
@@ -244,15 +262,51 @@ dandelism_religion = {
 			doctrine = reformed_faith_doctrine
 
 			traits = {
-				virtues = { cynical arbitrary greedy  }
-				sins = { vengeful ambitious generous }
+				virtues = { gregarious diligent greedy  }
+				sins = { wrathful impatient generous }
+			}
+				doctrine = tenet_adaptive
+				doctrine = tenet_hedonistic
+				doctrine = tenet_ritual_hospitality
+
+				doctrine = doctrine_spiritual_head
+				doctrine = doctrine_pluralism_righteous
+				doctrine = doctrine_consanguinity_cousins
+				doctrine = doctrine_homosexuality_shunned
+				doctrine = doctrine_deviancy_crime
+				doctrine = doctrine_adultery_women_crime
+				doctrine = doctrine_adultery_men_shunned
+				doctrine = doctrine_kinslaying_any_dynasty_member_crime
+				doctrine = doctrine_clerical_function_alms_and_pacification
+				doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+		}
+
+		diplo_dandelism = {
+			color = { 0 102 204 }
+			icon = consumerdandelism
+			reformed_icon = consumerdandelism
+
+			doctrine = reformed_faith_doctrine
+
+			traits = {
+				virtues = { just trusting compassionate  }
+				sins = { vengeful cynical callous }
 			}
 				doctrine = doctrine_adultery_men_shunned
 				doctrine = doctrine_kinslaying_familial_kin_crime
 
-				doctrine = tenet_adaptive
-				doctrine = tenet_hedonistic
-				doctrine = tenet_ritual_hospitality
+				doctrine = tenet_communion
+				doctrine = tenet_legalism
+				doctrine = tenet_religious_legal_pronouncements
+
+				doctrine = doctrine_spiritual_head
+				doctrine = doctrine_pluralism_righteous
+				doctrine = doctrine_bastardry_none
+				doctrine = doctrine_consanguinity_cousins
+				doctrine = doctrine_adultery_women_crime
+				doctrine = doctrine_kinslaying_any_dynasty_member_crime
+				doctrine = doctrine_clerical_function_taxation
+				doctrine = doctrine_clerical_succession_temporal_appointment
 		}
 	}
 }

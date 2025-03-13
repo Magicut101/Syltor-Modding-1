@@ -1,0 +1,148 @@
+﻿is_lunatwan_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_lunatwan_faith
+	}
+
+	special_doctrine_is_lunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm humble forgiving }
+			sins = { sadistic just ambitious }
+		}
+	}
+}
+
+is_easternlunatwan_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_easternlunatwan_faith
+	}
+
+	special_doctrine_is_easternlunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm honest humble }
+			sins = { sadistic deceitful vengeful }
+		}
+	}
+}
+
+is_bluephoenix_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_bluephoenix_faith
+	}
+
+	special_doctrine_is_bluephoenix_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { compassionate just generous }
+			sins = { sadistic greedy vengeful }
+		}
+	}
+}
+
+is_almadorian_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_easternlunatwan_faith
+	}
+
+	special_doctrine_is_easternlunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { temperate generous brave zealous }
+			sins = { gluttonous lazy greedy deceitful }
+		}
+	}
+}
+
+is_phoenixtossanist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_phoenixtossanist_faith
+	}
+
+	special_doctrine_is_phoenixtossanist_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm compassionate ambitious
+			}
+			sins = { sadistic greedy callous }
+		}
+	}
+}
+
+is_tossanist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_tossanist_faith
+	}
+
+	special_doctrine_is_tossanist_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm compassionate ambitious
+			}
+			sins = { sadistic greedy callous }
+		}
+	}
+}
+
+	#############################
+	# Empty Template Tenet 		#
+	#############################
+
+	#tenets = {
+	#	is_shown = {
+	#		always = no
+	#	}
+	#	can_pick = {
+	#		always = yes
+	#	}
+
+	#	piety_cost = {
+	#		if = {
+	#			limit = {
+	#				always = no
+	#			}
+	#			value = faith_tenet_cost_low
+	#		}
+	#		else = {
+	#			value = faith_tenet_cost_massive
+	#		}
+
+	#		# Multiplier for keeping same tenet
+	#		if = {
+	#			limit = { has_doctrine = tenets }
+	#			multiply = faith_unchanged_doctrine_cost_mult
+	#		}
+	#	}
+
+	#	parameters = {
+	#		tenets_active = yes
+	#	}
+
+	#	character_modifier = {
+
+	#	}
+
+	#	traits = {
+	#		virtues = { brave = 2}
+	#		sins = { craven = 2}
+	#	}
+	#}
+
