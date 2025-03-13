@@ -189,6 +189,7 @@
 	culture = dwarvish
 	religion = pheonixtossanist
 	1054.1.1 = {
+		special_building = erebor_hold_01
 		holding = castle_holding
 		}
 }

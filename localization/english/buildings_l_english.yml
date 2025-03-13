@@ -35,6 +35,16 @@
  building_xaburya_hold_02_desc:0 "The underground hold of xaburya, growing metropolis safely tucked away beneath the earth"
  building_xaburya_hold_03:0 "Steel Hold of Xaburya"
  building_xaburya_hold_03_desc:0 "Xaburya the jewel of the Burrow family, fully restored underground hold. the grandeur of this metropolis is truly a sight to behold"
+
+ building_type_erebor_hold_01:0 "The Dwarven city of Erebor"
+ building_type_erebor_hold_01_desc:0 "Last remaining of the original dwarven cities in Syltor the city though lesser in importance still holds a defendable position."
+ 
+ building_erebor_hold_01:0 "The Anicent of Erebor"
+ building_erebor_hold_01_desc:0 "The old city of Erebor has stood for nearly a thousand years though time hasnt been kind on it."
+ building_erebor_hold_02:0 "The Hold of Erebor"
+ building_erebor_hold_02_desc:0 "The underground hold of Erebor with more investment the city has begun referbishing the old stone alls that have long since needed repair."
+ building_erebor_hold_03:0 "Restored Hold of Erebor"
+ building_erebor_hold_03_desc:0 "The great dwarven hold of Erebor restored back to its former glory with gold and metals once more being exchanged from the hills"
  # Modded Buildings
 
  building_type_castle_01:0 "Castle"
