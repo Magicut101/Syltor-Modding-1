@@ -331,7 +331,7 @@
 			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 			
 			#Tenents
-			doctrine = tenet_armed_pilgrimages
+			doctrine = tenet_syltor_syncretism
 			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_inner_journey
 			

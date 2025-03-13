@@ -1,7 +1,7 @@
 #c_verkhnya
 996 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -20,7 +20,7 @@
 #c_slimehost
 1000 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -35,7 +35,7 @@
 #c_neuheim
 989 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -58,7 +58,7 @@
 #Carthya City
 1016 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 	1053.1.1 = {
 		special_building = generic_university
@@ -120,7 +120,7 @@
 
 1028 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -134,7 +134,7 @@
 
 1031 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -144,7 +144,7 @@
 
 1033 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -158,7 +158,7 @@
 
 1036 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -172,7 +172,7 @@
 
 1039 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -190,7 +190,7 @@
 
 1043 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -204,7 +204,7 @@
 
 1046 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -218,7 +218,7 @@
 
 1049 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -232,7 +232,7 @@
 
 1052 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -246,7 +246,7 @@
 
 1055 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -269,7 +269,7 @@
 #lebadville
 1159 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -284,7 +284,7 @@
 # chudniv
 1162 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -299,7 +299,7 @@
 # khyriv
 1165 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -314,7 +314,7 @@
 # skalati
 1168 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -333,7 +333,7 @@
 # novyikalyniv
 1172 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -348,7 +348,7 @@
 # xaburya
 1176 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 	special_building = xaburya_hold_01
 }
@@ -380,7 +380,7 @@
 # Star
 1180 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 

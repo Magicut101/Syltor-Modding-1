@@ -1,0 +1,12 @@
+d_medici ={
+	1010.1.1 = {
+			holder = 600122 # Jay
+			liege = 0
+	}
+}
+c_Starfall = {
+	1010.1.1 = {
+			holder = 600128 # Leonardo
+			liege = d_medici 
+	}
+}
