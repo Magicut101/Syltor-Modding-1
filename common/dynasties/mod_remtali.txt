@@ -8,8 +8,3 @@
 	culture = "remtali"
 }
 
-30000019 = {
-	name = "dynn_Chernik"
-	culture = "remtali"
-}
-

@@ -14,7 +14,7 @@
 
 600028 = {
 	name = "Tavin"
-	dynasty = 30000019 # Chernik
+	dynasty_house = house_Chernik # Chernik
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_stewardship_2
@@ -22,6 +22,19 @@
 	1045.1.1 = {
 		birth = yes
 	}
+	#dna = 
+}
+600131 = {
+	name = "Brett"
+	dynasty_house = house_Chernik # Chernik
+	religion = "tossanism"
+	culture = "remtali"
+	trait = education_stewardship_2
+	stewardship = 7
+	1065.1.1 = {
+		birth = yes
+	}
+	father = 600028
 	#dna = 
 }
 
