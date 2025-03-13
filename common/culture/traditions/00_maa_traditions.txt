@@ -607,6 +607,10 @@ tradition_ancient_chloromancers = {
 	parameters = {
 		plantations_building_bonuses = yes
 		unlock_maa_chloromancers = yes
+		unlock_maa_cataphract = yes
+		unlock_maa_akritai = yes
+		unlock_maa_ballistrai = yes
+		unlock_maa_skoutatoi = yes
 	}
 	character_modifier = {
 	}
