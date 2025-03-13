@@ -65,6 +65,7 @@
 	culture = deutzani
 	religion = easternlunatwa
 	holding = castle_holding
+	special_building = deutzan_walls_01
 }
 
 261 = {

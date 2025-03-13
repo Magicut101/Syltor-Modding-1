@@ -72,6 +72,13 @@ d_haegiel = {
 	}
 }
 
+c_HaegielPass = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+		holder = 600006
+	}
+}
+
 c_Haegiel ={
 	867.1.1 = {	change_development_level = 12 }
 	1054.1.1 = {

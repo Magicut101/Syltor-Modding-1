@@ -45,6 +45,12 @@
  building_erebor_hold_02_desc:0 "The underground hold of Erebor with more investment the city has begun referbishing the old stone alls that have long since needed repair."
  building_erebor_hold_03:0 "Restored Hold of Erebor"
  building_erebor_hold_03_desc:0 "The great dwarven hold of Erebor restored back to its former glory with gold and metals once more being exchanged from the hills"
+
+ building_type_deutzan_walls_01:0 "Gate of Haegiel"
+ building_type_deutzan_walls_01_desc:0 "The gates of Haegiel are a giant wall blocking the pass into the economic center of deutzan."
+ 
+ building_deutzan_walls_01:0 "Gate of Haegiel"
+ building_deutzan_walls_01_desc:0 "a grand wall defending the main pass into the city of heagiel."
  # Modded Buildings
 
  building_type_castle_01:0 "Castle"

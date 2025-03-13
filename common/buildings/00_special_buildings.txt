@@ -1,6 +1,43 @@
 ﻿
 ###Modded custom buildings###
 
+deutzan_walls_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		barony = title:b_HaegielPass1
+	}
+	
+	cost_gold = 250
+	
+	province_modifier = {
+		monthly_income = 0.5
+		fort_level = 2
+		garrison_size = 0.5
+		travel_danger = -10
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 8
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_marshal
+}
+
 erebor_hold_01 = {
 
 	construction_time = very_slow_construction_time
@@ -57,7 +94,7 @@ erebor_hold_02 = {
 
 	type_icon = "icon_structure_petra.dds"
 	
-	cost_gold = 300
+	cost_gold = 500
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.10
@@ -104,7 +141,7 @@ erebor_hold_03 = {
 
 	type_icon = "icon_structure_petra.dds"
 	
-	cost_gold = 750
+	cost_gold = 1000
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.15
@@ -128,7 +165,7 @@ erebor_hold_03 = {
 		levy_size = 0.25
 		tax_mult = 0.25
 		hostile_raid_time = 1
-		defender_holding_advantage = 5
+		defender_holding_advantage = 8
 	}
 	
 	ai_value = {
@@ -172,7 +209,7 @@ xaburya_hold_01 = {
 		travel_danger = -10
 		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_1
 		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_1
-		defender_holding_advantage = 5
+		defender_holding_advantage = 8
 	}
 	county_modifier = {
 		#development_growth = 0.2
@@ -220,7 +257,7 @@ xaburya_hold_02 = {
 		travel_danger = -20
 		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_2
 		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_2
-		defender_holding_advantage = 7
+		defender_holding_advantage = 10
 	}
 
 	county_modifier = {
@@ -269,7 +306,7 @@ xaburya_hold_03 = {
 		travel_danger = -20
 		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_3
 		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_3
-		defender_holding_advantage = 7
+		defender_holding_advantage = 12
 	}
 
 	county_modifier = {
