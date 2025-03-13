@@ -269,7 +269,7 @@
 #lebadville
 1159 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -284,7 +284,7 @@
 # chudniv
 1162 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -299,7 +299,7 @@
 # khyriv
 1165 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -314,7 +314,7 @@
 # skalati
 1168 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -333,7 +333,7 @@
 # novyikalyniv
 1172 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -348,7 +348,7 @@
 # xaburya
 1176 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 	special_building = xaburya_hold_01
 }
@@ -380,7 +380,7 @@
 # Star
 1180 = {
 	culture = xaburyan
-	religion = pheonixtossanist
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 

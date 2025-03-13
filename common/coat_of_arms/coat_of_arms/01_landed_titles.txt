@@ -21,6 +21,66 @@ d_vologdan_knighthood = {
 
 }
 
+d_xaburya_grandmaster = {
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 0 0 0 }
+	color2=rgb { 0 0 0 }
+	color3=black
+	colored_emblem={
+		color1=rgb { 255 221 119 }
+		texture="ce_norse_longship.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 1.000000 -0.660000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 13 0 255 }
+		texture="ce_fess_lozenges.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 1.000000 -1.000000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 224 119 }
+		texture="ce_shield_01.dds"
+		instance={
+			position={ 0.500000 0.630000 }
+			scale={ 0.580000 0.630000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 86 86 86 }
+		texture="ce_block_04.dds"
+		instance={
+			position={ 0.500000 0.320000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 31 0 255 }
+		texture="ce_castle_random.dds"
+		instance={
+			position={ 0.500000 0.530000 }
+			scale={ 0.650000 -0.650000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
 k_maerun = {
 	custom=yes
 	pattern="pattern_vertical_stripes_01.dds"

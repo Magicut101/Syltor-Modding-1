@@ -36,7 +36,7 @@
   	trait = just
  	trait = diligent
  	trait = zealous
-	stewardship = 9
+	stewardship = 10
 	father = 600022
 	1050.1.1 = {
 		birth = yes
@@ -49,9 +49,11 @@
 600024 = {
 	name = "Jay"
 	dynasty = 30000017 #Burrow
-	religion = "pheonixtossanist"
+	religion = "xaburya_spirit"
 	culture = "xaburyan"
 	trait = education_martial_4
+	trait = steelspector
+	trait = spellweaver
 	stewardship = 12
 	1020.1.1 = {
 		birth = yes
@@ -65,12 +67,19 @@
 600025 = {
 	name = "Javorn"
 	dynasty = 30000017 #Burrow
-	religion = "pheonixtossanist"
+	religion = "xaburya_spirit"
+	trait = spellweaver
 	culture = "xaburyan"
 	trait = education_martial_3
+	learning = 4
+	intrigue = 3
+	martial = 11
 	stewardship = 8
-  trait = diligent
   learning = 11
+  trait = diligent
+	trait = zealous
+  trait = calm
+
 	1040.1.1 = {
 		birth = yes
 	}
@@ -81,7 +90,7 @@
 600026 = {
 	name = "Adelisa"
 	dynasty = 30000017 #Burrow
-	religion = "pheonixtossanist"
+	religion = "xaburya_spirit"
 	culture = "xaburyan"
 	trait = education_martial_3
   trait = zealous

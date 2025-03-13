@@ -48,8 +48,8 @@ hwatcha_low_maint_cost = @[siege_weapons_low_maint_cost * 2]
 hwatcha_high_maint_cost = @[siege_weapons_high_maint_cost + 0]
 
 oathbound_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.2]
-oathbound_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.2]
-oathbound_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.2]
+oathbound_low_maint_cost = @[heavy_infantry_low_maint_cost * 1]
+oathbound_high_maint_cost = @[heavy_infantry_high_maint_cost * 1]
 
 ranseur_recruitment_cost = @[pikemen_recruitment_cost + 5]
 ranseur_low_maint_cost = @[pikemen_low_maint_cost + 0]

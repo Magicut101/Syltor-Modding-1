@@ -119,14 +119,25 @@
 #Modded Cultural Man at arms by loser mc loser (me)
 
  ranseur:0 "Ranseurs"
+ ranseur_flavor:0 "#F Hailing from the region of remtal the ryzani ranseurs were a commonplace unit used by princes in remtal in their many disputes.#!"
  nekojin_hunters:0 "Nekojin Hunters"
+ nekojin_hunters_flavor:0 "#F Nekojin hunters are feared archer cavalry that have roamed and terrorised tamaka since they first arrived in syltor.#!"
  balreskan_guard:0 "Belreskan Guard"
+ balreskan_guard_flavor:0 "#F Belreskan Guard originally created by the wealthy merchant city of Nova Balreska to defend its swampland from attack they have been a preferred hire for many a belreskan lord.#!"
  kaluko_rangers:0 "Kaluko Rangers"
+ kaluko_rangers_flavor:0 "#F The Kaluko rangers are a avian crossbowman unit feared accross the region for the horrifing angles they can strike at an enemy army.#!"
  oathbound:0 "Oathbound Knights"
+ oathbound_flavor:0 "#F The oathbound are a honorguard of xaburyan troops made up exclusively of steel spectors they are one of the most disciplined heavy infantry in the region.#!"
+ spellweaver:0 "Spell Weavers"
+ spellweaver_flavor:0 "#F Some call them mages other witchs but the spellweavers of xaburya make a potentent fighting force clad in heavy armor and equiped with to long sharp needles they use to manipulate the weave to their will.#!"
  medjay_Ranger:0 "Medjay Rangers"
+ medjay_Ranger_flavor:0 "#F Medjay rangers are a specialized unit of light cavalry coming from the desert sands of ashura.#!"
  hwatcha:0 "Hwatcha"
+ medjay_Ranger_flavor:0 "#F The hwatcha is an anicent artillary piece created and utilized in the heartland of the once great Aurlunor Velende.#!"
  chloromancers:0 "Chlormancers"
+ chloromancers_flavor:0 "#F The Cloromancers of syros are a order of wizards specializing in plant magic which they use to defeat their foes.#!"
  vologdan_knights:0 "Vologdan Knights"
+ vologdan_knights_flavor:0 "#F Clad in armor the vologdan knights are the favored heavy unit of the ones faithful which they use to keep chaos and their vassals in line.#!"
 
  #Cultural MaA
  huscarl:0 "Huscarls"

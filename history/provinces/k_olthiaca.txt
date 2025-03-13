@@ -40,11 +40,15 @@
 }
 
 1190 = {
-	holding = none
+	1054.1.1 = {
+	holding = church_holding
+	}
 }
 
 1191 = {
-	holding = none
+	1054.1.1 = {
+	holding = city_holding
+	}
 }
 
 1192 = {
@@ -284,6 +288,7 @@
 	holding = none
 }
 
+# liberium
 1237 = {
 	1054.1.1 = {
 		holding = castle_holding
@@ -293,7 +298,9 @@
 }
 
 1238 = {
-	holding = none
+	1054.1.1 = {
+	holding = church_holding
+	}
 }
 
 1239 = {

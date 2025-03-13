@@ -95,6 +95,78 @@ house_Shan={
 	}
 }
 
+# Assimar
+30000010 ={
+	custom=yes
+	pattern="pattern_checkers_06.dds"
+	color1=rgb { 71 167 255 }
+	color2=rgb { 255 255 255 }
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_chevron_02_jagged.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 0 0 }
+		color2=rgb { 255 255 255 }
+		texture="ce_key.dds"
+	}
+
+}
+
+# Burrow
+30000017 = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=blue
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.520000 0.520000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 0 0 }
+		texture="ce_laurels.dds"
+		instance={
+			scale={ 0.780000 0.780000 }
+			depth=1.010000
+			rotation=180
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_mace.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_waves_04.dds"
+		instance={
+			position={ 0.500000 0.860000 }
+			depth=3.010000
+		}
+
+	}
+
+}
 
 30000018 = {
     custom=yes
