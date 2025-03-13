@@ -4,9 +4,9 @@ d_medici ={
 			liege = 0
 	}
 }
-c_starfall = {
+c_Starfall = {
 	1010.1.1 = {
 			holder = 600128 # Leonardo
-			liege = 600122 # Jay
+			liege = d_medici 
 	}
 }
