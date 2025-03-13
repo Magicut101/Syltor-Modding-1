@@ -6,25 +6,11 @@
 }
 
 251 = {
-	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
-	1065.1.1 = { 
-		1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
-	}
+	holding = city_holding
 }
 
 253 = {
 	holding = church_holding
-	1065.1.1 = { 
-		holding = church_holding
-	}
 }
 
 254 = {
@@ -32,11 +18,7 @@
 }
 
 255 = {
-	1054.1.1 = {
-		1054.1.1 = {
 		holding = city_holding
-		}
-		}
 }
 
 256 = {
@@ -46,11 +28,7 @@
 }
 
 257 = { 
-	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+	holding = city_holding
 }
 
 258 = {
@@ -138,10 +116,8 @@
 
 275 = {
 	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+	holding = city_holding
+	}
 }
 
 276 = {
@@ -178,10 +154,8 @@
 
 280 = {
 	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+	holding = city_holding
+	}
 }
 
 282 = {	
@@ -248,8 +222,8 @@
 	1054.1.1 = {
 		1054.1.1 = {
 		holding = city_holding
-		}
-		}
+	}
+	}
 }
 
 293 = {
@@ -269,10 +243,8 @@
 
 296 = {
 	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+	holding = city_holding
+	}
 }
 
 297 = {

@@ -45,10 +45,9 @@
 
 1014 = {
 	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+	holding = city_holding
+	}
+
 }
 
 1015 = {
@@ -97,7 +96,7 @@
 }
 
 1023 = {
-	holding = none
+	holding = church_holding
 }
 
 1024 = {
@@ -251,7 +250,7 @@
 }
 
 1056 = {
-	holding = none
+	holding = church_holding
 }
 
 1057 = {
@@ -274,7 +273,7 @@
 }
 
 1160 = {
-	holding = none
+	holding = city_holding
 }
 
 1161 = {
@@ -319,7 +318,7 @@
 }
 
 1169 = {
-	holding = none
+	holding = city_holding
 }
 
 1170 = {
@@ -338,7 +337,7 @@
 }
 
 1173 = {
-	holding = none
+	holding = city_holding
 }
 
 1174 = {
@@ -354,23 +353,19 @@
 }
 
 1175 = {
-	1054.1.1 = {
 		1054.1.1 = {
 		holding = city_holding
-		}
 		}
 }
 
 1177 = {
-	1054.1.1 = {
 		1054.1.1 = {
 		holding = city_holding
-		}
 		}
 }
 
 1178 = {
-	holding = none
+	holding = castle_holding
 }
 
 1179 = {

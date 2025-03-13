@@ -259,9 +259,9 @@ oathbound = {
 }
 
 spellweaver = {
-	type = heavy_infantry
+	type = skirmishers
 	
-	damage = 25
+	damage = 30
 	toughness = 20
 	pursuit = 5
 	screen = 0
@@ -279,7 +279,7 @@ spellweaver = {
 	}
 
 	can_recruit = {
-		valid_for_maa_trigger = { PARAMETER = unlock_maa_oathbound }
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_spellweaver }
 	}
 
 	buy_cost = { gold = oathbound_recruitment_cost }
