@@ -244,7 +244,7 @@
 
 		easternlunatwa = {
 			color = { 250 156 28 }
-			icon = twindragon
+			icon = easternlunatwa
 			religious_head = d_celestial_matron
 
 			holy_site = lhumar
