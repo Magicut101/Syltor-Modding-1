@@ -5,11 +5,13 @@
  language_ryzani_name:0 "Ryzani"
  language_aurlunoren_name:0 "Aurlunoren"
  language_crowspeak_name:0 "Crow Speak"
- language_syrosi_name:0 "Syrosi"
+ language_syrosi_name:0 "Duetzani"
  language_dwarvish_name:0 "Dwarvish"
  language_bardonian_name:0 "Bardonian"
  language_fornoisan_name:0 "Fornoisan"
  language_nekospeak_name:0 "Nekospeak"
+ language_ashuran_name:0 "Ashuric"
+ language_kumiho_name:0 "Kumiho"
 
 ### base game stuff ###
 

@@ -44,6 +44,10 @@ heritage_outliers = {
 	type = heritage
 }
 
+heritage_alvadan = {
+	type = heritage
+}
+
 
 
 
