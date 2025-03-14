@@ -9,7 +9,6 @@ k_beletea = {
 1054.1.1 = { holder = 600051} # Oshotty}
 liege = 0
 government = fuedal_government
-	}
 }
 
 d_tyalu = {
