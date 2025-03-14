@@ -3088,7 +3088,8 @@ e_ryzan = {
 			71
 			252
 		}
-		if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
+		# should make ai always use this title hopefully
+		if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
 		capital = c_Xaburya
 	}
 
@@ -4675,7 +4676,7 @@ e_ryzan = {
 			}
 		}
 		d_xaburya = {
-			# makes it more likely for xaburyans to use this title
+			# should make ai always use this title hopefully
 			if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
 
 			can_be_named_after_dynasty = no
@@ -4686,6 +4687,8 @@ e_ryzan = {
 			}
 			capital = c_Xaburya
 			c_Xaburya = {
+				# should make ai always use this title hopefully unsure if this helps with the county capital problem
+				if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
 				color = {
 					55
 					27
