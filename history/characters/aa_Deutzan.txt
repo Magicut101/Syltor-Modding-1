@@ -35,7 +35,9 @@
 	religion = "easternlunatwa"
 	culture = "deutzani"
 	#father = 145930
-	trait = education_stewardship_3
+	trait = education_learning_3
+	trait = immortal
+	trait = depressed_1
 	1038.1.1 = {
 		birth = "821.1.1"
 	}
@@ -85,6 +87,12 @@
     dynasty = 30000301
     religion = "twin_dragon"
     culture = "ashuran"
+	trait = education_learning_5
+	trait = immortal
+	trait = conqueror
+	trait = savior
+	trait = physique_good_3
+	trait = intellect_good_3
     1040.1.1 = {
         birth = "820.1.1"
     }
