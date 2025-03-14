@@ -10,7 +10,7 @@
 	language = language_syrosi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_isolationist
+		tradition_culture_blending
 		tradition_castle_keepers
 		tradition_maritime_mercantilism
 		tradition_stalwart_defenders

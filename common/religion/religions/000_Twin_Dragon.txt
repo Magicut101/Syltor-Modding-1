@@ -245,7 +245,6 @@
 		easternlunatwa = {
 			color = { 250 156 28 }
 			icon = easternlunatwa
-			religious_head = d_celestial_matron
 
 			holy_site = lhumar
 			holy_site = nantianmonastary
@@ -273,8 +272,8 @@
 			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 			
 			#Tenents
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_reincarnation
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_adaptive
 			doctrine = tenet_inner_journey
 		}
 
