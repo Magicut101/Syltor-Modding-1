@@ -1399,8 +1399,6 @@ d_tonton ={
 	
 		}
 	
-	}
-	
 }
 
 k_hampo = {
