@@ -7,7 +7,7 @@
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_brothian
-	language = language_ryzani
+	language = language_syrosi
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_loyal_soldiers
@@ -215,7 +215,7 @@ deutzani = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_brothian
-	language = language_ryzani
+	language = language_syrosi
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
