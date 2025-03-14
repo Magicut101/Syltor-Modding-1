@@ -185,6 +185,7 @@
 
 }
 
+#Khamen
 30000219 = {
 	custom=yes
 	pattern="pattern_solid.dds"
@@ -681,11 +682,9 @@ house_Shan={
     }
 
 }
-#Khamen
 
-
-30000218 = {
-	coa_rd_title_3508588380={
+#Shaer
+30000218 ={
 		custom=yes
 		pattern="pattern_vertical_stripes_02.dds"
 		color1=yellow_light
