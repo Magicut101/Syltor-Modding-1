@@ -6,7 +6,7 @@
 	#Main Group
 	doctrine = doctrine_temporal_head
 	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_pluralism_pluralist
 	doctrine = doctrine_theocracy_lay_clergy
 	doctrine = doctrine_funeral_bewailment
 
@@ -228,6 +228,7 @@
 			holy_site = nantianmonastary
 			holy_site = liberium
 
+			doctrine = doctrine_pluralism_pluralistic
 			
 			#Special Tolerance
 			#doctrine = special_doctrine_ecumenical_christian

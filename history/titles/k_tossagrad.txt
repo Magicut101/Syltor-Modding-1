@@ -40,3 +40,13 @@
 	c_Tossaroki = {
 		867.1.1 = {	change_development_level = 1 }
 	}
+
+# Oin dwarven erebor land
+d_erebor = {
+		867.1.1 = {	change_development_level = 5 }
+	
+		1054.1.1 = {
+			holder = 600154
+			liege = 0
+		}
+	}

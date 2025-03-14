@@ -700,24 +700,26 @@ e_ashura = {
 			}
 		}
 		d_pimedjay = {
-			capital = c_pimedjay
+			capital = c_PiMedjay
 			color = {
 				148
 				170
 				6
 			}
-			c_pimedjay = {
+			c_PiMedjay = {
 				color = {
 					148
 					170
 					6
 				}
-				b_PiMedjay = {
-					province = 56
+				capital = b_PiMedjayCastle
+				
+				b_PiMedjayCastle = {
+					province = 58
 					color = {
-						148
-						170
-						6
+						113
+						132
+						2
 					}
 				}
 				b_PiMedjayPass = {
@@ -728,14 +730,7 @@ e_ashura = {
 						31
 					}
 				}
-				b_PiMedjayCastle = {
-					province = 58
-					color = {
-						113
-						132
-						2
-					}
-				}
+				
 			}
 			c_Nashur = {
 				color = {
@@ -914,6 +909,16 @@ e_ashura = {
 					38
 					1
 				}
+				capital = b_Kittarius3
+				b_Kittarius3 = {
+					province = 76
+					color = {
+						214
+						105
+						8
+					}
+				}
+
 				b_Kittarius1 = {
 					province = 74
 					color = {
@@ -930,20 +935,23 @@ e_ashura = {
 						2
 					}
 				}
-				b_Kittarius3 = {
-					province = 76
-					color = {
-						214
-						105
-						8
-					}
-				}
+			
 			}
 			c_carnedaofjordland = {
 				color = {
 					9
 					165
 					6
+				}
+				capital = b_CarnedaoFjordlandsEmpty
+
+				b_CarnedaoFjordlandsEmpty = {
+					province = 79
+					color = {
+						27
+						189
+						22
+					}
 				}
 				b_CarnedaoFjordlandTemple = {
 					province = 77
@@ -961,14 +969,7 @@ e_ashura = {
 						8
 					}
 				}
-				b_CarnedaoFjordlandsEmpty = {
-					province = 79
-					color = {
-						27
-						189
-						22
-					}
-				}
+				
 			}
 			c_karneidao = {
 				color = {
@@ -3101,7 +3102,8 @@ e_ryzan = {
 			71
 			252
 		}
-		if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
+		# should make ai always use this title hopefully
+		if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
 		capital = c_Xaburya
 	}
 
@@ -4688,7 +4690,7 @@ e_ryzan = {
 			}
 		}
 		d_xaburya = {
-			# makes it more likely for xaburyans to use this title
+			# should make ai always use this title hopefully
 			if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
 
 			can_be_named_after_dynasty = no
@@ -4699,6 +4701,8 @@ e_ryzan = {
 			}
 			capital = c_Xaburya
 			c_Xaburya = {
+				# should make ai always use this title hopefully unsure if this helps with the county capital problem
+				if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
 				color = {
 					55
 					27
@@ -6622,29 +6626,6 @@ e_ryzan = {
 					}
 				}
 			}
-			c_Torchtown = {
-				color = {
-					98
-					207
-					53
-				}
-				b_Torchtown1 = {
-					province = 1199
-					color = {
-						98
-						207
-						53
-					}
-				}
-				b_Torchtown2 = {
-					province = 1200
-					color = {
-						98
-						202
-						53
-					}
-				}
-			}
 			c_Karlsfell = {
 				color = {
 					59
@@ -6754,6 +6735,29 @@ e_ryzan = {
 						40
 						155
 						43
+					}
+				}
+			}
+			c_Torchtown = {
+				color = {
+					98
+					207
+					53
+				}
+				b_Torchtown1 = {
+					province = 1199
+					color = {
+						98
+						207
+						53
+					}
+				}
+				b_Torchtown2 = {
+					province = 1200
+					color = {
+						98
+						202
+						53
 					}
 				}
 			}

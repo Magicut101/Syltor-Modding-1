@@ -79,8 +79,15 @@
 	religion = "tossanism"
 	culture = "remtali"
 	trait = education_martial_1
-	diplomacy = 0
-	intrigue = 0
+	trait = craven
+	trait = deceitful
+	trait = eccentric
+	diplomacy = 11
+	learning = 2
+	martial = 1
+	intrigue = 1
+	stewardship = 4
+
 	father = 600132
 	1045.1.1 = {
 		birth = yes
