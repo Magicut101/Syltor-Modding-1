@@ -18,26 +18,3 @@ c_Kittarius = {
     }
 }
 
-d_pimedjay= {
-    867.1.1 = {	change_development_level = 3 }
-    1054.1.1 = 	{ 
-        holder = 600105
-
-    } #Nefer
-}
-c_PiMedjay = {
-    1054.1.1 = { 
-        holder = 600047
-    } #Nefer
-}
-c_balim = {
-    1054.1.1 = { 
-        holder = 600105
-    } #Nefer
-}
-c_Nashur = {
-    1054.1.1 = { 
-        holder = 600105
-    } #Nefer
-}
-
