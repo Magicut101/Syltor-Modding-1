@@ -259,7 +259,7 @@ oathbound = {
 }
 
 spellweaver = {
-	type = skirmishers
+	type = siege_weapon
 	
 	damage = 30
 	toughness = 20
@@ -322,7 +322,7 @@ ranseur = {
 	high_maintenance_cost = { gold = ranseur_high_maint_cost }
 	provision_cost = @provisions_cost_infantry_cheap
 
-	stack = 125
+	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = pikemen
 }

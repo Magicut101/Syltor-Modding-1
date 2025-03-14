@@ -42,7 +42,6 @@ d_liberium = {
 	}
 }
 
-
 c_Liberium = {
 	1054.1.1 = {
 	  holder = 600029 # geo
@@ -58,6 +57,12 @@ c_Zoromir = {
 c_Stoyanka = {
 	1054.1.1 = {
 	  holder = 600029 # geo
+	}
+}
+
+d_gekan = {
+	1054.1.1 = {
+	  holder = 600040 # Josbar
 	}
 }
 
