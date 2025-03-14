@@ -1,0 +1,8 @@
+﻿l_english:
+  # MODS DECISIONS
+  form_norenya_decision_decision:0 "Found the Kingdom of Norenya"
+  form_norenya_decision_decision_desc:0 "The forges of xaburya burn bright as the oathbound forces forge a new status-co over their newly conquered land crowning themselves the center of a new freehold of Norenya."
+  form_norenya_decision_decision_tooltip:0 "Norenya becomes a [de_jure|E] [kingdom|E]."
+  form_norenya_decision_effects_de_jure_tt:0 "If owned, the [kingdom|E] of [norenya_carthya.GetNameNoTier] and [norenya_nebskoslavia.GetNameNoTier] will each become [de_jure|E] Norenya."
+  form_norenya_decision_decision_confirm:0 "The Oathbound reign supreme!"
+  # MODS DECISIONS
