@@ -449,12 +449,10 @@ tradition_Oathbound_Order = {
 	}
 	
 	character_modifier = {
-		heavy_infantry_toughness_mult = 0.2
-		heavy_infantry_maintenance_mult = 0.2
-		hard_casualty_modifier = 0.05
-		defender_advantage = 2
-		
-
+		heavy_infantry_toughness_mult = 0.1
+		heavy_infantry_maintenance_mult = -0.10
+		hard_casualty_modifier = -0.10
+		defender_advantage = 5
 	}
 	parameters = { 
 		unlock_maa_oathbound = yes 

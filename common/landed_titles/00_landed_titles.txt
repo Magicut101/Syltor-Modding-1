@@ -698,21 +698,21 @@ e_ashura = {
 					170
 					6
 				}
-				capital = b_PiMedjay
-				b_PiMedjay = {
-					province = 56
-					color = {
-						148
-						170
-						6
-					}
-				}
+				capital = b_PiMedjayCastle
 				b_PiMedjayCastle = {
 					province = 58
 					color = {
 						113
 						132
 						2
+					}
+				}
+				b_PiMedjay = {
+					province = 56
+					color = {
+						148
+						170
+						6
 					}
 				}
 				b_PiMedjayPass = {
@@ -6610,29 +6610,6 @@ e_ryzan = {
 					}
 				}
 			}
-			c_Torchtown = {
-				color = {
-					98
-					207
-					53
-				}
-				b_Torchtown1 = {
-					province = 1199
-					color = {
-						98
-						207
-						53
-					}
-				}
-				b_Torchtown2 = {
-					province = 1200
-					color = {
-						98
-						202
-						53
-					}
-				}
-			}
 			c_Karlsfell = {
 				color = {
 					59
@@ -6742,6 +6719,29 @@ e_ryzan = {
 						40
 						155
 						43
+					}
+				}
+			}
+			c_Torchtown = {
+				color = {
+					98
+					207
+					53
+				}
+				b_Torchtown1 = {
+					province = 1199
+					color = {
+						98
+						207
+						53
+					}
+				}
+				b_Torchtown2 = {
+					province = 1200
+					color = {
+						98
+						202
+						53
 					}
 				}
 			}

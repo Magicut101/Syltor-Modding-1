@@ -33,11 +33,39 @@
 	religion = "bluepheonix"
 	culture = "carthyan"
 	trait = education_stewardship_3
-  	trait = just
+  trait = just
  	trait = diligent
  	trait = zealous
 	stewardship = 10
 	father = 600022
+	1050.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600152 = {
+	name = "Nikolai"
+	dynasty = 30000223 # Zefirov
+	religion = "pheonixtossanist"
+	culture = "ryzani"
+	trait = education_martial_3
+ 	trait = diligent
+	1047.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600153 = {
+	name = "Sarcaski"
+	dynasty = 30000004 # Tossovich
+	religion = "pheonixtossanist"
+	culture = "carthyan"
+	trait = education_stewardship_2
+  trait = just
+ 	trait = diligent
+	father = 600005
 	1050.1.1 = {
 		birth = yes
 	}

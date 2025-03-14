@@ -32,3 +32,17 @@
 	#dna = 
 }
 
+600154 = {
+	name = "Óin" #
+	dynasty = 30000222 # magmablood
+	religion = "tossanism"
+	culture = "dwarvish"
+	trait = education_stewardship_2
+	martial = 4
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+

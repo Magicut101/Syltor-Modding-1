@@ -129,7 +129,8 @@
 
 }
 
-600004 = {
+# hees hephneer
+30000003 = {
 	custom=yes
 	pattern="pattern_checkers_02.dds"
 	color1=green

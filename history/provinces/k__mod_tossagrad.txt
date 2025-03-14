@@ -187,7 +187,7 @@
 # erebor
 1081 = {
 	culture = dwarvish
-	religion = pheonixtossanist
+	religion = tossanism
 	1054.1.1 = {
 		special_building = erebor_hold_01
 		holding = castle_holding
@@ -195,17 +195,17 @@
 }
 
 1082 = {
-	holding = none
+	holding = church_holding
 }
 
 1083 = {
-	holding = none
+	holding = city_holding
 }
 
 # fort erebor
 1084 = {
 	culture = ryzani
-	religion = pheonixtossanist
+	religion = tossanism
 	1054.1.1 = {
 		holding = castle_holding
 		}

@@ -259,12 +259,12 @@ oathbound = {
 }
 
 spellweaver = {
-	type = siege_weapon
+	type = heavy_infantry
 	
 	damage = 30
 	toughness = 20
 	pursuit = 5
-	screen = 0
+	screen = 5
 	siege_value = 0.2
 
 	terrain_bonus = {
