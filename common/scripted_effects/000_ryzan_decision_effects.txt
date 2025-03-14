@@ -1,4 +1,4 @@
-form_norenya_decision_scripted_effect = {
+﻿form_norenya_decision_scripted_effect = {
 	save_scope_as = founder
 	create_title_and_vassal_change = {
 		type = created
