@@ -698,15 +698,8 @@ e_ashura = {
 					170
 					6
 				}
-				capital = b_PiMedjay
-				b_PiMedjay = {
-					province = 56
-					color = {
-						148
-						170
-						6
-					}
-				}
+				capital = b_PiMedjayCastle
+				
 				b_PiMedjayCastle = {
 					province = 58
 					color = {
@@ -715,6 +708,16 @@ e_ashura = {
 						2
 					}
 				}
+
+				b_PiMedjay = {
+					province = 56
+					color = {
+						148
+						170
+						6
+					}
+				}
+			
 				b_PiMedjayPass = {
 					province = 57
 					color = {
@@ -902,6 +905,16 @@ e_ashura = {
 					38
 					1
 				}
+				capital = b_Kittarius3
+				b_Kittarius3 = {
+					province = 76
+					color = {
+						214
+						105
+						8
+					}
+				}
+
 				b_Kittarius1 = {
 					province = 74
 					color = {
@@ -918,20 +931,23 @@ e_ashura = {
 						2
 					}
 				}
-				b_Kittarius3 = {
-					province = 76
-					color = {
-						214
-						105
-						8
-					}
-				}
+			
 			}
 			c_carnedaofjordland = {
 				color = {
 					9
 					165
 					6
+				}
+				capital = b_CarnedaoFjordlandsEmpty
+
+				b_CarnedaoFjordlandsEmpty = {
+					province = 79
+					color = {
+						27
+						189
+						22
+					}
 				}
 				b_CarnedaoFjordlandTemple = {
 					province = 77
@@ -949,14 +965,7 @@ e_ashura = {
 						8
 					}
 				}
-				b_CarnedaoFjordlandsEmpty = {
-					province = 79
-					color = {
-						27
-						189
-						22
-					}
-				}
+				
 			}
 			c_karneidao = {
 				color = {
