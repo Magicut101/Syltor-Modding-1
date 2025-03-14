@@ -69,18 +69,6 @@
 	#dna = 
 }
 
-600057 = {
-	name = "Nefer Khamen"
-	dynasty = 30000301 #Nashabet
-	religion = "ashuran_pantheon"
-	culture = "ashuran"
-	trait = education_learning_3
-	learning = 30
-	1040.1.1 = {
-		birth = "820.1.1"
-	}
-	#dna = 
-}
 
 600059 = {
 	name = "Hem-Netjer A'Livé"

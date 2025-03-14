@@ -1,8 +1,9 @@
-k_vorosan = {
-	1054.1.1 = {
-		holder = 600041 # Soeun
-	  }
-}
+#d_vorosan = {
+	#1054.1.1 = {
+		#holder = 600041 # Soeun
+	  #}
+#}
+
 d_sarapalar = {
 	1054.1.1 = {
 		holder = 600097 # Zewische

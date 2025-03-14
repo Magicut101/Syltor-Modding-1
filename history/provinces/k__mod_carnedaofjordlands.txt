@@ -21,9 +21,7 @@
 59 = {
 	culture = qanti
 	religion = qantifolkway_pantheon
-		1054.1.1 = {
 		holding = castle_holding
-		}
 }
 
 #b_NashurForest

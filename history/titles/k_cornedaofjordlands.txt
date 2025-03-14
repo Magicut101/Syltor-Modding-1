@@ -1,9 +1,4 @@
-k_cornedaofjordlands = {
-    867.1.1 = {	change_development_level = 5 }
-    1054.1.1 = {
-        holder = 600070 #Ancestor of the original Qanti tribe that unified the region
-    }
-}
+
 d_sarlatova = {
     867.1.1 = {	change_development_level = 3 }
     1054.1.1 = {
@@ -22,16 +17,27 @@ c_Kittarius = {
         holder = 600070 #Ancestor of the original Qanti tribe that unified the region
     }
 }
-d_pimedjay = {
+
+d_pimedjay= {
     867.1.1 = {	change_development_level = 3 }
-    1054.1.1 = 	{ holder = 600049
-        liege = 0
+    1054.1.1 = 	{ 
+        holder = 600105
+
     } #Nefer
 }
-c_Pimedjay = {
-    867.1.1 = {	change_development_level = 3 }
-    1054.1.1 = 	{ holder = 600049
-     liege = 0
+c_PiMedjay = {
+    1054.1.1 = { 
+        holder = 600047
+    } #Nefer
+}
+c_balim = {
+    1054.1.1 = { 
+        holder = 600105
+    } #Nefer
+}
+c_Nashur = {
+    1054.1.1 = { 
+        holder = 600105
     } #Nefer
 }
 

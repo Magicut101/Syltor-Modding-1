@@ -1,9 +1,9 @@
-600049 = {
+600105 = {
 	name = "Nefer"
 	dynasty = 30000219 # khamen
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
-	trait = education_stewardship_4
+	trait = education_learning_3
 	1040.1.1 = {
 		birth = "820.1.1"
 	}
