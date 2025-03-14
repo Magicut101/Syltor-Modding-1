@@ -35,9 +35,13 @@
 	religion = "easternlunatwa"
 	culture = "deutzani"
 	#father = 145930
+	trait = calm
+	trait = forgiving
+	trait = eccentric
 	trait = education_learning_3
 	trait = immortal
 	trait = depressed_1
+	trait = infertile
 	1038.1.1 = {
 		birth = "821.1.1"
 	}
