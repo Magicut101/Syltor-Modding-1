@@ -1350,7 +1350,7 @@ k_nova_balreska = {
 	color3=blue
 }
 
-d_tonton ={
+d_tonton = {
 		custom=yes
 		pattern="pattern_solid.dds"
 		color1=yellow_light
