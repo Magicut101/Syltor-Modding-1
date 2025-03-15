@@ -694,11 +694,11 @@ e_ashura = {
 			}
 			c_PiMedjay = {
 				color = {
-					148
-					170
-					6
-				}
-				capital = b_PiMedjayCastle
+					113
+					132
+				2
+					}
+
 				
 				b_PiMedjayCastle = {
 					province = 58
@@ -716,8 +716,15 @@ e_ashura = {
 						31
 					}
 				}
-				
-			}
+				b_PiMedjay = {
+					province = 56
+					color = {
+						148	
+						170
+						6
+					}
+				}
+			}		
 			c_Nashur = {
 				color = {
 					59
