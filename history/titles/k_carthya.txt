@@ -33,12 +33,17 @@ c_AngelsPeak = {
 }
 
 # Javorn
+
 d_xaburya = {
 	867.1.1 = {	change_development_level = 5 }
 
 	1054.1.1 = {
 	  holder = 600025
 	}
+}
+
+d_xaburya_grandmaster = {
+	1054.1.1 = { holder = 600025}
 }
 
 c_Xaburya = {
@@ -88,7 +93,7 @@ c_Lebadville = {
 
 # Bruhs land
 
-c_neuheim = {
+d_neuheim = {
 	867.1.1 = {	change_development_level = 8 }
 	1054.1.1 = {
 		holder = 600014 # Bruh_
@@ -105,6 +110,31 @@ c_verkhnya = {
 c_slime_host = {
 	867.1.1 = {	change_development_level = 6 }
 	1054.1.1 = {
-		holder = 600014 # Bruh_
+		 holder = holder = 600014 # Bruh_
+		}
+}
+
+# Sarcasmo
+
+c_Fardhac = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		 holder = 600153 = 600014 # Sarcasmo
+		}
+}
+
+c_Tossovichi = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		 holder = 600153 = 600014 # Sarcasmo
+		}
+}
+
+# Zeph land
+
+d_skelyasti = {
+	867.1.1 = {	change_development_level = 6 }
+	1054.1.1 = {
+		 holder = 600152 # Zeph
 		}
 }

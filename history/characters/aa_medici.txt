@@ -1,0 +1,99 @@
+600122 = {
+	name = "Jay"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "valkyries"
+	trait = education_martial_3
+	1045.1.1 = {
+		birth = yes
+	}
+}
+
+600123 = {
+	name = "Howertt"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	trait = education_martial_4
+	1045.1.1 = {
+		birth = yes
+	}
+	father = 600122
+}
+600124 = {
+	name = "Crinky"
+	dynasty = 30000020 # Medici
+	religion = "consumer_dandelism"
+	culture = "dorastterocker"
+	trait = education_stewardship_4
+	1045.1.1 = {
+		birth = yes
+	}
+	father = 600122
+}
+600125 = {
+	name = "Celine Dion"
+	dynasty = 30000020 # Medici
+	religion = "dandelism"
+	culture = "dorastterocker"
+	female = yes
+	trait = education_diplomacy_3
+	1045.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		add_matrilineal_spouse = 600126  # Capna's ID
+	}
+	#dna = 
+	father = 600123
+}
+600126 = {
+	name = "Capna"
+	dynasty = 30000024 # Azurov
+	religion = "dandelism"
+	culture = "valkyries"
+	trait = education_martial_2
+	1045.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		add_matrilineal_spouse = 600125  # Capna's ID
+	}
+	father = 600033
+}
+600128 = {
+	name = "Leonardo"
+	dynasty = 30000020 # Medici
+	religion = "consumer_dandelism"
+	culture = "valkyries"
+	trait = education_stewardship_4
+	stewardship = 15
+	1045.1.1 = {
+		birth = yes
+	}
+	father = 600122
+}
+600129 = {
+	name = "Sol"
+	dynasty = 30000020 # Medici
+	religion = "consumer_dandelism"
+	culture = "solaner"
+	trait = education_intrigue_1
+	trait = craven
+	trait = paranoid
+	1045.1.1 = {
+		birth = yes
+	}
+	father = 600128
+}
+600130 = {
+	name = "Azzo"
+	dynasty = 30000020 # Medici
+	religion = "consumer_dandelism"
+	culture = "solaner"
+	trait = education_martial_1
+	1045.1.1 = {
+		birth = yes
+	}
+	father = 600129
+}

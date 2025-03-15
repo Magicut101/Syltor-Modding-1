@@ -1,11 +1,49 @@
-c_MaPona = {
-	1054.1.1 = {
-	  holder = 600041 # Soeun
-	}
-}
+#d_vorosan = {
+	#1054.1.1 = {
+		#holder = 600041 # Soeun
+	  #}
+#}
 
 d_sarapalar = {
 	1054.1.1 = {
-	  holder = 600041 # Soeun
+		holder = 600097 # Zewische
+		liege = 0
+	  }
+}
+c_MaPona = {
+	1054.1.1 = {
+		holder = 600097 # Zewische
+		liege = 0
+	}
+}
+c_WestTortoiseHills = {
+	1054.1.1 = {
+		holder = 600097 # Zewische
+		liege = 0
+	}
+}
+d_liyenplains {
+	1054.1.1 = {
+		holder = 600041 # Soeun
+	}
+}
+c_AshurasPath = {
+	1054.1.1 = {
+		holder = 600041 # Soeun
+	}
+}
+c_KidatLand = {
+	1054.1.1 = {
+		holder = 600041 # Soeun
+	}
+}
+c_Lingwilocendur = {
+	1054.1.1 = {
+		holder = 600041 # Soeun
+	}
+}
+c_HoàngKhánh = {
+	1054.1.1 = {
+		holder = 600041 # Soeun
 	}
 }

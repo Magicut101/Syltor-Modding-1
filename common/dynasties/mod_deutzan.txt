@@ -1,4 +1,8 @@
 ﻿30000002 = {
-	name = "Lekenos"
+	name = "dynn_Lekenos"
 	culture = "syrosi"
+}
+30000214 =  {
+    name = "dynn_vonHaegiel"
+    culture = "deutzani"
 }

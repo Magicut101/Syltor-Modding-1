@@ -1,0 +1,6 @@
+d_fluenta = {
+	1040.1.1 = {
+			holder = 600124 # Crinky
+			liege = 0
+	}
+}
