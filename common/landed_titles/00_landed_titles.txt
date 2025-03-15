@@ -2,6 +2,20 @@
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 
+d_laamp_guttorm = { # the chosen one
+	color = { 100 100 100 }
+	capital = c_DuckIsland
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
 d_xaburya_grandmaster = {
 		color = {
 		0
