@@ -5,6 +5,7 @@
 5=farmlands
 6=plains
 7=plains
+8=plains
 9=plains
 10=hills
 11=drylands
