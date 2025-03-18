@@ -1,0 +1,95 @@
+namespace = dandelist_events
+bardonian_conversion.0001 = {
+type = character_event #character_event or letter_event
+title = bardonian_conversion.0001.t
+desc = bardonian_conversion.0001.desc
+left_portrait = {
+	character = root
+	animation = bold
+}
+theme = realm
+
+five_year_playable_pulse = { 
+	on_actions = { my_five_year_playable_pulse }
+}
+my_five_year_playable_pulse = {
+
+	random_events = { 
+		bardonian_conversion.0001
+# Your event change name is here.
+	}
+}
+trigger = {
+	
+}
+#Trying to make a event that converts some or all top rulers to a different heresy of dandelist
+immediate = { #happens immediately
+	every_ruler = { #iterates through every characters with a landed title
+		limit = { #filters these characters
+			is_landed = yes 
+		} 
+			
+			add_gold = 1000 #effect happens immediately here to all characters, make sure the effect has a character scope.
+			# use https://ck3.paradoxwikis.com/Effects_list for reference to effects and scopes. 
+			set_character_faith_with_conversion = faith:dandelism #Don't misspell this last bit. This changes the faith of a character 
+		}
+		
+	
+}
+
+	
+}
+
+namespace = dandelist_events
+bardonian_conversion.1000 = {
+type = character_event #character_event or letter_event
+title = bardonian_conversion.1000.t
+desc = bardonian_conversion.1000.desc
+left_portrait = {
+	character = root
+	animation = bold
+}
+theme = realm
+
+five_year_playable_pulse = {  #who cares probably doesn't work
+	on_actions = { my_five_year_playable_pulse }
+}
+my_five_year_playable_pulse = {
+
+	random_events = { 
+		bardonian_conversion.1000
+# Your event change name is here.
+	}
+}
+trigger = {
+	
+}
+#Trying to make a event that converts some or all top rulers to a different heresy of dandelist
+immediate = { #happens immediately
+	every_ruler = { #iterates through every characters with a landed title
+		limit = { #filters these characters
+			is_landed = yes 
+			has_religion = religion:dandelism_religion #check for dandelism religous family
+		} 
+			set_character_faith_with_conversion = faith:dandelism #convert the Faith of a region
+			
+			
+			
+
+		#These are the different dandelist options
+			#dandelism
+			#trostian_dandelism
+			#consumer_dandelism
+			#diplo_dandelism
+			#war_dandelism
+			#death_dandelism
+			#intrigue_dandelism
+		
+		
+		}
+		
+	
+}
+
+	
+}
