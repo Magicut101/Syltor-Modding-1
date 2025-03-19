@@ -16,6 +16,20 @@ d_laamp_guttorm = { # the chosen one
 	ai_primary_priority = { add = @never_primary_score }
 }
 
+d_the_hands = { #self-explanatory
+	color = { 240 240 240 }
+	capital = c_Dorasterrock
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
 d_xaburya_grandmaster = {
 		color = {
 		0
@@ -62,6 +76,21 @@ d_celestial_matron = {
 	can_be_named_after_dynasty = no
 	landless = yes
 	capital = c_Lhumar
+}
+d_prophet_of_the_dandelists = {
+	color = {
+		255
+		255
+		0
+	}
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	landless = no
+	capital = c_Fluenta
 }
 
 e_ashura = {

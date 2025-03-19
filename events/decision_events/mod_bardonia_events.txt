@@ -8,19 +8,9 @@ left_portrait = {
 	animation = bold
 }
 theme = realm
-
-five_year_playable_pulse = { 
-	on_actions = { my_five_year_playable_pulse }
-}
-my_five_year_playable_pulse = {
-
-	random_events = { 
-		bardonian_conversion.0001
-# Your event change name is here.
-	}
 }
 trigger = {
-	
+	gold = 10000000
 }
 #Trying to make a event that converts some or all top rulers to a different heresy of dandelist
 immediate = { #happens immediately
@@ -38,7 +28,8 @@ immediate = { #happens immediately
 }
 
 	
-}
+
+
 
 namespace = dandelist_events
 bardonian_conversion.1000 = {
@@ -51,30 +42,79 @@ left_portrait = {
 }
 theme = realm
 
-five_year_playable_pulse = {  #who cares probably doesn't work
-	on_actions = { my_five_year_playable_pulse }
-}
-my_five_year_playable_pulse = {
-
-	random_events = { 
-		bardonian_conversion.1000
-# Your event change name is here.
-	}
-}
 trigger = {
-	
+
 }
 #Trying to make a event that converts some or all top rulers to a different heresy of dandelist
 immediate = { #happens immediately
 	every_ruler = { #iterates through every characters with a landed title
-		limit = { #filters these characters
+		limit = { #filters all ruler characters
 			is_landed = yes 
 			has_religion = religion:dandelism_religion #check for dandelism religous family
 		} 
-			set_character_faith_with_conversion = faith:dandelism #convert the Faith of a region
+			 #convert the Faith of a landed ruler based on trait or stats
+			if = {
+				limit = {					#Dandelism (Yellow)
+				  # condition
+				  has_trait = ambitious
+				}
+				# effect
+				set_character_faith_with_conversion = faith:dandelism
+			  }
+			  # optional
+			 else_if = {					#trostian_dandelism
+				limit = { 
+					learning >= 12
+				}
+				# effect
+				set_character_faith_with_conversion = faith:trostian_dandelism
+			}		
+			  else_if = {					#consumer_dandelism
+			  	limit = { 
+					stewardship >= 12
+		
+			  	
+			  }
+			  	  # effect
+					set_character_faith_with_conversion = faith:consumer_dandelism
+			}
+			  else_if = {					#diplo_dandelism
+			 	 limit = { 
+					diplomacy >= 12
+			  
+			  }
+			  # effect
+			  set_character_faith_with_conversion = faith:diplo_dandelism
+			}
+			else_if = {	
+				limit = { 
+					intrigue >= 12				#intrigue_dandelism
 			
-			
-			
+			  }
+			  	# effect
+			  set_character_faith_with_conversion = faith:intrigue_dandelism
+			}
+			  else_if = {					
+				limit = { 
+					martial >= 12						#war_dandelism
+				
+			  } 
+			  # effect
+			  set_character_faith_with_conversion = faith:war_dandelism
+			}
+			  else_if = {					#death_dandelism
+			 	 limit = { 
+					prowess >= 12
+				
+			  }
+			  # effect
+			  set_character_faith_with_conversion = faith:death_dandelism 
+			}
+			  
+			  
+		}
+	}
+}
 
 		#These are the different dandelist options
 			#dandelism
@@ -86,10 +126,3 @@ immediate = { #happens immediately
 			#intrigue_dandelism
 		
 		
-		}
-		
-	
-}
-
-	
-}
