@@ -43,11 +43,11 @@ left_portrait = {
 theme = realm
 
 trigger = {
-
+	is_landed = yes
 }
 #Trying to make a event that converts some or all top rulers to a different heresy of dandelist
 immediate = { #happens immediately
-	every_ruler = { #iterates through every characters with a landed title
+	every_ruler = { #iterates through characters with a landed title
 		limit = { #filters all ruler characters
 			is_landed = yes 
 			has_religion = religion:dandelism_religion #check for dandelism religous family

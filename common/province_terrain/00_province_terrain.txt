@@ -303,7 +303,7 @@
 303=plains
 304=hills
 305=plains
-306=farmalnds
+306=farmlands
 307=hills
 308=plains
 309=plains
