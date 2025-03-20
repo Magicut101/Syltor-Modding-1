@@ -5,6 +5,9 @@
 	culture = "heartlander"
 	female = yes
 	trait = education_learning_4
+	trait = immortal
+    intrigue = 40
+    trait = paranoid
 	1038.1.1 = {
 		birth = "821.1.1"
 	}
@@ -12,14 +15,216 @@
 }
 
 600060 = {
-	name = "Cru'Cho "
-	#dynasty = 30000106 #Maxion
+	name = "Cru'Cho"
+	dynasty = 30000106 #Maxion
 	religion = "twin_dragon"
-	culture = "almador"
+	culture = "heartlander"
 	trait = education_stewardship_4
 	1040.1.1 = {
 		birth = "820.1.1"
 	}
 	#dna = 
+}
+
+600102 = { 
+    name = "Vahtying" #owns almador
+    dynasty = 30000007  
+    religion = "twin_dragon" 
+    culture = "heartlander" 
+     1040.1.1 = {
+                birth = "820.1.1"
+        } 
+    female = yes
+    trait = education_diplomacy_4
+	father = 600077
+	mother = 6000011
+}
+
+600079 = { 
+    name = "Lanfen" #Owns Lhumar
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    trait = education_stewardship_4
+    stewardship = 10
+    female = yes
+	father = 600077
+	mother = 6000011
+}
+
+600088 = {
+    name = "Tauranis"
+    dynasty = 30000210
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    female = yes
+	employer = 600079
+}
+600075 = {
+    name = "Pyrrah"
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    female = yes
+    trait = education_learning_4
+}
+
+600077 = {
+    name = "Shǔwà Gāngshivaè"
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+        spouse = 6000011
+    }
+	trait = education_diplomacy_2
+    employer = 600079
+}
+
+600080 = {
+    name = "Bjorn Rex"
+    dynasty = 30000213
+    religion = "twin_dragon"
+    culture = "heartlander"
+    trait = education_learning_3
+    employer = 600079
+    1040.1.1 = {
+        birth = "820.1.1"
+      
+    }
+    
+}
+600076 = {
+    name = "Aegeus"
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    trait = education_diplomacy_3
+}
+
+600081 = {
+	name = "Xióng"
+    dynasty = 30000205
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+    birth = "820.1.1"
+    }
+	trait = scholar
+	trait = education_learning_3
+	employer = 600079
+}
+600085 = {
+    name = "Orwa"
+    dynasty = 30000208
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    female = yes
+	trait = scholar
+	trait = education_learning_4
+	trait = whole_of_body
+	trait = theologian
+	employer = 600079
+}
+
+600091 = { 
+	name = "Sel"
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+    birth = "820.1.1"
+    }
+    female = yes
+	trait = education_stewardship_4
+	employer = 600079
+}
+
+600089 = {
+    name = "Muinon"
+    dynasty = 30000211
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    employer = 600075
+}
+
+600090 = {
+    name = "Janaera"
+    dynasty = 30000212
+    religion = "twin_dragon"
+    culture = ryzani
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+    trait = education_learning_3
+    employer = 600079
+    female = yes
+}
+
+600092 = {
+    name = "Waihua Wehe"
+    dynasty = 30000213
+    religion = "tossanism"
+    culture =  ryzani
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = education_diplomacy_2
+	employer = 600079
+}
+600093 = {
+    name = "Mel"
+    dynasty = 30000007
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = education_stewardship_4
+	employer = 600102
+    female = yes
+}
+
+
+600095 = {
+    name = "Kai"
+    dynasty = 30000215
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = education_learning_2
+	employer = 600102
+}
+600098 = {
+    name = "Djarrow"
+    dynasty = 30000217
+    religion = "ashuran_pantheon"
+    culture = "ashuran"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	trait = education_martial_2
+	employer = 600102
 }
 

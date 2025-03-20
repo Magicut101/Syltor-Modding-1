@@ -12,3 +12,13 @@
 	}
 	#dna = 
 }
+
+600082 = { 
+	name = "Veassenis" #tangrina, should own tacua, for now owns some parts of dun 
+    dynasty = 30000206
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+    birth = "820.1.1"
+    }
+}

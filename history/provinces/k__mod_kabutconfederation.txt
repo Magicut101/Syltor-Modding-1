@@ -1,7 +1,9 @@
 212 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 213 = {
@@ -15,7 +17,9 @@
 215 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 216 = {
@@ -25,7 +29,9 @@
 217 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 218 = {
@@ -35,7 +41,9 @@
 219 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 220 = {
@@ -49,7 +57,9 @@
 222 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 223 = {
@@ -63,7 +73,9 @@
 225 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 226 = {
@@ -77,7 +89,9 @@
 228 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 229 = {
@@ -87,7 +101,9 @@
 230 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 231 = {
@@ -101,7 +117,9 @@
 233 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 234 = {
@@ -111,7 +129,9 @@
 235 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 236 = {
@@ -125,7 +145,9 @@
 238 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 239 = {
@@ -135,7 +157,9 @@
 240 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 241 = {
@@ -149,7 +173,9 @@
 243 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 244 = {
@@ -163,7 +189,9 @@
 246 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 247 = {
@@ -173,7 +201,9 @@
 248 = {
 	culture = kadut
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 249 = {

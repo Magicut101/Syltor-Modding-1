@@ -5,7 +5,9 @@
 	culture = "ashuran"
 	trait = brave
     trait = lustful
+	trait = arrogant
 	trait = education_martial_4
+	trait = conqueror 
 	martial = 20
 	Prowess = 15
 	1040.1.1 = {

@@ -1,5 +1,11 @@
 1785 = {
-	holding = castle_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
+		holding = castle_holding
+		}
+		}
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -21,7 +27,9 @@
 }
 
 1790 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -35,7 +43,9 @@
 }
 
 1793 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -45,7 +55,9 @@
 }
 
 1795 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -59,7 +71,9 @@
 }
 
 1798 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -73,7 +87,9 @@
 }
 
 1801 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -91,7 +107,9 @@
 }
 
 1805 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -113,7 +131,9 @@
 }
 
 1810 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -139,7 +159,9 @@
 }
 
 1816 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -161,7 +183,9 @@
 }
 
 1821 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -179,7 +203,9 @@
 }
 
 1825 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -197,7 +223,9 @@
 }
 
 1829 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -211,7 +239,9 @@
 }
 
 1832 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -221,7 +251,9 @@
 }
 
 1834 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -239,7 +271,9 @@
 }
 
 1838 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -253,7 +287,9 @@
 }
 
 1841 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -267,7 +303,9 @@
 }
 
 1844 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -278,7 +316,9 @@
 
 # yuh
 1846 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -288,7 +328,9 @@
 }
 
 1848 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }
@@ -310,7 +352,9 @@
 }
 
 1853 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = hyrian
 	religion = dandelism
 }

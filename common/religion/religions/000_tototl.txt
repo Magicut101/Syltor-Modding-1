@@ -219,7 +219,7 @@
 		tototl = {
 			color = { 166 16 30 }
 			graphical_faith = "catholic_gfx"
-			icon = tototl
+			icon = tototl2
 			
 			holy_site = kaluko
 			holy_site = soluna

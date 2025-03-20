@@ -1,9 +1,14 @@
 ﻿30000004 = {
-	name = "Tossovich"
+	name = "dynn_Tossovich"
 	culture = "ryzani"
 }
 
 30000005 = {
-	name = "Kovalsky"
+	name = "dynn_Kovalsky"
 	culture = "ryzani"
+}
+
+30000222 = {
+	name = "dynn_Magmablood"
+	culture = "dwarvish"
 }

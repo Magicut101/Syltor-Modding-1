@@ -151,6 +151,7 @@ tradition_avian_hunters = {
 		heavy_cavalry_toughness_mult = -0.05
 		heavy_infantry_damage_mult = -0.1
 		heavy_infantry_toughness_mult = -0.05
+		archers_max_size_add = 2
 	}
 	
 	can_pick = {
@@ -449,15 +450,14 @@ tradition_Oathbound_Order = {
 	}
 	
 	character_modifier = {
-		heavy_infantry_toughness_mult = 0.2
-		heavy_infantry_maintenance_mult = 0.2
-		hard_casualty_modifier = 0.05
-		defender_advantage = 2
-		
-
+		heavy_infantry_toughness_mult = 0.1
+		heavy_infantry_maintenance_mult = -0.10
+		hard_casualty_modifier = -0.10
+		defender_advantage = 5
 	}
 	parameters = { 
 		unlock_maa_oathbound = yes 
+		unlock_maa_spellweaver = yes 
 	}
 	
 	cost = {
@@ -607,6 +607,10 @@ tradition_ancient_chloromancers = {
 	parameters = {
 		plantations_building_bonuses = yes
 		unlock_maa_chloromancers = yes
+		unlock_maa_cataphract = yes
+		unlock_maa_akritai = yes
+		unlock_maa_ballistrai = yes
+		unlock_maa_skoutatoi = yes
 	}
 	character_modifier = {
 	}

@@ -2,7 +2,9 @@
 880 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 881 = {
@@ -28,7 +30,9 @@
 885 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 886 = {
@@ -38,7 +42,9 @@
 887 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 888 = {
@@ -52,7 +58,9 @@
 899 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 900 = {
@@ -66,7 +74,9 @@
 902 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 903 = {
@@ -84,7 +94,9 @@
 906 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 907 = {
@@ -98,7 +110,9 @@
 909 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 910 = {
@@ -108,7 +122,9 @@
 911 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 912 = {
@@ -122,7 +138,9 @@
 914 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 915 = {
@@ -140,7 +158,9 @@
 918 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 919 = {
@@ -150,7 +170,9 @@
 920 = {
 	culture = heartlander
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 921 = {

@@ -1,4 +1,62 @@
 ﻿30000007 = {
-	name = "Lelya Earcala"
+	name = "dynn_Lelyaearcala"
 	culture = "heartlander"
 }
+
+30000205 = {
+    name = "dynn_Huān"
+    culture = "heartlander" #should be Ghuren culture but heartlander works fine
+
+}
+30000212 = {
+    name = "dynn_Apisamus"
+    culture = "ryzani" #actually Daelyrian but that doesxn't exist
+}
+
+30000206 =   {
+    name = "dynn_Tang"
+    culture = "heartlander"
+}
+
+30000207 =   {
+    name = "dynn_Helemar"
+    culture = "heartlander"
+}
+
+30000208 =   {
+    name = "dynn_Sinawis"
+    culture = "heartlander"
+}
+
+30000209 =   {
+    name = "dynn_Sauranis"
+    culture = "heartlander"
+}
+
+30000210 =   {
+    name = "dynn_Alcaron"
+    culture = "heartlander"
+}
+
+30000211 =   {
+    name = "dynn_Gilmore"
+    culture = "heartlander"
+}
+
+30000217 = {
+    name = "dynn_Vorosanyis"
+    culture = "ashuran"
+
+}
+
+30000213 = {
+    name = "dynn_Rex"
+    culture = "heartlander"
+}
+
+30000215 =  {
+    name = "dynn_Aikawa"
+    culture = "heartlander" #uldarashi but not avaliable so heartlander landless.
+}
+
+

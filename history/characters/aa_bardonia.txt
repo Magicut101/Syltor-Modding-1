@@ -1,0 +1,14 @@
+600107 = {
+	trait = education_martial_4
+	name = "Lily"
+	female = yes
+	
+	dynasty = 30000221
+	religion = "Soleannen" 
+	culture = "dorastterocker"
+	  1040.1.1 = {
+                birth = ""820.1.1""
+        } 
+	prowess = 20
+	martial = 15
+	}

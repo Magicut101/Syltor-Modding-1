@@ -2,13 +2,17 @@
 452 = {
 	culture = angan
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 453 = {
 	holding = none
 	1065.1.1 = { 
+		1054.1.1 = {
 		holding = city_holding
+		}
 	}
 }
 
@@ -119,13 +123,19 @@
 469 = {
 	culture = angan
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 470 = {
-	holding = city_holding
-	1065.1.1 = { 
+	1054.1.1 = {
 		holding = city_holding
+		}
+	1065.1.1 = { 
+		1054.1.1 = {
+		holding = city_holding
+		}
 	}
 }
 
@@ -137,9 +147,13 @@
 }
 
 472 = {
-	holding = castle_holding
-	1065.1.1 = { 
+	1054.1.1 = {
 		holding = castle_holding
+		}
+	1065.1.1 = { 
+		1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 
@@ -147,7 +161,9 @@
 473 = {
 	culture = angan
 	religion = almadorian
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 474 = {
@@ -225,7 +241,7 @@
 482 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 483 = {
@@ -249,7 +265,7 @@
 486 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 487 = {
@@ -270,9 +286,11 @@
 489 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
-	1054.1.1 = {
 	holding = castle_holding
+	1054.1.1 = {
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 
@@ -292,16 +310,14 @@
 
 492 = {
 	holding = none
-	1054.1.1 = {
-		holding = none
-		}
+
 }
 
 
 496 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 497 = {
@@ -314,7 +330,7 @@
 498 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 499 = {
@@ -327,7 +343,7 @@
 500 = {
 	culture = nekojin
 	religion = almadorian
-	holding = tribal_holding
+	holding = _holding
 }
 
 501 = {
@@ -348,16 +364,20 @@
 503 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 	1065.1.1 = { 
+		1054.1.1 = {
 		holding = castle_holding
+		}
 	}
 }
 
 504 = {
 	holding = none
 	1065.1.1 = { 
+		1054.1.1 = {
 		holding = city_holding
+		}
 	}
 }
 
@@ -385,7 +405,7 @@
 508 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 509 = {
@@ -405,7 +425,7 @@
 511 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 512 = {
@@ -425,7 +445,7 @@
 514 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 515 = {
@@ -445,7 +465,7 @@
 517 = {
 	culture = angan
 	religion = almadorian
-	holding = tribal_holding
+	holding = castle_holding
 }
 
 518 = {

@@ -1,19 +1,10 @@
 ﻿30000009 = {
-	name = "Liberium"
+	name = "dynn_Liberium"
 	culture = "remtali"
 }
 
 30000018 = {
-	name = "Tise"
+	name = "dynn_Tise"
 	culture = "remtali"
 }
 
-30000019 = {
-	name = "Chernik"
-	culture = "remtali"
-}
-
-30000020 = {
-	name = "Shan"
-	culture = "remtali"
-}

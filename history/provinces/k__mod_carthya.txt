@@ -1,7 +1,7 @@
 #c_verkhnya
 996 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -20,7 +20,7 @@
 #c_slimehost
 1000 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -35,7 +35,7 @@
 #c_neuheim
 989 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -44,7 +44,10 @@
 }
 
 1014 = {
+	1054.1.1 = {
 	holding = city_holding
+	}
+
 }
 
 1015 = {
@@ -54,7 +57,7 @@
 #Carthya City
 1016 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 	1053.1.1 = {
 		special_building = generic_university
@@ -62,7 +65,11 @@
 }
 
 1017 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 1018 = {
@@ -84,12 +91,12 @@
 # angels peak
 1022 = {
 	culture = carthyan
-	religion = tossanism
+	religion = bluepheonix
 	holding = castle_holding
 }
 
 1023 = {
-	holding = none
+	holding = church_holding
 }
 
 1024 = {
@@ -98,7 +105,7 @@
 
 1025 = {
 	culture = carthyan
-	religion = tossanism
+	religion = bluepheonix
 	holding = castle_holding
 }
 
@@ -112,7 +119,7 @@
 
 1028 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -126,7 +133,7 @@
 
 1031 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -136,7 +143,7 @@
 
 1033 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -150,7 +157,7 @@
 
 1036 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -164,7 +171,7 @@
 
 1039 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -182,7 +189,7 @@
 
 1043 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -196,7 +203,7 @@
 
 1046 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -210,7 +217,7 @@
 
 1049 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -224,7 +231,7 @@
 
 1052 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
@@ -238,12 +245,12 @@
 
 1055 = {
 	culture = carthyan
-	religion = tossanism
+	religion = pheonixtossanist
 	holding = castle_holding
 }
 
 1056 = {
-	holding = none
+	holding = church_holding
 }
 
 1057 = {
@@ -261,12 +268,12 @@
 #lebadville
 1159 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
 1160 = {
-	holding = none
+	holding = city_holding
 }
 
 1161 = {
@@ -276,7 +283,7 @@
 # chudniv
 1162 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -291,7 +298,7 @@
 # khyriv
 1165 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
@@ -306,12 +313,12 @@
 # skalati
 1168 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
 1169 = {
-	holding = none
+	holding = city_holding
 }
 
 1170 = {
@@ -325,12 +332,12 @@
 # novyikalyniv
 1172 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
 1173 = {
-	holding = none
+	holding = city_holding
 }
 
 1174 = {
@@ -340,20 +347,25 @@
 # xaburya
 1176 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
+	special_building = xaburya_hold_01
 }
 
 1175 = {
-	holding = city_holding
+		1054.1.1 = {
+		holding = city_holding
+		}
 }
 
 1177 = {
-	holding = city_holding
+		1054.1.1 = {
+		holding = city_holding
+		}
 }
 
 1178 = {
-	holding = none
+	holding = castle_holding
 }
 
 1179 = {
@@ -363,7 +375,7 @@
 # Star
 1180 = {
 	culture = xaburyan
-	religion = tossanism
+	religion = xaburya_spirit
 	holding = castle_holding
 }
 
