@@ -95,3 +95,10 @@ c_Nashur = {
     } #Nefer
 }
 
+#Might instead make this sort of a cartographer's camp with notable cartogapher's in it. 
+d_mapmakers = {
+
+	1054.1.1 = { 
+        holder = 600108
+    } 
+}
