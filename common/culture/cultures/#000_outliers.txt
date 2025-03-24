@@ -6,7 +6,7 @@
 	}
 	
 	ethos = ethos_courtly
-	heritage = heritage_corvus
+	heritage = heritage_avian
 	language = language_crowspeak
 	martial_custom = martial_custom_equal
 	traditions = {
@@ -45,7 +45,7 @@ valkyries = {
 	}
 	
 	ethos = ethos_stoic
-	heritage = heritage_corvus
+	heritage = heritage_avian
 	language = language_crowspeak
 	martial_custom = martial_custom_equal
 	traditions = {

@@ -1,10 +1,10 @@
 ﻿# Our heritages
 
-heritage_corvus = {
+heritage_avian = {
 	type = heritage
 		is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_corvus
+			HERITAGE = heritage_avian
 		}
 	}
 	audio_parameter = european
