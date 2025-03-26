@@ -1,0 +1,15 @@
+d_solanarium = {
+	867.1.1 = {	change_development_level = 3 }
+
+	1054.1.1 = {
+		holder = 600130 # Azzo de Medici
+	}
+}
+c_PortSolanarium = {
+    867.1.1 = {	change_development_level = 3 }
+
+	1054.1.1 = {
+		holder = 600100 #Zion
+		liege = d_solanarium 
+	}
+}

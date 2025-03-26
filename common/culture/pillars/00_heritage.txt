@@ -1,51 +1,124 @@
 ﻿# Our heritages
 
-heritage_corvus = {
+heritage_avian = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_avian
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_nekojin = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_nekojin
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_synderian = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_synderian
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_ashuric = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ashuric
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_aurlunoren = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_aurlunoren
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_azeral = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_azeral
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_hamgu = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hamgu
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_brothian = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_brothian
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_azararni = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_azararni
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_hadok = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hadok
+		}
+	}
+	audio_parameter = european
 }
 
 heritage_outliers = {
 	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_outliers
+		}
+	}
+	audio_parameter = european
 }
 
-
-
+heritage_alvadan = {
+	type = heritage
+		is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_alvadan
+		}
+	}
+	audio_parameter = european
+}
 
 # Vanilla heritages
 

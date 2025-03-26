@@ -15,7 +15,7 @@ island_region_canarias = {
 		c_SheepsKey
 		c_AlligatorsBayou
 		c_OrchidsPath
-
+		c_Crandor
 	}
 	duchies = {
 		d_necua

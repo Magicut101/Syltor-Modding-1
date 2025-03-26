@@ -6,10 +6,12 @@
 #############################################
 
 struggle_iberia_ending_hostility_decision = {
-	major = yes
+	decision_group_type = major
 	title = struggle_iberia_ending_hostility_decision
-	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
-	extra_picture = "gfx/interface/illustrations/struggle_decisions_buttons/fp2_decision_hostility.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	extra_picture = "gfx/interface/illustrations/struggle_decision_buttons/fp2_decision_hostility.dds"
 	desc = struggle_iberia_ending_hostility_decision_desc
 	selection_tooltip = struggle_iberia_ending_hostility_decision_tooltip
 	confirm_click_sound = "event:/DLC/FP2/SFX/UI/fp2_struggle_ending_decision_confirm"
@@ -17,6 +19,7 @@ struggle_iberia_ending_hostility_decision = {
 	sort_order = 80
 
 	is_shown = {
+		is_landless_adventurer = no
 		has_fp2_dlc_trigger = yes
 	}
 
@@ -42,8 +45,9 @@ struggle_iberia_ending_hostility_decision = {
 			}
 		}
 
+
 		custom_tooltip = {
-			text = struggle_ending_decision_correct_involvement_tt
+			text = struggle_ending_decision_correct_involvement_spain_tt
 			any_character_struggle = {
 				involvement = involved
 				is_struggle_type = iberian_struggle
@@ -144,6 +148,14 @@ struggle_iberia_ending_hostility_decision = {
 	}
 
 	effect = {
+		if = {
+			limit = { has_dlc_feature = legends }
+			legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = iberian_struggle
+			}
+		}
+		
 		##### Major Effects #####
 		show_as_tooltip = {
 			dynasty = { add_dynasty_prestige = 10000 }
@@ -200,10 +212,12 @@ struggle_iberia_ending_hostility_decision = {
 #############################################
 
 struggle_iberia_ending_compromise_decision = {
-	major = yes
+	decision_group_type = major
 	title = struggle_iberia_ending_compromise_decision
-	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_compromise.dds"
-	extra_picture = "gfx/interface/illustrations/struggle_decisions_buttons/fp2_decision_compromise.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_compromise.dds"
+	}
+	extra_picture = "gfx/interface/illustrations/struggle_decision_buttons/fp2_decision_compromise.dds"
 	desc = struggle_iberia_ending_compromise_decision_desc
 	selection_tooltip = struggle_iberia_ending_compromise_decision_tooltip
 	confirm_click_sound = "event:/DLC/FP2/SFX/UI/fp2_struggle_ending_decision_confirm"
@@ -212,6 +226,7 @@ struggle_iberia_ending_compromise_decision = {
 	sort_order = 80
 
 	is_shown = {
+		is_landless_adventurer = no
 		has_fp2_dlc_trigger = yes
 	}
 
@@ -227,7 +242,7 @@ struggle_iberia_ending_compromise_decision = {
 		}
 
 		custom_tooltip = {
-			text = struggle_ending_decision_correct_involvement_tt
+			text = struggle_ending_decision_correct_involvement_spain_tt
 			any_character_struggle = {
 				involvement = involved
 				is_struggle_type = iberian_struggle
@@ -263,9 +278,11 @@ struggle_iberia_ending_compromise_decision = {
 				struggle:iberian_struggle = {
 					any_involved_ruler = {
 						is_independent_ruler = yes
+						is_landless_adventurer = no
 						primary_title = { is_mercenary_company = no }
 						any_primary_war_enemy = {
 							is_independent_ruler = yes
+							is_landless_adventurer = no
 							any_character_struggle = {
 								involvement = involved
 								is_struggle_type = iberian_struggle
@@ -288,6 +305,7 @@ struggle_iberia_ending_compromise_decision = {
 							is_independent_ruler = yes
 							primary_title = { is_holy_order = no }
 							primary_title = { is_mercenary_company = no }
+							is_landless_adventurer = no
 							save_temporary_scope_as = this_character
 							NOR = {
 								root = { has_strong_hook = scope:this_character }
@@ -309,6 +327,7 @@ struggle_iberia_ending_compromise_decision = {
 							NOT = { this = root }
 							is_independent_ruler = yes
 							primary_title = { is_mercenary_company = no }
+							is_landless_adventurer = no
 							primary_title.tier >= tier_kingdom
 						}
 					}
@@ -337,6 +356,13 @@ struggle_iberia_ending_compromise_decision = {
 	}
 
 	effect = {
+		if = {
+			limit = { has_dlc_feature = legends }
+			legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = iberian_struggle
+			}
+		}
 		##### Major Effects #####
 		# Personal effects for ruler
 		show_as_tooltip = { fp2_struggle_compromise_ender_effect = yes }
@@ -388,10 +414,12 @@ struggle_iberia_ending_compromise_decision = {
 #############################################
 
 struggle_iberia_ending_conciliation_decision = {
-	major = yes
+	decision_group_type = major
 	title = struggle_iberia_ending_conciliation_decision
-	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_conciliation.dds"
-	extra_picture = "gfx/interface/illustrations/struggle_decisions_buttons/fp2_decision_conciliation.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_conciliation.dds"
+	}
+	extra_picture = "gfx/interface/illustrations/struggle_decision_buttons/fp2_decision_conciliation.dds"
 	desc = struggle_iberia_ending_conciliation_decision_desc
 	selection_tooltip = struggle_iberia_ending_conciliation_decision_tooltip
 	confirm_click_sound = "event:/DLC/FP2/SFX/UI/fp2_struggle_ending_decision_confirm"
@@ -400,6 +428,7 @@ struggle_iberia_ending_conciliation_decision = {
 	sort_order = 80
 
 	is_shown = {
+		is_landless_adventurer = no
 		has_fp2_dlc_trigger = yes
 	}
 
@@ -415,7 +444,7 @@ struggle_iberia_ending_conciliation_decision = {
 		}
 
 		custom_tooltip = {
-			text = struggle_ending_decision_correct_involvement_tt
+			text = struggle_ending_decision_correct_involvement_spain_tt
 			any_character_struggle = {
 				involvement = involved
 				is_struggle_type = iberian_struggle
@@ -437,6 +466,7 @@ struggle_iberia_ending_conciliation_decision = {
 				NOT = {
 					any_involved_ruler = {
 						is_independent_ruler = yes
+						is_landless_adventurer = no
 						primary_title = { is_mercenary_company = no }
 						primary_title = { is_holy_order = no }
 						NOR = {
@@ -456,6 +486,13 @@ struggle_iberia_ending_conciliation_decision = {
 	}
 
 	effect = {
+		if = {
+			limit = { has_dlc_feature = legends }
+			legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = iberian_struggle
+			}
+		}
 		##### Major Effects #####
 		show_as_tooltip = {
 			fp2_struggle_conciliation_ender_effect = yes
@@ -491,19 +528,170 @@ struggle_iberia_ending_conciliation_decision = {
 	ai_will_do = { base = 100 }
 }
 
-
-
 ###################################
 # Secure the Mediterranean
 # By Hugo Cortell
 ###################################
+secure_mediterranean_decision = {
+	title = fp2_secure_mediterranean.t
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/fp1_ocean.dds"
+	}
+	desc = fp2_secure_mediterranean.desc
+	decision_group_type = major
+
+	selection_tooltip = fp2_secure_mediterranean.tip
+	sort_order = 50
+
+	is_shown = {
+		# DLC check
+		has_fp2_dlc_trigger = yes
+		# Standard checks
+		is_playable_character = yes
+		exists = dynasty
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_secured_the_mediterranean
+			}
+		}
+
+		OR = {
+			completely_controls = title:d_sardinia
+			completely_controls = title:d_sicily
+			AND = {
+				completely_controls = title:d_mallorca
+				completely_controls = title:d_corsica
+			}
+		}
+	}
+
+	is_valid = {
+		completely_controls = title:d_mallorca
+		completely_controls = title:d_sardinia
+		completely_controls = title:d_corsica
+		completely_controls = title:d_sicily
+	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_secured_the_mediterranean
+		}
+
+		# LOC
+		root = {
+			save_scope_as = mediterranean_conqueror
+			house = { save_scope_as = mediterranean_house }
+		}
+		title:d_mallorca = { save_scope_as = mallorca }
+		title:d_sardinia = { save_scope_as = sardinas }
+		title:d_sicily = { save_scope_as = sicily }
+		title:k_mediterranean_sea = { save_scope_as = mediterranean_title }
+
+		every_player = {
+			limit = {
+				NOT = { this = ROOT }
+				any_held_title = { title_province = { geographical_region = dlc_fp2_mediterranean_shoreline } }
+			}
+			send_interface_message = {
+				type = event_generic_bad_with_text
+				title = secure_mediterranean_decision.involved_notif
+				desc = secure_mediterranean_decision.involved_notif_desc # Players who get this: "why do I hear boss music?" (It is meant to sound vaguely threatening)
+				left_icon = scope:mediterranean_conqueror
+
+				show_as_tooltip = {
+					scope:mediterranean_conqueror = {
+						house = {
+							add_house_modifier = {
+								modifier = fp2_controls_the_mediterranean_house_modifier
+								years = 100
+							}
+						}
+						dynasty = { add_dynasty_prestige = major_prestige_gain }
+					}
+				}
+			}
+		}
+
+		house = {
+			add_house_modifier = {
+				modifier = fp2_controls_the_mediterranean_house_modifier
+				years = 100
+			}
+		}
+		dynasty = { add_dynasty_prestige = major_prestige_gain } # You used to get +25% prestiege, but that caused UI issues
+		custom_tooltip = secure_mediterranean_decision.a
+
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = yes
+		}
+		title:k_mediterranean_sea = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		title:d_mallorca = { set_de_jure_liege_title = title:k_mediterranean_sea }
+		title:d_sardinia = { set_de_jure_liege_title = title:k_mediterranean_sea }
+		title:d_corsica = { set_de_jure_liege_title = title:k_mediterranean_sea }
+		title:d_sicily = { set_de_jure_liege_title = title:k_mediterranean_sea }
+
+		hidden_effect = {
+			title:k_mediterranean_sea = { set_de_jure_liege_title = title:e_italy } # Straying closer to remaking the roman empire
+			trigger_event = iberia_north_africa.2105
+		}
+	}
+
+	cost = {
+		gold = {
+			value = major_gold_value
+			multiply = 1.5
+			round = yes
+		}
+		prestige = {
+			value = major_prestige_gain
+			multiply = 3
+			round = yes
+		}
+	}
+
+	ai_check_interval = 1000
+
+	ai_potential = {
+		is_ruler = yes
+		short_term_gold >= {
+			value = major_gold_value
+			multiply = 1.5
+			round = yes
+		}
+		prestige >= {
+			value = major_prestige_gain
+			multiply = 3
+			round = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 80
+	}
+}
 
 #############################################
 # Eat a Cheese
 # by Daniel "yes I know what exciting content is stop bullying me" Moore
 ###########################################################################
 eat_cheese_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
 	desc = eat_cheese_decision_desc
 
 	is_shown = {
@@ -536,13 +724,17 @@ eat_cheese_decision = {
 # By Hugo Cortell
 ###################################
 golden_age_jewish_science_in_iberia_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+	}
 	desc = golden_age_jewish_science_in_iberia_decision_desc
+	decision_group_type = struggle
 
 	is_shown = {
 		has_fp2_dlc_trigger = yes
 		top_liege = root
 		is_independent_ruler = yes # (Redundancy check)
+		is_landed_or_landless_administrative = yes
 		AND = {
 			exists = struggle:iberian_struggle
 			any_character_struggle = {
@@ -703,7 +895,9 @@ golden_age_jewish_science_in_iberia_decision = {
 #############################################
 council_of_toledo_decision = {
 	title = council_of_toledo_decision_title
-	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -715,7 +909,7 @@ council_of_toledo_decision = {
 	}
 	selection_tooltip = council_of_toledo_decision_tooltip
 	cooldown = { years = council_of_toledo_decision_decision_cooldown_value }
-	major = yes
+	decision_group_type = major
 
 	sort_order = 80
 
@@ -723,7 +917,9 @@ council_of_toledo_decision = {
 		# DLC check
 		has_fp2_dlc_trigger = yes
 		# Is Mozarabic (or reformed Mozarabic)
-		faith = { fp2_struggle_faith_is_mozarabic_trigger = yes }
+		faith = {
+			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:mozarabic_church }
+		}
 		any_vassal = { count > 0 }
 	}
 
@@ -747,6 +943,7 @@ council_of_toledo_decision = {
 	}
 
 	is_valid_showing_failures_only = {
+		is_landed = yes
 		# Not at war
 		is_at_war = no
 	}
@@ -808,14 +1005,16 @@ council_of_toledo_decision = {
 #############################################
 secure_iberian_foothold_decision = {
 	title = secure_iberian_foothold_decision_title
-	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
 	desc = secure_iberian_foothold_decision_desc
 	selection_tooltip = secure_iberian_foothold_decision_tooltip
 	sort_order = 80
-
-	major = yes
+	decision_group_type = struggle
 
 	is_shown = {
+		is_landless_adventurer = no
 		# DLC check
 		has_fp2_dlc_trigger = yes
 		# Struggle is active
@@ -942,6 +1141,10 @@ secure_iberian_foothold_decision = {
 	}
 
 	effect = {
+		legend_seed_struggle_ending_effect = {
+			ENDER = root
+			STRUGGLE = iberian_struggle
+		}
 		if = {
 			limit = {
 				any_held_title = { tier = tier_empire }
@@ -973,8 +1176,11 @@ secure_iberian_foothold_decision = {
 # By Hugo Cortell
 ###################################
 build_holy_pilgrim_roads_decision = {
-	picture = "gfx/interface/illustrations/decisions/fp2_decision_struggle_opening.dds"
-	sort_order = 300 # Note: in [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|L] and [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|L] both [NoTooltip] and [L] are ignored
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_opening.dds"
+	}
+	sort_order = 300
+	decision_group_type = struggle
 
 	is_shown = {
 		faith = {
@@ -1022,7 +1228,7 @@ build_holy_pilgrim_roads_decision = {
 			}
 		}
 		send_interface_toast = {
-			type = event_learning_good_with_text
+			type = event_toast_effect_good
 			title = build_holy_pilgrim_roads_decision_construction_notif.t
 			desc = build_holy_pilgrim_roads_decision_construction_notif.desc
 
@@ -1120,18 +1326,22 @@ build_holy_pilgrim_roads_decision = {
 #############################################
 found_kingdom_toledo_decision = {
 	title = found_kingdom_toledo_decision_title
-	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
 	desc = found_kingdom_toledo_decision_desc
 	selection_tooltip = found_kingdom_toledo_decision_tooltip
 	sort_order = 80
 
-	major = yes
+	decision_group_type = major
 
 	is_shown = {
 		# DLC check
 		has_fp2_dlc_trigger = yes
   		culture = { has_cultural_pillar = heritage_iberian }
-		faith = { fp2_struggle_faith_is_mozarabic_trigger = yes }
+		faith = {
+			portrait_religious_faith_or_foundational_trigger = { FAITH = faith:mozarabic_church }
+		}
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -1163,7 +1373,9 @@ found_kingdom_toledo_decision = {
 		}
 		custom_tooltip = {
 			text = found_kingdom_toledo_faith_tt
-			faith = { fp2_struggle_faith_is_mozarabic_trigger = yes }
+			faith = {
+				portrait_religious_faith_or_foundational_trigger = { FAITH = faith:mozarabic_church }
+			}
 		}
 		completely_controls = title:d_toledo
 		custom_tooltip = {
@@ -1177,6 +1389,10 @@ found_kingdom_toledo_decision = {
 			}
 		}
 	}
+	
+	is_valid_showing_failures_only = {
+		is_landed = yes
+	}
 
 	cost = {
 		gold = 250
@@ -1184,6 +1400,7 @@ found_kingdom_toledo_decision = {
 
 	effect = {
 		save_scope_as = toledo_former
+		gain_heroic_legend_seed_tooltip_effect = yes
 		fp2_struggle_found_kingdom_toledo_empire_effect = yes
 		save_scope_value_as = {
 			name = has_kingdom_toledo_absorb_list_been_created
@@ -1216,14 +1433,16 @@ found_kingdom_toledo_decision = {
 #############################################
 improve_city_province_decision = {
 	title = improve_city_province_decision_name
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
 	desc = improve_city_province_decision_desc
 	selection_tooltip = improve_city_province_decision_tooltip
 	cooldown = { years = 50 }
-	major = no
 	sort_order = 90
 
 	is_shown = {
+		is_landless_adventurer = no
 		exists = dynasty
 		dynasty = {
 			has_dynasty_perk = fp2_urbanism_legacy_5
@@ -1269,7 +1488,7 @@ improve_city_province_decision = {
 					save_scope_as = current_province
 					prev.holder = {
 						send_interface_toast = {
-							type = event_generic_good
+							type = event_toast_effect_good
 							title = city_gained_building_slots
 							left_icon = scope:current_province.barony
 

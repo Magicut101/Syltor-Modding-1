@@ -2,10 +2,14 @@
 925 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	1165.1.1 = {
 		culture = ryzani
+		1054.1.1 = {
 		holding = castle_holding
+		}
 	}
 }
 # flipped these cause its weird to put a island as the county capital
@@ -15,7 +19,11 @@
 }
 
 927 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 928 = {
@@ -30,7 +38,9 @@
 930 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 931 = {
@@ -49,11 +59,17 @@
 934 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 935 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 936 = {
@@ -64,7 +80,9 @@
 937 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 938 = {
@@ -75,11 +93,17 @@
 939 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 940 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 941 = {
@@ -91,7 +115,9 @@
 }
 
 943 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 944 = {
@@ -124,7 +150,9 @@
 949 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 950 = {
@@ -143,7 +171,9 @@
 953 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 954 = {
@@ -158,22 +188,27 @@
 1081 = {
 	culture = dwarvish
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		special_building = erebor_hold_01
+		holding = castle_holding
+		}
 }
 
 1082 = {
-	holding = none
+	holding = church_holding
 }
 
 1083 = {
-	holding = none
+	holding = city_holding
 }
 
 # fort erebor
 1084 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1085 = {
@@ -184,7 +219,9 @@
 1086 = {
 	culture = ryzani
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1087 = {

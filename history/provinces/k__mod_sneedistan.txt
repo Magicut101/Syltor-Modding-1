@@ -1,7 +1,9 @@
 434 = {
 	culture = ashuran
 	religion = cardinal
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 435 = {
@@ -22,13 +24,19 @@
 438 = {
 	culture = ashuran
 	religion = cardinal
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 439 = {
 	holding = none
 	1065.1.1 = { 
+		1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
 	}
 }
 
@@ -44,9 +52,13 @@
 442 = {
 	culture = ashuran
 	religion = cardinal
-	holding = castle_holding
-	1065.1.1 = { 
+	1054.1.1 = {
 		holding = castle_holding
+		}
+	1065.1.1 = { 
+		1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 
@@ -67,9 +79,13 @@
 445 = {
 	culture = ashuran
 	religion = cardinal
-	holding = castle_holding
-	1065.1.1 = { 
+	1054.1.1 = {
 		holding = castle_holding
+		}
+	1065.1.1 = { 
+		1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 
@@ -97,9 +113,13 @@
 449 = {
 	culture = ashuran
 	religion = cardinal
-	holding = castle_holding
-	1065.1.1 = { 
+	1054.1.1 = {
 		holding = castle_holding
+		}
+	1065.1.1 = { 
+		1054.1.1 = {
+		holding = castle_holding
+		}
 	}
 }
 

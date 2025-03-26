@@ -1,3 +1,9 @@
+d_hloamar = {
+	1054.1.1 = {
+		holder = 600012 # mao meili
+		}
+}
+
 c_Hloamar = {
 	867.1.1 = {	change_development_level = 12 }
 	1054.1.1 = {
@@ -8,14 +14,16 @@ c_Hloamar = {
 c_HelemarBeach = {
 	867.1.1 = {	change_development_level = 3 }
 	1054.1.1 = {
-	holder = 600012 # mao meili
+	holder = 600083 # Ja'al
+	liege = d_hloamar
 	}
 }
 
 c_OrchidsPath = {
 	867.1.1 = {	change_development_level = 3 }
 	1054.1.1 = {
-	holder = 600012 # mao meili
+	holder = 600083 # Ja'al
+	liege = d_hloamar
 	}
 }
 
@@ -29,7 +37,8 @@ c_WitchsWay = {
 c_HunhsuiLagoon = {
 	867.1.1 = {	change_development_level = 1 }
 	1054.1.1 = {
-	holder = 600012 # mao meili
+	holder = 600083 # Ja'al
+	liege = d_hloamar
 	}
 }
 
@@ -53,5 +62,36 @@ c_Shenhua = {
 	867.1.1 = {	change_development_level = 1 }
 	1054.1.1 = {
 	holder = 600019 #sun lei  # im unsure who they were in discord
+	}
+}
+c_Runsire = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+	holder = 600019 #sun lei  # im unsure who they were in discord
+	}
+}
+
+d_ecir = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	holder = 600101 #Hayalal
+	}
+}
+c_FortAngayen = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	holder = 600101 #Hayalal
+	}
+}
+c_HelemarBayou = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	holder = 600101 #Hayalal
+	}
+}
+c_ClubsHandle = {
+	867.1.1 = {	change_development_level = 5 }
+	1054.1.1 = {
+	holder = 600101 #Hayalal
 	}
 }

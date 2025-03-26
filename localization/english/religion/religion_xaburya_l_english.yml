@@ -1,0 +1,81 @@
+﻿l_english:
+
+ #Common xaburya Localization
+ xaburya_religion:0 "Xaburyan Spiritualism"
+ xaburya_religion_adj:0 "Xaburyan Spiritualist"
+ xaburya_religion_adherent:0 "Acolyte"
+ xaburya_religion_adherent_plural:0 "Acolytes"
+ xaburya_religion_desc:0 "Xaburyan spiritalists focus their time on understanding the material plane and growing their knowledge whilst tending to their spirit gardens they maintain with heavy handed militarism against outside threats."
+
+ xaburya_high_god_name:0 "Ancestors"
+ xaburya_high_god_name_2:0 "Spirits" # Optional translation alt
+ xaburya_high_god_name_3:0 "$xaburya_high_god_name$" # Optional translation alt
+ xaburya_high_god_name_possessive:0 "Ancestors"
+ xaburya_high_god_name_alternate:0 "Spirits"
+ xaburya_high_god_name_alternate_possessive:0 "Spirits"
+ xaburya_good_god_jesus:0 "$xaburya_health_god_name$"
+ xaburya_good_god_christ:0 "Elementals"
+ xaburya_devil_name:0 "Void"
+ xaburya_devil_name_possessive:0 "Abyssal"
+ xaburya_death_deity_name:0 "Death"
+ xaburya_death_deity_name_possessive:0 "Death's"
+ xaburya_house_of_worship:0 "church"
+ xaburya_house_of_worship_2:0 "$xaburya_house_of_worship$" # Optional translation alt
+ xaburya_house_of_worship_3:0 "$xaburya_house_of_worship$" # Optional translation alt
+ xaburya_house_of_worship_plural:0 "churches"
+ xaburya_religious_symbol:0 "turquoise gem"
+ xaburya_religious_symbol_2:0 "$xaburya_religious_symbol$" # Optional translation alt
+ xaburya_religious_symbol_3:0 "$xaburya_religious_symbol$" # Optional translation alt
+ xaburya_religious_text:0 "scriptures"
+ xaburya_religious_text_2:0 "$xaburya_religious_text$" # Optional translation alt
+ xaburya_religious_text_3:0 "$xaburya_religious_text$" # Optional translation alt
+ xaburya_religious_head_title:0 "Grand Bishop"
+ xaburya_religious_head_title_name:0 "Grand Bishop"
+ xaburya_devotee_male:0 "acolyte"
+ xaburya_devotee_male_plural:0 "acolytes"
+ xaburya_devotee_female:0 "acolyte"
+ xaburya_devotee_female_plural:0 "acolytes"
+ xaburya_devotee_neuter:0 "believer"
+ xaburya_devotee_neuter_plural:0 "believers"
+ xaburya_priest_male:0 "priest"
+ xaburya_priest_male_plural:0 "priests"
+ xaburya_priest_alternate_plural:0 "missionaries"
+ xaburya_bishop:0 "bishop"
+ xaburya_bishop_plural:0 "bishops"
+ xaburya_positive_afterlife:0 "World Thread"
+ xaburya_positive_afterlife_2:1 "The great forest" # Optional translation alt
+ xaburya_positive_afterlife_3:1 "unravel" # Optional translation alt
+ xaburya_negative_afterlife:0 "Abyss"
+ xaburya_negative_afterlife_2:1 "Nothingness" # Optional translation alt
+ xaburya_negative_afterlife_3:1 "Destruction" # Optional translation alt
+ xaburya_witchgodname_the_horned_god:0 "the Threadmother"
+ xaburya_witchgodname_the_horned_god_possessive:0 "the Threadmother"
+
+ xaburya_creator_god_name:0 "$xaburya_high_god_name$"
+ xaburya_creator_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_health_god_name:0 "Forest Elemental"
+ xaburya_health_god_name_possessive:0 "Forest Elementals"
+ xaburya_fertility_god_name:0 "$xaburya_high_god_name$"
+ xaburya_fertility_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_wealth_god_name:0 "$xaburya_high_god_name$"
+ xaburya_wealth_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_household_god_name:0 "$xaburya_health_god_name$"
+ xaburya_household_god_name_possessive:0 "$xaburya_health_god_name_possessive$"
+ xaburya_fate_god_name:0 "$xaburya_high_god_name$"
+ xaburya_fate_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_knowledge_god_name:0 "$xaburya_high_god_name$"
+ xaburya_knowledge_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_war_god_name:0 "$xaburya_high_god_name$"
+ xaburya_war_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_trickster_god_name:0 "Ocean Spirit"
+ xaburya_trickster_god_name_possessive:0 "Ocean Spirit"
+ xaburya_night_god_name:0 "$xaburya_high_god_name$"
+ xaburya_night_god_name_possessive:0 "$xaburya_high_god_name_possessive$"
+ xaburya_water_god_name:0 "$xaburya_health_god_name$"
+ xaburya_water_god_name_possessive:0 "$xaburya_health_god_name_possessive$"
+
+xaburya_spirit:0 "Xaburyan Spiritualism"
+xaburya_spirit_adj:0 "Xaburyan Spiritualist"
+xaburya_spirit_adherent:0 "Acolyte"
+xaburya_spirit_adherent_plural:0 "Acolytes"
+xaburya_spirit_desc:0 "Xaburyan spiritualism was a religious movement sparked by the burrow family to move towards ancestor worship and the veneration of spirits and the material over the tossanist gods which have in their eyes failed the people of ryzan"

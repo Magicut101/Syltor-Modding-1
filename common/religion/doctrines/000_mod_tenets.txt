@@ -1,0 +1,113 @@
+﻿doctrine_core_tenets = {
+	group = "core_tenets"
+	number_of_picks = 3
+
+	tenet_syltor_syncretism = {
+		icon = core_tenet_unreformed_syncretism 
+		piety_cost = {
+			if = {
+				limit = { doctrine:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = { doctrine:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_unreformed_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_other_syncretism_trigger
+			}
+		}
+		parameters = {
+			hostility_override_eastern_hostility_doctrine = 1
+			is_eastern_faith_bilateral_loc_override = 1
+			eastern_syncretic_actor_opinion_active = yes
+			opinion_of_eastern_syncretic_recipient_opinion_active = 50
+		}
+	}
+
+	tenet_eastern_lunatwa = {
+		icon = core_tenet_inner_journey
+
+		is_shown = {
+			has_doctrine = eastern_hostility_doctrine
+			NOT = { religion_tag = zoroastrianism_religion }
+		}
+
+		piety_cost = {
+			value = faith_tenet_cost_low
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_inner_journey }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		traits = {
+			virtues = { calm honest humble }
+			sins = { sadistic deceitful vengeful }
+		}
+
+		parameters = {
+			meditation_mechanics_active = yes
+		}
+	}
+
+}
+
+	#############################
+	# Empty Template Tenet 		#
+	#############################
+
+	#tenets = {
+	#	is_shown = {
+	#		always = no
+	#	}
+	#	can_pick = {
+	#		always = yes
+	#	}
+
+	#	piety_cost = {
+	#		if = {
+	#			limit = {
+	#				always = no
+	#			}
+	#			value = faith_tenet_cost_low
+	#		}
+	#		else = {
+	#			value = faith_tenet_cost_massive
+	#		}
+
+	#		# Multiplier for keeping same tenet
+	#		if = {
+	#			limit = { has_doctrine = tenets }
+	#			multiply = faith_unchanged_doctrine_cost_mult
+	#		}
+	#	}
+
+	#	parameters = {
+	#		tenets_active = yes
+	#	}
+
+	#	character_modifier = {
+
+	#	}
+
+	#	traits = {
+	#		virtues = { brave = 2}
+	#		sins = { craven = 2}
+	#	}
+	#}
+

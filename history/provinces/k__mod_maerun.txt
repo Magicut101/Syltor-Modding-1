@@ -1,12 +1,16 @@
 #Maerun
 655 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }
 
 656 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 657 = {
@@ -14,9 +18,13 @@
 }
 
 658 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 659 = {
@@ -26,7 +34,11 @@
 660 = {
 	culture = heartlander
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 661 = {
@@ -38,9 +50,13 @@
 }
 
 663 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 664 = {
@@ -50,7 +66,11 @@
 805 = {
 	culture = fornoisan
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 806 = {
@@ -64,7 +84,11 @@
 808 = {
 	culture = fornoisan
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 809 = {
@@ -78,7 +102,11 @@
 811 = {
 	culture = fornoisan
 	religion = twin_dragon
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 812 = {
