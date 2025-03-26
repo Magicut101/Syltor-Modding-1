@@ -12,3 +12,29 @@
 	prowess = 20
 	martial = 15
 	}
+
+
+600109 = { 
+	trait = education_intrigue_5
+	name = "Crezy"
+	dynasty = 30000220
+	religion = "dandelism" 
+	culture = "dorastterocker"
+	 1040.1.1 = {
+                birth = "820.1.1"
+        } 
+	trait = diplomat
+	trait = seducer
+	trait = architect
+	trait = eccentric
+	trait = greedy
+	trait = paranoid
+	trait = genius
+	trait = schemer 
+	intrigue = 16
+	martial = 10
+	learning = 6
+	stewardship = 8 
+	diplomacy = 10
+}
+

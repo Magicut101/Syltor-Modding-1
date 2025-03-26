@@ -107,6 +107,7 @@ d_prophet_of_the_dandelists = {
 }
 
 e_ashura = {
+e_ashura = {
 	can_be_named_after_dynasty = no
 	color = {
 		209
@@ -7201,6 +7202,7 @@ e_aurlunor = {
 		112
 		31
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Lhumar
 	k_dun = {
 		color = {
@@ -10314,6 +10316,7 @@ e_almalie = {
 		21
 		43
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Hloamar
 	k_hampo = {
 		color = {
@@ -13216,6 +13219,7 @@ e_yulara = {
 		80
 		21
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Dragoonios
 	k_ib = {
 		color = {
@@ -15070,6 +15074,7 @@ e_bardonia = {
 		255
 		0
 	}
+	can_be_named_after_dynasty = no
 	capital = c_NewDorasterrock
 	k_newdorasterrock = {
 		color = {
@@ -15077,6 +15082,7 @@ e_bardonia = {
 			110
 			17
 		}
+		can_be_named_after_dynasty = no
 		capital = c_NewDorasterrock
 		d_newdorasterrock = {
 			color = {

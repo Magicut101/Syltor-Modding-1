@@ -14,3 +14,23 @@ d_the_hands = {
 		holder = 0
 }
 }
+k_newdorasterrock = 
+{
+	1054.1.1 = {
+	holder = 600109
+	}
+}
+
+d_newdorasterrock = 
+{
+	1054.1.1 = {
+	holder = 600109
+	}
+}
+
+c_NewDorasterrock = {
+
+	1054.1.1 = {
+	holder = 600109
+	}
+}
