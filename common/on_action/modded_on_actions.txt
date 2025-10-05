@@ -1,8 +1,8 @@
-on_yearly_playable = {
-	 on_actions = { my_on_yearly_playable } }
-
-my_on_yearly_playable = {
-  events = {
-    bardonian_conversion.1000
-  }
-}
+#on_yearly_playable = {
+#	 on_actions = { my_on_yearly_playable } }
+#
+#my_on_yearly_playable = {
+#  events = {
+#    bardonian_conversion.1000
+#  }
+#}

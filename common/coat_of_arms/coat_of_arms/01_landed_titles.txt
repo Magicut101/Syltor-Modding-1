@@ -5,7 +5,6 @@
 @smCross = 0.22
 
 d_vologdan_knighthood = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=black
 	color2=grey
@@ -82,7 +81,6 @@ d_xaburya_grandmaster = {
 }
 
 k_maerun = {
-	custom=yes
 	pattern="pattern_vertical_stripes_01.dds"
 	color1=black
 	color2=yellow_light
@@ -111,7 +109,6 @@ k_maerun = {
 }
 
 k_tamaka = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=yellow
@@ -154,7 +151,6 @@ k_tamaka = {
 }
 
 k_auron = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 255 30 0 }
 	color2=white
@@ -196,7 +192,6 @@ k_auron = {
 
 
 k_lhumar = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 74 0 45 }
 	color2=yellow_light
@@ -224,7 +219,6 @@ k_lhumar = {
 
 
 e_bardonia = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=green_light
 	color2=yellow
@@ -277,7 +271,6 @@ e_bardonia = {
 }
 
 e_aurlunor = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=black
 	color2=yellow
@@ -293,7 +286,6 @@ e_aurlunor = {
 
 
 e_ashura = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=yellow_light
 	color2=blue
@@ -371,7 +363,6 @@ e_ashura = {
 
 
 d_skelyasti = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=rgb { 0 100 193 }
 	color2=rgb { 255 255 255 }
@@ -408,7 +399,6 @@ d_skelyasti = {
 }
 
 d_erebor = {
-	custom=yes
 	pattern="pattern_horizontal_split_02.dds"
 	color1=rgb { 19 19 19 }
 	color2=grey
@@ -454,7 +444,6 @@ d_shkidnyy = {
 
 
 k_vologda = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 129 129 129 }
 	color2=yellow
@@ -484,7 +473,6 @@ k_vologda = {
 }
 
 c_Erebor = {
-    custom=yes
     pattern="pattern_horizontal_stripes_01.dds"
     color1=rgb { 138 138 138 }
     color2=rgb { 0 0 0 }
@@ -501,7 +489,6 @@ c_Erebor = {
 }
 
 d_tsarogore = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 7 62 12 }
 	color2=white
@@ -519,7 +506,6 @@ d_tsarogore = {
 }
 
 e_ryzan = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=black
 	color2=blue
@@ -562,7 +548,6 @@ e_ryzan = {
 }
 
 d_tossagrad = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=black
 	color2=black
@@ -581,7 +566,6 @@ d_tossagrad = {
 }
 
 k_alda = {
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=black
 	color2=yellow_light
@@ -641,7 +625,6 @@ k_alda = {
 }
 
 k_alvada = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=blue
 	color2=red
@@ -709,7 +692,6 @@ k_alvada = {
 }
 
 k_tossagrad = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=blue
 	color2=black
@@ -736,7 +718,6 @@ k_tossagrad = {
 }
 
 d_syros = {
-	custom=yes
 	pattern="pattern_horizontal_split_02.dds"
 	color1=rgb { 51 104 56 }
 	color2=rgb { 132 177 255 }
@@ -764,7 +745,6 @@ d_syros = {
 }
 
 d_nekomar = {
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=yellow_light
 	color2=blue
@@ -811,7 +791,6 @@ d_remtal = {
 
 
 k_olthiaca = {
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=rgb { 96 173 153 }
 	color2=rgb { 192 28 28 }
@@ -839,7 +818,6 @@ k_olthiaca = {
 }
 
 d_neuminster = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=white
@@ -871,7 +849,6 @@ d_neuminster = {
 
 
 d_nebskograd = {
-	custom=yes
 	pattern="pattern_tricolor_bend_02.dds"
 	color1=rgb { 16 99 179 }
 	color2=white
@@ -901,7 +878,6 @@ d_nebskograd = {
 }
 
 k_vonskyr = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=black
 	color2=rgb { 99 11 0 }
@@ -920,7 +896,6 @@ k_vonskyr = {
 }
 
 d_vologda = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=grey
 	color2=yellow
@@ -939,7 +914,6 @@ d_vologda = {
 
 
 d_nebskoslavia = {
-	custom=yes
 	pattern="pattern_horizontal_split_02.dds"
 	color1=rgb { 93 43 0 }
 	color2=white
@@ -960,7 +934,6 @@ d_nebskoslavia = {
 
 
 k_nebskoslavia = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=blue
 	color2=white
@@ -1012,7 +985,6 @@ k_nebskoslavia = {
 }
 
 d_kvargrod = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=red
 	color2=blue_light
@@ -1052,7 +1024,6 @@ d_kvargrod = {
 
 
 d_gekan = {
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=red
 	color2=rgb { 159 106 27 }
@@ -1100,7 +1071,6 @@ d_gekan = {
 
 
 d_liberium = {
-	custom=yes
 	pattern="pattern_horizontal_split_01.dds"
 	color1=rgb { 255 255 255 }
 	color2=rgb { 0 0 0 }
@@ -1147,7 +1117,6 @@ d_liberium = {
 }
 
 d_xaburya = {
-	custom=yes
 	pattern="pattern_horizontal_split_02.dds"
 	color1=blue
 	color2=rgb { 255 255 255 }
@@ -1208,7 +1177,6 @@ d_xaburya = {
 }
 
 d_carthya = {
-	custom=yes
 	pattern="pattern_tricolor_horizontal_01.dds"
 	color1=rgb { 217 208 0 }
 	color2=rgb { 0 138 222 }
@@ -1216,7 +1184,6 @@ d_carthya = {
 }
 
 d_haegiel = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 255 129 37 }
 	color2=yellow
@@ -1253,7 +1220,6 @@ d_zkhadinyylis = {
 
 
 d_kaluko = {
-    custom=yes
     pattern="pattern_solid.dds"
     color1=white
     color2=yellow
@@ -1270,7 +1236,6 @@ d_kaluko = {
 }
 
 d_volkore = {
-	custom=yes
 	pattern="pattern_vertical_split_jagged_01.dds"
 	color1=rgb { 255 174 130 }
 	color2=rgb { 137 137 137 }
@@ -1289,7 +1254,6 @@ d_volkore = {
 }
 
 d_balreska = {
-    custom=yes
     pattern="pattern_bend_01.dds"
     color1=rgb { 197 41 20 }
     color2=rgb { 255 255 255 }
@@ -1309,7 +1273,6 @@ d_balreska = {
 }
 
 d_nova_balreska = {
-	custom=yes
 	pattern="pattern_horizontal_stripes_01.dds"
 	color1=rgb { 86 19 10 }
 	color2=rgb { 176 173 171 }
@@ -1343,7 +1306,6 @@ d_nova_balreska = {
 }
 
 k_nova_balreska = {
-	custom=yes
 	pattern="pattern_horizontal_stripes_01.dds"
 	color1=rgb { 81 25 17 }
 	color2=white
@@ -1351,7 +1313,6 @@ k_nova_balreska = {
 }
 
 d_tonton = {
-		custom=yes
 		pattern="pattern_solid.dds"
 		color1=yellow_light
 		color2=yellow
@@ -1402,7 +1363,6 @@ d_tonton = {
 }
 
 k_hampo = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=yellow
@@ -1471,7 +1431,6 @@ k_hampo = {
 
 
 k_qamiya = {
-	custom=yes
 	pattern="pattern_vertical_stripes_02.dds"
 	color1=yellow_light
 	color2=white
@@ -1509,7 +1468,6 @@ k_qamiya = {
 }
 
 k_nir = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=rgb { 31 72 110 }
 	color2=yellow
@@ -1562,7 +1520,6 @@ k_nir = {
 
 
 k_deutzan = {
-	custom=yes
 	pattern="pattern_vertical_split_01.dds"
 	color1=black
 	color2=orange
@@ -1659,7 +1616,6 @@ k_carthya = {
 
 
 k_vorosan = {
-    custom=yes
     pattern="pattern_diagonal_split_02.dds"
     color1=black
     color2=white
@@ -1715,7 +1671,6 @@ k_vorosan = {
 }
 
 d_neuheim = {
-    custom=yes
     pattern="pattern_diagonal_split_02.dds"
     color1=rgb { 83 5 147 }
     color2=rgb { 232 203 19 }
@@ -1783,7 +1738,6 @@ d_neuheim = {
 
 d_tonton = {
 	coa_rd_title_207508004={
-		custom=yes
 		pattern="pattern_solid.dds"
 		color1=yellow_light
 		color2=yellow
@@ -1837,7 +1791,6 @@ d_tonton = {
 
 e_yulara = {
 	coa_rd_title_3155713790={
-		custom=yes
 		pattern="pattern_cross_02.dds"
 		color1=rgb { 210 83 6 }
 		color2=white
