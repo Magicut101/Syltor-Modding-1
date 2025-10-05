@@ -540,48 +540,6 @@ coat_of_arms_template_lists = {
 	religious_title = {
 		100 = religious_icon_01
 		100 = religious_icon_01_metal
-		special_selection = {	#EK Addition
-				trigger = {
-					OR = {		#edgy banner
-						coa_necromantic_religion_trigger = yes
-						coa_vampire_religion_trigger = yes
-						coa_sithis_religion_trigger = yes
-						coa_dagoth_religion_trigger = yes
-						coa_azura_religion_trigger = yes
-						coa_boethiah_religion_trigger = yes
-						coa_clavicus_religion_trigger = yes
-						coa_hermaeus_religion_trigger = yes
-						coa_hircine_religion_trigger = yes
-						coa_malacath_religion_trigger = yes
-						coa_mehrunes_religion_trigger = yes
-						coa_mephala_religion_trigger = yes
-						coa_meridia_religion_trigger = yes
-						coa_molag_religion_trigger = yes
-						coa_namira_religion_trigger = yes
-						coa_nocturnal_religion_trigger = yes
-						coa_peryite_religion_trigger = yes
-						coa_sanguine_religion_trigger = yes
-						coa_sheogorath_religion_trigger = yes
-						coa_vaermina_religion_trigger = yes
-					}
-					NOR = {		#they worship daedra, but they're not necessarily edgy
-						coa_tribunal_religion_trigger = yes
-						coa_velothi_religion_trigger = yes
-						has_faith = faith:code_of_malacath
-						has_faith = faith:goblin_shamanism
-						has_faith = faith:sanguine_mysteries
-						has_faith = faith:minotaur_cult
-						has_faith = faith:namira_coven
-						has_faith = faith:malacath_coven
-						has_faith = faith:hircine_coven
-						has_faith = faith:xanmeer
-						has_faith = faith:coiled_path
-						has_faith = faith:orma_cult
-					}
-				}
-			1000 = daedric_icon
-			1000 = daedric_icon_inverted
-		}	#EK Addition End
 	}
 
 	factions = {

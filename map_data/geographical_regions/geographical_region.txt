@@ -124,23 +124,41 @@ world_syltor_yulara = {
 ###########################################################################
 
  # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
-material_wood_elm = {}
+material_wood_elm = {
+	regions = {
+		world_syltor_deutzan
+	}
+}
 
  # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
-material_wood_walnut = {}
+material_wood_walnut = {
+	regions = {
+		world_syltor_aurlunor_north
+	}
+}
 
  # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
-material_wood_maple = {}
+material_wood_maple = {
+	regions = {
+		world_syltor_aurlunor_west
+	}
+}
 
 # Widespread Regional - Pines and Firs (found all over continental Europe excluding northern France/Germany and the Balkans, but exists in Scotland and spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
 material_woods_pine_and_fir = {
 		regions = {
 		world_syltor_ryzan
+		world_syltor_aurlunor_north
 	}
 }
 
 # Widespread Regional - Subsaharan Africa
-material_woods_subsaharan = {}
+material_woods_subsaharan = {
+	regions = {
+		world_syltor_yulara
+		world_syltor_ashura
+	}
+}
 
 material_woods_padauk = {}
 
@@ -152,7 +170,11 @@ material_woods_india_burma = {}
 material_woods_ebony = {}
 
 # Regional - France, England, Wales, Ireland
-material_wood_yew = {}
+material_wood_yew = {
+	regions = {
+		world_syltor_bardonia
+	}
+}
 
 # Regional - Mediterranean
 material_woods_mediterranean = {
@@ -170,26 +192,52 @@ material_cloth_no_silk = {
 	}
 }
 
-material_cloth_linen = {}
+material_cloth_linen = {
+	regions = {
+		world_syltor_yulara
+		world_syltor_bardonia
+	}
+}
 
-material_cloth_cotton = {}
+material_cloth_cotton = {
+	regions = {
+		world_syltor_yulara
+		world_syltor_bardonia
+		world_syltor_ryzan
+	}
+}
 
 material_metal_wootz = {}
 
-material_metal_damascus = {}
+material_metal_damascus = {
+	regions = {
+		world_syltor_aurlunor_north
+	}
+	duchies = {
+		d_erebor
+	}
+}
 
 material_metal_bulat = {}
 
 material_hsb_camel_bone = {
 	regions = {
 		world_syltor_yulara
+		world_syltor_ashura
+	}
+}
+
+material_hsb_deer_antler = {
+	regions = {
 		world_syltor_yulara
 	}
 }
 
-material_hsb_deer_antler = {}
-
-material_hsb_boar_tusk = {}
+material_hsb_boar_tusk = {
+	regions = {
+		world_syltor_yulara
+	}
+}
 
 material_hsb_ivory_imported = {
 	regions = {
@@ -199,25 +247,25 @@ material_hsb_ivory_imported = {
 
 material_hsb_ivory_native = {
 	regions = {
-		world_syltor_yulara
+		world_syltor_ashura
 	}
 }
 
 material_hsb_mother_of_pearl = {
 	regions = {
-		world_syltor_yulara
+		world_syltor_deutzan
 	}
 }
 
 material_hsb_tortoiseshell = {
 	regions = {
-		world_syltor_yulara
+		world_syltor_deutzan
 	}
 }
 
 material_hsb_seashell = {
 	regions = {
-		world_syltor_yulara
+		world_syltor_deutzan
 	}
 }
 
@@ -402,6 +450,11 @@ special_cagot_region = {}
 #####################
 
 #Neutral GHW Target Regions
+ghw_region_deutzan = {		
+	duchies = { 
+		d_syros d_haegiel d_balreska
+	}
+}
 #ghw_region_northern_italy = {}
 #ghw_region_thessalonika = {}
 
@@ -549,6 +602,122 @@ dlc_ep1_southwest_silk_road_trade_region = {
 	counties = { c_dummy }
 }
 ### END RC Regions
+
+### Hunts
+
+# Deer Spread
+hunt_animal_deer_region = {
+	regions = {
+		world_syltor_ryzan
+		world_syltor_bardonia
+		world_syltor_tamaka
+	}
+}
+
+# Antelope Spread
+hunt_animal_antelope_region = {
+	regions = {
+		world_syltor_aurlunor_north
+		world_syltor_yulara
+	}
+}
+
+# Gazelle Spread
+hunt_animal_gazelle_region = {
+	regions = {
+		world_syltor_deutzan
+		world_syltor_ashura
+		world_syltor_yulara
+	}
+}
+
+
+# Boar Spread
+hunt_animal_boar_region = {
+	regions = {
+		world_syltor_ryzan
+		world_syltor_deutzan
+		world_syltor_bardonia
+		world_syltor_ashura
+		world_syltor_hampo
+		world_syltor_aurlunor_west
+		world_syltor_aurlunor_north
+		world_syltor_tamaka
+		world_syltor_yulara
+	}
+	duchies = {
+		# Southern Scandinavia
+
+	}
+}
+
+# Bear Spread
+hunt_animal_bear_region = {
+	regions = {
+		world_syltor_ryzan
+		world_syltor_deutzan
+		world_syltor_bardonia
+		world_syltor_aurlunor_west
+		world_syltor_aurlunor_north
+		world_syltor_tamaka
+		world_syltor_yulara
+	}
+	duchies = {
+		# North Mesopotamia
+	}
+}
+
+# Big Cat Spread
+hunt_animal_big_cat_region = {
+	regions = {
+		world_syltor_hampo
+		world_syltor_deutzan
+	}
+}
+
+# Bison Spread
+hunt_animal_bison_region = {
+	regions = {
+		world_syltor_hampo
+		world_syltor_aurlunor_west
+		world_syltor_tamaka
+		world_syltor_deutzan
+	}
+}
+
+# Aurochs Spread
+hunt_animal_aurochs_region = {
+	regions = {
+		world_syltor_ryzan
+		world_syltor_bardonia
+		world_syltor_aurlunor_west
+		world_syltor_tamaka
+	}
+}
+
+hunt_animal_reindeer_region = {
+	duchies = {
+		# Sapmi
+	}
+	regions = {
+		world_syltor_ryzan
+		world_syltor_bardonia
+		world_syltor_aurlunor_west
+		world_syltor_aurlunor_north
+	}
+}
+
+hunt_animal_elk_region = {
+	regions = {
+		world_syltor_ryzan
+		world_syltor_bardonia
+		world_syltor_hampo
+		world_syltor_aurlunor_west
+		world_syltor_aurlunor_north
+		world_syltor_tamaka
+	}
+}
+
 
 #divergence_island_regions = {
 #	duchies = {
