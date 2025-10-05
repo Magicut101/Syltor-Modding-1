@@ -127,3 +127,5 @@ dynn_Vorosanyis:0 "Vorosanyis"
 dynn_Medici:0 "Medici"
 dynn_Zefirov:0 "Zefirov"
 dynn_Magmablood:0 "Magmablood"
+
+[16:53:33][E][pdx_localize.cpp:279]: Duplicate localization key. Key 'dynnp__' is defined in both 'localization/dynasties/dynasty_names_l_english.yml' and 'localization/english/dynasties/dynasty_names_l_english.yml'.
