@@ -28,6 +28,8 @@
 	employer = 600016
 	#dna = 
 }
+
+
 #600045 = { #Made him twice by accident
 	#name = "K'ebero Al-Izula"
 	#dynasty = 30000219 # khamen
@@ -94,3 +96,17 @@
 	#Qanti Name of  the original Qanti Unifier of the region
 }
 
+600108 = { trait = education_learning_3
+name = "Aisha" 
+dynasty = 30000218 
+religion = "ashuran_pantheon" 
+culture = "ashuran" 
+1040.1.1 = {
+                birth = "820.1.1"
+        } 
+trait = disinherited
+trait = education_learning_3
+learning = 10
+female = yes
+parent = 600016
+}

@@ -132,7 +132,7 @@ tradition_avian_hunters = {
 		4 = soldiers4.dds
 	}
 	is_shown = {
-		has_cultural_pillar = heritage_corvus 
+		has_cultural_pillar = heritage_avian 
 	}
 
 	parameters = {
@@ -151,6 +151,7 @@ tradition_avian_hunters = {
 		heavy_cavalry_toughness_mult = -0.05
 		heavy_infantry_damage_mult = -0.1
 		heavy_infantry_toughness_mult = -0.05
+		archers_max_size_add = 2
 	}
 	
 	can_pick = {

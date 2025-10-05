@@ -13,10 +13,11 @@
 
 #b_PiMedjayCastle
 58 = {
-	culture = qanti
+	culture = ashuran
 	religion = qantifolkway_pantheon
+	1054.1.1 = {
 		holding = castle_holding
-}
+		}
 
 #b_NashurForest
 59 = {
@@ -30,7 +31,7 @@
 
 #b_NashurHolding
 61 = {
-	culture = qanti
+	culture = ashuran
 	religion = qantifolkway_pantheon
 		1054.1.1 = {
 		holding = castle_holding

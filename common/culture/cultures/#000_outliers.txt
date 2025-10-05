@@ -6,12 +6,12 @@
 	}
 	
 	ethos = ethos_courtly
-	heritage = heritage_corvus
+	heritage = heritage_avian
 	language = language_crowspeak
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
-		tradition_xenophilic
+		tradition_strength_in_numbers
 		tradition_hereditary_hierarchy
 		tradition_avian_hunters
 	}
@@ -34,6 +34,40 @@
 		15 = caucasian_ginger
 		35 = caucasian_brown_hair
 		25 = caucasian_dark_hair
+	}
+}
+
+valkyries = {
+	color = {
+		20
+		30
+		48
+	}
+	
+	ethos = ethos_stoic
+	heritage = heritage_avian
+	language = language_crowspeak
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_legalistic
+		tradition_poetry
+		tradition_hereditary_hierarchy
+		tradition_maritime_mercantilism
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_german
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = arab
+		10 = caucasian_dark_hair
+
 	}
 }
 

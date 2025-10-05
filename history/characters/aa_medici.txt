@@ -26,6 +26,10 @@
 	religion = "consumer_dandelism"
 	culture = "dorastterocker"
 	trait = education_stewardship_4
+	trait = kind
+	trait = greedy
+	trait = diligent
+	stewardship = 8
 	1045.1.1 = {
 		birth = yes
 	}

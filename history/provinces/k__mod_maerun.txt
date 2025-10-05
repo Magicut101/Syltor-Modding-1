@@ -1,6 +1,6 @@
 #Maerun
 655 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }
@@ -18,7 +18,7 @@
 }
 
 658 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	1054.1.1 = {
 		1054.1.1 = {
@@ -50,7 +50,7 @@
 }
 
 663 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	1054.1.1 = {
 		1054.1.1 = {

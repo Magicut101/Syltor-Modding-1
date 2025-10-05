@@ -15,6 +15,32 @@ d_laamp_guttorm = { # the chosen one
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+d_mapmakers = { # might just put all mapmakers into this one
+	color = { 100 100 100 }
+	capital = c_qamiya
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_the_hands = { #self-explanatory
+	color = { 240 240 240 }
+	capital = c_Dorasterrock
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 
 d_xaburya_grandmaster = {
 		color = {
@@ -64,6 +90,23 @@ d_celestial_matron = {
 	capital = c_Lhumar
 }
 
+d_prophet_of_the_dandelists = {
+	color = {
+		255
+		255
+		0
+	}
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	landless = no
+	capital = c_Fluenta
+}
+
+e_ashura = {
 e_ashura = {
 	can_be_named_after_dynasty = no
 	color = {
@@ -708,11 +751,11 @@ e_ashura = {
 			}
 			c_PiMedjay = {
 				color = {
-					148
-					170
-					6
-				}
-				capital = b_PiMedjayCastle
+					113
+					132
+				2
+					}
+
 				
 				b_PiMedjayCastle = {
 					province = 58
@@ -730,8 +773,15 @@ e_ashura = {
 						31
 					}
 				}
-				
-			}
+				b_PiMedjay = {
+					province = 56
+					color = {
+						148	
+						170
+						6
+					}
+				}
+			}		
 			c_Nashur = {
 				color = {
 					59
@@ -7152,6 +7202,7 @@ e_aurlunor = {
 		112
 		31
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Lhumar
 	k_dun = {
 		color = {
@@ -7195,6 +7246,14 @@ e_aurlunor = {
 						45
 						94
 						68
+					}
+				}
+				b_TimberJungle2 = {
+					province = 717
+					color = {
+						153
+						119
+						187
 					}
 				}
 			}
@@ -7817,14 +7876,7 @@ e_aurlunor = {
 						175
 					}
 				}
-				b_TimberJungle2 = {
-					province = 717
-					color = {
-						153
-						119
-						187
-					}
-				}
+		
 				b_TimberJungle3 = {
 					province = 718
 					color = {
@@ -9402,6 +9454,7 @@ e_aurlunor = {
 					104
 					182
 				}
+				capital = b_Autepalar2
 				b_Autepalar1 = {
 					province = 616
 					color = {
@@ -9631,186 +9684,7 @@ e_aurlunor = {
 			}
 		}
 	}
-	k_almador = {
-		color = {
-			135
-			240
-			224
-		}
-		capital = c_Sachomar
-		d_karneihua = {
-			color = {
-				81
-				149
-				103
-			}
-			capital = c_Karneihua
-			c_Karneihua = {
-				color = {
-					81
-					149
-					103
-				}
-				b_Karneihua1 = {
-					province = 914
-					color = {
-						81
-						149
-						103
-					}
-				}
-				b_Karneihua2 = {
-					province = 915
-					color = {
-						75
-						139
-						96
-					}
-				}
-				b_Karneihua3 = {
-					province = 916
-					color = {
-						68
-						129
-						88
-					}
-				}
-				b_Karneihua4 = {
-					province = 917
-					color = {
-						61
-						120
-						80
-					}
-				}
-			}
-			c_AlmadorianHill = {
-				color = {
-					127
-					167
-					57
-				}
-				b_BaijioHill1 = {
-					province = 918
-					color = {
-						127
-						167
-						57
-					}
-				}
-				b_BaijioHill2 = {
-					province = 919
-					color = {
-						116
-						153
-						50
-					}
-				}
-			}
-		}
-		d_almador = {
-			color = {
-				135
-				240
-				224
-			}
-			capital = c_Sachomar
-			c_Tarwe = {
-				color = {
-					82
-					135
-					154
-				}
-				b_Tarwe = {
-					province = 920
-					color = {
-						82
-						135
-						154
-					}
-				}
-				b_Udalonwe = {
-					province = 921
-					color = {
-						84
-						139
-						159
-					}
-				}
-				b_Ilethneas = {
-					province = 922
-					color = {
-						94
-						11
-						72
-					}
-				}
-				b_Thamaneas = {
-					province = 923
-					color = {
-						91
-						152
-						174
-					}
-				}
-				b_Ulleshara = {
-					province = 924
-					color = {
-						87
-						144
-						164
-					}
-				}
-			}
-			c_Sachomar = {
-				color = {
-					135
-					240
-					224
-				}
-				b_Sachomar1 = {
-					province = 880
-					color = {
-						135
-						240
-						224
-					}
-				}
-				b_Sachomar2 = {
-					province = 881
-					color = {
-						112
-						213
-						198
-					}
-				}
-				b_Sachomar3 = {
-					province = 882
-					color = {
-						116
-						221
-						205
-					}
-				}
-				b_Sachomar4 = {
-					province = 883
-					color = {
-						108
-						202
-						188
-					}
-				}
-				b_Sachomar5 = {
-					province = 884
-					color = {
-						94
-						179
-						166
-					}
-				}
-			}
-		}
-	}
+
 	k_lhumar = {
 		color = {
 			154
@@ -10269,6 +10143,170 @@ e_aurlunor = {
 				}
 			}
 		}
+		d_almador = {
+		color = {
+			135
+			240
+			224
+		}
+		capital = c_Sachomar
+		c_Tarwe = {
+			color = {
+				82
+				135
+				154
+			}
+			b_Tarwe = {
+				province = 920
+				color = {
+					82
+					135
+					154
+				}
+			}
+			b_Udalonwe = {
+				province = 921
+				color = {
+					84
+					139
+					159
+				}
+			}
+			b_Ilethneas = {
+				province = 922
+				color = {
+					94
+					11
+					72
+				}
+			}
+			b_Thamaneas = {
+				province = 923
+				color = {
+					91
+					152
+					174
+				}
+			}
+			b_Ulleshara = {
+				province = 924
+				color = {
+					87
+					144
+					164
+				}
+			}
+		}
+		c_Sachomar = {
+			color = {
+				135
+				240
+				224
+			}
+			b_Sachomar1 = {
+				province = 880
+				color = {
+					135
+					240
+					224
+				}
+			}
+			b_Sachomar2 = {
+				province = 881
+				color = {
+					112
+					213
+					198
+				}
+			}
+			b_Sachomar3 = {
+				province = 882
+				color = {
+					116
+					221
+					205
+				}
+			}
+			b_Sachomar4 = {
+				province = 883
+				color = {
+					108
+					202
+					188
+				}
+			}
+			b_Sachomar5 = {
+				province = 884
+				color = {
+					94
+					179
+					166
+				}
+			}
+		}
+		c_Karneihua = {
+			color = {
+				81
+				149
+				103
+			}
+			b_Karneihua1 = {
+				province = 914
+				color = {
+					81
+					149
+					103
+				}
+			}
+			b_Karneihua2 = {
+				province = 915
+				color = {
+					75
+					139
+					96
+				}
+			}
+			b_Karneihua3 = {
+				province = 916
+				color = {
+					68
+					129
+					88
+				}
+			}
+			b_Karneihua4 = {
+				province = 917
+				color = {
+					61
+					120
+					80
+				}
+			}
+		}
+		c_AlmadorianHill = {
+			color = {
+				127
+				167
+				57
+			}
+			b_BaijioHill1 = {
+				province = 918
+				color = {
+					127
+					167
+					57
+				}
+			}
+			b_BaijioHill2 = {
+				province = 919
+				color = {
+					116
+					153
+					50
+				}
+			}
+		}
+		}
 	}
 }
 
@@ -10278,6 +10316,7 @@ e_almalie = {
 		21
 		43
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Hloamar
 	k_hampo = {
 		color = {
@@ -13180,6 +13219,7 @@ e_yulara = {
 		80
 		21
 	}
+	can_be_named_after_dynasty = no
 	capital = c_Dragoonios
 	k_ib = {
 		color = {
@@ -15034,6 +15074,7 @@ e_bardonia = {
 		255
 		0
 	}
+	can_be_named_after_dynasty = no
 	capital = c_NewDorasterrock
 	k_newdorasterrock = {
 		color = {
@@ -15041,6 +15082,7 @@ e_bardonia = {
 			110
 			17
 		}
+		can_be_named_after_dynasty = no
 		capital = c_NewDorasterrock
 		d_newdorasterrock = {
 			color = {

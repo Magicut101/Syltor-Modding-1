@@ -1834,3 +1834,88 @@ d_tonton = {
 	}
 	
 }
+
+e_yulara = {
+	coa_rd_title_3155713790={
+		custom=yes
+		pattern="pattern_cross_02.dds"
+		color1=rgb { 210 83 6 }
+		color2=white
+		color3=black
+		colored_emblem={
+			color1=rgb { 65 130 72 }
+			texture="ce_laurels.dds"
+			instance={
+				scale={ 0.400000 0.410000 }
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=white
+			texture="ce_cinquefoil_01.dds"
+			instance={
+				scale={ 0.200000 0.200000 }
+				depth=1.010000
+				rotation=36
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=green
+			texture="ce_star_05.dds"
+			instance={
+				scale={ 0.240000 0.250000 }
+				depth=2.010000
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=black
+			texture="ce_circle_mask.dds"
+			instance={
+				scale={ 0.330000 0.330000 }
+				depth=3.010000
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=white
+			texture="ce_religion_bogomilist.dds"
+			instance={
+				scale={ 0.500000 0.500000 }
+				depth=4.010000
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=white
+			texture="ce_bend_thin.dds"
+			instance={
+				depth=6.010000
+			}
+	
+			instance={
+				scale={ 1.000000 -1.000000 }
+				depth=7.010000
+			}
+	
+		}
+	
+		colored_emblem={
+			color1=white
+			texture="ce_block_03.dds"
+			instance={
+				scale={ 1.000000 0.000000 }
+				depth=5.010000
+			}
+	
+		}
+	
+	}
+	
+}

@@ -92,8 +92,8 @@ balreskan_guard = {
 kaluko_rangers = {
 	type = archers
 	
-	damage = 30
-	toughness = 10
+	damage = 32
+	toughness = 12
 	pursuit = 20
 	screen = 20
 	
@@ -101,6 +101,7 @@ kaluko_rangers = {
 		hills = { damage = 10 toughness = 4 }
 		mountains = { damage = 8 toughness = 2 }
 		desert_mountains = { damage = 8 toughness = 2 }
+		plains = { toughness = 2  damage = 5 }
 	}
 	
 	counters = {
