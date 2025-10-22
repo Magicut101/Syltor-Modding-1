@@ -52,14 +52,14 @@ bm_867_adventurers = {
 
 bm_1066_hastings = {
 	start_date = 1066.9.15
-	is_playable = yes
+	is_playable = no
 	group = bm_group_1066
 	
 }
 
 bm_1066_rags_to_riches = {
 	start_date = 1066.9.15
-	is_playable = yes
+	is_playable = no
 	recommended = yes
 	test_default = yes
 	group = bm_group_1066
@@ -70,7 +70,7 @@ bm_1066_rags_to_riches = {
 
 bm_1066_iberia = {
 	start_date = 1066.9.15
-	is_playable = yes
+	is_playable = no
 	group = bm_group_1066
 
 
