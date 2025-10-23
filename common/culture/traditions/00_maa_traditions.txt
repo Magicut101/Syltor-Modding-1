@@ -2,9 +2,9 @@
 # CULTURAL TRADITIONS #
 #######################
 
-######################
-# MAA Traditions 	 #
-######################
+#########################
+# MODDED MAA Traditions #
+#########################
 
 tradition_seasoned_merchants = {
 	category = realm
@@ -26,7 +26,7 @@ tradition_seasoned_merchants = {
 		}
 	}
 	is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 	}
 
 	parameters = {
@@ -134,7 +134,6 @@ tradition_avian_hunters = {
 	is_shown = {
 		has_cultural_pillar = heritage_avian 
 	}
-
 	parameters = {
 		unlock_maa_kaluko_rangers = yes 
 	}
@@ -259,7 +258,7 @@ tradition_vologdan_knights = {
 	category = combat
 
 	is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 	}
 	
 	layers = {
@@ -441,7 +440,7 @@ tradition_Oathbound_Order = {
 	category = combat
 
 		is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 		}
 	layers = {
 		0 = martial
@@ -629,10 +628,9 @@ tradition_ancient_chloromancers = {
 }
 
 
-
-###                          ###
-### Base game MAA Traditions ###
-###                          ###
+##############################
+# Base Game MAA Traditions 	 #
+##############################
 
 tradition_futuwaa = {
 	category = regional
