@@ -9,6 +9,7 @@
 	heritage = heritage_avian
 	language = language_crowspeak
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_strength_in_numbers
@@ -48,6 +49,7 @@ valkyries = {
 	heritage = heritage_avian
 	language = language_crowspeak
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_legalistic
 		tradition_poetry
@@ -78,6 +80,7 @@ dwarvish = {
 	heritage = heritage_outliers
 	language = language_dwarvish
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_ancient_miners
 		tradition_mountaineers
@@ -112,6 +115,7 @@ fornoisan = {
 	heritage = heritage_alvadan
 	language = language_fornoisan
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_culture_blending
 		tradition_poetry
@@ -146,6 +150,7 @@ faun = {
 	heritage = heritage_outliers
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_agrarian

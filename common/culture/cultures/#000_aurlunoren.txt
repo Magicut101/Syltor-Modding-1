@@ -9,6 +9,7 @@
 	heritage = heritage_aurlunoren
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_philosopher_culture
@@ -40,6 +41,7 @@ angan = {
 	heritage = heritage_aurlunoren
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_wetlanders
 		tradition_culture_blending
@@ -71,6 +73,7 @@ zhanundeorens = {
 	heritage = heritage_aurlunoren
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_isolationist
@@ -102,6 +105,7 @@ vorosani = {
 	heritage = heritage_aurlunoren
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_polders
 		tradition_isolationist
@@ -133,6 +137,7 @@ almalie = {
 	heritage = heritage_aurlunoren
 	language = language_aurlunoren
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_legalistic

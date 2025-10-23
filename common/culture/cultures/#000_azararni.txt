@@ -9,6 +9,7 @@
 	heritage = heritage_azararni
 	language = language_syrosi
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_culture_blending
 		tradition_castle_keepers
@@ -42,6 +43,7 @@ hampo = {
 	heritage = heritage_azararni
 	language = language_kumiho
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_female_only_inheritance
 		tradition_isolationist
@@ -79,6 +81,7 @@ frontierkumiho = {
 	heritage = heritage_azararni
 	language = llanguage_kumiho
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_female_only_inheritance
 		tradition_polders
@@ -113,6 +116,7 @@ hateulaendeo = {
 	heritage = heritage_azararni
 	language = language_kumiho
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_female_only_inheritance
 		tradition_xenophilic
@@ -147,6 +151,7 @@ gonghae = {
 	heritage = heritage_azararni
 	language = language_kumiho
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_female_only_inheritance
 		tradition_seafarering
@@ -181,6 +186,7 @@ nekojin = {
 	heritage = heritage_azararni
 	language = language_nekospeak
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_legalistic
@@ -211,6 +217,7 @@ traditional_nekojin = {
 	heritage = heritage_azararni
 	language = language_nekospeak
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_culture_blending
 		tradition_warriors_of_the_dry
