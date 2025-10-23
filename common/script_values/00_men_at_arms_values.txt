@@ -8,31 +8,8 @@
 
 @high_maint_mult = 3
 
-### MODDED Cultural MAA ###
-
-medjay_Ranger_recruitment_cost = @[light_cavalry_recruitment_cost * 1.3]
-medjay_Ranger_low_maint_cost = @[light_cavalry_low_maint_cost * 1.3]
-medjay_Ranger_high_maint_cost = @[light_cavalry_high_maint_cost * 1.3]
-
-hwatcha_recruitment_cost = @[siege_weapons_recruitment_cost * 1.5]
-hwatcha_low_maint_cost = @[siege_weapons_low_maint_cost * 2]
-hwatcha_high_maint_cost = @[siege_weapons_high_maint_cost + 0]
-
-oathbound_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.2]
-oathbound_low_maint_cost = @[heavy_infantry_low_maint_cost * 1]
-oathbound_high_maint_cost = @[heavy_infantry_high_maint_cost * 1]
-
-ranseur_recruitment_cost = @[pikemen_recruitment_cost + 5]
-ranseur_low_maint_cost = @[pikemen_low_maint_cost + 0]
-ranseur_high_maint_cost = @[pikemen_high_maint_cost + 0]
-	
-chloromancers_recruitment_cost = @[skirmisher_recruitment_cost * 2.5]
-chloromancers_low_maint_cost = @[skirmisher_low_maint_cost * 3]
-chloromancers_high_maint_cost = @[skirmisher_high_maint_cost * 2.5]
-
-vologdan_knights_recruitment_cost = @[skirmisher_recruitment_cost * 2.5]
-vologdan_knights_low_maint_cost = @[skirmisher_low_maint_cost * 3]
-vologdan_knights_high_maint_cost = @[skirmisher_high_maint_cost * 2.5]
+### MODDED MMA are further down ###
+# because they cannot be above the base value defines
 
 ### Base Cost Values
 @skirmisher_recruitment_cost = 45
@@ -115,6 +92,37 @@ bombard_recruitment_cost = @[siege_weapons_recruitment_cost * 1.6]
 bombard_low_maint_cost = @[siege_weapons_low_maint_cost * 1.6]
 bombard_high_maint_cost = @[siege_weapons_high_maint_cost * 1.6]
 
+### MODDED Cultural MAA ###
+### MODDED Cultural MAA ###
+### MODDED Cultural MAA ###
+
+medjay_Ranger_recruitment_cost = @[light_cavalry_recruitment_cost * 1.3]
+medjay_Ranger_low_maint_cost = @[light_cavalry_low_maint_cost * 1.3]
+medjay_Ranger_high_maint_cost = @[light_cavalry_high_maint_cost * 1.3]
+
+hwatcha_recruitment_cost = @[siege_weapons_recruitment_cost * 1.5]
+hwatcha_low_maint_cost = @[siege_weapons_low_maint_cost * 2]
+hwatcha_high_maint_cost = @[siege_weapons_high_maint_cost + 0]
+
+oathbound_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.2]
+oathbound_low_maint_cost = @[heavy_infantry_low_maint_cost * 1]
+oathbound_high_maint_cost = @[heavy_infantry_high_maint_cost * 1]
+
+ranseur_recruitment_cost = @[pikemen_recruitment_cost + 5]
+ranseur_low_maint_cost = @[pikemen_low_maint_cost + 0]
+ranseur_high_maint_cost = @[pikemen_high_maint_cost + 0]
+	
+chloromancers_recruitment_cost = @[skirmisher_recruitment_cost * 2.5]
+chloromancers_low_maint_cost = @[skirmisher_low_maint_cost * 3]
+chloromancers_high_maint_cost = @[skirmisher_high_maint_cost * 2.5]
+
+vologdan_knights_recruitment_cost = @[skirmisher_recruitment_cost * 2.5]
+vologdan_knights_low_maint_cost = @[skirmisher_low_maint_cost * 3]
+vologdan_knights_high_maint_cost = @[skirmisher_high_maint_cost * 2.5]
+
+### END OF MODDED Cultural MAA ###
+### END OF MODDED Cultural MAA ###
+### END OF MODDED Cultural MAA ###
 
 ### Cultural MAA
 huscarls_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.28]
