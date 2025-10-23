@@ -1,65 +1,13 @@
-﻿bm_867_persia = {
-	start_date = 867.1.1
-	is_playable = yes
-	group = bm_group_867
-
-	weight = {
-		value = 0
-		if = {
-			limit = { has_dlc_feature = legacy_of_persia }
-			add = 150
-		}
-	}
-
-}
-
-bm_867_iberia = {
-	start_date = 867.1.1
-	is_playable = yes
-	group = bm_group_867
-
-	weight = {
-		value = 0
-		if = {
-			limit = { has_dlc = "The Fate of Iberia" }
-			add = 80
-		}
-	}
-}
-
-bm_867_northmen = {
-	start_date = 867.1.1
-	is_playable = yes
-	group = bm_group_867
-
-	weight = {
-		value = 0
-		if = {
-			limit = { has_dlc = "The Northern Lords" }
-			add = 75
-		}
-	}
-
-}
-
-bm_867_adventurers = {
-	start_date = 867.1.1
-	is_playable = yes
-	recommended = yes
-	group = bm_group_867
-
-}
-
-bm_1066_hastings = {
+﻿bm_1066_hastings = {
 	start_date = 1066.9.15
-	is_playable = no
+	is_playable = yes
 	group = bm_group_1066
 	
 }
 
 bm_1066_rags_to_riches = {
 	start_date = 1066.9.15
-	is_playable = no
+	is_playable = yes
 	recommended = yes
 	test_default = yes
 	group = bm_group_1066
@@ -70,7 +18,7 @@ bm_1066_rags_to_riches = {
 
 bm_1066_iberia = {
 	start_date = 1066.9.15
-	is_playable = no
+	is_playable = yes
 	group = bm_group_1066
 
 
