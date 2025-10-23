@@ -96,14 +96,14 @@ tradition_seasoned_merchants = {
 			}
 			add = 50
 		}
-		if = { # Make stacking a bit less common
+		if = { # Make stacking a bit more common
 			limit = {
 				OR = {
-					any_in_list = { list = traits this = flag:tradition_seafaring }
-					any_in_list = { list = traits this = flag:tradition_fishermen }
+					culture_tradition:tradition_seafaring = { is_in_list = traits }
+					culture_tradition:tradition_fishermen = { is_in_list = traits }
 				}
 			}
-			multiply = 0.75
+			multiply = 2
 		}
 		if = {
 			limit = {
@@ -119,6 +119,17 @@ tradition_seasoned_merchants = {
 				}
 			}
 			multiply = 0
+		}
+		else_if = {
+			limit = {
+				any_culture_county = {
+					percent >= 0.6
+					any_county_province = {
+						is_coastal = yes
+					}
+				}
+			}
+			multiply = 2
 		}
 	}
 }
@@ -500,15 +511,25 @@ tradition_remtali_castle_builders = {
 		custom_tooltip = {
 			scope:character = {
 				OR = {
-					has_government = feudal_government
-					has_government = clan_government
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan
 				}
 			}
 			text = must_be_feudal_or_clan
 		}
 		custom_tooltip = {
 			text = cannot_have_tradition_city_keepers
-			NOT = { any_in_list = { list = traits this = flag:tradition_city_keepers } }
+			NOT = {
+				culture_tradition:tradition_city_keepers = { is_in_list = traits }
+			}
+		}
+		custom_tooltip = {
+			text = cultrad_not_nomadic_government_type
+			scope:character = {
+				NOT = {
+					government_has_flag = government_is_nomadic
+				}
+			}
 		}
 	}
 	
@@ -536,9 +557,9 @@ tradition_remtali_castle_builders = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -556,13 +577,23 @@ tradition_remtali_castle_builders = {
 					desc = lacks_battlements_innovation_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_castle_keepers }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = { 
-		value = 100 
+		value = 800 
 		if = {
 			limit = {
 				NOT = { has_innovation = innovation_battlements }
