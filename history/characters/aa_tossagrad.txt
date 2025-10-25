@@ -1,13 +1,13 @@
 ﻿600005 = {
-	name = "Canadsky"
+	name = "Aveleksei" # Aveleksei Tossovich McSpiegel
 	dynasty = 30000004
 	religion = "tossanism"
 	culture = "ryzani"
 	trait = ambitious
 	trait = just
-	trait = craven
+	trait = Calm
 	trait = education_stewardship_3
-	martial = 10
+	martial = 4
 	#father = 145930
 	1040.1.1 = {
 		birth = "820.1.1"
@@ -31,3 +31,18 @@
 	}
 	#dna = 
 }
+
+600154 = {
+	name = "Óin" #
+	dynasty = 30000222 # magmablood
+	religion = "tossanism"
+	culture = "dwarvish"
+	trait = education_stewardship_2
+	martial = 4
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+

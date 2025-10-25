@@ -75,11 +75,11 @@
  witchgodname_almadorian_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #Almadorian
- almadorian:0 "Almadorian"
- almadorian_adj:0 "Almadorian"
- almadorian_adherent:0 "Almadorian"
- almadorian_adherent_plural:0 "Almadorians"
- almadorian_desc:0 "The original religion of the elves before being overthrown by Lunatwa, it follows Orzen and the Three Creators."
+ almadorian:0 "Celestial"
+ almadorian_adj:0 "Celestial"
+ almadorian_adherent:0 "Celestial"
+ almadorian_adherent_plural:0 "Celestials"
+ almadorian_desc:0 "The original religion of the elves before being overthrown by Lunatwa, it follows Orzen and the Three Creators. A proto-faith of Lunatwa."
  
  # cause error in code as this is already defined unsure if its supposed to be a alt translation or not - j
  #almadorian_positive_afterlife:0 "the Heavens"

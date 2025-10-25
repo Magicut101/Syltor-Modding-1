@@ -2,11 +2,17 @@
 961 = {
 	culture = vologdan
 	religion = the_one_true_faith
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 962 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 963 = {
@@ -17,7 +23,9 @@
 964 = {
 	culture = vologdan
 	religion = the_one_true_faith
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	duchy_capital_building = vologdan_walls_01
 }
 
@@ -26,11 +34,19 @@
 }
 
 966 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 967 = {
-	holding = city_holding
+	1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 }
 
 968 = {
@@ -41,7 +57,9 @@
 969 = {
 	culture = vologdan
 	religion = the_one_true_faith
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 970 = {
@@ -61,15 +79,19 @@
 973 = { 
 	culture = vologdan
 	religion = the_one_true_faith
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 #c_PheonoxianExodus
 
 974 = { 
 	culture = carthyan
-	religion = the_one_true_faith
-	holding = castle_holding
+	religion = bluepheonix
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 975 = {

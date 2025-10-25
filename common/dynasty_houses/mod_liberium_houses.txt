@@ -1,0 +1,4 @@
+﻿house_Chernik = {
+	name = "dynn_Chernik"
+	dynasty = 30000009 #Liberium
+}

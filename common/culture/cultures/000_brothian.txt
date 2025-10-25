@@ -7,8 +7,9 @@
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_brothian
-	language = language_ryzani
+	language = language_syrosi
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_loyal_soldiers
 		tradition_city_keepers
@@ -43,6 +44,7 @@ remtali = {
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_remtali_castle_builders
@@ -72,11 +74,14 @@ xaburyan = {
 		19
 		204
 	 }
-	
-	ethos = ethos_spiritual
+	#parents = { french norse }
+	#created = 911.7.20 # Treaty of Saint-Clair-sur-Epte
+
+	ethos = ethos_bellicose
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
 		tradition_mystical_ancestors
@@ -105,12 +110,13 @@ carthyan = {
 		26
 		69
 		235
-		 }
+	}
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_parochialism
@@ -144,6 +150,7 @@ ryzani = {
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_culture_blending
@@ -178,6 +185,7 @@ vologdan = {
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_zealous_people
@@ -215,8 +223,9 @@ deutzani = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_brothian
-	language = language_ryzani
+	language = language_syrosi
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_culture_blending
@@ -250,6 +259,7 @@ nebskoslav = {
 	heritage = heritage_brothian
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_family_entrepreneurship
@@ -258,40 +268,6 @@ nebskoslav = {
 	}
 	
 	name_list = name_list_polish
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-	ethnicities = {
-		10 = caucasian_brown_hair
-		10 = arab
-		10 = caucasian_dark_hair
-
-	}
-}
-
-valkyries = {
-	color = {
-		20
-		30
-		48
-	}
-	
-	ethos = ethos_stoic
-	heritage = heritage_brothian
-	language = language_ryzani
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_legalistic
-		tradition_poetry
-		tradition_hereditary_hierarchy
-		tradition_maritime_mercantilism
-		tradition_ruling_caste
-	}
-	
-	name_list = name_list_german
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -316,6 +292,7 @@ dorastterocker = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_city_keepers
 		tradition_strength_in_numbers
@@ -348,6 +325,7 @@ annunoren = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_city_keepers
 		tradition_family_entrepreneurship
@@ -381,6 +359,7 @@ solaner = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_legalistic
 		tradition_family_entrepreneurship
@@ -413,6 +392,7 @@ trostian = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_pacifism
@@ -447,6 +427,7 @@ hyrian = {
 	heritage = heritage_synderian
 	language = language_bardonian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_strength_in_numbers
@@ -481,6 +462,7 @@ vasterian = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_stand_and_fight
@@ -515,6 +497,7 @@ auronite = {
 	heritage = heritage_brothian
 	language = language_bardonian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_mountain_homes
@@ -549,6 +532,7 @@ tontoni = {
 	heritage = heritage_hadok
 	language = language_ryzani
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_culture_blending

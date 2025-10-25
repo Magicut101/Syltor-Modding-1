@@ -1,0 +1,6 @@
+﻿l_english: # ee
+  trait_spellweaver:0 "Spell Weaver"
+  trait_spellweaver_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a trained in the mystic arts of Xaburyan Spiritalism."
+
+  trait_steelspector:0 "Steel Spector"
+  trait_steelspector_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is entombed permanently in a set of metal armor a high honor in xaburyan spiritalism."

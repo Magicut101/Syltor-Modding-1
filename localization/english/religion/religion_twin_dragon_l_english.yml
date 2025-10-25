@@ -4,7 +4,7 @@
  lunatwa_religion_adj:0 "Lunatwa"
  lunatwa_religion_adherent:0 "Lunatwan"
  lunatwa_religion_adherent_plural:0 "Lunatwans"
- lunatwa_religion_desc:0 "The religion devoted to the worship of the two dragons the sun and the moon its primarly based within Aurlunor VeLynde under the guidence of the Celestial Matrions."
+ lunatwa_religion_desc:0 "The religion devoted to the worship of the two dragons the sun and the moon its primarly based within Aurlunor VeLynde under the guidance of the Celestial Matron."
 
  lunatwa_high_god_name:0 "Sen"
  lunatwa_high_god_name_2:0 "$lunatwa_high_god_name$" # Optional translation alt
@@ -24,7 +24,7 @@
  lunatwa_religious_text:0 "Daozang"
  lunatwa_religious_text_2:0 "$lunatwa_religious_text$" # Optional translation alt
  lunatwa_religious_text_3:0 "$lunatwa_religious_text$" # Optional translation alt
- lunatwa_religious_head_title:0 "Celestial Matrion"
+ lunatwa_religious_head_title:0 "Celestial Matron"
  lunatwa_religious_head_title_name:0 "Celestial Throne"
  lunatwa_devotee_male:0 "$lunatwa_devotee_neuter$"
  lunatwa_devotee_male_plural:0 "$lunatwa_devotee_neuter_plural$"
@@ -80,6 +80,12 @@
  twin_dragon_adherent:0 "Lunatwa"
  twin_dragon_adherent_plural:0 "Lunatwas"
  twin_dragon_desc:0 "Originating from Shunhua in Nir, the core philosophical nature of Twin Dragon is of universal order, harmony, and legalism. It propogates the concept that everything follows a certain natural order. If not, it will lead to catastrophic results."
+
+ easternlunatwa:0 "Eastern Lûnatwa"
+ easternlunatwa_adj:0 "Eastern Twin Dragon"
+ easternlunatwa_adherent:0 "Eastern Lunatwa"
+ easternlunatwa_adherent_plural:0 "Eastern Lunatwas"
+ easternlunatwa_desc:0 "."
  
  # cause error in code as this is already defined unsure if its supposed to be a alt translation or not - j
  #twin_dragon_positive_afterlife:0 "Palace of Grand Darkness"

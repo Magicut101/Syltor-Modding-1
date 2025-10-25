@@ -1,0 +1,267 @@
+﻿is_lunatwan_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_lunatwan_faith
+	}
+
+	special_doctrine_is_lunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm humble forgiving }
+			sins = { sadistic just ambitious }
+		}
+	}
+}
+
+is_easternlunatwan_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_easternlunatwan_faith
+	}
+
+	special_doctrine_is_easternlunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm honest humble }
+			sins = { sadistic deceitful vengeful }
+		}
+	}
+}
+
+is_bluephoenix_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_bluephoenix_faith
+	}
+
+	special_doctrine_is_bluephoenix_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { compassionate just generous }
+			sins = { sadistic greedy vengeful }
+		}
+	}
+}
+
+is_almadorian_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_easternlunatwan_faith
+	}
+
+	special_doctrine_is_easternlunatwan_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { temperate generous brave zealous }
+			sins = { gluttonous lazy greedy deceitful }
+		}
+	}
+}
+
+is_phoenixtossanist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_phoenixtossanist_faith
+	}
+
+	special_doctrine_is_phoenixtossanist_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm compassionate ambitious
+			}
+			sins = { sadistic greedy callous }
+		}
+	}
+}
+
+is_tossanist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_tossanist_faith
+	}
+
+	special_doctrine_is_tossanist_faith = {
+		parameters = {
+		}
+		traits = {
+			virtues = { calm compassionate ambitious
+			}
+			sins = { sadistic greedy callous }
+		}
+	}
+}
+
+is_dandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_dandelist_faith
+	}
+
+	special_doctrine_is_dandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { vengeful august ambitious wiseman }
+		sins = { calm compassionate forgiving shy }
+		}
+	}
+}
+
+is_trostdandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_trostdandelist_faith
+	}
+
+	special_doctrine_is_trostdandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { calm compassionate content diligent }
+		sins = { vengeful wrathful ambitious sadistic }
+		}
+	}
+}
+
+is_consumerdandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_consumerdandelist_faith
+	}
+
+	special_doctrine_is_consumerdandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { gregarious diligent greedy  }
+		sins = { wrathful impatient generous }
+		}
+	}
+}
+
+is_diplodandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_diplodandelist_faith
+	}
+
+	special_doctrine_is_diplodandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { just trusting compassionate  }
+		sins = { vengeful cynical callous }
+		}
+	}
+}
+
+is_wardandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_wardandelist_faith
+	}
+
+	special_doctrine_is_wardandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { callous sadistic arrogant  }
+		sins = { temperate patient compassionate }
+		}
+	}
+}
+
+is_deathdandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_deathdandelist_faith
+	}
+
+	special_doctrine_is_deathdandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { zealous wrathful vengeful  }
+		sins = { content forgiving temperate }
+		}
+	}
+}
+
+is_intriguedandelist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_intriguedandelist_faith
+	}
+
+	special_doctrine_is_intriguedandelist_faith = {
+		parameters = {
+		}
+	traits = {
+		virtues = { zealous wrathful vengeful  }
+		sins = { content forgiving temperate }
+		}
+	}
+}
+
+	#############################
+	# Empty Template Tenet 		#
+	#############################
+
+	#tenets = {
+	#	is_shown = {
+	#		always = no
+	#	}
+	#	can_pick = {
+	#		always = yes
+	#	}
+
+	#	piety_cost = {
+	#		if = {
+	#			limit = {
+	#				always = no
+	#			}
+	#			value = faith_tenet_cost_low
+	#		}
+	#		else = {
+	#			value = faith_tenet_cost_massive
+	#		}
+
+	#		# Multiplier for keeping same tenet
+	#		if = {
+	#			limit = { has_doctrine = tenets }
+	#			multiply = faith_unchanged_doctrine_cost_mult
+	#		}
+	#	}
+
+	#	parameters = {
+	#		tenets_active = yes
+	#	}
+
+	#	character_modifier = {
+
+	#	}
+
+	#	traits = {
+	#		virtues = { brave = 2}
+	#		sins = { craven = 2}
+	#	}
+	#}
+

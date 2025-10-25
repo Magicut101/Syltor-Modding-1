@@ -1,0 +1,5 @@
+﻿house_Shan = {
+	name = "dynn_Shan"
+	dynasty = 30000020 # Medici
+}
+

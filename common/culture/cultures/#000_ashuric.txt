@@ -1,0 +1,213 @@
+﻿nabut = {
+	color = {
+		240
+		40
+		79
+	}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_philosopher_culture
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_yoruba
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+ashuran = {	
+	color = {
+		255 
+		0
+		50
+	}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_warriors_of_the_dry
+		tradition_philosopher_culture
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+kadut = {
+	color = {
+		203
+		39
+		71
+	}
+	
+	ethos = ethos_communal
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_longbow_competitions
+		tradition_wetlanders
+		tradition_modest
+	}
+	
+	name_list = name_list_yoruba
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+qanti = {
+	color = { 
+		34
+		130
+		14
+	}
+	
+	ethos = ethos_bellicose
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_warriors_of_the_dry
+		tradition_saharan_nomads
+		tradition_malleable_invaders
+	}
+	
+	name_list = name_list_edo
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+azeral_nomad = {
+	color = { 
+		26 
+		98
+		12
+	}
+	
+	ethos = ethos_communal
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_saharan_nomads
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_igbo
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+miandi = {
+	color = {
+		97
+		12
+		31
+		 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ashuric
+	language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_saharan_nomads
+		tradition_isolationist
+		tradition_agrarian
+	}
+	
+	name_list = name_list_ewe
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}
+
+ereket = {
+	color = { 
+		36
+		4
+		11
+		 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ashuric
+  language = language_ashuran
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_mystical_ancestors
+		tradition_chivalry
+		tradition_desert_nomads
+	}
+	
+	name_list = name_list_ewe
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}

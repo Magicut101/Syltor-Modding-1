@@ -1,6 +1,458 @@
 ﻿
 ###Modded custom buildings###
 
+deutzan_walls_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		barony = title:b_HaegielPass1
+	}
+	
+	cost_gold = 250
+	
+	province_modifier = {
+		monthly_income = 0.5
+		fort_level = 2
+		garrison_size = 0.5
+		travel_danger = -10
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 8
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_marshal
+}
+
+erebor_hold_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		barony = title:b_Erebor1
+	}
+	
+	cost_gold = 150
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.05
+		#tax_mult = 0.05
+	}
+	province_modifier = {
+		monthly_income = 0.50
+		fort_level = 2
+		garrison_size = 1
+		travel_danger = -10
+	}
+	county_modifier = {
+		#development_growth = 0.2
+		#development_growth_factor = 0.1
+		levy_size = 0.10
+		tax_mult = 0.10
+		hostile_raid_time = 0.5
+		defender_holding_advantage = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+	next_building = erebor_hold_02
+}
+
+erebor_hold_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	cost_gold = 500
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.10
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.10
+		tax_mult = 0.05
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		fort_level = 3
+		garrison_size = 1
+		travel_danger = -20
+	}
+
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		levy_size = 0.15
+		tax_mult = 0.30
+		hostile_raid_time = 0.75
+		defender_holding_advantage = 5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+	next_building = erebor_hold_03
+}
+
+erebor_hold_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.15
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.15
+		tax_mult = 0.10
+	}
+
+	province_modifier = {
+		monthly_income = 1.5
+		fort_level = 5
+		garrison_size = 2
+		travel_danger = -20
+	}
+
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.2
+		levy_size = 0.25
+		tax_mult = 0.25
+		hostile_raid_time = 1
+		defender_holding_advantage = 8
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+xaburya_hold_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		barony = title:b_Xaburya2
+	}
+	
+	cost_gold = 150
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.05
+		#tax_mult = 0.05
+	}
+	province_modifier = {
+		monthly_income = 0.50
+		fort_level = 2
+		garrison_size = 1
+		travel_danger = -10
+		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_1
+		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_1
+		defender_holding_advantage = 8
+	}
+	county_modifier = {
+		#development_growth = 0.2
+		#development_growth_factor = 0.1
+		levy_size = 0.10
+		tax_mult = 0.10
+		hostile_raid_time = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_marshal
+	next_building = xaburya_hold_02
+}
+
+xaburya_hold_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	cost_gold = 300
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.10
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.10
+		tax_mult = 0.05
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		fort_level = 3
+		garrison_size = 1
+		travel_danger = -20
+		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_2
+		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_2
+		defender_holding_advantage = 10
+	}
+
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		levy_size = 0.15
+		tax_mult = 0.15
+		hostile_raid_time = 0.75
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_marshal
+	next_building = xaburya_hold_03
+}
+
+xaburya_hold_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	cost_gold = 750
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.15
+	}
+	
+	duchy_capital_county_modifier = {
+		levy_size = 0.15
+		tax_mult = 0.10
+	}
+
+	province_modifier = {
+		monthly_income = 1.5
+		fort_level = 5
+		garrison_size = 2
+		travel_danger = -20
+		stationed_heavy_infantry_damage_mult = normal_maa_damage_tier_3
+		stationed_heavy_infantry_toughness_mult = very_high_maa_toughness_tier_3
+		defender_holding_advantage = 12
+	}
+
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.2
+		levy_size = 0.25
+		tax_mult = 0.25
+		hostile_raid_time = 1
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_marshal
+}
+
+remtal_port_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		barony = title:b_RemtalCity1
+	}
+	
+	cost_gold = 100
+
+	character_modifier = {
+	}
+	
+	county_modifier = {
+	}
+	
+	duchy_capital_county_modifier = {
+		tax_mult = 0.05
+	}
+
+	province_modifier = {
+		monthly_income = 0.25
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_stewardship
+	next_building = remtal_port_02
+
+}
+
+remtal_port_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	cost_gold = 250
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth_factor = 0.1
+		development_growth = 0.10
+	}
+
+	duchy_capital_county_modifier = {
+		tax_mult = 0.15
+	}
+
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_stewardship
+	next_building = remtal_port_03
+
+}
+
+remtal_port_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	cost_gold = 500
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.10
+		different_culture_opinion = 5
+	}
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.2
+		development_growth = 0.25
+	}
+	
+	duchy_capital_county_modifier = {
+		tax_mult = 0.30
+	}
+
+	province_modifier = {
+		monthly_income = 1.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_stewardship
+}
+
 walls_of_dun_01 = {
 	construction_time = very_slow_construction_time
 
@@ -145,7 +597,71 @@ obelisk_of_qamiya_02 = {
 
 	type_icon = "icon_structure_palace_of_achen.dds"
 	
+	cost_gold = 250
+
+	character_modifier = {
+		powerful_vassal_opinion = 5
+		different_culture_opinion = 5
+	}
+	
+	county_modifier = {
+	}
+
+	province_modifier = {
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = duchy_capital
+	next_building = obelisk_of_qamiya_03
+}
+
+obelisk_of_qamiya_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
 	cost_gold = 500
+
+	character_modifier = {
+		powerful_vassal_opinion = 10
+		different_culture_opinion = 10
+	}
+	
+	county_modifier = {
+
+	}
+
+	province_modifier = {
+		monthly_income = 1.025
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = duchy_capital
+	next_building = obelisk_of_qamiya_04
+}
+
+obelisk_of_qamiya_04 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	cost_gold = 750
 
 	character_modifier = {
 		powerful_vassal_opinion = 15
@@ -157,7 +673,7 @@ obelisk_of_qamiya_02 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1.05
+		monthly_income = 1.5
 	}
 	
 	ai_value = {

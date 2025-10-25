@@ -1,0 +1,88 @@
+﻿#############################################
+# Event to form Norenya         			      #
+# by Jayops10 3/7/25   						          #
+#############################################
+form_norenya_decision_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+	}
+	desc = form_norenya_decision_decision_desc
+	selection_tooltip = form_norenya_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		OR = {
+			dynasty = dynasty:30000017	# burrows can always do this descision
+			culture = culture:xaburyan	# xaburyan characters are always able to dream.
+		}
+
+		NOT = {	# You can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_norenya
+			}
+		}
+
+    # or means only one of these has to be true not all of them
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_republic
+			government_has_flag = government_is_clan
+			government_allows = administrative
+		}
+	}
+
+  cost = {
+    #gold = 250
+    prestige = 100
+  }
+
+	is_valid = {
+		prestige_level >= 3
+		completely_controls = title:d_xaburya
+		OR = {
+			completely_controls = title:k_nebskoslavia
+			completely_controls = title:k_carthya
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+    #has_title = title:d_xaburya
+	}
+
+	effect = {
+		show_as_tooltip = {
+			form_norenya_decision_scripted_effect = yes
+		}
+		save_scope_as = founder
+		trigger_event = {
+			id = ryzan.0001
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_norenya
+			}
+			set_global_variable = {
+				name = flag_formed_norenya
+				value = root
+			}
+		}
+	}
+	
+  # ai will always consider and 100% of the time do it
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

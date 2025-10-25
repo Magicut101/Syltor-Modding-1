@@ -1,9 +1,9 @@
 ﻿30000023 = {
-	name = "Sigrun"
+	name = "dynn_Sigrun"
 	culture = "valkyries"
 }
 
 30000024 = {
-	name = "Azurov"
+	name = "dynn_Azurov"
 	culture = "dorastterocker"
 }

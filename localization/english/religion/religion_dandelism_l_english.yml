@@ -1,0 +1,120 @@
+﻿l_english:
+
+ #Common dandelism Localization
+ dandelism_religion:0 "Dandelism"
+ dandelism_religion_adj:0 "Dandelism"
+ dandelism_religion_adherent:0 "Dandelist"
+ dandelism_religion_adherent_plural:0 "Dandelists"
+ dandelism_religion_desc:0 "While the origin of the faith is unknown, many theorize that it originates from monks meditating in fields of dandelions. These early Dandelists associated their faith with the namesake - however much like the flower it derives its name from, not all paths are equal, nor pure."
+
+ turtlepaganism_high_god_name:0 "God"
+ turtlepaganism_high_god_name_2:0 "$turtlepaganism_high_god_name$" # Optional translation alt
+ turtlepaganism_high_god_name_3:0 "$turtlepaganism_high_god_name$" # Optional translation alt
+ dandelism_high_god_name_possessive:0 "Dandelion's"
+ dandelism_high_god_name_alternate:0 "the divine petel"
+ dandelism_high_god_name_alternate_possessive:0 "Divine Dandelion's"
+ dandelism_good_god_jesus:0 "$dandelism_health_god_name$"
+ dandelism_good_god_christ:0 "God"
+ dandelism_devil_name:0 "Chaos"
+ dandelism_devil_name_possessive:0 "Chaos's"
+ dandelism_evil_god_lucifer:0 "Lucifer"
+ dandelism_evil_god_beelzebub:0 "Beelzebub"
+ dandelism_evil_god_mephistopheles:0 "Mephistopheles"
+ dandelism_death_deity_name:0 "Death"
+ dandelism_death_deity_name_possessive:0 "Death's"
+ dandelism_house_of_worship:0 "church"
+ dandelism_house_of_worship_2:0 "$dandelism_house_of_worship$" # Optional translation alt
+ dandelism_house_of_worship_3:0 "$dandelism_house_of_worship$" # Optional translation alt
+ dandelism_house_of_worship_plural:0 "churches"
+ dandelism_religious_symbol:0 "tree"
+ dandelism_religious_symbol_2:0 "$dandelism_religious_symbol$" # Optional translation alt
+ dandelism_religious_symbol_3:0 "$dandelism_religious_symbol$" # Optional translation alt
+ dandelism_religious_text:0 "scriptures"
+ dandelism_religious_text_2:0 "$dandelism_religious_text$" # Optional translation alt
+ dandelism_religious_text_3:0 "$dandelism_religious_text$" # Optional translation alt
+ dandelism_religious_head_title:0 "Captain Regent"
+ dandelism_religious_head_title_name:0 "Knighthood"
+ dandelism_devotee_male:0 "squire"
+ dandelism_devotee_male_plural:0 "squires"
+ dandelism_devotee_female:0 "knight"
+ dandelism_devotee_female_plural:0 "knights"
+ dandelism_devotee_neuter:0 "monastic"
+ dandelism_devotee_neuter_plural:0 "monastics"
+ dandelism_priest_male:0 "priest"
+ dandelism_priest_male_plural:0 "priests"
+ dandelism_priest_alternate_plural:0 "missionary"
+ dandelism_bishop:0 "knight"
+ dandelism_bishop_plural:0 "knights"
+ dandelism_positive_afterlife:0 "the one's realm"
+ dandelism_positive_afterlife_2:1 "paradise" # Optional translation alt
+ dandelism_positive_afterlife_3:1 "$dandelism_high_god_name_possessive$ Kingdom" # Optional translation alt
+ dandelism_negative_afterlife:0 "chaos"
+ dandelism_negative_afterlife_2:1 "the Pit of Chaos" # Optional translation alt
+ dandelism_negative_afterlife_3:1 "Destruction" # Optional translation alt
+ dandelism_witchgodname_the_horned_god:0 "the Deceiver"
+ dandelism_witchgodname_the_horned_god_possessive:0 "the Deceiver's"
+
+ dandelism_creator_god_name:0 "$dandelism_high_god_name$"
+ dandelism_creator_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_health_god_name:0 "god"
+ dandelism_health_god_name_possessive:0 "god's"
+ dandelism_fertility_god_name:0 "$dandelism_high_god_name$"
+ dandelism_fertility_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_wealth_god_name:0 "$dandelism_high_god_name$"
+ dandelism_wealth_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_household_god_name:0 "$dandelism_health_god_name$"
+ dandelism_household_god_name_possessive:0 "$dandelism_health_god_name_possessive$"
+ dandelism_fate_god_name:0 "$dandelism_high_god_name$"
+ dandelism_fate_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_knowledge_god_name:0 "$dandelism_high_god_name$"
+ dandelism_knowledge_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_war_god_name:0 "$dandelism_high_god_name$"
+ dandelism_war_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_trickster_god_name:0 "Fortuna"
+ dandelism_trickster_god_name_possessive:0 "Fortuna's"
+ dandelism_night_god_name:0 "$dandelism_high_god_name$"
+ dandelism_night_god_name_possessive:0 "$dandelism_high_god_name_possessive$"
+ dandelism_water_god_name:0 "$dandelism_health_god_name$"
+ dandelism_water_god_name_possessive:0 "$dandelism_health_god_name_possessive$"
+
+dandelism:0 "Dandelism"
+dandelism_adj:0 "Dandelism"
+dandelism_adherent:0 "Dandelist"
+dandelism_adherent_plural:0 "Dandelists"
+dandelism_desc:0 "While the origin of the faith is unknown, many theorize that it originates from monks meditating in fields of dandelions. These early Dandelists associated their faith with the namesake - however much like the flower it derives its name from, not all paths are equal, nor pure."
+
+trostian_dandelism:0 "White Dandelism"
+trostian_dandelism_adj:0 "White Dandelism"
+trostian_dandelism_adherent:0 "White Dandelist"
+trostian_dandelism_adherent_plural:0 "White Dandelists"
+trostian_dandelism_desc:0 "The Path of Peace, following the namesake of the white flower, this faith supposedly originates from the Bardonian city of Trost. Advocating for isolationist policies, It preaches that peace and unity is the only true path of Dandelism and that there is nothing of value outsides the green fields of Bardonia."
+
+consumer_dandelism:0 "Green Dandelism"
+consumer_dandelism_adj:0 "Green Dandelism"
+consumer_dandelism_adherent:0 "Green Dandelist"
+consumer_dandelism_adherent_plural:0 "Green Dandelists"
+consumer_dandelism_desc:0 "The Path of Riches, the origin of this variant is abnormal - coming about after someone asked "Is eating Dandellions Holy or Heretical? This split led to the birth of Green Dandelism, christening itself as the 'Dandelist Church of the Truth.'"
+
+diplo_dandelism:0 "Blue Dandelism"
+diplo_dandelism_adj:0 "Blue Dandelism"
+diplo_dandelism_adherent:0 "Blue Dandelist"
+diplo_dandelism_adherent_plural:0 "Blue Dandelists"
+diplo_dandelism_desc:0 " The Path of Understanding, several individuals who crossed into the Ryzani mountains came to realize that there is truth in paths outside of Dandelism orthodoxy and rule. Only through communication can you pave a path for the benefit of the whole. The most radical tenant is best described by the following "The world is a Dandellion, the people its petals, through understanding we make ourselves whole.""
+
+war_dandelism:0 "Red Dandelism"
+war_dandelism_adj:0 "Red Dandelism"
+war_dandelism_adherent:0 "Red Dandelist"
+war_dandelism_adherent_plural:0 "Red Dandelists"
+war_dandelism_desc:0 "The Path of Blood, invoked during times of great unrest and tragedy. There is a simple rule to this path, the dandellions must be fed. Blood must flow, and only by spilling it can we be sure that our fields remain fertile, our people remain strong, and our nation remains whole."
+
+death_dandelism:0 "Black Dandelism"
+death_dandelism_adj:0 "Black Dandelism"
+death_dandelism_adherent:0 "Black Dandelist"
+death_dandelism_adherent_plural:0 "Black Dandelists"
+death_dandelism_desc:0 "The Path of Death, do not pity the Ryzani, do not greet the Aurlunoren, do not acknowledge the Yularan, do not thank the Andornian. We need only do one thing for those who stand before us, Kill."
+
+intrigue_dandelism:0 "Grey Dandelism"
+intrigue_dandelism_adj:0 "Grey Dandelism"
+intrigue_dandelism_adherent:0 "Grey Dandelist"
+intrigue_dandelism_adherent_plural:0 "Grey Dandelists"
+intrigue_dandelism_desc:0 "The Path of Lies, never professed or acknowledged by practitioners but those who practice this path will ensure their schemes and deceptions are never revealed. The truth is a lie."

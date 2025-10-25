@@ -1,7 +1,7 @@
 ﻿600014 = {
 	name = "Bruhovich"
 	dynasty = 30000010 #Aasimar
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "carthyan"
 	trait = education_stewardship_2
 	stewardship = 11
@@ -16,10 +16,10 @@
 600022 = {
 	name = "Darrow"
 	dynasty = 30000010 #Aasimar
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "carthyan"
 	trait = education_stewardship_4
-  trait = just
+  	trait = just
 	stewardship = 13
 	1020.1.1 = {
 		birth = yes
@@ -30,13 +30,42 @@
 600023 = {
 	name = "Raphie"
 	dynasty = 30000010 #Aasimar
-	religion = "tossanism"
+	religion = "bluepheonix"
 	culture = "carthyan"
 	trait = education_stewardship_3
   trait = just
-  trait = diligent
-	stewardship = 9
+ 	trait = diligent
+ 	trait = zealous
+	stewardship = 10
 	father = 600022
+	1050.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600152 = {
+	name = "Nikolai"
+	dynasty = 30000223 # Zefirov
+	religion = "pheonixtossanist"
+	culture = "ryzani"
+	trait = education_martial_3
+ 	trait = diligent
+	1047.1.1 = {
+		birth = yes
+	}
+	#dna = 
+}
+
+600153 = {
+	name = "Sarcaski"
+	dynasty = 30000004 # Tossovich
+	religion = "pheonixtossanist"
+	culture = "carthyan"
+	trait = education_stewardship_2
+  trait = just
+ 	trait = diligent
+	father = 600005
 	1050.1.1 = {
 		birth = yes
 	}
@@ -48,9 +77,11 @@
 600024 = {
 	name = "Jay"
 	dynasty = 30000017 #Burrow
-	religion = "tossanism"
+	religion = "xaburya_spirit"
 	culture = "xaburyan"
 	trait = education_martial_4
+	trait = steelspector
+	trait = spellweaver
 	stewardship = 12
 	1020.1.1 = {
 		birth = yes
@@ -64,12 +95,19 @@
 600025 = {
 	name = "Javorn"
 	dynasty = 30000017 #Burrow
-	religion = "tossanism"
+	religion = "xaburya_spirit"
+	trait = spellweaver
 	culture = "xaburyan"
 	trait = education_martial_3
+	learning = 4
+	intrigue = 3
+	martial = 11
 	stewardship = 8
-  trait = diligent
   learning = 11
+  trait = diligent
+	trait = zealous
+  trait = calm
+
 	1040.1.1 = {
 		birth = yes
 	}
@@ -80,7 +118,7 @@
 600026 = {
 	name = "Adelisa"
 	dynasty = 30000017 #Burrow
-	religion = "tossanism"
+	religion = "xaburya_spirit"
 	culture = "xaburyan"
 	trait = education_martial_3
   trait = zealous

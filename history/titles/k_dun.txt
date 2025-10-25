@@ -1,3 +1,9 @@
+
+d_dun = {
+	1054.1.1 = {
+	holder = 600015 # alfy
+	}
+}
 c_dun = {
 	867.1.1 = {	change_development_level = 15 }
 	1054.1.1 = {
@@ -23,5 +29,24 @@ c_RiverValley = {
 	867.1.1 = {	change_development_level = 1 }
 	1054.1.1 = {
 	holder = 600015 # alfy
+	}
+}
+c_WatermillOfLewnde = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+	holder = 600082 # tagrina, might need to change later
+	}
+}
+c_LiangVillage = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+	holder = 600082 # tagrina, might need to change later
+	}
+}
+
+c_LiangWay = {
+	867.1.1 = {	change_development_level = 1 }
+	1054.1.1 = {
+	holder = 600082 # tagrina, might need to change later
 	}
 }

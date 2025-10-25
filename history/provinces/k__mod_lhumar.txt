@@ -116,9 +116,17 @@
 }
 
 891 = {
-	holding = city_holding
 	1054.1.1 = {
+		1054.1.1 = {
 		holding = city_holding
+		}
+		}
+	1054.1.1 = {
+		1054.1.1 = {
+		1054.1.1 = {
+		holding = city_holding
+		}
+		}
 		}
 }
 

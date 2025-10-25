@@ -99,6 +99,9 @@
  frontierkumiho_prefix:0 "Kumiho"
  frontierkumiho_collective_noun:1 "Kumiho"
  # Ashurans 
+ ashuran:0 "Ashuran"
+ ashuran_prefix:0 "Ashuran"
+ ashuran_collective_noun:1 "Ashurans"
  qanti:0 "Qanti"
  qanti_prefix:0 "Qanti"
  qanti_collective_noun:1 "Qantis"

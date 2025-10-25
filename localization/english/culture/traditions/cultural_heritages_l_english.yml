@@ -8,11 +8,11 @@ heritage_brothian_collective_noun:0 "Brothians"
 heritage_aurlunoren_name:0 "Aurlunoren"
 heritage_aurlunoren_collective_noun:0 "Aurlunorens"
 
-heritage_azararni_name:0 "Azararni"
-heritage_azararni_collective_noun:0 "Azararnis"
+heritage_azararni_name:0 "Ghurenic"
+heritage_azararni_collective_noun:0 "Ghurens"
 
-heritage_corvus_name:0 "Crowfolk"
-heritage_corvus_collective_noun:0 "Crowfolk"
+heritage_avian_name:0 "Avian"
+heritage_avian_collective_noun:0 "Avian"
 
 heritage_nekojin_name:0 "Nekojin"
 heritage_nekojin_collective_noun:0 "Nekojin"
@@ -34,6 +34,9 @@ heritage_azeral_collective_noun:0 "Azeralian"
 
 heritage_synderian_name:0 "Synderian"
 heritage_synderian_collective_noun:0:0 "Synderians"
+
+heritage_alvadan_name:0 "Alvadan"
+heritage_alvadan_collective_noun:0:0 "Alvadans"
 
 ### Base game ###
 

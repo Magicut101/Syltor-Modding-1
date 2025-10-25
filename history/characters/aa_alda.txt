@@ -1,0 +1,60 @@
+600200 = {
+	name = "Helena"
+	dynasty = 30000100 	# Amakiir
+	religion = "twin_dragon" #Subject to change
+	culture = "heartlander" #Need to add Aldan Culture
+	trait = education_stewardship_4
+	stewardship = 25
+    female = yes
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600201 = {
+    name = "Ciprilu"
+	dynasty = 30000203 # Saxon
+	religion = "twin_dragon"
+	culture = "heartlander"
+	trait = education_martial_3
+	martial = 12
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#dna = 
+}
+
+600202 = {
+	name = "Titanino"
+	dynasty = 30000201 # Saxon
+	religion = "twin_dragon"
+	culture = "heartlander"
+	trait = education_diplomacy_2
+	diplomacy = 10
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	 #Titanino signed away their independence to Alda
+	
+}
+600203 = {
+	name = "Mokatios "
+	religion = "Soleannen"
+	culture = "heartlander" #Should be Escharian
+	dynasty = 30000206
+	trait = education_martial_3
+	diplomacy = 12
+	martial = 14 
+	prowess = 12
+	#father = 145930
+	1040.1.1 = {
+		birth = "820.1.1"
+	}
+	#Viridian guy
+	#Started the New Viridian Order, should be antagonistic to Alda, and refuse to be under them. 
+}
+	

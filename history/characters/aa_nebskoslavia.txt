@@ -1,7 +1,7 @@
 ﻿600031 = {
 	name = "Slout"
 	dynasty = 30000022 # Korol
-	religion = "tossanism"
+	religion = "vjara"
 	culture = "nebskoslav"
 	trait = education_stewardship_1
   martial = 2
@@ -15,7 +15,7 @@
 600036 = {
 	name = "Ignati"
 	dynasty = 30000022 # Korol
-	religion = "tossanism" # replace with nebskoslav religion
+	religion = "vjara" # replace with nebskoslav religion
 	culture = "nebskoslav"
 	martial = 4
 	trait = education_stewardship_1

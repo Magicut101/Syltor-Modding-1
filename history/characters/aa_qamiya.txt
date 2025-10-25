@@ -1,6 +1,6 @@
 ﻿600016 = {
 	name = "Azan"
-	dynasty = 30000012 # shaer
+	dynasty = 30000218 # shaer
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
 	trait = patient
@@ -18,7 +18,7 @@
 
 600017 = {
 	name = "Jun Se"
-	dynasty = 30000013 # khamen
+	dynasty = 30000219 # khamen
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
 	trait = education_intrigue_3
@@ -28,20 +28,22 @@
 	employer = 600016
 	#dna = 
 }
-600045 = {
-	name = "K'ebero Al-Izula"
-	dynasty = 30000013 # khamen
-	religion = "ashuran_pantheon"
-	culture = "ashuran"
-	1040.1.1 = {
-		birth = "820.1.1"
-	}
+
+
+#600045 = { #Made him twice by accident
+	#name = "K'ebero Al-Izula"
+	#dynasty = 30000219 # khamen
+	#religion = "ashuran_pantheon"
+	#culture = "ashuran"
+	#1040.1.1 = {
+	#	birth = "820.1.1"
+	#}
 	#dna = 
-}
+#}
 
 600047 = {
 	name = "Se-khem-ka Al-Qamiya"
-	dynasty = 30000013 # khamen
+	dynasty = 30000219 # khamen
 	religion = "ashuran_pantheon"
 	culture = "ashuran"
 	trait = education_stewardship_3
@@ -56,7 +58,7 @@
 
 600048 = {
 	name = "Nashabet"
-	#dynasty = 30000301 #Nashabet
+	dynasty = 30000301 #Nashabet
 	religion = "ashuran_pantheon"
 	culture = "nabut"
 	trait = education_learning_3
@@ -64,25 +66,15 @@
 	1040.1.1 = {
 		birth = "820.1.1"
 	}
+	female = Yes
+	
 	#dna = 
 }
 
-600057 = {
-	name = "Nefer Khamen"
-	#dynasty = 30000013 #Nashabet
-	religion = "ashuran_pantheon"
-	culture = "ashuran"
-	trait = education_learning_3
-	learning = 30
-	1040.1.1 = {
-		birth = "820.1.1"
-	}
-	#dna = 
-}
 
 600059 = {
-	name = "Hem-Netjer A'Livé Sinya"
-	#dynasty = 30000105 #Nashabet
+	name = "Hem-Netjer A'Livé"
+	dynasty = 30000105 #Nashabet
 	religion = "ashuran_pantheon"
 	culture = "Miandi"
 	trait = education_stewardship_3
@@ -92,3 +84,29 @@
 	#dna = 
 }
 
+600070 = {
+	name = "Ishqaji"
+	dyansty = 30000105 #not right, need to find alternative name
+	religion = "qantifolkway_pantheon"
+	culture = "qanti"
+	trait = education_martial_4
+	1040.1.1 = {
+		birth = "1000.1.1"
+	} 
+	#Qanti Name of  the original Qanti Unifier of the region
+}
+
+600108 = { trait = education_learning_3
+name = "Aisha" 
+dynasty = 30000218 
+religion = "ashuran_pantheon" 
+culture = "ashuran" 
+1040.1.1 = {
+                birth = "820.1.1"
+        } 
+trait = disinherited
+trait = education_learning_3
+learning = 10
+female = yes
+parent = 600016
+}

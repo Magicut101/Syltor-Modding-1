@@ -1,13 +1,17 @@
 ﻿l_english:
  culture_parameter_unlock_maa_chloromancers:0 "Can recruit [GetMaA('chloromancers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_akritai:0 "Can recruit [GetMaA('akritai').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_ballistrai:0 "Can recruit [GetMaA('ballistrai').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_skoutatoi:0 "Can recruit [GetMaA('skoutatoi').GetName] as [men_at_arms|E]"
 
- tradition_ancient_chloromancers_name:0 "Ancient Chloromancers"
- tradition_ancient_chloromancers_desc:0 "This culture has practiced plant based magics for thousands of years."
+ tradition_ancient_chloromancers_name:0 "Memories of An Empire"
+ tradition_ancient_chloromancers_desc:0 "This culture once ruled a vast ancient empire, and its martial traditions and powerful plant-based magic still remain."
  
  culture_parameter_unlock_maa_vologdan_knights:0 "Can recruit [GetMaA('vologdan_knights').GetName] as [men_at_arms|E]"
  tradition_vologdan_knights_name:0 "Vologdan Knights"
  tradition_vologdan_knights_desc:0 "the order of Vologdan knights has taken over most of vologdan society."
 
+ culture_parameter_unlock_maa_spellweaver:0 "Can recruit [GetMaA('spellweaver').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_oathbound:0 "Can recruit [GetMaA('oathbound').GetName] as [men_at_arms|E]"
  tradition_Oathbound_Order_name:0 "Oathbound Order"
  tradition_Oathbound_Order_desc:0 "Souls of xaburya's fallen woh forsake their afterlife to walk again as suits of hollow defenders of their people."

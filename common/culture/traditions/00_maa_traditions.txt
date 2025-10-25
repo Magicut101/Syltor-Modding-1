@@ -2,9 +2,9 @@
 # CULTURAL TRADITIONS #
 #######################
 
-######################
-# MAA Traditions 	 #
-######################
+#########################
+# MODDED MAA Traditions #
+#########################
 
 tradition_seasoned_merchants = {
 	category = realm
@@ -26,7 +26,7 @@ tradition_seasoned_merchants = {
 		}
 	}
 	is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 	}
 
 	parameters = {
@@ -96,14 +96,14 @@ tradition_seasoned_merchants = {
 			}
 			add = 50
 		}
-		if = { # Make stacking a bit less common
+		if = { # Make stacking a bit more common
 			limit = {
 				OR = {
-					any_in_list = { list = traits this = flag:tradition_seafaring }
-					any_in_list = { list = traits this = flag:tradition_fishermen }
+					culture_tradition:tradition_seafaring = { is_in_list = traits }
+					culture_tradition:tradition_fishermen = { is_in_list = traits }
 				}
 			}
-			multiply = 0.75
+			multiply = 2
 		}
 		if = {
 			limit = {
@@ -120,6 +120,17 @@ tradition_seasoned_merchants = {
 			}
 			multiply = 0
 		}
+		else_if = {
+			limit = {
+				any_culture_county = {
+					percent >= 0.6
+					any_county_province = {
+						is_coastal = yes
+					}
+				}
+			}
+			multiply = 2
+		}
 	}
 }
 
@@ -132,9 +143,8 @@ tradition_avian_hunters = {
 		4 = soldiers4.dds
 	}
 	is_shown = {
-		has_cultural_pillar = heritage_corvus 
+		has_cultural_pillar = heritage_avian 
 	}
-
 	parameters = {
 		unlock_maa_kaluko_rangers = yes 
 	}
@@ -151,6 +161,7 @@ tradition_avian_hunters = {
 		heavy_cavalry_toughness_mult = -0.05
 		heavy_infantry_damage_mult = -0.1
 		heavy_infantry_toughness_mult = -0.05
+		archers_max_size_add = 2
 	}
 	
 	can_pick = {
@@ -258,7 +269,7 @@ tradition_vologdan_knights = {
 	category = combat
 
 	is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 	}
 	
 	layers = {
@@ -440,7 +451,7 @@ tradition_Oathbound_Order = {
 	category = combat
 
 		is_shown = {
-		has_cultural_pillar = Berber 
+		has_cultural_pillar = heritage_brothian 
 		}
 	layers = {
 		0 = martial
@@ -449,15 +460,14 @@ tradition_Oathbound_Order = {
 	}
 	
 	character_modifier = {
-		heavy_infantry_toughness_mult = 0.2
-		heavy_infantry_maintenance_mult = 0.2
-		hard_casualty_modifier = 0.05
-		defender_advantage = 2
-		
-
+		heavy_infantry_toughness_mult = 0.1
+		heavy_infantry_maintenance_mult = -0.10
+		hard_casualty_modifier = -0.10
+		defender_advantage = 5
 	}
 	parameters = { 
 		unlock_maa_oathbound = yes 
+		unlock_maa_spellweaver = yes 
 	}
 	
 	cost = {
@@ -501,15 +511,25 @@ tradition_remtali_castle_builders = {
 		custom_tooltip = {
 			scope:character = {
 				OR = {
-					has_government = feudal_government
-					has_government = clan_government
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan
 				}
 			}
 			text = must_be_feudal_or_clan
 		}
 		custom_tooltip = {
 			text = cannot_have_tradition_city_keepers
-			NOT = { any_in_list = { list = traits this = flag:tradition_city_keepers } }
+			NOT = {
+				culture_tradition:tradition_city_keepers = { is_in_list = traits }
+			}
+		}
+		custom_tooltip = {
+			text = cultrad_not_nomadic_government_type
+			scope:character = {
+				NOT = {
+					government_has_flag = government_is_nomadic
+				}
+			}
 		}
 	}
 	
@@ -537,9 +557,9 @@ tradition_remtali_castle_builders = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -557,13 +577,23 @@ tradition_remtali_castle_builders = {
 					desc = lacks_battlements_innovation_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_castle_keepers }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = { 
-		value = 100 
+		value = 800 
 		if = {
 			limit = {
 				NOT = { has_innovation = innovation_battlements }
@@ -607,6 +637,10 @@ tradition_ancient_chloromancers = {
 	parameters = {
 		plantations_building_bonuses = yes
 		unlock_maa_chloromancers = yes
+		unlock_maa_cataphract = yes
+		unlock_maa_akritai = yes
+		unlock_maa_ballistrai = yes
+		unlock_maa_skoutatoi = yes
 	}
 	character_modifier = {
 	}
@@ -625,10 +659,9 @@ tradition_ancient_chloromancers = {
 }
 
 
-
-###                          ###
-### Base game MAA Traditions ###
-###                          ###
+##############################
+# Base Game MAA Traditions 	 #
+##############################
 
 tradition_futuwaa = {
 	category = regional
@@ -664,10 +697,12 @@ tradition_futuwaa = {
 		blademaster_trait_bonuses = yes
 		craven_and_content_traits_looked_down_upon = yes
 		knights_slightly_more_prone_to_injury = yes
+		unlock_voluntary_laampdom = yes
 	}
 	character_modifier = {
 		knight_limit = 2
 		negate_prowess_penalty_add = 5
+		accolade_glory_gain_mult = 0.2
 	}
 	
 	cost = {
@@ -680,9 +715,9 @@ tradition_futuwaa = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -706,12 +741,22 @@ tradition_futuwaa = {
 					desc = knights_with_prowess_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_futuwaa }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
-	ai_will_do = { value = 100 }
+	ai_will_do = { value = 400 }
 }
 
 tradition_mubarizuns = {
@@ -733,7 +778,7 @@ tradition_mubarizuns = {
 			limit = {
 				OR = {
 					NOT = { exists = scope:replacing }
-					NOT = { scope:replacing = flag:tradition_warriors_of_the_dry }
+					NOT = { scope:replacing = culture_tradition:tradition_warriors_of_the_dry }
 				}
 			}
 			NOT = { has_cultural_tradition = tradition_warriors_of_the_dry } #To prevent stacking after hybridization
@@ -763,9 +808,9 @@ tradition_mubarizuns = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -792,13 +837,23 @@ tradition_mubarizuns = {
 					desc = dry_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_mubarizuns }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -856,6 +911,9 @@ tradition_desert_ribat = {
 	}
 	character_modifier = {
 		prowess_per_piety_level = 1
+		desert_travel_danger = desert_low_danger_reduction
+		drylands_travel_danger = drylands_low_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 	}
 	
 	cost = {
@@ -868,9 +926,9 @@ tradition_desert_ribat = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -897,13 +955,23 @@ tradition_desert_ribat = {
 					desc = dry_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_desert_ribat }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -953,6 +1021,7 @@ tradition_land_of_the_bow = {
 	}
 	character_modifier = {
 		defender_advantage = 5
+		archers_damage_mult = 0.2
 	}
 	
 	cost = {
@@ -965,8 +1034,8 @@ tradition_land_of_the_bow = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -990,13 +1059,23 @@ tradition_land_of_the_bow = {
 					desc = culture_head_archers_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_land_of_the_bow }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -1055,6 +1134,8 @@ tradition_druzhina = {
 	character_modifier = {
 		knight_limit = 2
 		negate_prowess_penalty_add = 5
+		accolade_glory_gain_mult = 0.2
+		heavy_infantry_toughness_mult = 0.1
 	}
 	
 	cost = {
@@ -1067,8 +1148,8 @@ tradition_druzhina = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1092,12 +1173,22 @@ tradition_druzhina = {
 					desc = knights_with_prowess_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_druzhina }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
-	ai_will_do = { value = 100 }
+	ai_will_do = { value = 400 }
 }
 
 tradition_hussar = { #Konni Raids
@@ -1122,7 +1213,7 @@ tradition_hussar = { #Konni Raids
 			limit = {
 				OR = {
 					NOT = { exists = scope:replacing }
-					NOT = { scope:replacing = flag:tradition_hit_and_run }
+					NOT = { scope:replacing = culture_tradition:tradition_hit_and_run }
 				}
 			}
 			NOT = { has_cultural_tradition = tradition_hit_and_run } #To prevent stacking after hybridization
@@ -1133,14 +1224,11 @@ tradition_hussar = { #Konni Raids
 		unlock_maa_hussar = yes
 	}
 	character_modifier = {
-		skirmishers_damage_mult = 0.05
-		skirmishers_screen_mult = 0.1
-		light_cavalry_damage_mult = 0.05
-		light_cavalry_screen_mult = 0.1
-		siege_weapon_siege_value_mult = -0.2
+		skirmishers_screen_mult = 0.2
+		light_cavalry_damage_mult = 0.2
+		light_cavalry_screen_mult = 0.2
 		retreat_losses = -0.1
 		hard_casualty_modifier = -0.1
-		advantage = -2
 	}
 	
 	cost = {
@@ -1153,7 +1241,7 @@ tradition_hussar = { #Konni Raids
 			if = {
 				limit = {
 					NOT = {
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1177,12 +1265,22 @@ tradition_hussar = { #Konni Raids
 					desc = culture_head_light_cavalry_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_hussar }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
-	ai_will_do = { value = 100 }
+	ai_will_do = { value = 400 }
 }
 
 tradition_horn_mountain_skirmishing = {
@@ -1232,6 +1330,8 @@ tradition_horn_mountain_skirmishing = {
 		desert_mountains_supply_limit_mult = 0.25
 	}
 	character_modifier = {
+		mountains_travel_danger = mountains_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
 	}
 	
 	cost = {
@@ -1244,8 +1344,8 @@ tradition_horn_mountain_skirmishing = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1272,13 +1372,23 @@ tradition_horn_mountain_skirmishing = {
 					desc = mountain_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_horn_mountain_skirmishing }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -1327,9 +1437,9 @@ tradition_bush_hunting = {
 		can_recruit_jungle_specialist = yes
 	}
 	character_modifier = {
-		jungle_levy_size = 0.1
-		drylands_levy_size = 0.1
+		archers_damage_mult = 0.2
 		jungle_supply_limit_mult = 0.25
+		jungle_travel_danger = jungle_medium_danger_reduction
 	}
 	
 	cost = {
@@ -1342,8 +1452,8 @@ tradition_bush_hunting = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1367,13 +1477,23 @@ tradition_bush_hunting = {
 					desc = jungle_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_bush_hunting }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -1413,14 +1533,14 @@ tradition_mobile_guards = {
 		unlock_maa_shomer = yes
 	}
 	character_modifier = {
-		heavy_infantry_toughness_mult = 0.1
-		heavy_infantry_maintenance_mult = 0.2
-		heavy_cavalry_toughness_mult = 0.1
+		maa_toughness_mult = 0.1
+		heavy_infantry_toughness_mult = 0.2
+		heavy_infantry_maintenance_mult = 0.1
+		heavy_cavalry_toughness_mult = 0.2
 		heavy_cavalry_maintenance_mult = 0.1
-		pikemen_toughness_mult = 0.1
-		pikemen_maintenance_mult = 0.2
-		hard_casualty_modifier = 0.1
-		defender_advantage = 2
+		pikemen_toughness_mult = 0.2
+		pikemen_maintenance_mult = 0.1
+		hard_casualty_modifier = 0.25
 	}
 	
 	cost = {
@@ -1433,7 +1553,7 @@ tradition_mobile_guards = {
 			if = {
 				limit = {
 					NOT = {
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1457,13 +1577,23 @@ tradition_mobile_guards = {
 					desc = culture_head_skirmishers_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_mobile_guards }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOR = {
@@ -1476,6 +1606,9 @@ tradition_mobile_guards = {
 					culture_has_archer_maa = yes
 					culture_has_light_cavalry_maa = yes
 					culture_has_archer_cavalry_maa = yes
+					scope:character = {
+						mpo_can_recruit_nomad_maa_trigger = yes
+					}
 				}
 			}
 			multiply = 0.25
@@ -1499,7 +1632,7 @@ tradition_khadga_puja = {
 		custom_description = {
 			text = culture_not_egalitarian
 			NOT = {
-				any_in_list = { list = traits this = flag:ethos_egalitarian }
+				culture_pillar:ethos_egalitarian = { is_in_list = traits }
 			}
 		}
 	}
@@ -1514,6 +1647,7 @@ tradition_khadga_puja = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.1
+		accolade_glory_gain_mult = 0.1
 	}
 	
 	cost = {
@@ -1526,8 +1660,8 @@ tradition_khadga_puja = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1551,13 +1685,23 @@ tradition_khadga_puja = {
 					desc = knights_with_prowess_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_khadga_puja }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 	}
 }
 
@@ -1582,8 +1726,10 @@ tradition_garuda_warriors = {
 		martial_education_more_valued = yes
 		prowess_traits_more_valued = yes
 		craven_and_content_traits_looked_down_upon = yes
+		loyal_trait_more_valued = yes
 	}
 	character_modifier = {
+		accolade_glory_gain_mult = 0.1
 	}
 	
 	cost = {
@@ -1596,8 +1742,8 @@ tradition_garuda_warriors = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1621,13 +1767,23 @@ tradition_garuda_warriors = {
 					desc = knights_with_prowess_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_garuda_warriors }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 1000
+		value = 400
 	}
 }
 
@@ -1654,8 +1810,10 @@ tradition_burman_royal_army = {
 		can_recruit_jungle_specialist = yes
 	}
 	character_modifier = {
-		elephant_cavalry_damage_mult = 0.1
-		elephant_cavalry_toughness_mult = 0.1
+		elephant_cavalry_damage_mult = 0.2
+		elephant_cavalry_toughness_mult = 0.2
+		jungle_travel_danger = jungle_medium_danger_reduction
+		accolade_glory_gain_mult = 0.1
 	}
 	province_modifier = {
 	}
@@ -1670,7 +1828,7 @@ tradition_burman_royal_army = {
 			if = {
 				limit = {
 					NOT = {
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1694,13 +1852,23 @@ tradition_burman_royal_army = {
 					desc = culture_head_has_elephants_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_burman_royal_army }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 	}
 }
 
@@ -1746,12 +1914,16 @@ tradition_mountain_herding = {
 		mountain_trait_bonuses = yes
 		can_recruit_mountain_specialist = yes
 	}
+	character_modifier = {
+		mountains_travel_danger = mountains_high_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_high_danger_reduction
+	}
 	county_modifier = {
 		desert_mountains_development_growth_factor = 0.35
 	}
 	province_modifier = {
-		desert_mountains_construction_gold_cost = -0.15
-		desert_mountains_holding_construction_gold_cost = -0.15
+		desert_mountains_construction_gold_cost = -0.1
+		desert_mountains_holding_construction_gold_cost = -0.1
 	}
 
 	cost = {
@@ -1764,9 +1936,9 @@ tradition_mountain_herding = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1790,12 +1962,22 @@ tradition_mountain_herding = {
 					desc = mountain_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_mountain_herding }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -1858,16 +2040,22 @@ tradition_forest_wardens = {
 		logging_camps_building_bonuses = yes
 		can_recruit_forest_specialist = yes
 		forest_fighter_trait_more_common = yes
+		forest_hunt_success_chance = yes
+		watermills_forestries_unlock = yes
+	}
+	character_modifier = {
+		forest_travel_danger = forest_high_danger_reduction
+		taiga_travel_danger = taiga_high_danger_reduction
 	}
 	county_modifier = {
 		forest_development_growth_factor = 0.15
 		taiga_development_growth_factor = 0.15
 	}
 	province_modifier = {
-		forest_construction_gold_cost = -0.15
-		taiga_construction_gold_cost = -0.15
-		forest_holding_construction_gold_cost = -0.15
-		taiga_holding_construction_gold_cost = -0.15
+		forest_construction_gold_cost = -0.1
+		taiga_construction_gold_cost = -0.1
+		forest_holding_construction_gold_cost = -0.1
+		taiga_holding_construction_gold_cost = -0.1
 	}
 
 	cost = {
@@ -1880,9 +2068,9 @@ tradition_forest_wardens = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1909,13 +2097,23 @@ tradition_forest_wardens = {
 					desc = forest_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_forest_wardens }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -1971,6 +2169,10 @@ tradition_upland_skirmishing = {
 		hill_trait_bonuses = yes
 		can_recruit_hill_specialist = yes
 	}
+	character_modifier = {
+		hills_travel_danger = hills_medium_danger_reduction
+		forest_travel_danger = forest_medium_danger_reduction
+	}
 	province_modifier = {
 		hills_levy_size = 0.1
 		hills_supply_limit_mult = 0.25
@@ -1986,8 +2188,8 @@ tradition_upland_skirmishing = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2011,13 +2213,23 @@ tradition_upland_skirmishing = {
 					desc = hill_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_upland_skirmishing }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -2076,6 +2288,7 @@ tradition_strong_kinship = { #There can be only one!
 		cultural_house_personal_scheme_success_chance = yes
 		landing_house_members_give_prestige = yes
 		penalty_for_revoking_titles_from_house_members = yes
+		loyal_trait_more_common = yes
 	}
 	character_modifier = {
 		dynasty_house_opinion = 15
@@ -2092,9 +2305,9 @@ tradition_strong_kinship = { #There can be only one!
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2119,13 +2332,23 @@ tradition_strong_kinship = { #There can be only one!
 					desc = house_friends_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_strong_kinship }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = {
-		value = 100
+		value = 400
 	}
 }
 
@@ -2174,11 +2397,14 @@ tradition_amharic_highlanders = { #Ethiopian Unique Tradition, replaces hill dwe
 		hills_development_growth_factor = 0.2
 	}
 	province_modifier = {
-		hills_construction_gold_cost = -0.15
-		hills_holding_construction_gold_cost = -0.15
+		hills_construction_gold_cost = -0.1
+		hills_holding_construction_gold_cost = -0.1
 	}
 	character_modifier = {
 		hills_advantage = 5
+		hills_travel_danger = hills_high_danger_reduction
+		mountains_travel_danger = mountains_low_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 	}
 
 	cost = {
@@ -2191,7 +2417,7 @@ tradition_amharic_highlanders = { #Ethiopian Unique Tradition, replaces hill dwe
 			if = {
 				limit = {
 					NOT = {
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2215,13 +2441,23 @@ tradition_amharic_highlanders = { #Ethiopian Unique Tradition, replaces hill dwe
 					desc = hill_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_amharic_highlanders }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -2282,8 +2518,11 @@ tradition_polders = { #Dutch Unique Tradition, bonuses to buildings along coastl
 		coastal_holding_bonuses = yes
 	}
 	character_modifier = {
-		skirmishers_damage_mult = 0.05
-		skirmishers_screen_mult = 0.1
+		skirmishers_damage_mult = 0.2
+		skirmishers_screen_mult = 0.2
+		coastal_sea_travel_danger = low_sea_danger_reduction
+		wetlands_travel_danger = wetlands_medium_danger_reduction
+		floodplains_travel_danger = floodplains_medium_danger_reduction
 	}
 
 	cost = {
@@ -2296,9 +2535,9 @@ tradition_polders = { #Dutch Unique Tradition, bonuses to buildings along coastl
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2322,13 +2561,23 @@ tradition_polders = { #Dutch Unique Tradition, bonuses to buildings along coastl
 					desc = coastal_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_polders }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
@@ -2409,6 +2658,8 @@ tradition_caucasian_wolves = {
 		desert_mountains_supply_limit_mult = 0.25
 	}
 	character_modifier = {
+		mountains_travel_danger = mountains_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
 	}
 	
 	cost = {
@@ -2421,9 +2672,9 @@ tradition_caucasian_wolves = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2450,13 +2701,23 @@ tradition_caucasian_wolves = {
 					desc = mountain_percentage_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_caucasian_wolves }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 1000
+		value = 1000 
 		if = {
 			limit = {
 				NOT = {
@@ -2508,7 +2769,7 @@ tradition_hird = {
 	can_pick = {
 		culture_not_pacifistic_trigger = yes
 		scope:character = {
-			has_government = tribal_government
+			government_has_flag = government_is_tribal
 		}
 	}
 	
@@ -2519,12 +2780,16 @@ tradition_hird = {
 		weak_traits_looked_down_upon = yes
 		rowdy_trait_more_common = yes
 		pensive_trait_less_common = yes
+		cultrad_unlocks_t2_redouble_guards = yes
+		unlock_voluntary_laampdom = yes
+		more_likely_to_be_laamps = yes
 	}
 	character_modifier = {
-		cultural_head_fascination_mult = -0.15
+		cultural_head_fascination_mult = -0.05
 		knight_limit = 1
 		prowess = 2
 		ai_boldness = 25
+		accolade_glory_gain_mult = 0.1
 	}
 	
 	cost = {
@@ -2537,8 +2802,8 @@ tradition_hird = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2575,17 +2840,27 @@ tradition_hird = {
 					desc = strong_rulers_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_hird }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = {
-		value = 100
+		value = 400
 		if = {
 			limit = {
 				NOT = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 			}
 			multiply = 0
@@ -2631,10 +2906,14 @@ tradition_chanson_de_geste = {
 		craven_and_content_traits_looked_down_upon = yes
 		knights_slightly_more_prone_to_injury = yes
 		can_duel_rivals = yes
+		can_host_joust_contests = yes
+		knight_errant_trait_bonuses = yes
 	}
 	character_modifier = {
 		knight_limit = 2
 		negate_prowess_penalty_add = 5 # Wounded knights fight better!
+		accolade_glory_gain_mult = 0.2
+		owned_legend_spread_mult = 0.05
 	}
 	
 	cost = {
@@ -2647,9 +2926,9 @@ tradition_chanson_de_geste = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_courtly }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2673,10 +2952,20 @@ tradition_chanson_de_geste = {
 					desc = knights_with_prowess_desc
 				}
 			}
+
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_chanson_de_geste }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	
-	ai_will_do = { value = 100 }
+	ai_will_do = { value = 400 }
 }

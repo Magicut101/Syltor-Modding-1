@@ -8,7 +8,15 @@ d_remtal = {
 	}
 }
 
+#Tavin
 c_GekanBay = {
+	1054.1.1 = {
+	  holder = 600028 # tavin
+    liege = d_remtal
+	}
+}
+
+c_NovogrodCity = {
 	1054.1.1 = {
 	  holder = 600028 # tavin
     liege = d_remtal
@@ -29,10 +37,9 @@ c_Karlsfell = {
 	}
 }
 
-c_Torchtown = {
+d_liberium = {
 	1054.1.1 = {
-	  holder = 600028 # tavin
-    liege = d_remtal
+	  holder = 600029 # geo
 	}
 }
 
@@ -51,6 +58,13 @@ c_Zoromir = {
 c_Stoyanka = {
 	1054.1.1 = {
 	  holder = 600029 # geo
+	}
+}
+
+# Josbar
+d_gekan = {
+	1054.1.1 = {
+	  holder = 600040 # Josbar
 	}
 }
 

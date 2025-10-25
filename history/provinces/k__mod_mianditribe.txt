@@ -1,7 +1,12 @@
 175 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+	1054.1.1 = {
+			1054.1.1 = {
+		holding = tribal_holding
+		}
+		}
+	
 }
 
 176 = {
@@ -19,7 +24,9 @@
 179 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 180 = {
@@ -33,7 +40,9 @@
 182 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 183 = {
@@ -47,7 +56,9 @@
 185 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 186 = {
@@ -57,7 +68,9 @@
 187 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 188 = {
@@ -71,7 +84,9 @@
 190 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 191 = {
@@ -81,7 +96,9 @@
 192 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 193 = {
@@ -95,7 +112,9 @@
 195 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 196 = {
@@ -117,7 +136,9 @@
 200 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 201 = {
@@ -131,7 +152,9 @@
 203 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 204 = {
@@ -145,7 +168,9 @@
 206 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 207 = {
@@ -159,7 +184,9 @@
 209 = {
 	culture = miandi
 	religion = ashuran_pantheon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = tribal_holding
+		}
 }
 
 210 = {

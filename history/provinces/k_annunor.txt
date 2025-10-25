@@ -1,5 +1,7 @@
 1615 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -13,7 +15,9 @@
 }
 
 1618 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -27,7 +31,9 @@
 }
 
 1621 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -45,7 +51,9 @@
 }
 
 1625 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -67,7 +75,9 @@
 }
 
 1630 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -81,7 +91,9 @@
 }
 
 1633 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -95,7 +107,9 @@
 }
 
 1636 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -109,7 +123,9 @@
 }
 
 1639 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -123,7 +139,9 @@
 }
 
 1642 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -149,7 +167,9 @@
 }
 
 1648 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -171,7 +191,9 @@
 }
 
 1653 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -185,7 +207,9 @@
 }
 
 1656 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -211,7 +235,9 @@
 }
 
 1662 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -225,7 +251,9 @@
 }
 
 1665 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -239,7 +267,9 @@
 }
 
 1668 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -253,7 +283,9 @@
 }
 
 1671 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -267,7 +299,9 @@
 }
 
 1674 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -277,7 +311,9 @@
 }
 
 1676 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -287,7 +323,9 @@
 }
 
 1678 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -313,7 +351,9 @@
 }
 
 1684 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -331,7 +371,9 @@
 }
 
 1688 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -345,7 +387,9 @@
 }
 
 1691 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }
@@ -355,7 +399,9 @@
 }
 
 1693 = {
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 	culture = annunoren
 	religion = dandelism
 }

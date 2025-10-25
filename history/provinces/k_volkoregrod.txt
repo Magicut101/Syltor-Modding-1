@@ -1,7 +1,9 @@
 1060 = {
 	culture = valkyries
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 1061 = {
 	holding = none
@@ -26,7 +28,9 @@
 1066 = {
 	culture = valkyries
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1067 = {
@@ -48,7 +52,9 @@
 1071 = {
 	culture = valkyries
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1072 = {
@@ -63,7 +69,9 @@
 1074 = {
 	culture = valkyries
 	religion = tossanism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1075 = {

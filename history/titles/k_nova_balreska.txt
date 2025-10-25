@@ -1,5 +1,15 @@
 # Doys land
 
+d_tsarogore = {
+		867.1.1 = {	change_development_level = 1 }
+
+		1054.1.1 = {
+			holder = 600035 # doy
+			liege = 0
+		}
+}
+ 
+
 c_Tsarograd = {
 		867.1.1 = {	change_development_level = 1 }
 
