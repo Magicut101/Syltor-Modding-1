@@ -19333,7 +19333,7 @@ e_viridia = {
           }
         }
       }
-      c_Muluc = {
+      c_Ahua1 = {
         color = {
           144
           104
