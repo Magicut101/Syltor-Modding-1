@@ -501,6 +501,18 @@ graphical_steppe = {
 	}
 }
 
+graphical_siberia = {
+	graphical = yes
+	color = {
+		0
+		255
+		155
+	}
+	regions = {
+		# AZAN ADD ANDORN HERE OR SOMETHING TEN TRILLION WILL DIE # Jay
+	}
+}
+
 graphical_east_asia = {
 	graphical = yes
 	color = {
