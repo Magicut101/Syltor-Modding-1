@@ -1,0 +1,2 @@
+﻿#EK DISABLED: No Hasan
+namespace = hasan_sabbah
