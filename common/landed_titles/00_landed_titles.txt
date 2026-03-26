@@ -1,22 +1,32 @@
 ﻿@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
-
-d_laamp_guttorm = { # the chosen one
-	color = { 100 100 100 }
+d_laamp_guttorm = {
+	# the chosen one
+	color = {
+		100
+		100
+		100
+	}
 	capital = c_DuckIsland
-
 	definite_form = yes
 	landless = yes
 	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
-
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
 }
-d_mapmakers = { # might just put all mapmakers into this one
-	color = { 100 100 100 }
+
+d_mapmakers = {
+	# might just put all mapmakers into this one
+	color = {
+		100
+		100
+		100
+	}
 	capital = c_qamiya
 	definite_form = yes
 	landless = yes
@@ -24,26 +34,32 @@ d_mapmakers = { # might just put all mapmakers into this one
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
-
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
 }
 
-d_the_hands = { #self-explanatory
-	color = { 240 240 240 }
+d_the_hands = {
+	#self-explanatory
+	color = {
+		240
+		240
+		240
+	}
 	capital = c_Dorasterrock
-
 	definite_form = yes
 	landless = yes
 	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
-
-	ai_primary_priority = { add = @never_primary_score }
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
 }
 
 d_xaburya_grandmaster = {
-		color = {
+	color = {
 		0
 		35
 		95
@@ -106,7 +122,6 @@ d_prophet_of_the_dandelists = {
 	capital = c_Fluenta
 }
 
-e_ashura = {
 e_ashura = {
 	can_be_named_after_dynasty = no
 	color = {
@@ -367,7 +382,6 @@ e_ashura = {
 			}
 		}
 		d_khamen = {
-		
 			color = {
 				21
 				12
@@ -753,10 +767,8 @@ e_ashura = {
 				color = {
 					113
 					132
-				2
-					}
-
-				
+					2
+				}
 				b_PiMedjayCastle = {
 					province = 58
 					color = {
@@ -776,12 +788,12 @@ e_ashura = {
 				b_PiMedjay = {
 					province = 56
 					color = {
-						148	
+						148
 						170
 						6
 					}
 				}
-			}		
+			}
 			c_Nashur = {
 				color = {
 					59
@@ -968,7 +980,6 @@ e_ashura = {
 						8
 					}
 				}
-
 				b_Kittarius1 = {
 					province = 74
 					color = {
@@ -985,7 +996,6 @@ e_ashura = {
 						2
 					}
 				}
-			
 			}
 			c_carnedaofjordland = {
 				color = {
@@ -994,7 +1004,6 @@ e_ashura = {
 					6
 				}
 				capital = b_CarnedaoFjordlandsEmpty
-
 				b_CarnedaoFjordlandsEmpty = {
 					province = 79
 					color = {
@@ -1019,7 +1028,6 @@ e_ashura = {
 						8
 					}
 				}
-				
 			}
 			c_karneidao = {
 				color = {
@@ -1209,7 +1217,7 @@ e_ashura = {
 					}
 				}
 			}
- 			c_exousia = {
+			c_exousia = {
 				color = {
 					8
 					24
@@ -3136,7 +3144,7 @@ e_ashura = {
 			}
 		}
 	}
-	}
+}
 
 e_ryzan = {
 	can_be_named_after_dynasty = no
@@ -3153,10 +3161,14 @@ e_ryzan = {
 			252
 		}
 		# should make ai always use this title hopefully
-		if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
+		if = {
+			limit = {
+				culture = culture:xaburyan
+			}
+			add = @always_primary_score
+		}
 		capital = c_Xaburya
 	}
-
 	k_deutzan = {
 		can_be_named_after_dynasty = no
 		cultural_names = {
@@ -4741,8 +4753,12 @@ e_ryzan = {
 		}
 		d_xaburya = {
 			# should make ai always use this title hopefully
-			if = { limit = { culture = culture:xaburyan } add = @correct_culture_primary_score } 
-
+			if = {
+				limit = {
+					culture = culture:xaburyan
+				}
+				add = @correct_culture_primary_score
+			}
 			can_be_named_after_dynasty = no
 			color = {
 				0
@@ -4752,7 +4768,12 @@ e_ryzan = {
 			capital = c_Xaburya
 			c_Xaburya = {
 				# should make ai always use this title hopefully unsure if this helps with the county capital problem
-				if = { limit = { culture = culture:xaburyan } add = @always_primary_score} 
+				if = {
+					limit = {
+						culture = culture:xaburyan
+					}
+					add = @always_primary_score
+				}
 				color = {
 					55
 					27
@@ -7876,7 +7897,6 @@ e_aurlunor = {
 						175
 					}
 				}
-		
 				b_TimberJungle3 = {
 					province = 718
 					color = {
@@ -9684,7 +9704,6 @@ e_aurlunor = {
 			}
 		}
 	}
-
 	k_lhumar = {
 		color = {
 			154
@@ -10144,168 +10163,168 @@ e_aurlunor = {
 			}
 		}
 		d_almador = {
-		color = {
-			135
-			240
-			224
-		}
-		capital = c_Sachomar
-		c_Tarwe = {
-			color = {
-				82
-				135
-				154
-			}
-			b_Tarwe = {
-				province = 920
-				color = {
-					82
-					135
-					154
-				}
-			}
-			b_Udalonwe = {
-				province = 921
-				color = {
-					84
-					139
-					159
-				}
-			}
-			b_Ilethneas = {
-				province = 922
-				color = {
-					94
-					11
-					72
-				}
-			}
-			b_Thamaneas = {
-				province = 923
-				color = {
-					91
-					152
-					174
-				}
-			}
-			b_Ulleshara = {
-				province = 924
-				color = {
-					87
-					144
-					164
-				}
-			}
-		}
-		c_Sachomar = {
 			color = {
 				135
 				240
 				224
 			}
-			b_Sachomar1 = {
-				province = 880
+			capital = c_Sachomar
+			c_Tarwe = {
+				color = {
+					82
+					135
+					154
+				}
+				b_Tarwe = {
+					province = 920
+					color = {
+						82
+						135
+						154
+					}
+				}
+				b_Udalonwe = {
+					province = 921
+					color = {
+						84
+						139
+						159
+					}
+				}
+				b_Ilethneas = {
+					province = 922
+					color = {
+						94
+						11
+						72
+					}
+				}
+				b_Thamaneas = {
+					province = 923
+					color = {
+						91
+						152
+						174
+					}
+				}
+				b_Ulleshara = {
+					province = 924
+					color = {
+						87
+						144
+						164
+					}
+				}
+			}
+			c_Sachomar = {
 				color = {
 					135
 					240
 					224
 				}
-			}
-			b_Sachomar2 = {
-				province = 881
-				color = {
-					112
-					213
-					198
+				b_Sachomar1 = {
+					province = 880
+					color = {
+						135
+						240
+						224
+					}
+				}
+				b_Sachomar2 = {
+					province = 881
+					color = {
+						112
+						213
+						198
+					}
+				}
+				b_Sachomar3 = {
+					province = 882
+					color = {
+						116
+						221
+						205
+					}
+				}
+				b_Sachomar4 = {
+					province = 883
+					color = {
+						108
+						202
+						188
+					}
+				}
+				b_Sachomar5 = {
+					province = 884
+					color = {
+						94
+						179
+						166
+					}
 				}
 			}
-			b_Sachomar3 = {
-				province = 882
-				color = {
-					116
-					221
-					205
-				}
-			}
-			b_Sachomar4 = {
-				province = 883
-				color = {
-					108
-					202
-					188
-				}
-			}
-			b_Sachomar5 = {
-				province = 884
-				color = {
-					94
-					179
-					166
-				}
-			}
-		}
-		c_Karneihua = {
-			color = {
-				81
-				149
-				103
-			}
-			b_Karneihua1 = {
-				province = 914
+			c_Karneihua = {
 				color = {
 					81
 					149
 					103
 				}
-			}
-			b_Karneihua2 = {
-				province = 915
-				color = {
-					75
-					139
-					96
+				b_Karneihua1 = {
+					province = 914
+					color = {
+						81
+						149
+						103
+					}
+				}
+				b_Karneihua2 = {
+					province = 915
+					color = {
+						75
+						139
+						96
+					}
+				}
+				b_Karneihua3 = {
+					province = 916
+					color = {
+						68
+						129
+						88
+					}
+				}
+				b_Karneihua4 = {
+					province = 917
+					color = {
+						61
+						120
+						80
+					}
 				}
 			}
-			b_Karneihua3 = {
-				province = 916
-				color = {
-					68
-					129
-					88
-				}
-			}
-			b_Karneihua4 = {
-				province = 917
-				color = {
-					61
-					120
-					80
-				}
-			}
-		}
-		c_AlmadorianHill = {
-			color = {
-				127
-				167
-				57
-			}
-			b_BaijioHill1 = {
-				province = 918
+			c_AlmadorianHill = {
 				color = {
 					127
 					167
 					57
 				}
-			}
-			b_BaijioHill2 = {
-				province = 919
-				color = {
-					116
-					153
-					50
+				b_BaijioHill1 = {
+					province = 918
+					color = {
+						127
+						167
+						57
+					}
+				}
+				b_BaijioHill2 = {
+					province = 919
+					color = {
+						116
+						153
+						50
+					}
 				}
 			}
-		}
 		}
 	}
 }
@@ -18371,7 +18390,6 @@ e_bardonia = {
 				b_Fentabrada4 = {
 					province = 1824
 					color = {
-							
 						16
 						87
 					}
@@ -19642,105 +19660,372 @@ e_viridia = {
 	}
 	k_agnarian = {
 		color = {
-			165 
-			30 
+			165
+			30
 			46
-		} 
+		}
 		can_be_named_after_dynasty = no
 		capital = c_Zerith
 		d_sommankum = {
 			color = {
-				165 
-				30 
+				165
+				30
 				46
-			} 
+			}
 			capital = c_Turt
 			c_Kuviranla = {
 				color = {
-					165 
-					30 
+					165
+					30
 					46
 				}
-					b_Kuviranla1 = { 
-						province = 1972 
-						color = {
-							165 
-							30 
-							46
-						}
+				b_Kuviranla1 = {
+					province = 1972
+					color = {
+						165
+						30
+						46
 					}
-					b_Kuviranla2 = { province = 1973 color = {165 27 46} }
-					b_Kuviranla3 = { province = 1974 color = {165 24 46} }
 				}
-			c_NoveZerith = {
-				color = {161 9 46} 
-					b_NoveZerith1 = { province = 1975 color = {161 9 46} }
-					b_NoveZerith2 = { province = 1976 color = {158 9 46} }
-					b_NoveZerith3 = { province = 1977 color = {164 9 46} }
+				b_Kuviranla2 = {
+					province = 1973
+					color = {
+						165
+						27
+						46
+					}
 				}
-			c_Lokalis = {
-				color = {143 9 46} 
-					b_Lokalis1 = { province = 1978 color = {143 9 46} }
-					b_Lokalis2 = { province = 1979 color = {146 9 46} }
-					b_Lokalis3 = { province = 1980 color = {149 9 46} }
-				}
-			c_Turt = {
-				color = {134 18 46}
-					b_Turt1 = { province = 1981 color = {134 18 46} }
-					b_Turt2 = { province = 1982 color = {134 12 46} }
-					b_Chadington = { province = 1983 color = {134 15 46} }	
+				b_Kuviranla3 = {
+					province = 1974
+					color = {
+						165
+						24
+						46
+					}
 				}
 			}
+			c_NoveZerith = {
+				color = {
+					161
+					9
+					46
+				}
+				b_NoveZerith1 = {
+					province = 1975
+					color = {
+						161
+						9
+						46
+					}
+				}
+				b_NoveZerith2 = {
+					province = 1976
+					color = {
+						158
+						9
+						46
+					}
+				}
+				b_NoveZerith3 = {
+					province = 1977
+					color = {
+						164
+						9
+						46
+					}
+				}
+			}
+			c_Lokalis = {
+				color = {
+					143
+					9
+					46
+				}
+				b_Lokalis1 = {
+					province = 1978
+					color = {
+						143
+						9
+						46
+					}
+				}
+				b_Lokalis2 = {
+					province = 1979
+					color = {
+						146
+						9
+						46
+					}
+				}
+				b_Lokalis3 = {
+					province = 1980
+					color = {
+						149
+						9
+						46
+					}
+				}
+			}
+			c_Turt = {
+				color = {
+					134
+					18
+					46
+				}
+				b_Turt1 = {
+					province = 1981
+					color = {
+						134
+						18
+						46
+					}
+				}
+				b_Turt2 = {
+					province = 1982
+					color = {
+						134
+						12
+						46
+					}
+				}
+				b_Chadington = {
+					province = 1983
+					color = {
+						134
+						15
+						46
+					}
+				}
+			}
+		}
 		d_zerith = {
-			color = {143 16 9} 
+			color = {
+				143
+				16
+				9
+			}
 			capital = c_Zerith
 			c_Balach = {
-				color = {131 31 9} 
-					b_Balach1 = { province = 1984 color = {131 31 9} }
-					b_Balach2 = { province = 1985 color = {129 31 9} }
+				color = {
+					131
+					31
+					9
 				}
-			c_Boirreann = {
-				color = {134 34 9}
-					b_Boireann1 = { province = 1986 color = {134 34 9} }
-					b_Boireann2 = { province = 1987 color = {131 34 9} }
-					b_Boireann3 = { province = 1988 color = {137 34 9} }
-					b_Boireann4 = { province = 1989 color = {129 34 9} }
+				b_Balach1 = {
+					province = 1984
+					color = {
+						131
+						31
+						9
+					}
 				}
-			c_Zerith = {
-				color = {143 16 9} 
-					b_Zerith1 = { province = 1990 color = {143 16 9} }
-					b_Zerith2 = { province = 1991 color = {140 16 9} }
-					b_Zerith3 = { province = 1992 color = {134 16 9} }
-					b_Zerith4 = { province = 1993 color = {137 16 9} }
-					b_Zerith5 = { province = 1994 color = {131 16 9} }
+				b_Balach2 = {
+					province = 1985
+					color = {
+						129
+						31
+						9
+					}
 				}
 			}
+			c_Boirreann = {
+				color = {
+					134
+					34
+					9
+				}
+				b_Boireann1 = {
+					province = 1986
+					color = {
+						134
+						34
+						9
+					}
+				}
+				b_Boireann2 = {
+					province = 1987
+					color = {
+						131
+						34
+						9
+					}
+				}
+				b_Boireann3 = {
+					province = 1988
+					color = {
+						137
+						34
+						9
+					}
+				}
+				b_Boireann4 = {
+					province = 1989
+					color = {
+						129
+						34
+						9
+					}
+				}
+			}
+			c_Zerith = {
+				color = {
+					143
+					16
+					9
+				}
+				b_Zerith1 = {
+					province = 1990
+					color = {
+						143
+						16
+						9
+					}
+				}
+				b_Zerith2 = {
+					province = 1991
+					color = {
+						140
+						16
+						9
+					}
+				}
+				b_Zerith3 = {
+					province = 1992
+					color = {
+						134
+						16
+						9
+					}
+				}
+				b_Zerith4 = {
+					province = 1993
+					color = {
+						137
+						16
+						9
+					}
+				}
+				b_Zerith5 = {
+					province = 1994
+					color = {
+						131
+						16
+						9
+					}
+				}
+			}
+		}
 		d_goldburg = {
-			color = {135 45 102} 
+			color = {
+				135
+				45
+				102
+			}
 			capital = c_Goldburg
 			c_Truban = {
-				color = {135 45 102} 
-					b_Truban1 = { province = 1995 color = {135 45 102} }
-					b_Truban2 = { province = 1996 color = {132 45 102} }
-					b_Truban3 = { province = 1997 color = {138 45 102} }
+				color = {
+					135
+					45
+					102
 				}
+				b_Truban1 = {
+					province = 1995
+					color = {
+						135
+						45
+						102
+					}
+				}
+				b_Truban2 = {
+					province = 1996
+					color = {
+						132
+						45
+						102
+					}
+				}
+				b_Truban3 = {
+					province = 1997
+					color = {
+						138
+						45
+						102
+					}
+				}
+			}
 			c_SageSummit = {
-				color = {133 55 102}
-					b_SageSummit1 = { province = 1998 color = {133 55 102} }
-					b_Bespolitan1 = { province = 1999 color = {135 55 102} }
-					b_Bespolitan3 = { province = 2000 color = {137 55 102} }
+				color = {
+					133
+					55
+					102
 				}
+				b_SageSummit1 = {
+					province = 1998
+					color = {
+						133
+						55
+						102
+					}
+				}
+				b_Bespolitan1 = {
+					province = 1999
+					color = {
+						135
+						55
+						102
+					}
+				}
+				b_Bespolitan3 = {
+					province = 2000
+					color = {
+						137
+						55
+						102
+					}
+				}
+			}
 			c_Goldburg = {
-				color = {138 20 102}
-					b_Goldburg1 = { province = 2001 color = {138 20 102} }
-					b_Goldburg2 = { province = 2002 color = {141 20 102} }
-					b_Goldburg3 = { province = 2003 color = {135 20 102} }
-					b_Komsten = { province = 2004 color = {132 20 102} }
+				color = {
+					138
+					20
+					102
+				}
+				b_Goldburg1 = {
+					province = 2001
+					color = {
+						138
+						20
+						102
+					}
+				}
+				b_Goldburg2 = {
+					province = 2002
+					color = {
+						141
+						20
+						102
+					}
+				}
+				b_Goldburg3 = {
+					province = 2003
+					color = {
+						135
+						20
+						102
+					}
+				}
+				b_Komsten = {
+					province = 2004
+					color = {
+						132
+						20
+						102
+					}
 				}
 			}
 		}
 	}
-
+}
 
 # These mock titles cut hundreds of errors from logs. Additional titles could further reduce logs at the cost of tedium and bloat in this file.
 e_hre = {

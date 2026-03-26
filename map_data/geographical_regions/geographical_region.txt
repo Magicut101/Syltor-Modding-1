@@ -5,17 +5,14 @@
 #	provinces = { }, takes province id numbers declared in /history/provinces
 #	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
 #		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
-
 # Regions provide the following modifiers:
 # key + _development_growth
 # key + _development_growth_factor
 # This requires "generate_modifiers = yes" in the region
-
 ###########################################################################
 # World Regions
 #	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
-
 # world_europe
 # > world_europe_west
 # >> world_europe_west_britannia
@@ -27,117 +24,207 @@
 # >> world_europe_south_east
 # >> world_europe_south_italy
 # > world_europe_east
-
 # world_asia_minor
-
 # world_middle_east
 # > world_middle_east_jerusalem
 # > world_middle_east_arabia
 # > world_middle_east_persia
-
 # world_india
 # > world_india_deccan
 # > world_india_bengal
 # > world_india_rajastan
-
 # world_africa
 # > world_africa_north
 # >> world_africa_north_west
 # >> world_africa_north_east
 # > world_africa_west
 # > world_africa_east
-
 # world_steppe
 # > world_steppe_tarim
 # > world_steppe_west
 # > world_steppe_east
-
 # world_tibet
-
 # world_burma
-
 world_syltor_ryzan = {
-	duchies = { 
-		d_liberium d_remtal d_gekan d_skelyasti d_carthya d_xaburya 
-		d_nebskoslavia d_neuminster d_kvargrod d_nebskograd d_volkore 
-		d_erebor d_tossagrad d_shkidnyy d_zkhadinyylis d_nova_balreska d_neuheim d_vologda d_tonton d_tsarogore d_vologdanSea
+	duchies = {
+		d_liberium
+		d_remtal
+		d_gekan
+		d_skelyasti
+		d_carthya
+		d_xaburya
+		d_nebskoslavia
+		d_neuminster
+		d_kvargrod
+		d_nebskograd
+		d_volkore
+		d_erebor
+		d_tossagrad
+		d_shkidnyy
+		d_zkhadinyylis
+		d_nova_balreska
+		d_neuheim
+		d_vologda
+		d_tonton
+		d_tsarogore
+		d_vologdanSea
 	}
 }
 
 world_syltor_deutzan = {
-		duchies = { 
-			d_syros d_haegiel d_balreska
-		}
-}
-
-world_syltor_bardonia = {
-	duchies = { 
-		d_solanarium d_klippen d_patania d_ludrues d_mid d_newdorasterrock d_sanctuary d_aelteria
-		d_vasteria d_virothen d_medici d_trost d_annunor d_yuzhen d_monstagnum
-		d_auron d_septa d_lobopolis d_fluenta d_dorasterrock d_nuovarosa
+	duchies = {
+		d_syros
+		d_haegiel
+		d_balreska
 	}
 }
 
-world_syltor_ashura = { #Giving Alda to ashura for now from Viridia to Sormommok. 
-	duchies = { 
-		d_northernriver d_westernhills d_easternwastes d_erekettribe d_hiarllia d_northernperiphary d_pimedjay
-		d_miandigateway d_sarapalar d_kaduttribe d_anandorerume d_tyalu d_westernswastes d_sarlatova d_lavar d_elsawiya
-		d_gottrick d_qamiya d_khamen d_yenedu d_tahat d_viridia d_greenhaven d_valkora d_westmarch d_verde d_zerith d_goldburg d_sormommok
+world_syltor_bardonia = {
+	duchies = {
+		d_solanarium
+		d_klippen
+		d_patania
+		d_ludrues
+		d_mid
+		d_newdorasterrock
+		d_sanctuary
+		d_aelteria
+		d_vasteria
+		d_virothen
+		d_medici
+		d_trost
+		d_annunor
+		d_yuzhen
+		d_monstagnum
+		d_auron
+		d_septa
+		d_lobopolis
+		d_fluenta
+		d_dorasterrock
+		d_nuovarosa
+	}
+}
+
+world_syltor_ashura = {
+	#Giving Alda to ashura for now from Viridia to Sormommok. 
+	duchies = {
+		d_northernriver
+		d_westernhills
+		d_easternwastes
+		d_erekettribe
+		d_hiarllia
+		d_northernperiphary
+		d_pimedjay
+		d_miandigateway
+		d_sarapalar
+		d_kaduttribe
+		d_anandorerume
+		d_tyalu
+		d_westernswastes
+		d_sarlatova
+		d_lavar
+		d_elsawiya
+		d_gottrick
+		d_qamiya
+		d_khamen
+		d_yenedu
+		d_tahat
+		d_viridia
+		d_greenhaven
+		d_valkora
+		d_westmarch
+		d_verde
+		d_zerith
+		d_goldburg
+		d_sormommok
 	}
 }
 
 world_syltor_hampo = {
-	duchies = { 
-		d_pripyat d_ruscon d_liyenplains d_kalinei d_necua d_hamenda
+	duchies = {
+		d_pripyat
+		d_ruscon
+		d_liyenplains
+		d_kalinei
+		d_necua
+		d_hamenda
 	}
 }
 
 world_syltor_aurlunor_west = {
-	duchies = { 
-		d_lhumar d_hloamar d_dun d_drakomoindre d_ecir d_maerun d_almador d_taure d_fanamar
-		d_grandtemple d_natsuragitagi d_valdamar d_lunwirmar d_easterndun d_fortlingrewe d_karneihua
+	duchies = {
+		d_lhumar
+		d_hloamar
+		d_dun
+		d_drakomoindre
+		d_ecir
+		d_maerun
+		d_almador
+		d_taure
+		d_fanamar
+		d_grandtemple
+		d_natsuragitagi
+		d_valdamar
+		d_lunwirmar
+		d_easterndun
+		d_fortlingrewe
+		d_karneihua
 		d_linyemar
 		# c_HelemarBayou was supposed to be two but wasnt so I made it a single province and gave it to ecir
 	}
 }
 
 world_syltor_aurlunor_north = {
-	duchies = { 
-		d_umbravien d_melwende d_timberexpanse d_morcoronor
+	duchies = {
+		d_umbravien
+		d_melwende
+		d_timberexpanse
+		d_morcoronor
 	}
 }
 
 world_syltor_tamaka = {
-	duchies = { 
-		d_kaluko d_nekomar d_nantian
+	duchies = {
+		d_kaluko
+		d_nekomar
+		d_nantian
 	}
 }
 
 world_syltor_yulara = {
-	duchies = { 
-		d_dragoonia d_luperkania d_taranbak d_riverrun d_valle d_ostia d_heliosion d_khaset d_abaton d_poiaborrea d_aragon
+	duchies = {
+		d_dragoonia
+		d_luperkania
+		d_taranbak
+		d_riverrun
+		d_valle
+		d_ostia
+		d_heliosion
+		d_khaset
+		d_abaton
+		d_poiaborrea
+		d_aragon
 	}
 }
 
 ###########################################################################
 # Material Regions
 ###########################################################################
-
- # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
+# Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
 material_wood_elm = {
 	regions = {
 		world_syltor_deutzan
 	}
 }
 
- # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
+# Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
 material_wood_walnut = {
 	regions = {
 		world_syltor_aurlunor_north
 	}
 }
 
- # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
+# Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
 material_wood_maple = {
 	regions = {
 		world_syltor_aurlunor_west
@@ -146,7 +233,7 @@ material_wood_maple = {
 
 # Widespread Regional - Pines and Firs (found all over continental Europe excluding northern France/Germany and the Balkans, but exists in Scotland and spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
 material_woods_pine_and_fir = {
-		regions = {
+	regions = {
 		world_syltor_ryzan
 		world_syltor_aurlunor_north
 	}
@@ -160,14 +247,18 @@ material_woods_subsaharan = {
 	}
 }
 
-material_woods_padauk = {}
+material_woods_padauk = {
+}
 
 # Widespread Regional - India
-material_woods_india = {}
+material_woods_india = {
+}
 
-material_woods_india_burma = {}
+material_woods_india_burma = {
+}
 
-material_woods_ebony = {}
+material_woods_ebony = {
+}
 
 # Regional - France, England, Wales, Ireland
 material_wood_yew = {
@@ -184,7 +275,8 @@ material_woods_mediterranean = {
 }
 
 # Regional - Sri Lanka
-material_woods_sri_lanka = {}
+material_woods_sri_lanka = {
+}
 
 material_cloth_no_silk = {
 	regions = {
@@ -207,7 +299,8 @@ material_cloth_cotton = {
 	}
 }
 
-material_metal_wootz = {}
+material_metal_wootz = {
+}
 
 material_metal_damascus = {
 	regions = {
@@ -218,7 +311,8 @@ material_metal_damascus = {
 	}
 }
 
-material_metal_bulat = {}
+material_metal_bulat = {
+}
 
 material_hsb_camel_bone = {
 	regions = {
@@ -272,7 +366,6 @@ material_hsb_seashell = {
 ###########################################################################
 # Custom Regions
 ###########################################################################
-
 #world_persian_empire = {}
 #custom_eastern_baltic = {}
 #custom_frisia = {}
@@ -343,14 +436,16 @@ material_hsb_seashell = {
 #custom_stretch_austria = {}
 #custom_fennoscandia = {}
 #custom_iceland = {}
-
 ###########################################################################
 # Graphical Regions
 ###########################################################################
-
 graphical_western = {
 	graphical = yes
-	color = { 255 0 0 }
+	color = {
+		255
+		0
+		0
+	}
 	regions = {
 		world_syltor_ryzan
 		world_syltor_bardonia
@@ -359,7 +454,11 @@ graphical_western = {
 
 graphical_mena = {
 	graphical = yes
-	color = { 255 255 0 }
+	color = {
+		255
+		255
+		0
+	}
 	regions = {
 		world_syltor_ashura
 	}
@@ -367,17 +466,23 @@ graphical_mena = {
 
 graphical_india = {
 	graphical = yes
-	color = { 0 255 0 }
+	color = {
+		0
+		255
+		0
+	}
 	regions = {
-		world_syltor_aurlunor_west
-		world_syltor_aurlunor_north
 		world_syltor_hampo
 	}
 }
 
 graphical_mediterranean = {
 	graphical = yes
-	color = { 0 0 255 }
+	color = {
+		0
+		0
+		255
+	}
 	regions = {
 		world_syltor_deutzan
 		world_syltor_yulara
@@ -386,17 +491,34 @@ graphical_mediterranean = {
 
 graphical_steppe = {
 	graphical = yes
-	color = { 0 255 255 }
+	color = {
+		0
+		255
+		255
+	}
 	regions = {
 		world_syltor_tamaka
+	}
+}
+
+graphical_east_asia = {
+	graphical = yes
+	color = {
+		155
+		255
+		155
+	}
+	regions = {
+		world_syltor_aurlunor_west
+		world_syltor_aurlunor_north
 	}
 }
 
 ##############################
 # Misc
 ###############################
-
-world_innovation_elephants = {}
+world_innovation_elephants = {
+}
 
 world_innovation_camels = {
 	generate_modifiers = yes
@@ -407,204 +529,366 @@ world_innovation_camels = {
 
 #Are these persia regions really used? They overlap with regular world regions. should they be named custom?
 #Persian Kingdoms and Empire.
-world_persia = {}
-world_khorasan = {}
-world_daylam = {}
-world_transoxiana = {}
-world_makran = {}
-world_kabulistan = {}
-world_mesopotamia = {}
-world_jazira = {}
+world_persia = {
+}
+
+world_khorasan = {
+}
+
+world_daylam = {
+}
+
+world_transoxiana = {
+}
+
+world_makran = {
+}
+
+world_kabulistan = {
+}
+
+world_mesopotamia = {
+}
+
+world_jazira = {
+}
 
 #####################
 # Special Regions
 #####################
 #Copying What Ek2, setting canarias to see if that reduces error log
 ### Mongol Conquest regions
-special_mongol_empire_start_region = {}
-special_mongol_empire_conquest_region_prio_1 = {}
-special_mongol_empire_conquest_region_prio_2 = {}
-special_mongol_empire_conquest_region_prio_3 = {}
-special_mongol_empire_conquest_region_prio_4 = {}
-special_mongol_empire_conquest_region_prio_5 = {}
-special_mongol_empire_conquest_region_cleanup = {}
-special_mongol_empire_conquest_all_regions = {}
-special_mongol_empire_ilkhanate_region = {}
-special_mongol_empire_chagatai_region = {}
-special_mongol_empire_golden_horde_region = {}
-special_mongol_empire_black_horde_region = {}
-special_mongol_empire_white_horde_region = {}
-special_mongol_empire_aarlud_khanate_region = {}
-special_mongol_empire_togskol_khanate_region = {}
-special_mongol_empire_baruun_khanate_region = {}
-### END Mongol Conquest regions
+special_mongol_empire_start_region = {
+}
 
+special_mongol_empire_conquest_region_prio_1 = {
+}
+
+special_mongol_empire_conquest_region_prio_2 = {
+}
+
+special_mongol_empire_conquest_region_prio_3 = {
+}
+
+special_mongol_empire_conquest_region_prio_4 = {
+}
+
+special_mongol_empire_conquest_region_prio_5 = {
+}
+
+special_mongol_empire_conquest_region_cleanup = {
+}
+
+special_mongol_empire_conquest_all_regions = {
+}
+
+special_mongol_empire_ilkhanate_region = {
+}
+
+special_mongol_empire_chagatai_region = {
+}
+
+special_mongol_empire_golden_horde_region = {
+}
+
+special_mongol_empire_black_horde_region = {
+}
+
+special_mongol_empire_white_horde_region = {
+}
+
+special_mongol_empire_aarlud_khanate_region = {
+}
+
+special_mongol_empire_togskol_khanate_region = {
+}
+
+special_mongol_empire_baruun_khanate_region = {
+}
+
+### END Mongol Conquest regions
 ### Special Sicilian Culture region
-special_sicilian_culture_region = {}
+special_sicilian_culture_region = {
+}
 
 ### Special Cagot region
-special_cagot_region = {}
+special_cagot_region = {
+}
 
 #####################
 # GHW Targeting Regions
 #####################
-
 #Neutral GHW Target Regions
-ghw_region_deutzan = {		
-	duchies = { 
-		d_syros d_haegiel d_balreska
+ghw_region_deutzan = {
+	duchies = {
+		d_syros
+		d_haegiel
+		d_balreska
 	}
 }
+
 #ghw_region_northern_italy = {}
 #ghw_region_thessalonika = {}
-
 ### END GHW Regions
-
 #####################
 # The Northern Lords Regions
 #####################
-
 dlc_fp1_region_core_north_sea = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
-dlc_fp1_region_mysterious_stranger_locations = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_iceland_isles = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_scotland_isles = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_ireland = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_northern_england = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_northern_france_brittany = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_pomerania_prussia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_adventure_targets_frisia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_novgorod = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_white_rus = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_vladimir = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_ruthenia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_estonia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_adventure_targets_zaporizhia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_western_scandinavia_pool = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_eastern_scandinavia_pool = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_russian_steppe = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_core_mainland_scandinavia = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_non_scandinavian_southern_baltic = {
-	counties = { c_dummy }
-}
-dlc_fp1_region_colonial_eastern_europe = {
-	counties = { c_dummy }
-}
-dlc_fp1_achievement_far_from_home = {
-	counties = { c_dummy }
-}
-dlc_fp1_achievement_king_of_all_the_isles = {
-	counties = { c_dummy }
-}
-dlc_fp1_achievement_vladimirs_second_choice = {
-	counties = { c_dummy }
-}
-### END TNL Regions
 
+dlc_fp1_region_mysterious_stranger_locations = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_iceland_isles = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_scotland_isles = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_ireland = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_northern_england = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_northern_france_brittany = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_pomerania_prussia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_adventure_targets_frisia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_novgorod = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_white_rus = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_vladimir = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_ruthenia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_estonia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_adventure_targets_zaporizhia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_western_scandinavia_pool = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_eastern_scandinavia_pool = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_russian_steppe = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_core_mainland_scandinavia = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_non_scandinavian_southern_baltic = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_region_colonial_eastern_europe = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_achievement_far_from_home = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_achievement_king_of_all_the_isles = {
+	counties = {
+		c_dummy
+	}
+}
+
+dlc_fp1_achievement_vladimirs_second_choice = {
+	counties = {
+		c_dummy
+	}
+}
+
+### END TNL Regions
 #####################
 # Achievements - 1.4
 #####################
-
 dlc_ep1_achievement_rise_of_the_ghurids = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
-### END 1.4 Achievements Regions
 
+### END 1.4 Achievements Regions
 ################
 # RoCo Regions #
 ################
-
 dlc_ep1_region_south_east_europe = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_hansa_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_dutch_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_russia_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_varangian_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_mongol_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_iberia_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_italian_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_levant_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_arab_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_persian_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
 
 dlc_ep1_north_africa_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
 
 dlc_ep1_east_africa_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_west_africa_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_indian_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 dlc_ep1_southwest_silk_road_trade_region = {
-	counties = { c_dummy }
+	counties = {
+		c_dummy
+	}
 }
+
 ### END RC Regions
-
 ### Hunts
-
 # Deer Spread
 hunt_animal_deer_region = {
 	regions = {
@@ -631,7 +915,6 @@ hunt_animal_gazelle_region = {
 	}
 }
 
-
 # Boar Spread
 hunt_animal_boar_region = {
 	regions = {
@@ -647,7 +930,6 @@ hunt_animal_boar_region = {
 	}
 	duchies = {
 		# Southern Scandinavia
-
 	}
 }
 
@@ -718,10 +1000,17 @@ hunt_animal_elk_region = {
 	}
 }
 
+# Chiefly the Celtic Rim.
+# WHO THE FUCK IS PLAYING CELTIC BOARD GAMES
+board_game_fidchell_region = {
+	duchies = {
+		#Nebskos
+		d_nebskoslavia
+	}
+}
 
 #divergence_island_regions = {
 #	duchies = {
 #		d_canarias
 #	}
 #}
-
