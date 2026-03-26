@@ -15,7 +15,8 @@
 	religion = twin_dragon
 	1054.1.1 = {
 		holding = castle_holding
-		}}
+		}
+}
 
 668 = {
 	holding = none

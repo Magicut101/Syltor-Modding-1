@@ -2,41 +2,41 @@
 #############################################
 
 # Special Titles
-ecumenical_patriarch = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 301
-	titles = { k_orthodox }
+# ecumenical_patriarch = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 301
+# 	titles = { k_orthodox }
 
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-ecumenical_matriarch = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 301
-	titles = { k_orthodox }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# ecumenical_matriarch = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 301
+# 	titles = { k_orthodox }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-caliph = {
-	type = character
-	gender = male
-	special = holder
-	priority = 301
-	titles = { d_sunni d_shiite h_dar_al_islam }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# caliph = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	priority = 301
+# 	titles = { d_sunni d_shiite h_dar_al_islam }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
 # Religious Titles
 head_of_faith_male = {
@@ -87,134 +87,134 @@ realm_priest_female = {
 	council_position = councillor_court_chaplain
 }
 
-title_prince = {
-	type = character
-	gender = male
-	special = holder
-	priority = 60
-	titles = { k_switzerland k_armenian_principality k_saxony }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-title_princess = {
-	type = character
-	gender = female
-	special = holder
-	priority = 60
-	titles = { k_switzerland k_armenian_principality k_saxony }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-title_principality = {
-	type = title
-	titles = { k_armenian_principality k_saxony }
-	priority = 60
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# title_prince = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	priority = 60
+# 	titles = { k_switzerland k_armenian_principality k_saxony }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# title_princess = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	priority = 60
+# 	titles = { k_switzerland k_armenian_principality k_saxony }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# title_principality = {
+# 	type = title
+# 	titles = { k_armenian_principality k_saxony }
+# 	priority = 60
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-swiss_confederation = {
-	type = title
-	titles = { k_switzerland }
-	priority = 60
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# swiss_confederation = {
+# 	type = title
+# 	titles = { k_switzerland }
+# 	priority = 60
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-archduke = {
-	type = character
-	gender = male
-	special = holder
-	priority = 47
-	titles = { k_austria }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-archduchess = {
-	type = character
-	gender = female
-	special = holder
-	priority = 47
-	titles = { k_austria }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-archduchy = {
-	type = title
-	tier = kingdom
-	titles = { k_austria }
-	priority = 47
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# archduke = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	priority = 47
+# 	titles = { k_austria }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# archduchess = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	priority = 47
+# 	titles = { k_austria }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# archduchy = {
+# 	type = title
+# 	tier = kingdom
+# 	titles = { k_austria }
+# 	priority = 47
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-title_high_king = {
-	type = character
-	tier = empire
-	gender = male
-	special = holder
-	priority = 102
-	titles = { e_north_sea }
-}
-title_high_queen = {
-	type = character
-	tier = empire
-	gender = female
-	special = holder
-	priority = 102
-	titles = { e_north_sea }
-}
-title_high_kingdom = {
-	type = title
-	tier = empire
-	titles = { e_north_sea }
-	priority = 102
-}
+# title_high_king = {
+# 	type = character
+# 	tier = empire
+# 	gender = male
+# 	special = holder
+# 	priority = 102
+# 	titles = { e_north_sea }
+# }
+# title_high_queen = {
+# 	type = character
+# 	tier = empire
+# 	gender = female
+# 	special = holder
+# 	priority = 102
+# 	titles = { e_north_sea }
+# }
+# title_high_kingdom = {
+# 	type = title
+# 	tier = empire
+# 	titles = { e_north_sea }
+# 	priority = 102
+# }
 
-dauphin_male_french = {
-	type = character
-	gender = male
-	special = holder
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-dauphin_female_french = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-dauphinate_french = {
-	type = title
-	tier = duchy
-	priority = 40
-	heritages = { heritage_frankish }
-	titles = { d_dauphine }
-	governments = { feudal_government }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# dauphin_male_french = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	tier = duchy
+# 	priority = 40
+# 	heritages = { heritage_frankish }
+# 	titles = { d_dauphine }
+# 	governments = { feudal_government }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# dauphin_female_french = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	tier = duchy
+# 	priority = 40
+# 	heritages = { heritage_frankish }
+# 	titles = { d_dauphine }
+# 	governments = { feudal_government }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
+# dauphinate_french = {
+# 	type = title
+# 	tier = duchy
+# 	priority = 40
+# 	heritages = { heritage_frankish }
+# 	titles = { d_dauphine }
+# 	governments = { feudal_government }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
 count_feudal_male_e_britannia = { # Earl
 	type = character
@@ -228,6 +228,7 @@ count_feudal_male_e_britannia = { # Earl
 		top_liege = no
 	}
 }
+
 count_feudal_female_e_britannia = { # Countess
 	type = character
 	gender = female
