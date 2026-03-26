@@ -136,7 +136,7 @@ world_syltor_ashura = {
     d_verde
     d_zerith
     d_goldburg
-    d_sormommok
+    #d_sormommok THIS DUCHY DOESNT EXIST WHY IS THIS HERE
     # more missing alda areas
     d_sommankum
   }
@@ -170,7 +170,7 @@ world_syltor_aurlunor_west = {
     d_lunwirmar
     d_easterndun
     d_fortlingrewe
-    d_karneihua
+    #d_karneihua THIS DUCHY DOESNT EXIST EITHER WHAT
     d_linyemar
     # c_HelemarBayou was supposed to be two but wasnt so I made it a single province and gave it to ecir
   }
@@ -365,6 +365,15 @@ material_hsb_seashell = {
   }
 }
 
+material_prefer_robe = {
+  regions = {
+    world_syltor_aurlunor_north
+    world_syltor_aurlunor_west
+    world_syltor_hampo
+    world_syltor_tamaka
+  }
+}
+
 ###########################################################################
 # Custom Regions
 ###########################################################################
@@ -541,94 +550,6 @@ world_innovation_camels = {
   }
 }
 
-#Are these persia regions really used? They overlap with regular world regions. should they be named custom?
-#Persian Kingdoms and Empire.
-world_persia = {
-}
-
-world_khorasan = {
-}
-
-world_daylam = {
-}
-
-world_transoxiana = {
-}
-
-world_makran = {
-}
-
-world_kabulistan = {
-}
-
-world_mesopotamia = {
-}
-
-world_jazira = {
-}
-
-#####################
-# Special Regions
-#####################
-#Copying What Ek2, setting canarias to see if that reduces error log
-### Mongol Conquest regions
-special_mongol_empire_start_region = {
-}
-
-special_mongol_empire_conquest_region_prio_1 = {
-}
-
-special_mongol_empire_conquest_region_prio_2 = {
-}
-
-special_mongol_empire_conquest_region_prio_3 = {
-}
-
-special_mongol_empire_conquest_region_prio_4 = {
-}
-
-special_mongol_empire_conquest_region_prio_5 = {
-}
-
-special_mongol_empire_conquest_region_cleanup = {
-}
-
-special_mongol_empire_conquest_all_regions = {
-}
-
-special_mongol_empire_ilkhanate_region = {
-}
-
-special_mongol_empire_chagatai_region = {
-}
-
-special_mongol_empire_golden_horde_region = {
-}
-
-special_mongol_empire_black_horde_region = {
-}
-
-special_mongol_empire_white_horde_region = {
-}
-
-special_mongol_empire_aarlud_khanate_region = {
-}
-
-special_mongol_empire_togskol_khanate_region = {
-}
-
-special_mongol_empire_baruun_khanate_region = {
-}
-
-### END Mongol Conquest regions
-### Special Sicilian Culture region
-special_sicilian_culture_region = {
-}
-
-### Special Cagot region
-special_cagot_region = {
-}
-
 #####################
 # GHW Targeting Regions
 #####################
@@ -644,262 +565,6 @@ ghw_region_deutzan = {
 #ghw_region_northern_italy = {}
 #ghw_region_thessalonika = {}
 ### END GHW Regions
-#####################
-# The Northern Lords Regions
-#####################
-dlc_fp1_region_core_north_sea = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_mysterious_stranger_locations = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_iceland_isles = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_scotland_isles = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_ireland = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_northern_england = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_northern_france_brittany = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_pomerania_prussia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_adventure_targets_frisia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_novgorod = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_white_rus = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_vladimir = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_ruthenia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_estonia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_adventure_targets_zaporizhia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_western_scandinavia_pool = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_eastern_scandinavia_pool = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_russian_steppe = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_core_mainland_scandinavia = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_non_scandinavian_southern_baltic = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_region_colonial_eastern_europe = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_achievement_far_from_home = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_achievement_king_of_all_the_isles = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_fp1_achievement_vladimirs_second_choice = {
-  counties = {
-    c_dummy
-  }
-}
-
-### END TNL Regions
-#####################
-# Achievements - 1.4
-#####################
-dlc_ep1_achievement_rise_of_the_ghurids = {
-  counties = {
-    c_dummy
-  }
-}
-
-### END 1.4 Achievements Regions
-################
-# RoCo Regions #
-################
-dlc_ep1_region_south_east_europe = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_hansa_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_dutch_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_russia_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_varangian_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_mongol_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_iberia_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_italian_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_levant_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_arab_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_persian_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_north_africa_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_east_africa_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_west_africa_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_indian_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
-
-dlc_ep1_southwest_silk_road_trade_region = {
-  counties = {
-    c_dummy
-  }
-}
 
 ### END RC Regions
 ### Hunts
