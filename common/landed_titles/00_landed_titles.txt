@@ -270,11 +270,7 @@ e_ashura = {
   capital = c_qamiya	# qamiya
   ai_primary_priority = {
     if = {
-      limit = {
-        OR = {
-          culture = culture:ashuran
-        }
-      }
+      limit = { culture = culture:ashuran }
       add = @correct_culture_primary_score
     }
   }
@@ -308,11 +304,7 @@ e_ashura = {
     capital = c_qamiya
     ai_primary_priority = {
       if = {
-        limit = {
-          OR = {
-            culture = culture:baranis
-          }
-        }
+        limit = { culture = culture:baranis }
         add = @correct_culture_primary_score
       }
     }
@@ -886,11 +878,7 @@ e_ashura = {
     capital = c_Tlallteyotla
     ai_primary_priority = {
       if = {
-        limit = {
-          OR = {
-            culture = culture:baranis
-          }
-        }
+        limit = { culture = culture:baranis }
         add = @correct_culture_primary_score
       }
     }
@@ -1255,11 +1243,7 @@ e_ashura = {
     capital = c_tyalu
     ai_primary_priority = {
       if = {
-        limit = {
-          OR = {
-            culture = culture:baranis
-          }
-        }
+        limit = { culture = culture:baranis }
         add = @correct_culture_primary_score
       }
     }
