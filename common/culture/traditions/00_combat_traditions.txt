@@ -44,30 +44,30 @@ tradition_winter_warriors = {
           desc = not_bellicose_stoic_or_communal_desc
         }
       }
-      if = {
-        limit = {
-          NOT = {
-            any_culture_county = {
-              percent >= 0.3
-              any_county_province = {
-                OR = {
-                  geographical_region = world_europe_north
-                  geographical_region = world_europe_east
-                  geographical_region = world_siberia
-                  geographical_region = world_asia_north_east
-                  geographical_region = world_asia_sakhalin_hokkaido
-                  geographical_region = world_steppe
-                  geographical_region = world_tibet
-                }
-              }
-            }
-          }
-        }
-        add = {
-          value = tradition_unfulfilled_criteria_penalty
-          desc = winter_percentage_desc
-        }
-      }
+      # if = {
+      #   limit = {
+      #     NOT = {
+      #       any_culture_county = {
+      #         percent >= 0.3
+      #         any_county_province = {
+      #           OR = {
+      #             geographical_region = world_europe_north
+      #             geographical_region = world_europe_east
+      #             geographical_region = world_siberia
+      #             geographical_region = world_asia_north_east
+      #             geographical_region = world_asia_sakhalin_hokkaido
+      #             geographical_region = world_steppe
+      #             geographical_region = world_tibet
+      #           }
+      #         }
+      #       }
+      #     }
+      #   }
+      #   add = {
+      #     value = tradition_unfulfilled_criteria_penalty
+      #     desc = winter_percentage_desc
+      #   }
+      # }
 
       if = {
         limit = {
@@ -82,31 +82,31 @@ tradition_winter_warriors = {
       multiply = tradition_replacement_cost_if_relevant
     }
   }
-  ai_will_do = {
-    value = 400
-    if = {
-      limit = {
-        NOT = {
-          scope:character = {
-            any_sub_realm_county = {
-              percent >= 0.3
-              culture = scope:character.culture
-              any_county_province = {
-                OR = {
-                  geographical_region = world_europe_north
-                  geographical_region = world_europe_west
-                  geographical_region = world_europe_east
-                  geographical_region = world_steppe
-                  geographical_region = world_tibet
-                }
-              }
-            }
-          }
-        }
-      }
-      multiply = 0
-    }
-  }
+  # ai_will_do = {
+  #   value = 400
+  #   if = {
+  #     limit = {
+  #       NOT = {
+  #         scope:character = {
+  #           any_sub_realm_county = {
+  #             percent >= 0.3
+  #             culture = scope:character.culture
+  #             any_county_province = {
+  #               OR = {
+  #                 geographical_region = world_europe_north
+  #                 geographical_region = world_europe_west
+  #                 geographical_region = world_europe_east
+  #                 geographical_region = world_steppe
+  #                 geographical_region = world_tibet
+  #               }
+  #             }
+  #           }
+  #         }
+  #       }
+  #     }
+  #     multiply = 0
+  #   }
+  # }
 }
 
 tradition_forest_fighters = {
