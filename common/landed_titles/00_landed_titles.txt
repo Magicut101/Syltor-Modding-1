@@ -11420,13 +11420,13 @@ e_almalie = {
           }
         }
       }
-      c_HoàngKhánh = {
+      c_HoangKhanh = {
         color = {
           45
           79
           20
         }
-        b_HoàngKhánh1 = {
+        b_HoangKhanh1 = {
           province = 410
           color = {
             45
@@ -11434,7 +11434,7 @@ e_almalie = {
             20
           }
         }
-        b_HoàngKhánh2 = {
+        b_HoangKhanh2 = {
           province = 411
           color = {
             41
