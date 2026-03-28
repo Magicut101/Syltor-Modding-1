@@ -47,7 +47,7 @@ heritage_aurlunoren = {
       HERITAGE = heritage_aurlunoren
     }
   }
-  audio_parameter = european
+  audio_parameter = sea
 }
 
 heritage_azeral = {
@@ -67,7 +67,7 @@ heritage_hamgu = {
       HERITAGE = heritage_hamgu
     }
   }
-  audio_parameter = european
+  audio_parameter = sea
 }
 
 heritage_brothian = {
