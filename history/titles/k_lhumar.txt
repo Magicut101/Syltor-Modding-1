@@ -14,6 +14,9 @@ d_celestial_matron = {
 	1054.1.1 = {
 		 holder = 6000011
 		}
+	1064.1.1 = {
+		 holder = 6000012
+		}
 	}
 
 c_Lhumar = {
