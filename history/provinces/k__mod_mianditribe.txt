@@ -1,198 +1,195 @@
 175 = {
-	culture = miandi
-	religion = ashuran_pantheon
-	1054.1.1 = {
-			1054.1.1 = {
-		holding = tribal_holding
-		}
-		}
-	
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 176 = {
-	holding = none
+  holding = none
 }
 
 177 = {
-	holding = none
+  holding = none
 }
 
 178 = {
-	holding = none
+  holding = none
 }
 
 179 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 180 = {
-	holding = none
+  holding = none
 }
 
 181 = {
-	holding = none
+  holding = none
 }
 
 182 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 183 = {
-	holding = none
+  holding = none
 }
 
 184 = {
-	holding = none
+  holding = none
 }
 
 185 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 186 = {
-	holding = none
+  holding = none
 }
 
 187 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 188 = {
-	holding = none
+  holding = none
 }
 
 189 = {
-	holding = none
+  holding = none
 }
 
 190 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 191 = {
-	holding = none
+  holding = none
 }
 
 192 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 193 = {
-	holding = none
+  holding = none
 }
 
 194 = {
-	holding = none
+  holding = none
 }
 
 195 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 196 = {
-	holding = none
+  holding = none
 }
 
 197 = {
-	holding = none
+  holding = none
 }
 
 198 = {
-	holding = none
+  holding = none
 }
 
 199 = {
-	holding = none
+  holding = none
 }
 
 200 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 201 = {
-	holding = none
+  holding = none
 }
 
 202 = {
-	holding = none
+  holding = none
 }
 
 203 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 204 = {
-	holding = none
+  holding = none
 }
 
 205 = {
-	holding = none
+  holding = none
 }
 
 206 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 207 = {
-	holding = none
+  holding = none
 }
 
 208 = {
-	holding = none
+  holding = none
 }
 
 209 = {
-	culture = miandi
-	religion = ashuran_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = miandi
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 210 = {
-	holding = none
+  holding = none
 }
 
 211 = {
-	holding = none
+  holding = none
 }

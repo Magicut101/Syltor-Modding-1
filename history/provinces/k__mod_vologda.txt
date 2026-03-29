@@ -1,104 +1,98 @@
 # c_VologdanMarshes
 961 = {
-	culture = vologdan
-	religion = the_one_true_faith
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = vologdan
+  religion = the_one_true_faith
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 962 = {
-	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 963 = {
-	holding = none
+  holding = none
 }
 
 #c_Vologda
 964 = {
-	culture = vologdan
-	religion = the_one_true_faith
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	duchy_capital_building = vologdan_walls_01
+  culture = vologdan
+  religion = the_one_true_faith
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  duchy_capital_building = vologdan_walls_01
 }
 
 965 = {
-	holding = church_holding
+  holding = church_holding
 }
 
 966 = {
-	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 967 = {
-	1054.1.1 = {
-		1054.1.1 = {
-		holding = city_holding
-		}
-		}
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 968 = {
-	holding = none
+  holding = none
 }
 
 #c_NorthVologda
 969 = {
-	culture = vologdan
-	religion = the_one_true_faith
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = vologdan
+  religion = the_one_true_faith
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 970 = {
-	holding = none
+  holding = none
 }
 
 971 = {
-	holding = none
+  holding = none
 }
 
 972 = {
-	holding = none
+  holding = none
 }
 
 #c_BerezanLightHouse
 
-973 = { 
-	culture = vologdan
-	religion = the_one_true_faith
-	1054.1.1 = {
-		holding = castle_holding
-		}
+973 = {
+  culture = vologdan
+  religion = the_one_true_faith
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 #c_PheonoxianExodus
 
-974 = { 
-	culture = carthyan
-	religion = bluepheonix
-	1054.1.1 = {
-		holding = castle_holding
-		}
+974 = {
+  culture = carthyan
+  religion = bluepheonix
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 975 = {
-	holding = church_holding
+  holding = church_holding
 }
 
 976 = {
-	holding = none
+  holding = none
 }
 
