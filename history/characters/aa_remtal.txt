@@ -99,7 +99,7 @@
 	name = "Shan"
 	dynasty_house = house_Shan
 	religion = "pheonixtossanist"
-	culture = "dorastterocker"
+	culture = "ryzani"
 	female = yes
 	trait = education_diplomacy_3
 	1050.1.31 = {
