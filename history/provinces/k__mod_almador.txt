@@ -1,192 +1,192 @@
 #c_sachomar
 880 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 881 = {
-	holding = none
+  holding = none
 }
 
 882 = {
-	holding = none
+  holding = none
 }
 
 883 = {
-	holding = none
+  holding = none
 }
 
 884 = {
-	holding = none
+  holding = none
 }
 
 914 = {
-	holding = none
+  holding = none
 }
 
 885 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 886 = {
-	holding = none
+  holding = none
 }
 
 887 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 888 = {
-	holding = none
+  holding = none
 }
 
 889 = {
-	holding = none
+  holding = none
 }
 
 899 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 900 = {
-	holding = none
+  holding = none
 }
 
 901 = {
-	holding = none
+  holding = none
 }
 
 902 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 903 = {
-	holding = none
+  holding = none
 }
 
 904 = {
-	holding = none
+  holding = none
 }
 
 905 = {
-	holding = none
+  holding = none
 }
 
 906 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 907 = {
-	holding = none
+  holding = none
 }
 
 908 = {
-	holding = none
+  holding = none
 }
 
 909 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 910 = {
-	holding = none
+  holding = none
 }
 
 911 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 912 = {
-	holding = none
+  holding = none
 }
 
 913 = {
-	holding = none
+  holding = none
 }
 
 914 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 915 = {
-	holding = none
+  holding = none
 }
 
 916 = {
-	holding = none
+  holding = none
 }
 
 917 = {
-	holding = none
+  holding = none
 }
 
 918 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 919 = {
-	holding = none
+  holding = none
 }
 
 920 = {
-	culture = heartlander
-	religion = almadorian
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = heartlander
+  religion = almadorian
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 921 = {
-	holding = none
+  holding = none
 }
 
 922 = {
-	holding = none
+  holding = none
 }
 
 923 = {
-	holding = none
+  holding = none
 }
 
 924 = {
-	holding = none
+  holding = none
 }

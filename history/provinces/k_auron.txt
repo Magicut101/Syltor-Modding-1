@@ -1,368 +1,364 @@
 1785 = {
-	1054.1.1 = {
-		1054.1.1 = {
-		1054.1.1 = {
-		holding = castle_holding
-		}
-		}
-		}
-	culture = hyrian
-	religion = dandelism
+  culture = hyrian
+  religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 1786 = {
-	holding = none
+  holding = none
 }
 
 1787 = {
-	holding = none
+  holding = none
 }
 
 1788 = {
-	holding = none
+  holding = none
 }
 
 1789 = {
-	holding = none
+  holding = none
 }
 
 1790 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1791 = {
-	holding = none
+  holding = none
 }
 
 1792 = {
-	holding = none
+  holding = none
 }
 
 1793 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1794 = {
-	holding = none
+  holding = none
 }
 
 1795 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1796 = {
-	holding = none
+  holding = none
 }
 
 1797 = {
-	holding = none
+  holding = none
 }
 
 1798 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1799 = {
-	holding = none
+  holding = none
 }
 
 1800 = {
-	holding = none
+  holding = none
 }
 
 1801 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1802 = {
-	holding = none
+  holding = none
 }
 
 1803 = {
-	holding = none
+  holding = none
 }
 
 1804 = {
-	holding = none
+  holding = none
 }
 
 1805 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1806 = {
-	holding = none
+  holding = none
 }
 
 1807 = {
-	holding = none
+  holding = none
 }
 
 1808 = {
-	holding = none
+  holding = none
 }
 
 1809 = {
-	holding = none
+  holding = none
 }
 
 1810 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1811 = {
-	holding = none
+  holding = none
 }
 
 1812 = {
-	holding = none
+  holding = none
 }
 
 1813 = {
-	holding = none
+  holding = none
 }
 
 1814 = {
-	holding = none
+  holding = none
 }
 
 1815 = {
-	holding = none
+  holding = none
 }
 
 1816 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1817 = {
-	holding = none
+  holding = none
 }
 
 1818 = {
-	holding = none
+  holding = none
 }
 
 1819 = {
-	holding = none
+  holding = none
 }
 
 1820 = {
-	holding = none
+  holding = none
 }
 
 1821 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1822 = {
-	holding = none
+  holding = none
 }
 
 1823 = {
-	holding = none
+  holding = none
 }
 
 1824 = {
-	holding = none
+  holding = none
 }
 
 1825 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1826 = {
-	holding = none
+  holding = none
 }
 
 1827 = {
-	holding = none
+  holding = none
 }
 
 1828 = {
-	holding = none
+  holding = none
 }
 
 1829 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1830 = {
-	holding = none
+  holding = none
 }
 
 1831 = {
-	holding = none
+  holding = none
 }
 
 1832 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1833 = {
-	holding = none
+  holding = none
 }
 
 1834 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1835 = {
-	holding = none
+  holding = none
 }
 
 1836 = {
-	holding = none
+  holding = none
 }
 
 1837 = {
-	holding = none
+  holding = none
 }
 
 1838 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1839 = {
-	holding = none
+  holding = none
 }
 
 1840 = {
-	holding = none
+  holding = none
 }
 
 1841 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1842 = {
-	holding = none
+  holding = none
 }
 
 1843 = {
-	holding = none
+  holding = none
 }
 
 1844 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1845 = {
-	holding = none
+  holding = none
 }
 
 # yuh
 1846 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1847 = {
-	holding = none
+  holding = none
 }
 
 1848 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1849 = {
-	holding = none
+  holding = none
 }
 
 1850 = {
-	holding = none
+  holding = none
 }
 
 1851 = {
-	holding = none
+  holding = none
 }
 
 1852 = {
-	holding = none
+  holding = none
 }
 
 1853 = {
-	1054.1.1 = {
-		holding = castle_holding
-		}
-	culture = hyrian
-	religion = dandelism
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  culture = hyrian
+  religion = dandelism
 }
 
 1854 = {
-	holding = none
+  holding = none
 }
 
 1855 = {
-	holding = none
+  holding = none
 }
