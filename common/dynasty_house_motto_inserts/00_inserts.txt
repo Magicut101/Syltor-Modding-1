@@ -474,7 +474,6 @@
 				limit = { has_trait = humble }
 				multiply = 3
 			}
-			if = {
 		}
 	}
 	hope = {
