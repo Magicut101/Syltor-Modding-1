@@ -1,0 +1,11 @@
+30000221 = { 
+	 name = dynn_Prism 
+	 culture = "dorrasterrocker"
+	}
+
+#crezyman add the prefix as Crezyman
+ 
+30000220 = { 
+	 name = dynn_Crezyman
+	 culture = "dorrasterrocker"
+	 }

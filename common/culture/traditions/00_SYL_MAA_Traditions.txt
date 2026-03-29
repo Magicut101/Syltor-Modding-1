@@ -1,0 +1,655 @@
+﻿#########################
+# MODDED MAA Traditions #
+#########################
+
+tradition_seasoned_merchants = {
+  category = realm
+
+  layers = {
+    0 = diplo
+    1 = mediterranean
+    4 = ship.dds
+  }
+
+  can_pick = {
+    custom_description = {
+      text = culture_on_coast_desc
+      any_culture_county = {
+        any_county_province = {
+          is_coastal = yes
+        }
+      }
+    }
+  }
+  is_shown = {
+    has_cultural_pillar = heritage_brothian
+  }
+
+  parameters = {
+    next_level_trade_ports = yes
+    maritime_mercantilism_coastal_holdings = yes
+    unlock_maa_balreskan_guard = yes
+  }
+  character_modifier = {
+    republic_government_vassal_opinion = 10
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      # Ethos requirement.
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_egalitarian }
+            any_in_list = { list = traits this = flag:ethos_stoic }
+            any_in_list = { list = traits this = flag:ethos_bureaucratic }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_egalitarian_stoic_or_bureaucratic_desc
+        }
+      }
+      # Coastal requirement.
+      if = {
+        limit = {
+          NOT = {
+            any_culture_county = {
+              percent >= 0.3
+              any_county_province = {
+                is_coastal = yes
+              }
+            }
+          }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = coastal_percentage_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+  ai_will_do = {
+    value = 100
+    if = {
+      limit = {
+        scope:character = {
+          any_sub_realm_county = {
+            percent >= 0.6
+            any_county_province = {
+              is_coastal = yes
+            }
+          }
+        }
+      }
+      add = 50
+    }
+    if = { # Make stacking a bit more common
+      limit = {
+        OR = {
+          culture_tradition:tradition_seafaring = { is_in_list = traits }
+          culture_tradition:tradition_fishermen = { is_in_list = traits }
+        }
+      }
+      multiply = 2
+    }
+    if = {
+      limit = {
+        NOT = {
+          scope:character = {
+            any_sub_realm_county = {
+              percent >= 0.3
+              any_county_province = {
+                is_coastal = yes
+              }
+            }
+          }
+        }
+      }
+      multiply = 0
+    }
+    else_if = {
+      limit = {
+        any_culture_county = {
+          percent >= 0.6
+          any_county_province = {
+            is_coastal = yes
+          }
+        }
+      }
+      multiply = 2
+    }
+  }
+}
+
+tradition_avian_hunters = {
+  category = combat
+
+  layers = {
+    0 = intrigue
+    1 = western
+    4 = soldiers4.dds
+  }
+  is_shown = {
+    has_cultural_pillar = heritage_avian
+  }
+  parameters = {
+    unlock_maa_kaluko_rangers = yes
+  }
+
+  character_modifier = {
+    skirmishers_damage_mult = 0.05
+    skirmishers_toughness_mult = 0.1
+    skirmishers_maintenance_mult = -0.05
+    archers_damage_mult = 0.1
+    archers_toughness_mult = 0.05
+    archers_maintenance_mult = -0.05
+    enemy_terrain_advantage = -0.25
+    heavy_cavalry_damage_mult = -0.1
+    heavy_cavalry_toughness_mult = -0.05
+    heavy_infantry_damage_mult = -0.1
+    heavy_infantry_toughness_mult = -0.05
+    archers_max_size_add = 2
+  }
+
+  can_pick = {
+    custom_tooltip = {
+      scope:character = {
+        OR = {
+          has_government = feudal_government
+          has_government = clan_government
+        }
+      }
+      text = must_be_feudal_or_clan
+    }
+    custom_tooltip = {
+      text = cannot_have_tradition_adaptive_skirmishing
+      NOT = { any_in_list = { list = traits this = flag:tradition_adaptive_skirmishing } }
+    }
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_bellicose }
+            any_in_list = { list = traits this = flag:ethos_spiritual }
+            any_in_list = { list = traits this = flag:ethos_stoic }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_spiritual_or_stoic_desc
+        }
+      }
+      if = {
+        limit = {
+          NOT = {
+            scope:character = {
+              number_maa_soldiers_of_base_type = {
+                type = skirmishers
+                value >= 500
+              }
+              number_maa_soldiers_of_base_type = {
+                type = archers
+                value >= 500
+              }
+            }
+          }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = culture_head_small_soldiers_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+  ai_will_do = {
+    value = 100
+    if = {
+      limit = {
+        scope:character = {
+          OR = {
+            number_maa_soldiers_of_base_type = {
+              type = heavy_infantry
+              value >= 200
+            }
+            number_maa_soldiers_of_base_type = {
+              type = pikemen
+              value >= 200
+            }
+          }
+        }
+      }
+      multiply = 0
+    }
+    if = {
+      limit = {
+        OR = {
+          culture_has_heavy_infantry_maa = yes
+          culture_has_heavy_cavalry_maa = yes
+        }
+      }
+      multiply = 0
+    }
+    if = {
+      limit = {
+        NOR = {
+          culture_has_archer_maa = yes
+          culture_has_skirmisher_maa = yes
+        }
+      }
+      multiply = 0.25
+    }
+  }
+}
+
+tradition_vologdan_knights = {
+  category = combat
+
+  is_shown = {
+    has_cultural_pillar = heritage_brothian
+  }
+
+  layers = {
+    0 = martial
+    1 = indian
+    4 = temple.dds
+  }
+
+  can_pick = {
+
+  }
+
+  parameters = {
+    prowess_from_religious_traits = yes
+    culture_clergy_can_fight = yes
+    unlock_maa_vologdan_knights = yes
+  }
+  character_modifier = {
+    prowess_per_piety_level = 1
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_bellicose }
+            any_in_list = { list = traits this = flag:ethos_spiritual }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_or_spiritual_desc
+        }
+      }
+      if = {
+        limit = {
+          trigger_if = {
+            limit = {
+              scope:character = {
+                is_ai = no
+              }
+            }
+            NOT = {
+              scope:character = {
+                save_temporary_scope_as = culture_head_link
+                faith = {
+                  any_faith_character = {
+                    count >= 15
+                    culture = scope:culture_head_link.culture
+                    prowess >= 10
+                    OR = {
+                      is_clergy = yes
+                      has_education_learning_trigger = yes
+                    }
+                  }
+                }
+              }
+            }
+          }
+          trigger_else = {
+            always = no
+          }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = culture_head_faith_clergy_prowess_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+  ai_will_do = {
+    value = 100
+    if = {
+      limit = {
+        NOR = {
+          any_in_list = { list = traits this = flag:ethos_bellicose }
+          any_in_list = { list = traits this = flag:ethos_spiritual }
+        }
+      }
+      multiply = 0.25
+    }
+  }
+}
+
+tradition_aurlunoren_placeholder = { # meeds a better name and a rework mostly made this to give heartlander their hwatchas #
+  category = combat
+
+  layers = {
+    0 = martial
+    1 = mediterranean
+    4 = soldiers3.dds
+  }
+
+  is_shown = {
+    has_cultural_pillar = heritage_aurlunoren
+  }
+
+  layers = {
+    0 = martial
+  }
+
+  character_modifier = {
+    pikemen_damage_mult = 0.05
+    pikemen_toughness_mult = 0.1
+    archers_damage_mult = 0.1
+    archers_toughness_mult = 0.05
+    counter_efficiency = 0.15
+    pursue_efficiency = -0.15
+    skirmishers_damage_mult = -0.15
+    skirmishers_toughness_mult = -0.05
+    light_cavalry_damage_mult = -0.15
+    light_cavalry_toughness_mult = -0.05
+
+  }
+
+  parameters = {
+    unlock_maa_hwatcha = yes
+  }
+
+
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_bellicose }
+            any_in_list = { list = traits this = flag:ethos_courtly }
+            any_in_list = { list = traits this = flag:ethos_communal }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_courtly_or_communal_desc
+        }
+      }
+      if = {
+        limit = {
+          NOT = {
+            scope:character = {
+              number_maa_soldiers_of_base_type = {
+                type = pikemen
+                value >= 500
+              }
+              number_maa_soldiers_of_base_type = {
+                type = archers
+                value >= 500
+              }
+            }
+          }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = culture_head_archers_and_pikemen_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+}
+
+tradition_Oathbound_Order = {
+  category = combat
+
+  is_shown = {
+    has_cultural_pillar = heritage_brothian
+  }
+  layers = {
+    0 = martial
+    1 = indian
+    4 = battle.dds
+  }
+
+  character_modifier = {
+    heavy_infantry_toughness_mult = 0.1
+    heavy_infantry_maintenance_mult = -0.10
+    hard_casualty_modifier = -0.10
+    defender_advantage = 5
+  }
+  parameters = {
+    unlock_maa_oathbound = yes
+    unlock_maa_spellweaver = yes
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_bellicose }
+            any_in_list = { list = traits this = flag:ethos_spiritual }
+            any_in_list = { list = traits this = flag:ethos_stoic }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_spiritual_or_stoic_desc
+        }
+      }
+    }
+  }
+}
+
+tradition_remtali_castle_builders = {
+  category = realm
+
+  layers = {
+    0 = martial
+    1 = western
+    4 = city.dds
+  }
+
+  is_shown = {
+    has_cultural_pillar = heritage_azian
+  }
+
+  can_pick = {
+    custom_tooltip = {
+      scope:character = {
+        OR = {
+          government_has_flag = government_is_feudal
+          government_has_flag = government_is_clan
+        }
+      }
+      text = must_be_feudal_or_clan
+    }
+    custom_tooltip = {
+      text = cannot_have_tradition_city_keepers
+      NOT = {
+        culture_tradition:tradition_city_keepers = { is_in_list = traits }
+      }
+    }
+    custom_tooltip = {
+      text = cultrad_not_nomadic_government_type
+      scope:character = {
+        NOT = {
+          government_has_flag = government_is_nomadic
+        }
+      }
+    }
+  }
+
+  parameters = {
+    castle_fortifications_increase = yes
+    castle_grant_prestige = yes
+    architect_trait_prestige = yes
+    ai_more_likely_to_castle = yes
+    ai_more_likely_to_fortify = yes
+    unlock_maa_ranseur = yes
+  }
+  character_modifier = {
+    castle_holding_holding_build_speed = -0.1
+    castle_holding_holding_build_gold_cost = -0.1
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      # Ethos requirements.
+      if = {
+        limit = {
+          NOR = {
+            culture_pillar:ethos_bellicose = { is_in_list = traits }
+            culture_pillar:ethos_stoic = { is_in_list = traits }
+            culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_stoic_or_bureaucratic_desc
+        }
+      }
+      # Requires battlements innovation.
+      if = {
+        limit = {
+          NOT = { has_innovation = innovation_battlements }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = lacks_battlements_innovation_desc
+        }
+      }
+
+      if = {
+        limit = {
+          culture_tradition_reduction_trigger = { TRADITION = tradition_castle_keepers }
+        }
+        multiply = {
+          value = 0.5
+          desc = inspired_by_culture_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+  ai_will_do = {
+    value = 800
+    if = {
+      limit = {
+        NOT = { has_innovation = innovation_battlements }
+      }
+      multiply = 0
+    }
+    if = {
+      limit = {
+        scope:character = { ai_boldness >= 0 }
+      }
+      multiply = 0.25
+    }
+  }
+}
+
+tradition_ancient_chloromancers = {
+  category = realm
+
+  layers = {
+    0 = steward
+    1 = mena
+    4 = desert.dds
+  }
+  is_shown = {
+    has_cultural_pillar = language_syrosi
+  }
+  can_pick = {
+    culture_not_pacifistic_trigger = yes
+    custom_description = {
+      text = culture_in_dryland_desc
+      any_culture_county = {
+        any_county_province = {
+          OR = {
+            terrain = drylands
+            terrain = desert
+          }
+        }
+      }
+    }
+  }
+  parameters = {
+    plantations_building_bonuses = yes
+    unlock_maa_chloromancers = yes
+    unlock_maa_cataphract = yes
+    unlock_maa_akritai = yes
+    unlock_maa_ballistrai = yes
+    unlock_maa_skoutatoi = yes
+  }
+  character_modifier = {
+  }
+  county_modifier = {
+    desert_development_growth_factor = 0.35
+    drylands_development_growth_factor = 0.15
+  }
+  province_modifier = {
+    jungle_levy_size = 0.15
+    jungle_supply_limit_mult = 0.25
+    desert_construction_gold_cost = -0.05
+    drylands_construction_gold_cost = -0.1
+    desert_holding_construction_gold_cost = -0.05
+    drylands_holding_construction_gold_cost = -0.1
+  }
+}

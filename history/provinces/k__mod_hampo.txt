@@ -1,7 +1,9 @@
 301 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 302 = {
@@ -19,7 +21,9 @@
 305 = {
 	culture = hampo
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 306 = {
@@ -37,7 +41,9 @@
 309 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 310 = {
@@ -47,7 +53,9 @@
 311 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 312 = {
@@ -61,7 +69,9 @@
 314 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 315 = {
@@ -79,7 +89,9 @@
 318 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 319 = {
@@ -93,7 +105,9 @@
 321 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 322 = {
@@ -107,7 +121,9 @@
 324 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 325 = {
@@ -121,7 +137,9 @@
 327 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 328 = {
@@ -131,7 +149,9 @@
 329 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 330 = {
@@ -149,7 +169,9 @@
 333 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 334 = {
@@ -167,7 +189,9 @@
 337 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 338 = {
@@ -185,7 +209,9 @@
 341 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 342 = {
@@ -207,7 +233,9 @@
 346 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 347 = {
@@ -229,7 +257,9 @@
 351 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 352 = {
@@ -243,7 +273,9 @@
 354 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 355 = {
@@ -257,7 +289,9 @@
 357 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 358 = {
@@ -275,7 +309,9 @@
 361 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 362 = {
@@ -289,7 +325,9 @@
 364 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 365 = {
@@ -299,7 +337,9 @@
 366 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 367 = {
@@ -309,7 +349,9 @@
 368 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 369 = {
@@ -327,7 +369,9 @@
 372 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 373 = {
@@ -341,7 +385,9 @@
 375 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 376 = {
@@ -351,7 +397,9 @@
 377 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 378 = {
@@ -369,7 +417,9 @@
 381 = {
 	culture = hampo 
 	religion = twin_dragon
-	holding = tribal_holding
+		1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 382 = {

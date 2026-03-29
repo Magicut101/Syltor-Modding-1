@@ -1,0 +1,13 @@
+d_fluenta = {
+	1040.1.1 = {
+			holder = 600124 # Crinky
+			liege = 0
+	}
+}
+
+d_prophet_of_the_dandelists ={
+	1040.1.1 = {
+		holder = 600124 # Crinky
+	}
+
+}

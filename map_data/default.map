@@ -21,7 +21,7 @@ sea_zones = LIST { 2 } #French & Iberian atlantic coasts
 sea_zones = RANGE {	814 863}
 sea_zones = LIST {897 898}
 sea_zones = RANGE {1484 1518}
-sea_zones = RANGE {1856 1885}
+sea_zones = RANGE {1856 1884}
 
 ###############
 # MAJOR RIVERS
@@ -47,6 +47,7 @@ Impassable_mountains = RANGE { 1250 1311}
 
 # IMPASSABLE SEA ZONES
 # These sea provinces cannot be crossed/sailed
+impassable_seas = LIST { 2005 }
 
 # UNUSED PROVINCES
 # These provinces cause issues because they are passable land, but not part of any title.

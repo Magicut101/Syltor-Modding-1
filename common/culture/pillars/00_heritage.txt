@@ -1,206 +1,281 @@
 ﻿# Our heritages
 
-heritage_corvus = {
-	type = heritage
+heritage_avian = {
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_avian
+    }
+  }
+  audio_parameter = european
 }
 
 heritage_nekojin = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_nekojin
+    }
+  }
+  audio_parameter = european
 }
 
 heritage_synderian = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_synderian
+    }
+  }
+  audio_parameter = european
 }
 
 heritage_ashuric = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_ashuric
+    }
+  }
+  audio_parameter = mena
 }
 
 heritage_aurlunoren = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_aurlunoren
+    }
+  }
+  audio_parameter = sea
 }
 
 heritage_azeral = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_azeral
+    }
+  }
+  audio_parameter = mena
 }
 
 heritage_hamgu = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_hamgu
+    }
+  }
+  audio_parameter = sea
 }
 
 heritage_brothian = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_brothian
+    }
+  }
+  audio_parameter = european
 }
 
 heritage_azararni = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_azararni
+    }
+  }
+  audio_parameter = mena
 }
 
 heritage_hadok = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_hadok
+    }
+  }
+  audio_parameter = european
 }
 
 heritage_outliers = {
-	type = heritage
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_outliers
+    }
+  }
+  audio_parameter = european
 }
 
-
-
+heritage_alvadan = {
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_alvadan
+    }
+  }
+  audio_parameter = european
+}
 
 # Vanilla heritages
 
-heritage_akan = {
-	type = heritage
-}
+# Commented these out since they were causing errors
 
-heritage_arabic = {
-	type = heritage
-}
+# heritage_akan = {
+# 	type = heritage
+# }
 
-heritage_baltic = {
-	type = heritage
-}
+# heritage_arabic = {
+# 	type = heritage
+# }
 
-heritage_balto_finnic = {
-	type = heritage
-}
+# heritage_baltic = {
+# 	type = heritage
+# }
 
-heritage_berber = {
-	type = heritage
-}
+# heritage_balto_finnic = {
+# 	type = heritage
+# }
 
-heritage_brythonic = {
-	type = heritage
-}
+# heritage_berber = {
+# 	type = heritage
+# }
 
-heritage_burman = {
-	type = heritage
-}
+# heritage_brythonic = {
+# 	type = heritage
+# }
 
-heritage_byzantine = {
-	type = heritage
-}
+# heritage_burman = {
+# 	type = heritage
+# }
 
-heritage_central_african = {
-	type = heritage
-}
+# heritage_byzantine = {
+# 	type = heritage
+# }
 
-heritage_central_germanic = {
-	type = heritage
-}
+# heritage_central_african = {
+# 	type = heritage
+# }
 
-heritage_chinese = {
-	type = heritage
-}
+# heritage_central_germanic = {
+# 	type = heritage
+# }
 
-heritage_dravidian = {
-	type = heritage
-}
+# heritage_chinese = {
+# 	type = heritage
+# }
 
-heritage_east_african = {
-	type = heritage
-}
+# heritage_dravidian = {
+# 	type = heritage
+# }
 
-heritage_east_slavic = {
-	type = heritage
-}
+# heritage_east_african = {
+# 	type = heritage
+# }
 
-heritage_frankish = {
-	type = heritage
-}
+# heritage_east_slavic = {
+# 	type = heritage
+# }
 
-heritage_goidelic = {
-	type = heritage
-}
+# heritage_frankish = {
+# 	type = heritage
+# }
 
-heritage_iberian = {
-	type = heritage
-}
+# heritage_goidelic = {
+# 	type = heritage
+# }
 
-heritage_indo_aryan = {
-	type = heritage
-}
+# heritage_iberian = {
+# 	type = heritage
+# }
 
-heritage_iranian = {
-	type = heritage
-}
+# heritage_indo_aryan = {
+# 	type = heritage
+# }
 
-heritage_israelite = {
-	type = heritage
-}
+# heritage_iranian = {
+# 	type = heritage
+# }
 
-heritage_latin = {
-	type = heritage
-}
+# heritage_israelite = {
+# 	type = heritage
+# }
 
-heritage_magyar = {
-	type = heritage
-}
+# heritage_latin = {
+# 	type = heritage
+# }
 
-heritage_mongolic = {
-	type = heritage
-}
+# heritage_magyar = {
+# 	type = heritage
+# }
 
-heritage_north_germanic = {
-	type = heritage
-}
+# heritage_mongolic = {
+# 	type = heritage
+# }
 
-heritage_qiangic = {
-	type = heritage
-}
+# heritage_north_germanic = {
+# 	type = heritage
+# }
 
-heritage_sahelian = {
-	type = heritage
-}
+# heritage_qiangic = {
+# 	type = heritage
+# }
 
-heritage_senegambian = {
-	type = heritage
-}
+# heritage_sahelian = {
+# 	type = heritage
+# }
 
-heritage_somalian = {
-	type = heritage
-}
+# heritage_senegambian = {
+# 	type = heritage
+# }
 
-heritage_south_slavic = {
-	type = heritage
-}
+# heritage_somalian = {
+# 	type = heritage
+# }
 
-heritage_tibetan = {
-	type = heritage
-}
+# heritage_south_slavic = {
+# 	type = heritage
+# }
 
-heritage_turkic = {
-	type = heritage
-}
+# heritage_tibetan = {
+# 	type = heritage
+# }
 
-heritage_ugro_permian = {
-	type = heritage
-}
+# heritage_turkic = {
+# 	type = heritage
+# }
 
-heritage_volga_finnic = {
-	type = heritage
-}
+# heritage_ugro_permian = {
+# 	type = heritage
+# }
 
-heritage_west_african = {
-	type = heritage
-}
+# heritage_volga_finnic = {
+# 	type = heritage
+# }
 
-heritage_west_germanic = {
-	type = heritage
-}
+# heritage_west_african = {
+# 	type = heritage
+# }
 
-heritage_west_slavic = {
-	type = heritage
-}
+# heritage_west_germanic = {
+# 	type = heritage
+# }
 
-heritage_yoruba = {
-	type = heritage
-}
+# heritage_west_slavic = {
+# 	type = heritage
+# }
 
-heritage_tocharian = {
-	type = heritage
-}
+# heritage_yoruba = {
+# 	type = heritage
+# }
 
-heritage_vlach = {
-	type = heritage
-}
+# heritage_tocharian = {
+# 	type = heritage
+# }
+
+# heritage_vlach = {
+# 	type = heritage
+# }

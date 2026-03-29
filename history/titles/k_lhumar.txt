@@ -6,23 +6,73 @@
 
 d_lhumar = {
 	867.1.1 = {	change_development_level = 3 }
-1054.1.1 = {
-holder = 6000011
+	1054.1.1 = {
+	holder = 600079
+	}
 }
-}
+d_celestial_matron = {
+	1054.1.1 = {
+		 holder = 6000011
+		}
+	}
 
 c_Lhumar = {
-867.1.1 = {	change_development_level = 20 }
-1054.1.1 = {
-holder = 6000011
-}
-}
+	867.1.1 = {	change_development_level = 20 }
+	1054.1.1 = {
+	holder = 600079 #Lanfen
 
-
+	}
+}
+d_linyemar = {
+	1054.1.1 = {
+	holder = 600075 #Pyrra LordProtector of Lhumar
+	}
+}
+c_Piken = {
+	867.1.1 = {	change_development_level = 9 }
+	1054.1.1 = {
+	holder = 600075
+	}
+}
+c_Yamuwei = {
+	867.1.1 = {	change_development_level = 9 }
+	1054.1.1 = {
+	holder = 600075
+	}
+}
 d_almador = {
-867.1.1 = {	change_development_level = 15 }
-1054.1.1 = {
-holder = 6000060
+	1054.1.1 = {
+	holder = 600102 #Vahyting
+	}
 }
-
+c_Sachomar = {
+	867.1.1 = {	change_development_level = 15 }
+	1054.1.1 = {
+	holder = 600102
+	}
+}
+c_Tarwe = {
+	867.1.1 = {	change_development_level = 9 }
+	1054.1.1 = {
+	holder = 600102
+	}
+}
+c_AlmadorianHill = {
+	867.1.1 = {	change_development_level = 7 }
+	1054.1.1 = {
+	holder = 600060 #cruncho
+	} 
+}
+c_Karneihua = {
+	867.1.1 = {	change_development_level = 12 }
+	1040.1.1 = {
+	holder = 600060 #cruncho
+	}
+}
+c_Lingrinwe = {
+	867.1.1 = {	change_development_level = 9 }
+	1044.1.1 = {
+	holder = 600076
+	liege = d_lhumar
+	}
 }

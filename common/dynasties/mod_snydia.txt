@@ -1,4 +1,4 @@
 ﻿30000028 = {
-	name = "Tizoc"
+	name = "dynn_Tizoc"
 	culture = "ashuran" # make this syndiaan
 }

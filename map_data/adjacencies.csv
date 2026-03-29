@@ -1,5 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-
+-1;-1;;-1;-1;-1;-1;-1;
 #Deutzan
 252;251;sea;856;-1;-1;-1;-1;heagielconnection
 294;287;sea;856;-1;-1;-1;-1;balreska-shanpark
@@ -80,6 +80,3 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 475;664;sea;815;-1;-1;-1;-1;helemar-chunspring
 496;656;sea;815;-1;-1;-1;-1;clubs-maerun
 506;500;sea;815;-1;-1;-1;-1;lilypad-lilypad
-
-
--1;-1;;-1;-1;-1;-1;-1;
