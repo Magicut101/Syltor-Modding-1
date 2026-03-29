@@ -3,179 +3,176 @@
 
 #b_PiMedjay
 56 = {
-	holding = none
+  holding = none
 }
 
 #b_PiMedjayPass
 57 = {
-	holding = none
+  holding = none
 }
 
 #b_PiMedjayCastle
 58 = {
-	culture = ashuran
-	religion = qantifolkway_pantheon
-	1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = ashuran
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 #b_NashurForest
 59 = {
-	holding = none
+  culture = ashuran
+  religion = qantifolkway_pantheon
+  holding = tribal_holding
 }
 
 #b_NashurPlain
 60 = {
-	holding = none
+  holding = none
 }
 
 #b_NashurHolding
 61 = {
-	culture = ashuran
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = castle_holding
-		}
+  holding = none
 }
 
 #b_Balim
 62 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = castle_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 #b_BalimHolding
 63 = {
-
+  holding = none
 }
 
 #b_Vamorak1
 64 = {
-	holding = none
+  culture = ashuran
+  religion = qantifolkway_pantheon
+  holding = none
 }
 
 #b_Vamorak2
 65 = {
-	holding = none
+  holding = none
 }
 
 #b_Vamorak3
 66 = {
-	holding = none
+  holding = none
 }
 
 #b_Vamorak4
 67 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = temple_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = temple_holding
+  }
 }
 
 #b_AlHamama1
 68 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-			holding = castle_holding
-#issues here	
-	}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = castle_holding
+    #issues here
+  }
 }
 
 #b_AlHamama2
 69 = {
-	holding = none
+  holding = none
 }
 
 #b_AlHamamaCastle
 70 = {
-
-		holding = none
-		}
+  holding = none
+}
 
 #b_Lavar1
 71 = {
-	holding = none
+  culture = qanti
+  religion = qantifolkway_pantheon
+  holding = tribal_holding
 }
 
 #b_Lavar2
 72 = {
-	holding = none
+  holding = none
 }
 
 #b_Lavar3
 73 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = castle_holding
-		}
+  holding = none
 }
 
 #b_Kittarius1
 74 = {
-	holding = none
+  holding = none
 }
 
 #b_Kittarius2
 75 = {
-	holding = none
+  holding = none
 }
 
 #b_Kittarius3
 76 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 #b_CarnedaoFjordlandTemple
 77 = {
-	holding = none
+  holding = none
 }
 
 #b_CarnedaoFjordlandsHolding
 78 = {
-	holding = none
+  holding = none
 }
 
 #b_CarnedaoFjordlandsEmpty
 79 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 #b_Karneidao
 80 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 #b_Sarlatova1
 81 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 #b_Sarlatova2
 82 = {
-	holding = none
+  holding = none
 }
 
 #b_Sarlatova3
@@ -184,19 +181,19 @@
 
 #b_Issykeknahkatown1
 84 = {
-	culture = qanti
-	religion = qantifolkway_pantheon
-		1054.1.1 = {
-		holding = tribal_holding
-		}
+  culture = qanti
+  religion = qantifolkway_pantheon
+  1054.1.1 = {
+    holding = tribal_holding
+  }
 }
 
 #b_Issykeknahkatown2
 85 = {
-	holding = none
+  holding = none
 }
 
 #b_Issykeknahkatown3
 86 = {
-	holding = none
+  holding = none
 }
