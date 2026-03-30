@@ -170,9 +170,14 @@ tradition_avian_hunters = {
       }
       text = must_be_feudal_or_clan
     }
-    custom_tooltip = {
-      text = cannot_have_tradition_adaptive_skirmishing
-      NOT = { any_in_list = { list = traits this = flag:tradition_adaptive_skirmishing } }
+    trigger_if = {
+      limit = {
+        OR = {
+          NOT = { exists = scope:replacing }
+          NOT = { scope:replacing = culture_tradition:tradition_adaptive_skirmishing }
+        }
+      }
+      NOT = { has_cultural_tradition = tradition_adaptive_skirmishing } #Replaces Adaptive Skirmishing
     }
   }
 
@@ -513,11 +518,14 @@ tradition_remtali_castle_builders = {
       }
       text = must_be_feudal_or_clan
     }
-    custom_tooltip = {
-      text = cannot_have_tradition_city_keepers
-      NOT = {
-        culture_tradition:tradition_city_keepers = { is_in_list = traits }
+    trigger_if = {
+      limit = {
+        OR = {
+          NOT = { exists = scope:replacing }
+          NOT = { scope:replacing = culture_tradition:cannot_have_tradition_city_keepers }
+        }
       }
+      NOT = { has_cultural_tradition = cannot_have_tradition_city_keepers } #Replaces City Keepers
     }
     custom_tooltip = {
       text = cultrad_not_nomadic_government_type
