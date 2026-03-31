@@ -34,19 +34,20 @@ c_AngelsPeak = {
 
 # Javorn
 
-d_xaburya = {
-  867.1.1 = {	change_development_level = 5 }
-
-  1054.1.1 = {
-    holder = 600025
-  }
-}
-
 d_xaburya_grandmaster = {
   succession_laws = {
     temporal_head_of_faith_succession_law
   }
   1054.1.1 = { holder = 600025}
+}
+
+d_xaburya = {
+  867.1.1 = {	change_development_level = 5 }
+
+  1055.1.1 = {
+    holder = 600025
+    #ai_primary_priority = 1
+  }
 }
 
 c_Xaburya = {

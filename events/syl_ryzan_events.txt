@@ -11,7 +11,7 @@
 
 
 # Form norenya as a xaburyan
-ryzan.0001 = {
+ryzan.00001 = {
   type = character_event
   title = ryzan.0001.t
   desc = ryzan.0001.desc
@@ -32,10 +32,5 @@ ryzan.0001 = {
     name = ryzan.0001.a
     give_nickname = nick_xaburya_uniter
     add_prestige = minor_prestige_gain
-  }
-  #No thanks on the nickname, more prestige instead please.
-  option = {
-    name = ryzan.0001.b
-    add_prestige = medium_prestige_gain
   }
 }

@@ -211,6 +211,9 @@ d_xaburya_grandmaster = {
   de_jure_drift_disabled = yes
   destroy_if_invalid_heir = yes
   can_use_nomadic_naming = no
+  ai_primary_priority = {
+    add = @never_primary_score
+  }
 
   landless = yes
   capital = c_Xaburya
