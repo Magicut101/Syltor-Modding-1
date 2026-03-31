@@ -1,0 +1,29 @@
+war = {
+	name = "war_1066_war_claw_feathers"	# the name can be left out, will be generated then
+	start_date = 1066.8.1
+	end_date = 1066.9.25
+	targeted_titles={
+		d_nekomar
+	}
+	casus_belli = duchy_conquest_cb
+	attackers = { 600010 }
+	defenders = { 600002 }
+	claimant = 600010
+
+#	600010 = {
+		1066.9.8 = {
+			location = 1596
+		}
+		1066.9.20 = {
+			location = 1095
+		}
+	}
+#	122 = {
+		1066.9.8 = {
+			location = 1527
+		}
+		1066.9.24 = {
+			location = 1095
+		}
+	}	
+}

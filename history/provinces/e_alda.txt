@@ -1,5 +1,5 @@
 1885 = {
-  culture = heartlander
+  culture = savernian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -23,7 +23,7 @@
 }
 
 1890 = {
-  culture = heartlander
+  culture = savernian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -39,7 +39,7 @@
 }
 
 1893 = {
-  culture = heartlander
+  culture = savernian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -55,7 +55,7 @@
 }
 
 1896 = {
-  culture = heartlander
+  culture = savernian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -75,7 +75,7 @@
 }
 
 1900 = {
-  culture = heartlander
+  culture = savernian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -87,7 +87,7 @@
 }
 
 1902 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -111,7 +111,7 @@
 }
 
 1907 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -123,7 +123,7 @@
 }
 
 1909 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -139,7 +139,7 @@
 }
 
 1912 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -155,7 +155,7 @@
 }
 
 1915 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -175,7 +175,7 @@
 }
 
 1919 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -187,7 +187,7 @@
 }
 
 1921 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -199,7 +199,7 @@
 }
 
 1923 = {
-  culture = heartlander
+  culture = talawan
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -211,7 +211,7 @@
 }
 
 1925 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -223,7 +223,7 @@
 }
 
 1927 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -235,7 +235,7 @@
 }
 
 1929 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -263,7 +263,7 @@
 }
 
 1935 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -283,7 +283,7 @@
 }
 
 1939 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -299,7 +299,7 @@
 }
 
 1942 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -323,7 +323,7 @@
 }
 
 1947 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -335,7 +335,7 @@
 }
 
 1949 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -351,7 +351,7 @@
 }
 
 1952 = {
-  culture = heartlander
+  culture = nullarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -363,7 +363,7 @@
 }
 
 1954 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -379,7 +379,7 @@
 }
 
 1957 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -391,7 +391,7 @@
 }
 
 1959 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -407,7 +407,7 @@
 }
 
 1962 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -431,7 +431,7 @@
 }
 
 1967 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -443,7 +443,7 @@
 }
 
 1969 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -459,7 +459,7 @@
 }
 
 1972 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -475,7 +475,7 @@
 }
 
 1975 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -491,7 +491,7 @@
 }
 
 1978 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -507,7 +507,7 @@
 }
 
 1981 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -523,7 +523,7 @@
 }
 
 1984 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -535,7 +535,7 @@
 }
 
 1986 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -555,7 +555,7 @@
 }
 
 1990 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -579,7 +579,7 @@
 }
 
 1995 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -595,7 +595,7 @@
 }
 
 1998 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
@@ -611,7 +611,7 @@
 }
 
 2001 = {
-  culture = heartlander
+  culture = sanctuarian
   religion = almadorian
   1054.1.1 = {
     holding = castle_holding
