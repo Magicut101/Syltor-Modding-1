@@ -666,86 +666,87 @@ on_game_start = {
     #				}
     #			}
     #		}
-    #		every_religion_global = {
-    #			limit = {
-    #				OR = {
-    #					this = religion:hinduism_religion
-    #					this = religion:jainism_religion
-    #					this = religion:tani_religion
-    #					this = religion:bon_religion
-    #				}
-    #			}
-    #			every_faith = {
-    #				every_holy_site = {
-    #					limit = {
-    #						title_province = {
-    #							has_special_building_slot = no
-    #						}
-    #					}
-    #					title_province = {
-    #						add_special_building_slot = holy_site_indian_grand_temple_01
-    #					}
-    #				}
-    #			}
-    #		}
-    #		every_religion_global = {
-    #			limit = {
-    #				OR = {
-    #					this = religion:satsana_phi_religion
-    #					this = religion:dayawism_religion
-    #					this = religion:hantuism_religion
-    #					this = religion:satsana_phi_religion
-    #					this = religion:kaharingan_religion
-    #					this = religion:tolotang_religion
-    #					this = religion:aluk_religion
-    #					this = religion:dab_qhuas_religion
-    #					this = religion:biliku_religion
-    #				}
-    #			}
-    #			every_faith = {
-    #				every_holy_site = {
-    #					limit = {
-    #						title_province = {
-    #							has_special_building_slot = no
-    #						}
-    #					}
-    #					title_province = {
-    #						add_special_building_slot = holy_site_se_asia_pagan_temple_01
-    #					}
-    #				}
-    #			}
-    #		}
-    #		every_religion_global = {
-    #			limit = {
-    #				is_in_family = rf_pagan
-    #			}
-    #			every_faith = {
-    #				every_holy_site = {
-    #					limit = {
-    #						title_province = {
-    #							has_special_building_slot = no
-    #						}
-    #					}
-    #					title_province = {
-    #						add_special_building_slot = holy_site_pagan_grand_temple_01
-    #					}
-    #				}
-    #			}
-    #		}
-    #every_religion_global = {
-    #	every_faith = {
-    #		every_holy_site = {
-    #			limit = {
-    #				title_province = {
-    #					has_special_building_slot = no
-    #				}
-    #			}
-    #			title_province = {
-    #				add_special_building_slot = holy_site_other_grand_temple_01
-    #			}
-    #		}
-    #	}
-    #}
+    # every_religion_global = {
+    #   limit = {
+    #     OR = {
+    #       this = religion:hinduism_religion
+    #       this = religion:jainism_religion
+    #       this = religion:tani_religion
+    #       this = religion:bon_religion
+    #     }
+    #   }
+    #   every_faith = {
+    #     every_holy_site = {
+    #       limit = {
+    #         title_province = {
+    #           has_special_building_slot = no
+    #         }
+    #       }
+    #       title_province = {
+    #         add_special_building_slot = holy_site_indian_grand_temple_01
+    #       }
+    #     }
+    #   }
+    # }
+    # every_religion_global = {
+    #   limit = {
+    #     OR = {
+    #       this = religion:satsana_phi_religion
+    #       this = religion:dayawism_religion
+    #       this = religion:hantuism_religion
+    #       this = religion:satsana_phi_religion
+    #       this = religion:kaharingan_religion
+    #       this = religion:tolotang_religion
+    #       this = religion:aluk_religion
+    #       this = religion:dab_qhuas_religion
+    #       this = religion:biliku_religion
+    #     }
+    #   }
+    #   every_faith = {
+    #     every_holy_site = {
+    #       limit = {
+    #         title_province = {
+    #           has_special_building_slot = no
+    #         }
+    #       }
+    #       title_province = {
+    #         add_special_building_slot = holy_site_se_asia_pagan_temple_01
+    #       }
+    #     }
+    #   }
+    # }
+    # every_religion_global = {
+    #   limit = {
+    #     is_in_family = rf_pagan
+    #   }
+    #   every_faith = {
+    #     every_holy_site = {
+    #       limit = {
+    #         title_province = {
+    #           has_special_building_slot = no
+    #         }
+    #       }
+    #       title_province = {
+    #         add_special_building_slot = holy_site_pagan_grand_temple_01
+    #       }
+    #     }
+    #   }
+    # }
+    # SYL EDIT THIS IS WHERE HOLY SITES CAN BE DECLARED
+    every_religion_global = {
+      every_faith = {
+        every_holy_site = {
+          limit = {
+            title_province = {
+              has_special_building_slot = no
+            }
+          }
+          title_province = {
+            add_special_building_slot = holy_site_other_grand_temple_01
+          }
+        }
+      }
+    }
 
     # If your capital on game start is Mecca, you get the Hajjaj trait (since you can't Hajj to your capital)
     #title:b_makka.county.holder = {
