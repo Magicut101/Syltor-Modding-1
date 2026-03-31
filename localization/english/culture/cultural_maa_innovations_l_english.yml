@@ -16,6 +16,11 @@
  tradition_Oathbound_Order_name:0 "Oathbound Order"
  tradition_Oathbound_Order_desc:0 "Souls of xaburya's fallen woh forsake their afterlife to walk again as suits of hollow defenders of their people."
 
+ tradition_vengeful_sun_name:0 "Vengeful Sun"
+ tradition_vengeful_sun_desc:0 "It is our time, the time of the Crowfolk, to rise up and reassert ourselves. The Dragons are blind, the Ashurans and Ryzani broken. The Red Sun will rise, and the crow will be dominant."
+ tradition_avian_hunters_name:0 "Avian Hunters"
+ tradition_avian_hunters_desc:0 "The crowfolk excel at archery from afar, whether at land or air. Our proficiency will ensure we will maintain ranged superiority."
+
  # Tribal Era
  culture_parameter_unlock_maa_ayyar:0 "Can recruit [GetMaA('ayyar').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_metsanvartija:0 "Can recruit [GetMaA('metsanvartija').GetName] as [men_at_arms|E]"
