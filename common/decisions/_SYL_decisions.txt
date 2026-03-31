@@ -52,10 +52,14 @@ form_norenya_decision_decision = {
     prestige_level >= 2
     completely_controls = title:d_xaburya
     OR = {
-      has_title = title:k_nebskoslavia
-      completely_controls = title:k_nebskoslavia
-      has_title = title:k_carthya
-      completely_controls = title:k_carthya
+      AND = {
+        has_title = title:k_nebskoslavia
+        completely_controls = title:k_nebskoslavia
+      }
+      AND = {
+        has_title = title:k_carthya
+        completely_controls = title:k_carthya
+      }
     }
   }
 
