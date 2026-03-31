@@ -209,11 +209,7 @@ d_xaburya_grandmaster = {
   destroy_if_invalid_heir = yes
   can_be_named_after_dynasty = no
   de_jure_drift_disabled = yes
-  destroy_if_invalid_heir = yes
   can_use_nomadic_naming = no
-  ai_primary_priority = {
-    add = @never_primary_score
-  }
 
   landless = yes
   capital = c_Xaburya

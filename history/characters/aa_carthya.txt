@@ -110,8 +110,14 @@
   trait = spellweaver
   trait = disputed_heritage
 
-  1040.1.1 = {
+  1044.1.1 = {
     birth = yes
+  }
+
+  1054.1.1 = {
+    effect = {
+      set_primary_title_to = title:d_xaburya
+    }
   }
   father = 600024
   #dna =
@@ -128,7 +134,7 @@
   stewardship = 12
   female = yes
   sexuality = homosexual
-  1042.1.1 = {
+  1046.1.1 = {
     birth = yes
   }
   father = 600024

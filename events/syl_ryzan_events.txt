@@ -8,10 +8,10 @@
 # 3001 -
 
 ##################################################
-
+namespace = ryzan
 
 # Form norenya as a xaburyan
-ryzan.00001 = {
+ryzan.0001 = {
   type = character_event
   title = ryzan.0001.t
   desc = ryzan.0001.desc
