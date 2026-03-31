@@ -2,7 +2,7 @@
 	name = "Helena"
 	dynasty = 30000100 	# Amakiir
 	religion = "twin_dragon" #Subject to change
-	culture = "heartlander" #Need to add Aldan Culture
+	culture = "savernian" #Need to add Aldan Culture
 	trait = education_stewardship_4
 	stewardship = 25
     female = yes
@@ -17,7 +17,7 @@
     name = "Ciprilu"
 	dynasty = 30000203 # Saxon
 	religion = "twin_dragon"
-	culture = "heartlander"
+	culture = "sanctuarian"
 	trait = education_martial_3
 	martial = 12
 	#father = 145930
@@ -31,7 +31,7 @@
 	name = "Titanino"
 	dynasty = 30000201 # Saxon
 	religion = "twin_dragon"
-	culture = "heartlander"
+	culture = "talawan"
 	trait = education_diplomacy_2
 	diplomacy = 10
 	#father = 145930
@@ -44,7 +44,7 @@
 600203 = {
 	name = "Mokatios "
 	religion = "Soleannen"
-	culture = "heartlander" #Should be Escharian
+	culture = "nullarian" #Should be Escharian
 	dynasty = 30000206
 	trait = education_martial_3
 	diplomacy = 12

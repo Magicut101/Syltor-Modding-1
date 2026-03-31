@@ -51,4 +51,16 @@ building_type_deutzan_walls_01_desc:0 "The gates of Haegiel are a giant wall blo
 
 building_deutzan_walls_01:0 "Gate of Haegiel"
 building_deutzan_walls_01_desc:0 "a grand wall defending the main pass into the city of heagiel."
+
+building_type_nebskogrod_01:0 "City of Nebskogrod"
+building_type_nebskogrod_01_desc:0 "Anicent capital of the nebskoslav Koral dynasty that ruled nebskoslavia for uears."
+
+building_nebskogrod_01:0 "Broken City Of Nebskogrod"
+building_nebskogrod_01_desc:0 "The city of Nebskogrod filled with failed constuction projects, unfinished buildings and run down castles scattered around."
+building_nebskogrod_02:0 "Endless Project Nebskogrod"
+building_nebskogrod_02_desc:0 "The city of Nebskogrod still undergoing an endless constuction as old projects are torn down to make way for the new."
+building_nebskogrod_03:0 "Unfinished City Of Nebskogrod"
+building_nebskogrod_03_desc:0 "While better then it has been it still is quite lacking for the sheer amount of money poured into the city."
+building_nebskogrod_04:0 "Castle Koral"
+building_nebskogrod_04_desc:0 "The finished capital of the anicent Koral family the world finally looks upon this now finished mediocre city."
 # Modded Buildings

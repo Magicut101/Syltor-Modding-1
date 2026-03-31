@@ -170,9 +170,14 @@ tradition_avian_hunters = {
       }
       text = must_be_feudal_or_clan
     }
-    custom_tooltip = {
-      text = cannot_have_tradition_adaptive_skirmishing
-      NOT = { any_in_list = { list = traits this = flag:tradition_adaptive_skirmishing } }
+    trigger_if = {
+      limit = {
+        OR = {
+          NOT = { exists = scope:replacing }
+          NOT = { scope:replacing = culture_tradition:tradition_adaptive_skirmishing }
+        }
+      }
+      NOT = { has_cultural_tradition = tradition_adaptive_skirmishing } #Replaces Adaptive Skirmishing
     }
   }
 
@@ -440,7 +445,6 @@ tradition_aurlunoren_placeholder = { # meeds a better name and a rework mostly m
       multiply = tradition_replacement_cost_if_relevant
     }
   }
-
 }
 
 tradition_Oathbound_Order = {
@@ -513,11 +517,14 @@ tradition_remtali_castle_builders = {
       }
       text = must_be_feudal_or_clan
     }
-    custom_tooltip = {
-      text = cannot_have_tradition_city_keepers
-      NOT = {
-        culture_tradition:tradition_city_keepers = { is_in_list = traits }
+    trigger_if = {
+      limit = {
+        OR = {
+          NOT = { exists = scope:replacing }
+          NOT = { scope:replacing = culture_tradition:cannot_have_tradition_city_keepers }
+        }
       }
+      NOT = { has_cultural_tradition = cannot_have_tradition_city_keepers } #Replaces City Keepers
     }
     custom_tooltip = {
       text = cultrad_not_nomadic_government_type
@@ -651,5 +658,127 @@ tradition_ancient_chloromancers = {
     drylands_construction_gold_cost = -0.1
     desert_holding_construction_gold_cost = -0.05
     drylands_holding_construction_gold_cost = -0.1
+  }
+}
+
+tradition_vengeful_sun = {
+  layers = {
+    0 = intrigue
+    1 = western
+    4 = soldiers4.dds
+  }
+  is_shown = {
+    has_cultural_pillar = heritage_avian
+  }
+  parameters = {
+		expensive_convert_to_local_culture = yes
+		harder_to_hybridize = yes
+		zealous_trait_more_common = yes
+    harder_to_convert_character_faith = yes
+		harder_to_convert_county_faith = yes
+	}
+	character_modifier = {
+		controlled_province_advantage = 5
+		monthly_county_control_growth_add = 0.3
+    dread_baseline_add = 10
+	}
+    can_pick = {
+    custom_tooltip = {
+      scope:character = {
+        OR = {
+          has_government = feudal_government
+          has_government = clan_government
+        }
+      }
+      text = must_be_feudal_or_clan
+    }
+    custom_tooltip = {
+      text = cannot_have_tradition_adaptive_skirmishing
+      NOT = { any_in_list = { list = traits this = flag:tradition_adaptive_skirmishing } }
+    }
+  }
+
+  cost = {
+    prestige = {
+      add = {
+        value = tradition_base_cost
+        desc = BASE
+        format = "BASE_VALUE_FORMAT"
+      }
+      if = {
+        limit = {
+          NOR = {
+            any_in_list = { list = traits this = flag:ethos_bellicose }
+            any_in_list = { list = traits this = flag:ethos_spiritual }
+            any_in_list = { list = traits this = flag:ethos_stoic }
+          }
+        }
+        add = {
+          value = tradition_incompatible_ethos_penalty
+          desc = not_bellicose_spiritual_or_stoic_desc
+        }
+      }
+      if = {
+        limit = {
+          NOT = {
+            scope:character = {
+              number_maa_soldiers_of_base_type = {
+                type = skirmishers
+                value >= 500
+              }
+              number_maa_soldiers_of_base_type = {
+                type = archers
+                value >= 500
+              }
+            }
+          }
+        }
+        add = {
+          value = tradition_unfulfilled_criteria_penalty
+          desc = culture_head_small_soldiers_desc
+        }
+      }
+
+      multiply = tradition_replacement_cost_if_relevant
+    }
+  }
+
+  ai_will_do = {
+    value = 100
+    if = {
+      limit = {
+        scope:character = {
+          OR = {
+            number_maa_soldiers_of_base_type = {
+              type = heavy_infantry
+              value >= 200
+            }
+            number_maa_soldiers_of_base_type = {
+              type = pikemen
+              value >= 200
+            }
+          }
+        }
+      }
+      multiply = 0
+    }
+    if = {
+      limit = {
+        OR = {
+          culture_has_heavy_infantry_maa = yes
+          culture_has_heavy_cavalry_maa = yes
+        }
+      }
+      multiply = 0
+    }
+    if = {
+      limit = {
+        NOR = {
+          culture_has_archer_maa = yes
+          culture_has_skirmisher_maa = yes
+        }
+      }
+      multiply = 0.25
+    }
   }
 }

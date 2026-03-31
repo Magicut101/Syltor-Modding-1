@@ -1,123 +1,124 @@
 ﻿600001 = {
-	name = "Constatine"
-	dynasty = 30000002
-	religion = "easternlunatwa"
-	culture = "syrosi"
-	trait = content
-	trait = just
-	trait = diligent
-	trait = education_martial_3
-	martial = 10
-	#father = 145930
-	1038.1.1 = {
-		birth = "820.1.1"
-	}
-	#dna = 
+  name = "Constatine"
+  dynasty = 30000002
+  religion = "easternlunatwa"
+  culture = "syrosi"
+  trait = content
+  trait = just
+  trait = diligent
+  trait = education_martial_3
+  martial = 10
+  #father = 145930
+  1038.1.1 = {
+    birth = "820.1.1"
+  }
+  #dna =
 }
 
 600003 = {
-	name = "Theodorik"
-	dynasty = 8635
-	religion = "easternlunatwa"
-	culture = "syrosi"
-	martial = 10
-	#father = 145930
-	trait = education_martial_2
-	1038.1.1 = {
-		birth = "821.1.1"
-	}
-	#dna = 
+  name = "Theodorik"
+  dynasty = 8635
+  religion = "easternlunatwa"
+  culture = "syrosi"
+  martial = 10
+  #father = 145930
+  trait = education_martial_2
+  1038.1.1 = {
+    birth = "821.1.1"
+  }
+  #dna =
 }
 
 600006 = {
-	name = "Anstolis"
-	dynasty = 30000004
-	religion = "easternlunatwa"
-	culture = "deutzani"
-	#father = 145930
-	trait = calm
-	trait = forgiving
-	trait = eccentric
-	trait = education_learning_3
-	trait = immortal
-	trait = depressed_1
-	trait = infertile
-	1038.1.1 = {
-		birth = "821.1.1"
-	}
-	#dna = 
+  name = "Anstolis"
+  dynasty = 30000004
+  religion = "easternlunatwa"
+  culture = "deutzani"
+  #father = 145930
+  trait = calm
+  trait = forgiving
+  trait = eccentric
+  trait = education_learning_3
+  trait = immortal
+  trait = depressed_1
+  trait = infertile
+  sexuality = heterosexual
+  1038.1.1 = {
+    birth = "821.1.1"
+  }
+  #dna =
 }
 
 600007 = {
-	name = "Igor"
-	dynasty = 8637
-	religion = "turtlepaganism"
-	culture = "deutzani"
-	#father = 145930
-	trait = education_diplomacy_2
-	1038.1.1 = {
-		birth = "821.1.1"
-	}
-	#dna = 
+  name = "Igor"
+  dynasty = 8637
+  religion = "turtlepaganism"
+  culture = "deutzani"
+  #father = 145930
+  trait = education_diplomacy_2
+  1038.1.1 = {
+    birth = "821.1.1"
+  }
+  #dna =
 }
 
 600008 = {
-	name = "Nikolai"
-	dynasty = 30000004
-	religion = "tossanism"
-	culture = "balreskan"
-	#give_nickname = #make nickname "green"
-	#father = 145930
-	trait = education_diplomacy_2
-	1038.1.1 = {
-		birth = "821.1.1"
-	}
-	#dna = 
+  name = "Nikolai"
+  dynasty = 30000004
+  religion = "tossanism"
+  culture = "balreskan"
+  #give_nickname = #make nickname "green"
+  #father = 145930
+  trait = education_diplomacy_2
+  1038.1.1 = {
+    birth = "821.1.1"
+  }
+  #dna =
 }
 600094 = {
-    name = "Katherineke"
-    dynasty = 30000214
-    religion = "twin_dragon"
-    culture = "deutzani"
-    1040.1.1 = {
-        birth = "820.1.1"
-    }
-	female = yes
-	employer = 600003
+  name = "Katherineke"
+  dynasty = 30000214
+  religion = "twin_dragon"
+  culture = "deutzani"
+  1040.1.1 = {
+    birth = "820.1.1"
+  }
+  female = yes
+  employer = 600003
 }
 
 600078 = {
-    name = "Anming"
-    dynasty = 30000301
-    religion = "twin_dragon"
-    culture = "ashuran"
-	trait = education_learning_5
-	trait = immortal
-	trait = conqueror
-	trait = savior
-	trait = physique_good_3
-	trait = intellect_good_3
-    1040.1.1 = {
-        birth = "820.1.1"
-    }
-	female = yes
-	mother = 600012
-	father = 600047
-    trait = education_learning_4
-    trait = zealous
-	trait = patient
+  name = "Anming"
+  dynasty = 30000301
+  religion = "twin_dragon"
+  culture = "ashuran"
+  trait = education_learning_5
+  trait = immortal
+  trait = conqueror
+  trait = savior
+  trait = physique_good_3
+  trait = intellect_good_3
+  1040.1.1 = {
+    birth = "820.1.1"
+  }
+  female = yes
+  mother = 600012
+  father = 600047
+  trait = education_learning_4
+  trait = zealous
+  trait = patient
 }
 
 601337 = {
-    name = "Yi Long Ma"
-    dynasty = 30000007
-    religion = "twin_dragon"
-    culture = "heartlander"
-	trait = education_stewardship_4
-    1040.1.1 = {
-        birth = "820.1.1"
-    }
-    trait = greedy
-	trait = gregarious
-	trait = arrogant
+  name = "Yi Long Ma"
+  dynasty = 30000007
+  religion = "twin_dragon"
+  culture = "heartlander"
+  trait = education_stewardship_4
+  1040.1.1 = {
+    birth = "820.1.1"
+  }
+  trait = greedy
+  trait = gregarious
+  trait = arrogant
 }

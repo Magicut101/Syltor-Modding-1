@@ -146,7 +146,7 @@
   culture = syrosi
   religion = easternlunatwa
   holding = castle_holding
-  duchy_capital_building = Anicent_Syrosi_walls_01
+  special_building = Anicent_Syrosi_walls_01
   1065.1.1 = {
     holding = castle_holding
   }
@@ -197,6 +197,7 @@
   culture = balreskan
   religion = tossanism
   holding = castle_holding
+
 }
 
 290 = {

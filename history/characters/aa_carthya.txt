@@ -1,132 +1,142 @@
 ﻿600014 = {
-	name = "Bruhovich"
-	dynasty = 30000010 #Aasimar
-	religion = "pheonixtossanist"
-	culture = "carthyan"
-	trait = education_stewardship_2
-	stewardship = 11
-	martial = 9
-	#father = 145930
-	1032.1.1 = {
-		birth = "824.1.1"
-	}
-	#dna = 
+  name = "Bruhovich"
+  dynasty = 30000010 #Aasimar
+  religion = "pheonixtossanist"
+  culture = "carthyan"
+  trait = education_stewardship_2
+  stewardship = 11
+  martial = 9
+  #father = 145930
+  1032.1.1 = {
+    birth = "824.1.1"
+  }
+  #dna =
 }
 
 600022 = {
-	name = "Darrow"
-	dynasty = 30000010 #Aasimar
-	religion = "pheonixtossanist"
-	culture = "carthyan"
-	trait = education_stewardship_4
-  	trait = just
-	stewardship = 13
-	1020.1.1 = {
-		birth = yes
-	}
-	#dna = 
+  name = "Darrow"
+  dynasty = 30000010 #Aasimar
+  religion = "pheonixtossanist"
+  culture = "carthyan"
+  trait = education_stewardship_4
+  trait = just
+  stewardship = 13
+  1020.1.1 = {
+    birth = yes
+  }
+  #dna =
 }
 
 600023 = {
-	name = "Raphie"
-	dynasty = 30000010 #Aasimar
-	religion = "bluepheonix"
-	culture = "carthyan"
-	trait = education_stewardship_3
+  name = "Raphie"
+  dynasty = 30000010 #Aasimar
+  religion = "bluepheonix"
+  culture = "carthyan"
+  trait = education_stewardship_3
   trait = just
- 	trait = diligent
- 	trait = zealous
-	stewardship = 10
-	father = 600022
-	1050.1.1 = {
-		birth = yes
-	}
-	#dna = 
+  trait = diligent
+  trait = zealous
+  stewardship = 10
+  father = 600022
+  1050.1.1 = {
+    birth = yes
+  }
+  #dna =
 }
 
 600152 = {
-	name = "Nikolai"
-	dynasty = 30000223 # Zefirov
-	religion = "pheonixtossanist"
-	culture = "ryzani"
-	trait = education_martial_3
- 	trait = diligent
-	1047.1.1 = {
-		birth = yes
-	}
-	#dna = 
+  name = "Nikolai"
+  dynasty = 30000223 # Zefirov
+  religion = "pheonixtossanist"
+  culture = "ryzani"
+  trait = education_martial_3
+  trait = diligent
+  1047.1.1 = {
+    birth = yes
+  }
+  #dna =
 }
 
 600153 = {
-	name = "Sarcaski"
-	dynasty = 30000004 # Tossovich
-	religion = "pheonixtossanist"
-	culture = "carthyan"
-	trait = education_stewardship_2
+  name = "Sarcaski"
+  dynasty = 30000004 # Tossovich
+  religion = "pheonixtossanist"
+  culture = "carthyan"
+  trait = education_stewardship_2
   trait = just
- 	trait = diligent
-	father = 600005
-	1050.1.1 = {
-		birth = yes
-	}
-	#dna = 
+  trait = diligent
+  father = 600005
+  1050.1.1 = {
+    birth = yes
+  }
+  #dna =
 }
 
 # Xaburyans
 
 600024 = {
-	name = "Jay"
-	dynasty = 30000017 #Burrow
-	religion = "xaburya_spirit"
-	culture = "xaburyan"
-	trait = education_martial_4
-	trait = steelspector
-	trait = spellweaver
-	stewardship = 12
-	1020.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
+  name = "Jay"
+  dynasty = 30000017 #Burrow
+  religion = "xaburya_spirit"
+  culture = "xaburyan"
+  trait = education_martial_4
+  trait = steelspector
+  trait = spellweaver
+  stewardship = 12
+  1020.1.1 = {
+    birth = yes
+  }
+  1060.1.1 = {
     death = yes
-	}
-	#dna = 
+  }
+  #dna =
 }
 
 600025 = {
-	name = "Javorn"
-	dynasty = 30000017 #Burrow
-	religion = "xaburya_spirit"
-	trait = spellweaver
-	culture = "xaburyan"
-	trait = education_martial_3
-	learning = 4
-	intrigue = 3
-	martial = 11
-	stewardship = 8
+  name = "Javorn"
+  dynasty = 30000017 #Burrow
+  religion = "xaburya_spirit"
+  culture = "xaburyan"
+  trait = education_martial_3
+  learning = 4
+  intrigue = 3
+  martial = 11
+  stewardship = 8
   learning = 11
+  sexuality = bisexual
   trait = diligent
-	trait = zealous
+  trait = zealous
   trait = calm
+  trait = spellweaver
+  trait = disputed_heritage
 
-	1040.1.1 = {
-		birth = yes
-	}
-	father = 600024
-	#dna = 
+  1044.1.1 = {
+    birth = yes
+  }
+
+  1054.1.1 = {
+    effect = {
+      set_primary_title_to = title:d_xaburya
+    }
+  }
+  father = 600024
+  #dna =
 }
 
 600026 = {
-	name = "Adelisa"
-	dynasty = 30000017 #Burrow
-	religion = "xaburya_spirit"
-	culture = "xaburyan"
-	trait = education_martial_3
+  name = "Adelisa"
+  dynasty = 30000017 #Burrow
+  religion = "xaburya_spirit"
+  culture = "xaburyan"
+  trait = education_martial_3
   trait = zealous
-	stewardship = 12
+  trait = disputed_heritage
+  stewardship = 12
   female = yes
-	1042.1.1 = {
-		birth = yes
-	}
-	father = 600024
-	#dna = 
+  sexuality = homosexual
+  1046.1.1 = {
+    birth = yes
+  }
+  father = 600024
+  #dna =
 }

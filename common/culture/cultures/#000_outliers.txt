@@ -15,6 +15,7 @@
     tradition_strength_in_numbers
     tradition_hereditary_hierarchy
     tradition_avian_hunters
+    tradition_vengeful_sun
   }
 
   dlc_tradition = {
