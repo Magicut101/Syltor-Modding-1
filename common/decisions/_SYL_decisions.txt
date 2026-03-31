@@ -10,7 +10,14 @@ form_norenya_decision_decision = {
   selection_tooltip = form_norenya_decision_tooltip
   decision_group_type = major
 
-  ai_check_interval = 120
+  ai_check_interval_by_tier = {
+    barony = 0
+    county = 0
+    duchy = 0
+    kingdom = 120
+    empire = 120
+    hegemony = 120
+  }
 
   is_shown = {
     is_ruler = yes
@@ -42,10 +49,12 @@ form_norenya_decision_decision = {
   }
 
   is_valid = {
-    prestige_level >= 3
+    prestige_level >= 2
     completely_controls = title:d_xaburya
     OR = {
+      has_title = title:k_nebskoslavia
       completely_controls = title:k_nebskoslavia
+      has_title = title:k_carthya
       completely_controls = title:k_carthya
     }
   }
