@@ -4,7 +4,7 @@
 
 	#Main Group
 	doctrine = doctrine_no_head
-	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_lay_clergy
 
@@ -282,6 +282,10 @@
 			color = { 7 22 48 }
 			icon = bluepheonix2
 
+			holy_site = tossagrad
+			holy_site = nova_balreska
+			holy_site = exodus_isle
+
 			doctrine = special_doctrine_is_bluephoenix_faith
 			#Main Group
 			doctrine = doctrine_spiritual_head
@@ -308,6 +312,10 @@
 		pheonixtossanist = {
 			color = { 173 216 230 }
 			icon = bluepheonix
+			
+			holy_site = tossagrad
+			holy_site = nova_balreska
+			holy_site = exodus_isle
 
 			#Main Group
 			doctrine = doctrine_spiritual_head

@@ -11,13 +11,13 @@ d_lhumar = {
   }
 }
 d_celestial_matron = {
-  succession_laws = {
-    temporal_head_of_faith_succession_law
-  }
-  1054.1.1 = {
-    holder = 6000011
-  }
-}
+	succession_laws = {
+		temporal_head_of_faith_succession_law
+	}
+	1054.1.1 = {
+		 holder = 6000012
+		}
+	}
 
 c_Lhumar = {
   867.1.1 = {	change_development_level = 20 }

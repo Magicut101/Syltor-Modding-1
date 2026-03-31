@@ -105,6 +105,17 @@ haegiel = {
 	}
 }
 
+exodus_isle = {
+	county = c_PheonoxianExodus
+	barony = b_PheonixExodus1
+
+	character_modifier = {
+		name = holy_site_jorvik_effect_name
+		
+		martial_per_piety_level = 1
+	}
+}
+
 #Holy Site of tototl
 kaluko = {
 	county = c_Kaluko
