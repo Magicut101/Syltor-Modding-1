@@ -339,15 +339,18 @@
               trigger_event = spellweaver.0002 #Success event
             }
             else = {
-              trigger_event = {
-                on_action = convert_to_witchcraft_failure_outcome
-              }
+              trigger_event = spellweaver.0006 # Failure event
+
+              # Base game witch failure event has a witch on action that is triggered here to randomly choose a bad outcome
+              # trigger_event = {
+              #   on_action = convert_to_witchcraft_failure_outcome
+              # }
             }
           }
           #FOR PLAYER CHARACTER, SEND CHOICE EVENT
           else = {
             scope:target = {
-              trigger_event = witch.2002
+              trigger_event = spellweaver.0005
             }
           }
         }

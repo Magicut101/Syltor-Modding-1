@@ -128,7 +128,7 @@ become_spellweaver_decision = {
     }
     OR = {
       dynasty = dynasty:30000017	# burrows can always do this descision
-      has_cultural_parameter = unlock_maa_spellweaver
+      culture = { has_cultural_parameter = unlock_maa_spellweaver }
       culture = culture:xaburyan	# xaburyan characters are always able to dream.
     }
     # or means only one of these has to be true not all of them

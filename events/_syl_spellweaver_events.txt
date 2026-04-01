@@ -28,7 +28,6 @@ spellweaver.0001 = {
     # the decision effects are in the scripted effects folder
   }
 
-  #Take the nickname.
   immediate = {
     scope:target = {
       add_trait = spellweaver
@@ -65,7 +64,6 @@ spellweaver.0002 = {
     # the decision effects are in the scripted effects folder
   }
 
-  #Take the nickname.
   immediate = {
     scope:target = {
       add_trait = steelspector
@@ -81,5 +79,241 @@ spellweaver.0002 = {
 
   option = {
     name = spellweaver.0001.a
+  }
+}
+
+# Player gets event to trained as spellweaver
+spellweaver.0003 = {
+  type = character_event
+  title = spellweaver.0003.t
+  desc = spellweaver.0003.desc
+  theme = witchcraft
+  left_portrait = {
+    character = scope:target
+    animation = personality_rational
+  }
+  override_background = {
+    reference = sitting_room
+  }
+  # immediate = {
+  #   play_music_cue = "mx_cue_positive_effect"
+  #   # the decision effects are in the scripted effects folder
+  # }
+
+  # immediate = {
+  #   scope:target = {
+  #     add_trait = spellweaver
+  #   }
+
+  #   # improve relations
+  #   reverse_add_opinion = {
+  #     target = scope:target
+  #     modifier = grateful_opinion
+  #     opinion = 20
+  #   }
+  # }
+
+  # Yes I want to be a spellweaver
+  option = {
+    name = spellweaver.2003.a
+
+    add_trait = spellweaver
+    if = {
+      limit = {
+        culture = {
+          NOT = {
+            culture = { has_cultural_parameter = unlock_maa_spellweaver }
+          }
+        }
+      }
+      add_piety = medium_piety_loss
+    }
+
+    # Run the normal success event for them
+    scope:owner = {
+      trigger_event = spellweaver.0001
+    }
+
+    stress_impact = {
+      craven = medium_stress_impact_gain
+    }
+  }
+
+  # Player refuses to be spellweaver
+  option = {
+    name = spellweaver.2003.b
+
+    add_piety = medium_piety_gain
+
+    scope:owner = {
+      trigger_event = spellweaver.2004
+    }
+
+    reverse_add_opinion = {
+      target = scope:owner
+      modifier = disappointed_opinion
+      opinion = -15
+
+    }
+
+    stress_impact = {
+      ambitious = minor_stress_impact_gain
+    }
+  }
+}
+
+# Refuse To be spellweaver
+spellweaver.0004 = {
+  type = character_event
+  title = spellweaver.0004.t
+  desc = spellweaver.0004.desc
+  theme = witchcraft
+  override_background = {
+    reference = sitting_room
+  }
+  left_portrait = {
+    character = scope:target
+    animation = anger
+  }
+
+  immediate = {
+    reverse_add_opinion = {
+      target = scope:target
+      modifier = impious_opinion
+      opinion = -20
+    }
+
+    scope:target = {
+      add_character_flag = {
+        flag = block_convert_to_spellweaver
+        days = 7300
+      }
+    }
+  }
+
+  option = {
+    name = spellweaver.2004.a
+
+    scope:scheme = {
+      end_scheme = yes
+    }
+  }
+}
+
+# Player gets event to turned into steelspector
+spellweaver.0005 = {
+  type = character_event
+  title = spellweaver.0005.t
+  desc = spellweaver.0005.desc
+  theme = witchcraft
+  left_portrait = {
+    character = scope:target
+    animation = personality_rational
+  }
+  override_background = {
+    reference = sitting_room
+  }
+  # immediate = {
+  #   play_music_cue = "mx_cue_positive_effect"
+  #   # the decision effects are in the scripted effects folder
+  # }
+
+  # immediate = {
+  #   scope:target = {
+  #     add_trait = spellweaver
+  #   }
+
+  #   # improve relations
+  #   reverse_add_opinion = {
+  #     target = scope:target
+  #     modifier = grateful_opinion
+  #     opinion = 20
+  #   }
+  # }
+
+  # Yes I want to be a spellweaver
+  option = {
+    name = spellweaver.2005.a
+
+    add_trait = steelspector
+    if = {
+      limit = {
+        culture = {
+          NOT = {
+            culture = { has_cultural_parameter = unlock_maa_spellweaver }
+          }
+        }
+      }
+      add_piety = medium_piety_loss
+    }
+
+    # Run the normal success event for them
+    scope:owner = {
+      trigger_event = spellweaver.0001
+    }
+
+    stress_impact = {
+      craven = medium_stress_impact_gain
+    }
+  }
+
+  # Player refuses to be spellweaver
+  option = {
+    name = spellweaver.2005.b
+
+    add_piety = medium_piety_gain
+
+    scope:owner = {
+      trigger_event = spellweaver.2006
+    }
+
+    reverse_add_opinion = {
+      target = scope:owner
+      modifier = disappointed_opinion
+      opinion = -15
+
+    }
+
+    stress_impact = {
+      ambitious = minor_stress_impact_gain
+    }
+  }
+}
+
+# Refuse To be spellweaver
+spellweaver.0006 = {
+  type = character_event
+  title = spellweaver.0006.t
+  desc = spellweaver.0006.desc
+  theme = witchcraft
+  override_background = {
+    reference = sitting_room
+  }
+  left_portrait = {
+    character = scope:target
+    animation = anger
+  }
+
+  immediate = {
+    reverse_add_opinion = {
+      target = scope:target
+      modifier = impious_opinion
+      opinion = -20
+    }
+
+    scope:target = {
+      add_character_flag = {
+        flag = block_convert_to_steelspector
+        days = 7300
+      }
+    }
+  }
+
+  option = {
+    name = spellweaver.2006.a
+
+    scope:scheme = {
+      end_scheme = yes
+    }
   }
 }

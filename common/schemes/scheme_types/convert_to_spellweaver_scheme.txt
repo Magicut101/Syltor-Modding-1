@@ -323,6 +323,7 @@
           }
         }
 
+        # SYL we dont need this since we have no secrecy for this scheme
         #SECRECY: DO I WANT TO PROCEED EXPOSED?
         # Secret Exposed Run this event to potentially give up
         # if = {
@@ -340,15 +341,18 @@
             trigger_event = spellweaver.0001 #Success event
           }
           else = {
-            trigger_event = {
-              on_action = convert_to_witchcraft_failure_outcome
-            }
+            trigger_event = spellweaver.0004 # Failure event
+
+            # Base game witch failure event has a witch on action that is triggered here to randomly choose a bad outcome
+            # trigger_event = {
+            #   on_action = convert_to_witchcraft_failure_outcome
+            # }
           }
         }
         #FOR PLAYER CHARACTER, SEND CHOICE EVENT
         else = {
           scope:target = {
-            trigger_event = witch.2002
+            trigger_event = spellweaver.0003
           }
         }
       }
