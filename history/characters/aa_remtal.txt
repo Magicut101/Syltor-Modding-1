@@ -1,7 +1,7 @@
 ﻿600027 = {
 	name = "Donklas" 
 	dynasty = 30000018 # tise dynasty
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	trait = education_stewardship_2
 	trait = zealous
@@ -14,7 +14,7 @@
 600132 = {
 	name = "Brett"
 	dynasty = 30000009 # Liberium
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	1000.1.1 = {
 		birth = yes
@@ -27,7 +27,7 @@
 600028 = {
 	name = "Tavin"
 	dynasty_house = house_Chernik # Chernik
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	trait = education_stewardship_2
 	stewardship = 7
@@ -40,7 +40,7 @@
 600131 = {
 	name = "Brett"
 	dynasty_house = house_Chernik # Chernik
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	trait = education_stewardship_2
 	stewardship = 7
@@ -54,7 +54,7 @@
 600029 = {
 	name = "Geo"
 	dynasty = 30000004 # Tossovich
-	religion = "bluepheonix"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	trait = education_learning_4
 	trait = bastard
@@ -66,7 +66,7 @@
 	1047.1.31 = {
 		birth = yes
 	}
-	1065.1.1 = {
+	1063.1.1 = {
         add_matrilineal_spouse = 600127  # Shan's ID
     }
 	father = 600005
@@ -76,7 +76,7 @@
 600040 = {
 	name = "Josbar"
 	dynasty = 30000009 # Liberium
-	religion = "tossanism"
+	religion = "pheonixtossanist"
 	culture = "remtali"
 	trait = education_martial_1
 	trait = craven
@@ -111,4 +111,18 @@
 	mother = 600125
 	father = 600126
 	#dna = 
+}
+600310= {
+	name = "Elle"
+	dynasty_house = house_Shan
+	religion = "pheonixtossanist"
+	culture = "ryzani"
+	female = yes
+	trait = education_diplomacy_4
+	diplomacy = 11
+	1065.1.31 = {
+		birth = yes
+	}
+	mother = 600127
+	father = 600029
 }

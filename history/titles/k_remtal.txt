@@ -4,7 +4,7 @@ d_remtal = {
 	867.1.1 = {	change_development_level = 4 }
 
 	1054.1.1 = {
-	holder = 600027 # donklas
+		holder = 600027 # donklas
 	}
 }
 
@@ -36,28 +36,27 @@ c_Karlsfell = {
     liege = d_remtal
 	}
 }
-
 d_liberium = {
-	1054.1.1 = {
-	  holder = 600029 # geo
+	1064.1.1 = {
+	  holder = 600127 # shan
 	}
 }
 
 c_Liberium = {
-	1054.1.1 = {
-	  holder = 600029 # geo
+	1064.1.1 = {
+	  holder = 600127 # shan
 	}
 }
 
 c_Zoromir = {
-	1054.1.1 = {
-	  holder = 600029 # geo
+	1064.1.1 = {
+	  holder = 600127 # shan
 	}
 }
 
 c_Stoyanka = {
-	1054.1.1 = {
-	  holder = 600029 # geo
+	1064.1.1 = {
+	  holder = 600127 # shan
 	}
 }
 

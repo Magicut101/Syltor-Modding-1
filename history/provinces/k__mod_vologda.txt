@@ -82,7 +82,7 @@
 
 974 = {
   culture = carthyan
-  religion = bluepheonix
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }

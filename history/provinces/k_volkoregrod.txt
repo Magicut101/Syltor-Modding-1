@@ -1,6 +1,6 @@
 1060 = {
   culture = valkyries
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -28,7 +28,7 @@
 
 1066 = {
   culture = valkyries
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -52,7 +52,7 @@
 
 1071 = {
   culture = valkyries
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -69,7 +69,7 @@
 # Azurov
 1074 = {
   culture = valkyries
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }

@@ -185,7 +185,7 @@
 
 287 = {
   culture = deutzani
-  religion = tossanism
+  religion = pheonixtossanist
   holding = castle_holding
 }
 
@@ -195,7 +195,7 @@
 
 289 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   holding = castle_holding
 
 }
@@ -207,7 +207,7 @@
 #C Balreskan
 294 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   holding = castle_holding
 }
 
