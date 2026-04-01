@@ -1,0 +1,85 @@
+﻿##################################################
+
+### Ryzan Major Decision Events
+
+# 0001 - Spellweaver Event
+# 1001 -
+# 2001 -
+# 3001 -
+
+##################################################
+
+namespace = spellweaver
+
+spellweaver.0001 = {
+  type = character_event
+  title = spellweaver.0001.t
+  desc = spellweaver.0001.desc
+  theme = witchcraft
+  left_portrait = {
+    character = scope:target
+    animation = personality_rational
+  }
+  override_background = {
+    reference = sitting_room
+  }
+  immediate = {
+    play_music_cue = "mx_cue_positive_effect"
+    # the decision effects are in the scripted effects folder
+  }
+
+  #Take the nickname.
+  immediate = {
+    scope:target = {
+      add_trait = spellweaver
+    }
+
+    # improve relations
+    reverse_add_opinion = {
+      target = scope:target
+      modifier = grateful_opinion
+      opinion = 20
+    }
+  }
+
+  option = {
+    name = spellweaver.0001.a
+  }
+}
+
+# event to turn into steelspector
+spellweaver.0002 = {
+  type = character_event
+  title = spellweaver.0002.t
+  desc = spellweaver.0002.desc
+  theme = witchcraft
+  left_portrait = {
+    character = scope:target
+    animation = personality_rational
+  }
+  override_background = {
+    reference = sitting_room
+  }
+  immediate = {
+    play_music_cue = "mx_cue_positive_effect"
+    # the decision effects are in the scripted effects folder
+  }
+
+  #Take the nickname.
+  immediate = {
+    scope:target = {
+      add_trait = steelspector
+    }
+
+    # improve relations
+    reverse_add_opinion = {
+      target = scope:target
+      modifier = grateful_opinion
+      opinion = 20
+    }
+  }
+
+  option = {
+    name = spellweaver.0001.a
+  }
+}

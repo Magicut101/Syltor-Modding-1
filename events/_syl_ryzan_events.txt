@@ -34,3 +34,27 @@ ryzan.0001 = {
     add_prestige = minor_prestige_gain
   }
 }
+
+ryzan.0002 = {
+  type = character_event
+  title = ryzan.0002.t
+  desc = ryzan.0002.desc
+  theme = realm
+  left_portrait = {
+    character = scope:founder
+    animation = personality_honorable
+  }
+
+  immediate = {
+    play_music_cue = "mx_cue_positive_effect"
+    # the decision effects are in the scripted effects folder
+    #form_norenya_decision_scripted_effect = yes
+  }
+
+  #Take the nickname.
+  option = {
+    name = ryzan.0002.a
+    add_prestige = minor_prestige_gain
+    add_trait = spellweaver
+  }
+}
