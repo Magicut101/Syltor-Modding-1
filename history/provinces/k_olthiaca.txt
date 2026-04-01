@@ -17,7 +17,7 @@
   1054.1.1 = {
     holding = castle_holding
   }
-  religion = tossanism
+  religion = pheonixtossanist
   culture = remtali
 }
 
@@ -63,7 +63,7 @@
   1054.1.1 = {
     holding = castle_holding
   }
-  religion = bluepheonix
+  religion = pheonixtossanist
   culture = remtali
 }
 
@@ -272,7 +272,7 @@
   1054.1.1 = {
     holding = castle_holding
   }
-  religion = bluepheonix
+  religion = pheonixtossanist
   culture = remtali
 }
 
@@ -294,7 +294,7 @@
     holding = castle_holding
   }
   special_building = castle_liberium_01
-  religion = bluepheonix
+  religion = pheonixtossanist
   culture = remtali
 }
 
@@ -324,7 +324,7 @@
   1054.1.1 = {
     holding = castle_holding
   }
-  religion = bluepheonix
+  religion = pheonixtossanist
   culture = remtali
 }
 

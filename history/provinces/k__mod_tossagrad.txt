@@ -1,7 +1,7 @@
 #County capital
 925 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -29,7 +29,7 @@
 #County capital
 930 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -50,7 +50,7 @@
 #county Capital
 934 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -69,7 +69,7 @@
 #County Capital
 937 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -82,7 +82,7 @@
 #c_tossagrad
 939 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -115,7 +115,7 @@
 #County Capital
 945 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   holding = church_holding
 }
 
@@ -126,7 +126,7 @@
 #County Capital : tossoroki
 947 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   holding = none
 }
 
@@ -137,7 +137,7 @@
 #County Capital : Rova balreska
 949 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -158,7 +158,7 @@
 # c_Stezhkahora
 953 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -175,7 +175,7 @@
 # erebor
 1081 = {
   culture = dwarvish
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     special_building = erebor_hold_01
     holding = castle_holding
@@ -193,7 +193,7 @@
 # fort erebor
 1084 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -206,7 +206,7 @@
 # tsargorod
 1086 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }

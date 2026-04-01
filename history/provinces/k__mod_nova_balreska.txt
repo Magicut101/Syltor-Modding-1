@@ -1,7 +1,7 @@
 # c_Khirov
 956 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -14,7 +14,7 @@
 #c_Astor
 958 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -31,7 +31,7 @@
 #c_tonton
 977 = {
   culture = tontoni
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -61,7 +61,7 @@
 #c_eriikannka
 982 = {
   culture = tontoni
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -84,7 +84,7 @@
 #c_ignickza
 985 = {
   culture = tontoni
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -105,7 +105,7 @@
 #C_orenia
 991 = {
   culture = carthyan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -130,7 +130,7 @@
 #fake astor
 1003 = {
   culture = carthyan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -148,7 +148,7 @@
 
 1009 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -171,7 +171,7 @@
 #duristbog
 1010 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -184,7 +184,7 @@
 #orenia woods
 1012 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -197,7 +197,7 @@
 # zelenria
 1091 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -214,7 +214,7 @@
 # tsarograd
 1104 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -232,7 +232,7 @@
 # balreskspik
 1107 = {
   culture = balreskan
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }
@@ -249,7 +249,7 @@
 # Nepik
 1110 = {
   culture = ryzani
-  religion = tossanism
+  religion = pheonixtossanist
   1054.1.1 = {
     holding = castle_holding
   }

@@ -13,7 +13,7 @@
 	name = "Howertt"
 	dynasty = 30000020 # Medici
 	religion = "dandelism"
-	culture = "dorastterocker"
+	culture = "valkyries"
 	trait = education_martial_4
 	1045.1.1 = {
 		birth = yes
@@ -24,7 +24,7 @@
 	name = "Crinky"
 	dynasty = 30000020 # Medici
 	religion = "consumer_dandelism"
-	culture = "dorastterocker"
+	culture = "valkyries"
 	trait = education_stewardship_4
 	trait = kind
 	trait = greedy
