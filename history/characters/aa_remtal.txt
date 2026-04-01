@@ -69,9 +69,6 @@
 	1063.1.1 = {
         add_matrilineal_spouse = 600127  # Shan's ID
     }
-	1065.1.1 = {
-		death = yes
-	}
 	father = 600005
 	#dna = 
 }
