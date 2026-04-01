@@ -1,6 +1,6 @@
 1885 = {
   culture = savernian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -24,7 +24,7 @@
 
 1890 = {
   culture = savernian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -40,7 +40,7 @@
 
 1893 = {
   culture = savernian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -56,7 +56,7 @@
 
 1896 = {
   culture = savernian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -76,7 +76,7 @@
 
 1900 = {
   culture = savernian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -88,7 +88,7 @@
 
 1902 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -112,7 +112,7 @@
 
 1907 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -124,7 +124,7 @@
 
 1909 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -140,7 +140,7 @@
 
 1912 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -156,7 +156,7 @@
 
 1915 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -176,7 +176,7 @@
 
 1919 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -188,7 +188,7 @@
 
 1921 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -200,7 +200,7 @@
 
 1923 = {
   culture = talawan
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -212,7 +212,7 @@
 
 1925 = {
   culture = nullarian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -224,7 +224,7 @@
 
 1927 = {
   culture = nullarian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -236,7 +236,7 @@
 
 1929 = {
   culture = nullarian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -264,7 +264,7 @@
 
 1935 = {
   culture = nullarian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -284,7 +284,7 @@
 
 1939 = {
   culture = nullarian
-  religion = almadorian
+  religion = old_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -300,7 +300,7 @@
 
 1942 = {
   culture = nullarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -324,7 +324,7 @@
 
 1947 = {
   culture = nullarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -336,7 +336,7 @@
 
 1949 = {
   culture = nullarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -352,7 +352,7 @@
 
 1952 = {
   culture = nullarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -364,7 +364,7 @@
 
 1954 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -380,7 +380,7 @@
 
 1957 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -392,7 +392,7 @@
 
 1959 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -408,7 +408,7 @@
 
 1962 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -432,7 +432,7 @@
 
 1967 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -444,7 +444,7 @@
 
 1969 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -460,7 +460,7 @@
 
 1972 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -476,7 +476,7 @@
 
 1975 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -492,7 +492,7 @@
 
 1978 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -508,7 +508,7 @@
 
 1981 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -524,7 +524,7 @@
 
 1984 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -536,7 +536,7 @@
 
 1986 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -556,7 +556,7 @@
 
 1990 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -580,7 +580,7 @@
 
 1995 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -596,7 +596,7 @@
 
 1998 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
@@ -612,7 +612,7 @@
 
 2001 = {
   culture = sanctuarian
-  religion = almadorian
+  religion = new_boulder
   1054.1.1 = {
     holding = castle_holding
   }
