@@ -63,4 +63,19 @@ building_nebskogrod_03:0 "Unfinished City Of Nebskogrod"
 building_nebskogrod_03_desc:0 "While better then it has been it still is quite lacking for the sheer amount of money poured into the city."
 building_nebskogrod_04:0 "Castle Koral"
 building_nebskogrod_04_desc:0 "The finished capital of the anicent Koral family the world finally looks upon this now finished mediocre city."
+
+building_type_volkoregrod_temple_01:0 "Volkoregrod Twin Dragon Temple"
+building_type_volkoregrod_temple_01_desc:0 "The volkoregrod temple was originally built when the valkyries converted to the eastern faith as a sign of good faith bewteen the groups."
+
+building_volkoregrod_temple_01:0 "Ruined Volkoregrod Twin Dragon Temple"
+building_volkoregrod_temple_01_desc:0 "Burned in a act of defiance against the eastern church has earned the citizens of volkoregrod the scorn of the eastern faith."
+building_volkoregrod_temple_02:0 "Rebuild Volkoregrod Twin Dragon Temple"
+building_volkoregrod_temple_02_desc:0 "The once defiled temple has been rebuilt."
+
+building_type_castle_liberium_01:0 "Castle Liberium"
+building_type_castle_liberium_01_desc:0 "Originally a stronghold of the liberium family in the duchy of highguard it's high walls and mountains make it formittiable formidable."
+
+building_castle_liberium_01:0 "Castle Liberium"
+building_castle_liberium_01_desc:0 "Nestled within a tall mountain of the Golden Hills this stronghold is a beacon of remtali power in the north."
+
 # Modded Buildings

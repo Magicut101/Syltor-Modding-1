@@ -1,26 +1,37 @@
 ﻿###Modded custom buildings###
 
-volkoregrod_temple = {
+# Burned Volkoregrod Temple
+castle_liberium_01 = {
 
   construction_time = very_slow_construction_time
 
-  type_icon = "icon_structure_palace_of_achen.dds"
+  type_icon = "icon_structure_alamut_castle.dds"
 
   can_construct_potential = {
     building_requirement_tribal = no
-    barony = title:c_Nebskograd
+    barony = title:b_Liberium1
   }
 
   cost_gold = 500
 
   character_modifier = {
-    monthly_prestige_gain_mult = -0.25
+    monthly_dynasty_prestige_mult = 0.1
   }
 
+  duchy_capital_county_modifier = {
+    levy_size = 0.05
+    hostile_raid_time = 0.5
+  }
   province_modifier = {
-    tax_mult = -0.10
-    monthly_income = -0.50
-    travel_danger = 10
+    monthly_income = 0.50
+    fort_level = 2
+    garrison_size = 1
+    travel_danger = -10
+    defender_holding_advantage = 5
+  }
+  county_modifier = {
+    levy_size = 0.10
+    tax_mult = 0.10
   }
 
   ai_value = {
@@ -33,11 +44,178 @@ volkoregrod_temple = {
 
   type = special
 
-  flag = travel_point_of_interest_stewardship
-  next_building = nebskogrod_02
-
+  flag = travel_point_of_interest_marshal
+  #next_building = xaburya_hold_02
 }
 
+
+
+volkoregrod_temple_01 = {
+  #   effect_desc = {
+  #     triggered_desc = {
+  #       trigger = { has_dlc_feature = legends_of_the_dead }
+  #       desc = building_funeral_effect_desc
+  #     }
+  #   }
+
+  asset = {
+    type = pdxmesh
+    name = "tgp_building_special_chinese_temple_03_mesh"
+  }
+
+  construction_time = very_slow_construction_time
+
+  type_icon = "icon_structure_fogong_temple_pagoda.dds"
+
+  can_construct_potential = {
+    building_requirement_tribal = no
+  }
+
+  can_construct = {
+    custom_description = {
+      text = holy_site_building_trigger
+      barony = {
+        NOT = {
+          is_holy_site_of = scope:holder.faith
+        }
+      }
+    }
+    scope:holder = {
+      culture = {
+        has_innovation = innovation_crop_rotation
+      }
+    }
+  }
+
+  is_enabled = {
+    custom_description = {
+      text = holy_site_building_trigger
+      barony = {
+        NOT = {
+          is_holy_site_of = scope:holder.faith
+        }
+      }
+    }
+  }
+
+  cost_gold = 1000
+
+  character_modifier = {
+    monthly_prestige_gain_mult = 0.25
+    monthly_dynasty_prestige_mult = 0.10
+    # Edit this to lunatwa relation
+    lunatwa_religion_opinion = -15
+    monthly_county_control_growth_factor = 0.05
+  }
+
+  county_modifier = {
+  }
+
+  province_modifier = {
+    stationed_maa_damage_mult = normal_maa_damage_tier_2
+    stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+  }
+
+  on_complete = {
+  }
+
+  ai_value = {
+    base = 100
+    ai_pious_building_preference_modifier = yes
+    modifier = { # Fill all building slots before going for special buildings
+      factor = 0
+      free_building_slots > 0
+    }
+  }
+
+  type = special
+  flag = travel_point_of_interest_religious
+
+  # flag = holy_building
+  next_building = volkoregrod_temple_02
+}
+
+volkoregrod_temple_02 = {
+  effect_desc = {
+    triggered_desc = {
+      trigger = { has_dlc_feature = legends_of_the_dead }
+      desc = building_funeral_effect_desc
+    }
+  }
+
+  asset = {
+    type = pdxmesh
+    name = "tgp_building_special_chinese_temple_03_mesh"
+  }
+
+  construction_time = very_slow_construction_time
+
+  type_icon = "icon_structure_fogong_temple_pagoda.dds"
+
+  can_construct_potential = {
+    building_requirement_tribal = no
+  }
+
+  can_construct = {
+    custom_description = {
+      text = holy_site_building_trigger
+      barony = {
+        is_holy_site_of = scope:holder.faith
+      }
+    }
+    scope:holder = {
+      culture = {
+        has_innovation = innovation_crop_rotation
+      }
+    }
+  }
+
+  is_enabled = {
+    custom_description = {
+      text = holy_site_building_trigger
+      barony = {
+        is_holy_site_of = scope:holder.faith
+      }
+    }
+  }
+
+  cost_gold = 1000
+
+  character_modifier = {
+    monthly_piety = 0.25
+    monthly_dynasty_prestige_mult = 0.05
+    different_faith_opinion = 5
+    different_faith_county_opinion_mult = -0.15
+    monthly_county_control_growth_factor = 0.05
+  }
+
+  county_modifier = {
+    tax_mult = 0.2
+    development_growth_factor = 0.2
+    development_growth = 0.15
+  }
+
+  province_modifier = {
+    monthly_income = 2
+  }
+
+  on_complete = {
+  }
+
+  ai_value = {
+    base = 100
+    ai_pious_building_preference_modifier = yes
+    modifier = { # Fill all building slots before going for special buildings
+      factor = 0
+      free_building_slots > 0
+    }
+  }
+
+  type = special
+
+  flag = travel_point_of_interest_religious
+  # flag = holy_building
+}
 
 nebskogrod_01 = {
 
@@ -390,6 +568,7 @@ xaburya_hold_01 = {
   cost_gold = 150
 
   character_modifier = {
+    monthly_piety = 0.25
     monthly_dynasty_prestige_mult = 0.05
   }
 
@@ -437,6 +616,7 @@ xaburya_hold_02 = {
   cost_gold = 300
 
   character_modifier = {
+    monthly_piety = 0.5
     monthly_dynasty_prestige_mult = 0.10
   }
 
@@ -486,6 +666,7 @@ xaburya_hold_03 = {
   cost_gold = 750
 
   character_modifier = {
+    monthly_piety = 0.75
     monthly_dynasty_prestige_mult = 0.15
   }
 

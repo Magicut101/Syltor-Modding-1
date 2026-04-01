@@ -113,12 +113,12 @@
   1044.1.1 = {
     birth = yes
   }
-
-  1054.1.1 = {
-    effect = {
-      set_primary_title_to = title:d_xaburya
-    }
-  }
+  # This works but not in this very specific case
+  # 1054.1.1 = {
+  #   effect = {
+  #     set_primary_title_to = title:d_xaburya
+  #   }
+  # }
   father = 600024
   #dna =
 }
