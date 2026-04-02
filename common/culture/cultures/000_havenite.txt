@@ -5,15 +5,15 @@
 		92
 	}
 	
-	ethos = ethos_egalitarian
-	heritage = heritage_havenite
-	language = language_havenite
-	martial_custom = martial_custom_equal
-	head_determination = head_determination_domain
+ ethos = ethos_egalitarian
+ heritage = heritage_havenite
+ language = language_havenite
+ martial_custom = martial_custom_equal
+ head_determination = head_determination_domain
 	traditions = {
-		tradition_the_witenagemot
+		tradition_hereditary_hierarchy
 		tradition_city_keepers
-		tradition_hird
+		tradition_agrarian
 	}
 	
 	name_list = name_list_anglo_saxon
@@ -37,15 +37,15 @@ sanctuarian = {
 		46
 	}
 	
-	ethos = ethos_egalitarian
-	heritage = heritage_havenite
-	language = language_havenite
-	martial_custom = martial_custom_equal
-	head_determination = head_determination_domain
+ ethos = ethos_egalitarian
+ heritage = heritage_havenite
+ language = language_havenite
+ martial_custom = martial_custom_equal
+ head_determination = head_determination_domain
 	traditions = {
-		tradition_the_witenagemot
+		tradition_hereditary_hierarchy
 		tradition_city_keepers
-		tradition_hird
+		tradition_maritime_mercantilism
 	}
 	
 	name_list = name_list_anglo_saxon
@@ -75,9 +75,9 @@ talawan = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_the_witenagemot
+		tradition_hereditary_hierarchy
 		tradition_city_keepers
-		tradition_hird
+		tradition_metal_craftsmanship
 	}
 	
 	name_list = name_list_anglo_saxon
@@ -107,9 +107,9 @@ nullarian = {
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_the_witenagemot
+		tradition_metal_craftsmanship
 		tradition_city_keepers
-		tradition_hird
+		tradition_sorcerous_metallurgy
 	}
 	
 	name_list = name_list_anglo_saxon
@@ -133,15 +133,15 @@ auroran = {
 		32
 	}
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_bellicose
 	heritage = heritage_havenite
 	language = language_havenite
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_hird
+		tradition_stand_and_fight
+		tradition_warriors_by_merit
+		tradition_hereditary_hierarchy
 	}
 	
 	name_list = name_list_anglo_saxon
