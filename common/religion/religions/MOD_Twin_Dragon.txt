@@ -4,7 +4,6 @@
 	#graphical_faith = dharmic_gfx
 
 	#Main Group
-	doctrine = special_doctrine_is_eastern_faith
 	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_gender_female_dominated
 	doctrine = doctrine_pluralism_fundamentalist
@@ -31,7 +30,6 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	#Special Doctrine for Eastern Syncretism
-	doctrine = special_doctrine_is_eastern_faith
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -237,8 +235,12 @@
 			doctrine = tenet_astrology
 			doctrine = tenet_reincarnation
 			doctrine = tenet_inner_journey
+			octrine = reformed_faith_doctrine
 
-			doctrine = special_doctrine_is_lunatwan_faith
+			traits = {
+				virtues = { calm content just }
+				sins = { deceitful craven arbitrary }
+			}
 
 		}
 
@@ -252,7 +254,6 @@
 			holy_site = volkoregrod
 			holy_site = vamorak
 
-			doctrine = special_doctrine_is_easternlunatwan_faith
 
 			#Main Group
 			doctrine = doctrine_spiritual_head
@@ -275,6 +276,12 @@
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_adaptive
 			doctrine = tenet_inner_journey
+
+			doctrine = reformed_faith_doctrine
+			traits = {
+				virtues = { just honest temperate }
+				sins = { deceitful greedy sadistic }
+			}
 		}
 
 		almadorian = {
@@ -282,9 +289,6 @@
 			icon = celestial
 			reformed_icon = celestial
 
-			doctrine = reformed_faith_doctrine
-
-			doctrine = special_doctrine_is_easternlunatwan_faith
 			doctrine = tenet_monasticism
 			doctrine = tenet_sun_worship
 			doctrine = tenet_ritual_celebrations
@@ -300,10 +304,10 @@
 			doctrine = doctrine_clerical_gender_female_only
 			doctrine = doctrine_clerical_marriage_disallowed
 
-
-
-
-			
+			traits = {
+				virtues = { content compassionate diligent }
+				sins = { sadistic arbitrary wrathful }
+			}
 		}
 	}
 }
