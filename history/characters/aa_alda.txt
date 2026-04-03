@@ -43,7 +43,7 @@
 }
 600203 = {
 	name = "Mokatios "
-	religion = "Soleannen"
+	religion = "soleannen"
 	culture = "nullarian" #Should be Escharian
 	dynasty = 30000206
 	trait = education_martial_3

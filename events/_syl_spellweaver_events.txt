@@ -115,7 +115,7 @@ spellweaver.0003 = {
 
   # Yes I want to be a spellweaver
   option = {
-    name = spellweaver.2003.a
+    name = spellweaver.0003.a
 
     add_trait = spellweaver
     if = {
@@ -141,12 +141,12 @@ spellweaver.0003 = {
 
   # Player refuses to be spellweaver
   option = {
-    name = spellweaver.2003.b
+    name = spellweaver.0003.b
 
     add_piety = medium_piety_gain
 
     scope:owner = {
-      trigger_event = spellweaver.2004
+      trigger_event = spellweaver.0004
     }
 
     reverse_add_opinion = {
@@ -192,7 +192,7 @@ spellweaver.0004 = {
   }
 
   option = {
-    name = spellweaver.2004.a
+    name = spellweaver.0004.a
 
     scope:scheme = {
       end_scheme = yes
@@ -233,7 +233,7 @@ spellweaver.0005 = {
 
   # Yes I want to be a spellweaver
   option = {
-    name = spellweaver.2005.a
+    name = spellweaver.0005.a
 
     add_trait = steelspector
     if = {
@@ -259,12 +259,12 @@ spellweaver.0005 = {
 
   # Player refuses to be spellweaver
   option = {
-    name = spellweaver.2005.b
+    name = spellweaver.0005.b
 
     add_piety = medium_piety_gain
 
     scope:owner = {
-      trigger_event = spellweaver.2006
+      trigger_event = spellweaver.0006
     }
 
     reverse_add_opinion = {
@@ -310,7 +310,7 @@ spellweaver.0006 = {
   }
 
   option = {
-    name = spellweaver.2006.a
+    name = spellweaver.0006.a
 
     scope:scheme = {
       end_scheme = yes
