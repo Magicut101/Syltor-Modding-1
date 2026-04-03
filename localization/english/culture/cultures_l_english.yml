@@ -129,6 +129,30 @@
  miandi_prefix:0 "Miandi"
  miandi_collective_noun:1 "Miandi"
 
+ #Agnarian
+ agnarian:0 "Agnarian"
+ agnarian_prefix:0 "Agnarian"
+ agnarian_collective_noun:1 "Agnarians"
+
+ #havenite
+ savernian:0 "Savernian"
+ savernian_prefix:0 "Savernian"
+ savernian_collective_noun:1 "Savernians"
+ sanctuarian:0 "Sanctuarian"
+ sanctuarian_prefix:0 "Sanctuarian"
+ sanctuarian_collective_noun:1 "Sanctuarians"
+ talawan:0 "Talawan"
+ talawan_prefix:0 "Talawan"
+ talawan_collective_noun:1 "Talawans"
+ nullarian:0 "Nullarian"
+ nullarian_prefix:0 "Nullarian"
+ nullarian_collective_noun:1 "Nullarians"
+ auroran:0 "Auroran"
+ auroran_prefix:0 "Auroran"
+ auroran_collective_noun:1 "Aurorans"
+
+
+
 ### basegame stuff ###
 
  #REMOVE CULTURES THAT ARE EXCLUSIVE TO 769

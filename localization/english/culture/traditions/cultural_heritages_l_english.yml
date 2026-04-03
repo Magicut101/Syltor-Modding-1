@@ -38,6 +38,12 @@ heritage_synderian_collective_noun:0:0 "Synderians"
 heritage_alvadan_name:0 "Alvadan"
 heritage_alvadan_collective_noun:0:0 "Alvadans"
 
+heritage_agnarian_name:0 "Agnarian"
+heritage_agnarian_collective_noun:0 "Agnarian"
+
+heritage_havenite_name:0 "Havenite"
+heritage_havenite_collective_noun:0 "Havenite"
+
 ### Base game ###
 
   #heritage_arabic_name:0 "Arabic"

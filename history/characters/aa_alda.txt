@@ -1,7 +1,7 @@
 600200 = {
 	name = "Helena"
 	dynasty = 30000100 	# Amakiir
-	religion = "twin_dragon" #Subject to change
+	religion = "new_boulder" #Subject to change
 	culture = "savernian" #Need to add Aldan Culture
 	trait = education_stewardship_4
 	stewardship = 25

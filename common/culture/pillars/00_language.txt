@@ -8,12 +8,48 @@
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_crowspeak}
+			limit = { has_cultural_pillar = language_crowspeak }
 			multiply = 10
 		}
 	}
 	
-	color = russian
+	color = hungarian
+}
+
+language_havenite = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_havenite
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_havenite }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_agnarian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_agnarian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_agnarian }
+			multiply = 10
+		}
+	}
+	
+	color = english
 }
 
 language_syrosi = {

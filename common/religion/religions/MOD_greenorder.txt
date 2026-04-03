@@ -1,7 +1,6 @@
-﻿tototl_faithful_religion = {
+﻿greenorder_faithful_religion = {
 	family = rf_pagan
 	doctrine = pagan_hostility_doctrine
-	doctrine = reformed_faith_doctrine
 
 	#Main Group
 	doctrine = doctrine_spiritual_head
@@ -10,31 +9,28 @@
 	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
-	doctrine = doctrine_concubines
+	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_consanguinity_restricted
 
 	#Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_accepted
-	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_kinslaying_accepted
-	doctrine = doctrine_deviancy_accepted
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_crime
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_function_alms_and_pacification
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
-
-	#Allow pilgrimages
-	doctrine = doctrine_pilgrimage_encouraged
+	doctrine = doctrine_clerical_succession_spiritual_appointment
 
 	traits = {
-		virtues = { wrathful vengeful zealous ambitious }
-		sins = { deceitful craven forgiving arbitrary }
+		virtues = { architect deceitful ambitious }
+		sins = { craven arbitrary wrathful }
 	}
 
 	#reserved_male_names = {	}
@@ -217,25 +213,18 @@
 	piety_icon_group = "christian"
 
 	faiths = {
-		tototl = {
-			color = { 166 16 30 }
+		greenorder = {
+			color = { 175 225 175 }
 			graphical_faith = "catholic_gfx"
-			icon = tototl2
-			
-			holy_site = kaluko
-			holy_site = soluna
-			holy_site = quetzal
-			holy_site = hloamar
-			holy_site = teotl
-
+			icon = oldboulder
 			
 			#Special Tolerance
 			#doctrine = special_doctrine_ecumenical_christian
 
 			#Tenets
-			doctrine = tenet_human_sacrifice
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_warmonger
+			doctrine = tenet_pacifism
+			doctrine = tenet_legalism
+			doctrine = tenet_no_mind
 
 			holy_order_names = {
 				{ name = "holy_order_caelus_warriors" coat_of_arms = "ho_knights_templar" }
