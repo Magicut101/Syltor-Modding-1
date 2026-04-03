@@ -69,6 +69,9 @@
 	1063.1.1 = {
         add_matrilineal_spouse = 600127  # Shan's ID
     }
+	1064.1.1 = {
+        death = yes
+    }
 	father = 600005
 	#dna = 
 }
@@ -105,8 +108,11 @@
 	1050.1.31 = {
 		birth = yes
 	}
-	1065.1.1 = {
+	1063.1.1 = {
 		add_matrilineal_spouse = 600029  # Geo's ID
+	}
+	1065.1.1 = {
+		add_matrilineal_spouse = 600155  # Olly's ID
 	}
 	mother = 600125
 	father = 600126
@@ -124,5 +130,5 @@
 		birth = yes
 	}
 	mother = 600127
-	father = 600029
+	father = 600155
 }

@@ -24,3 +24,18 @@
 	}
 	#dna = 
 }
+
+# Olly Ashwood
+600155 = {
+	name = "Olly"
+	dynasty = 30000110 # Ashwood
+	religion = "pheonixtossanist"
+	culture = "savernian"
+	diplomacy = 10
+	1045.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		add_matrilineal_spouse = 600127  # Shan's ID
+	}
+}
