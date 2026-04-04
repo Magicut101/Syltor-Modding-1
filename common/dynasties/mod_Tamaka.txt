@@ -1,9 +1,15 @@
 ﻿20000001 = {
-	name = "Di Nekomar"
+	name = "dynn_Dinekomar"
 	culture = "nekojin"
 }
 
 20000006 = {
-	name = "Taku"
+	name = "dynn_Taku"
 	culture = "crowfolk"
+}
+
+# random dynasty
+20000901 = {
+	name = "dynn_Loren"
+	culture = "nekojin"
 }

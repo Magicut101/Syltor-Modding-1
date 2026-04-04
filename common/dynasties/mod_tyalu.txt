@@ -1,9 +1,10 @@
 30000100 = {
-	name = "Amakiir"
-	culture = "ashuran"
+	name = "dynn_Amakiir"
+	culture = "ashuran" #Should be Aldan
 }
 
 30000101 = {
-    name = "Ohros"
+    name = "dynn_Ohros"
     culture = "kadut"
+    
 }

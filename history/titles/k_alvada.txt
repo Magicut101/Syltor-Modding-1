@@ -7,3 +7,12 @@ c_Umbravien = {
 	867.1.1 = {	change_development_level = 15 }
 	1054.1.1 = { holder = 600018} # Shadowrunner
 	}
+d_lunwirmar = {
+	867.1.1 = {	change_development_level = 12 }
+	1054.1.1 = { holder = 600018} # Shadowrunner
+}
+
+d_valdamar = {
+	867.1.1 = {	change_development_level = 7 }
+	1054.1.1 = { holder = 600061} # Yeetus Christ
+}

@@ -1,0 +1,10 @@
+﻿is_spellweaver_trigger = {
+  custom_description = {
+    text = is_a_spellweaver
+    subject = this
+    OR = {
+      has_trait = spellweaver
+      # any_secret = { type = secret_witch }
+    }
+  }
+}

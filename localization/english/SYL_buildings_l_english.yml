@@ -1,0 +1,81 @@
+﻿l_english:
+
+# Modded Buildings
+
+building_walls_of_dun_01:0 "Walls of Dun"
+building_type_walls_of_dun_01:0 "Dunish Walls"
+building_type_walls_of_dun_01_desc:0 "Grand walls ensure safety and security within the city of dun"
+building_walls_of_dun_01_desc:0 "The great starfort of the city of Dun is a defensive wonder of the west protecting its populace for generations from eastern raids bringing stability and wealth to the region during times of strife."
+
+building_Anicent_Syrosi_walls_01:0 "Anicent Syrosi Walls"
+building_type_Anicent_Syrosi_walls_01:0 "Anicent Syrosi Walls"
+building_type_Anicent_Syrosi_walls_01_desc:0 "These anicent walls have and will defend the syrosi people for as long as they stand"
+building_Anicent_Syrosi_walls_01_desc:0 "Though any record of when these anicent walls were build has been lost in the chaos and strife rampaging through Deutzan the walled city of syros is the final bastion of the Syrosi people against the ever expanding groups surronding them."
+
+building_type_vologdan_walls_01:0 "Vologdan Walls"
+building_type_vologdan_walls_01_desc:0 "The great Vologdan Walls ensure the Vologdan Knights control over this region"
+building_vologdan_walls_01:0 "Vologdan Walls"
+building_vologdan_walls_01_desc:0 "The walls of the Vologdan Knights have stood since they built them apon their arrive of this land granting their people the security needed to defend them from the chaos of the outside world and provide a home for the One's Faithful."
+
+building_remtal_port_01:0 "Old Port Remtal"
+building_remtal_port_01_desc:0 "The old port of remtal has served as a center of olithic trade for centries though time hasn't been kind to it"
+building_remtal_port_02:0 "Revitalized Port of Remtal"
+building_remtal_port_02_desc:0 "The traders of remtal have become a bustling center of a olthiac trade networks with trade once more flow through its streets"
+building_remtal_port_03:0 "Golden Harbor of Remtal"
+building_remtal_port_03_desc:0 "The harbor of remtal serves as a trade powerhouse of the north with trade flowing through this bustling city"
+building_type_remtal_port_01:0 "Port of Remtal"
+building_type_remtal_port_01_desc:0 "Remtal city was a central harbor city of the olithic kingdoms"
+
+building_type_xaburya_hold_01:0 "Underground City of Xaburya"
+building_type_xaburya_hold_01_desc:0 "The hold of xaburya used to in old be a dwarven hold though was abandoned long ago and recolonized by the Burrow family and the followers of their cult."
+
+building_xaburya_hold_01:0 "The Underground City"
+building_xaburya_hold_01_desc:0 "The newly dubbed city of xaburya has been a slowly growing safe haven in the mountains have been a bulwark of the Burrows family power"
+building_xaburya_hold_02:0 "Hold of Xaburya"
+building_xaburya_hold_02_desc:0 "The underground hold of xaburya, growing metropolis safely tucked away beneath the earth"
+building_xaburya_hold_03:0 "Steel Hold of Xaburya"
+building_xaburya_hold_03_desc:0 "Xaburya the jewel of the Burrow family, fully restored underground hold. the grandeur of this metropolis is truly a sight to behold"
+
+building_type_erebor_hold_01:0 "The Dwarven city of Khuzdurin"
+building_type_erebor_hold_01_desc:0 "Last remaining of the original dwarven cities in Syltor the city though lesser in importance still holds a defendable position."
+
+building_erebor_hold_01:0 "The Anicent of Khuzdurin"
+building_erebor_hold_01_desc:0 "The old city of Khuzdurin has stood for nearly a thousand years though time hasnt been kind on it."
+building_erebor_hold_02:0 "The Hold of Khuzdurin"
+building_erebor_hold_02_desc:0 "The underground hold of Khuzdurin with more investment the city has begun referbishing the old stone alls that have long since needed repair."
+building_erebor_hold_03:0 "Restored Hold of Khuzdurin"
+building_erebor_hold_03_desc:0 "The great dwarven hold of Khuzdurin restored back to its former glory with gold and metals once more being exchanged from the hills"
+
+building_type_deutzan_walls_01:0 "Gate of Haegiel"
+building_type_deutzan_walls_01_desc:0 "The gates of Haegiel are a giant wall blocking the pass into the economic center of deutzan."
+
+building_deutzan_walls_01:0 "Gate of Haegiel"
+building_deutzan_walls_01_desc:0 "a grand wall defending the main pass into the city of heagiel."
+
+building_type_nebskogrod_01:0 "City of Nebskogrod"
+building_type_nebskogrod_01_desc:0 "Anicent capital of the nebskoslav Koral dynasty that ruled nebskoslavia for uears."
+
+building_nebskogrod_01:0 "Broken City Of Nebskogrod"
+building_nebskogrod_01_desc:0 "The city of Nebskogrod filled with failed constuction projects, unfinished buildings and run down castles scattered around."
+building_nebskogrod_02:0 "Endless Project Nebskogrod"
+building_nebskogrod_02_desc:0 "The city of Nebskogrod still undergoing an endless constuction as old projects are torn down to make way for the new."
+building_nebskogrod_03:0 "Unfinished City Of Nebskogrod"
+building_nebskogrod_03_desc:0 "While better then it has been it still is quite lacking for the sheer amount of money poured into the city."
+building_nebskogrod_04:0 "Castle Koral"
+building_nebskogrod_04_desc:0 "The finished capital of the anicent Koral family the world finally looks upon this now finished mediocre city."
+
+building_type_volkoregrod_temple_01:0 "Volkoregrod Twin Dragon Temple"
+building_type_volkoregrod_temple_01_desc:0 "The volkoregrod temple was originally built when the valkyries converted to the eastern faith as a sign of good faith bewteen the groups."
+
+building_volkoregrod_temple_01:0 "Ruined Volkoregrod Twin Dragon Temple"
+building_volkoregrod_temple_01_desc:0 "Burned in a act of defiance against the eastern church has earned the citizens of volkoregrod the scorn of the eastern faith."
+building_volkoregrod_temple_02:0 "Rebuild Volkoregrod Twin Dragon Temple"
+building_volkoregrod_temple_02_desc:0 "The once defiled temple has been rebuilt."
+
+building_type_castle_liberium_01:0 "Castle Liberium"
+building_type_castle_liberium_01_desc:0 "Originally a stronghold of the liberium family in the duchy of highguard it's high walls and mountains make it formittiable formidable."
+
+building_castle_liberium_01:0 "Castle Liberium"
+building_castle_liberium_01_desc:0 "Nestled within a tall mountain of the Golden Hills this stronghold is a beacon of remtali power in the north."
+
+# Modded Buildings

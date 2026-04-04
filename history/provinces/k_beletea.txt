@@ -1,157 +1,165 @@
 #k_beletea
 87 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 88 = {
-	holding = city
+  holding = city_holding
 }
 
 89 = {
-	holding = none
+  holding = none
 }
 
 90 = {
-	culture = qanti
-	religion = ashuran_pantheon	
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 91 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 92 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 93 = {
-	holding = none
+  holding = none
 }
 
 94 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding	
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 95 = {
-	holding = none
+  holding = none
 }
 
 96 = {
-	holding = none
+  holding = none
 }
 
 97 = {
-	holding = none
+  holding = none
 }
 
 98 = {
-	holding = none
+  holding = none
 }
 
 99 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 100 = {
-	holding = none
+  holding = none
 }
 
 101 = {
-	holding = none
+  holding = none
 }
 
 102 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 103 = {
-	holding = none
+
 }
 
+
 104 = {
-	holding = none
+
 }
 
 105 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = castle_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 106 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = city_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 107 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = temple_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = temple_holding
 }
 
 108 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = city_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
+
 109 = {
-	holding = none
+  holding = none
 }
 
 110 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 111 = {
-	holding = none
+  holding = none
 }
 
 112 = {
-	holding = none
+  holding = none
 }
 
 113 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 114 = {
-	holding = none
+  holding = none
 }
 
 115 = {
-	holding = none
+  holding = none
 }
 
 116 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 117 = {
-	culture = qanti
-	religion = ashuran_pantheon
-	holding = tribal_holding
+  culture = qanti
+  religion = ashuran_pantheon
+  holding = castle_holding
 }
 
 118 = {
-	holding = none
+  holding = none
 }

@@ -1,8 +1,8 @@
 ﻿l_english:
 
  #Common caelus_faithful Localization
- caelus_faithful_religion:0 "Tossanism"
- caelus_faithful_religion_adj:0 "Tossanism"
+ caelus_faithful_religion:0 "Caelian"
+ caelus_faithful_religion_adj:0 "Caelian"
  caelus_faithful_religion_adherent:0 "coolbird"
  caelus_faithful_religion_adherent_plural:0 "Faithful"
  caelus_faithful_religion_desc:0 "Focused on pure devotion to the one true god this militaristic religion guards their home."
@@ -77,11 +77,23 @@
  caelus_faithful_water_god_name:0 "$caelus_faithful_health_god_name$"
  caelus_faithful_water_god_name_possessive:0 "$caelus_faithful_health_god_name_possessive$"
 
-tossanism:0 "Tossanism"
-tossanism_adj:0 "Tossanism"
-tossanism_adherent:0 "Tossanist"
-tossanism_adherent_plural:0 "Tossanists"
-tossanism_desc:0 "Tossanism is a loose faith based around the worship of Caelus and various other gods brought in by the Tossovich family after the Brothian migration into the region."
+ tossanism:0 "Bookkeeper's Caelian"
+ tossanism_adj:0 "Bookkeeper"
+ tossanism_adherent:0 "Bookkeeper"
+ tossanism_adherent_plural:0 "Bookkeepers"
+ tossanism_desc:0 "Bookkeeper's Caelian is a loose faith based around the worship of Caelus and various other gods brought in by the Tossovich family after the Brothian migration into the region. This faith is the closest to the original orthodox Tossanist faith."
+
+ bluepheonix:0 "Blue Phoenix"
+ bluepheonix_adj:0 "Blue Phoenixian"
+ bluepheonix_adherent:0 "Phoenixian"
+ bluepheonix_adherent_plural:0 "Phoenixians"
+ bluepheonix_desc:0 "An amalgamation of Lunatwa, Bookkeeper's Tossanism, and Soleannen, followers of this faith believe in the concept of keep balance and maintaining peace. Similar to Tossanism they believe in Elemental Spirits, but follow the concept of the Three Pheonix's, with the Blue Pheonix standing for balance, the Red Pheonix for death, and the Yellow Pheonix representing peace."
+
+ pheonixtossanist:0 "Phoenixian"
+ pheonixtossanist_adj:0 "Phoenixian"
+ pheonixtossanist_adherent:0 "Phoenixian"
+ pheonixtossanist_adherent_plural:0 "Phoenixians"
+ pheonixtossanist_desc:0 "A polytheistic pantheon following a modified pantheon faith that has seen blending with Twin Dragon, creating a hybridized faith. This faith follows five major deities and several minor deities, each are tied to a region of Ryzan and an element."
 
  #adamites:0 "Tossanism"
  #adamites_adj:0 "Tossanism"

@@ -1,0 +1,5 @@
+30000020 = {
+	prefix = dynnp_de
+	name = "dynn_Medici"
+	culture = "dorrasterrocker"
+}

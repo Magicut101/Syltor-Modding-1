@@ -9,3 +9,15 @@
 	}
 	#dna = 
 }
+
+600097 = {
+    name = "Zewisch"
+    dynasty = 30000216
+    religion = "twin_dragon"
+    culture = "heartlander"
+    1040.1.1 = {
+        birth = "820.1.1"
+    }
+	female = yes
+	trait = education_stewardship_2
+}

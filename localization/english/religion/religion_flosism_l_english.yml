@@ -1,0 +1,91 @@
+﻿l_english:
+
+ #Common flosism Localization
+ flosism_religion:0 "Flosism"
+ flosism_religion_religion_adj:0 "Flosism"
+ flosism_religion_religion_adherent:0 "Flosist"
+ flosism_religion_religion_adherent_plural:0 "Flosists"
+ flosism_religion_religion_desc:0 "A primordial faith believing in Flos - the mother goddess of vegetation, it emphasizes nature and creation, and maintaining the care of flowers. Founded in the tribe of Galínios, from the region known as Vastallos, they emphasize different attributes to different flowers. Whether this faith has connections to Dandelism is still undocumented."
+
+ flosism_high_god_name:0 "Flowers"
+ flosism_high_god_name_2:0 "$flosism_high_god_name$" # Optional translation alt
+ flosism_high_god_name_3:0 "$flosism_high_god_name$" # Optional translation alt
+ flosism_high_god_name_possessive:0 "Flower's"
+ flosism_high_god_name_alternate:0 "Petal's"
+ flosism_high_god_name_alternate_possessive:0 "Petal's"
+ flosism_good_god_jesus:0 "$flosism_health_god_name$"
+ flosism_good_god_christ:0 "God"
+ flosism_devil_name:0 "Chaos"
+ flosism_devil_name_possessive:0 "Chaos's"
+ flosism_evil_god_lucifer:0 "Lucifer"
+ flosism_evil_god_beelzebub:0 "Beelzebub"
+ flosism_evil_god_mephistopheles:0 "Mephistopheles"
+ flosism_death_deity_name:0 "Death"
+ flosism_death_deity_name_possessive:0 "Death's"
+ flosism_house_of_worship:0 "church"
+ flosism_house_of_worship_2:0 "$flosism_house_of_worship$" # Optional translation alt
+ flosism_house_of_worship_3:0 "$flosism_house_of_worship$" # Optional translation alt
+ flosism_house_of_worship_plural:0 "divine gardens"
+ flosism_religious_symbol:0 "floweers"
+ flosism_religious_symbol_2:0 "$flosism_religious_symbol$" # Optional translation alt
+ flosism_religious_symbol_3:0 "$flosism_religious_symbol$" # Optional translation alt
+ flosism_religious_text:0 "scriptures"
+ flosism_religious_text_2:0 "$flosism_religious_text$" # Optional translation alt
+ flosism_religious_text_3:0 "$flosism_religious_text$" # Optional translation alt
+ flosism_religious_head_title:0 "Captain Regent"
+ flosism_religious_head_title_name:0 "Knighthood"
+ flosism_devotee_male:0 "squire"
+ flosism_devotee_male_plural:0 "squires"
+ flosism_devotee_female:0 "knight"
+ flosism_devotee_female_plural:0 "knights"
+ flosism_devotee_neuter:0 "monastic"
+ flosism_devotee_neuter_plural:0 "monastics"
+ flosism_priest_male:0 "priest"
+ flosism_priest_male_plural:0 "priests"
+ flosism_priest_alternate_plural:0 "missionary"
+ flosism_bishop:0 "knight"
+ flosism_bishop_plural:0 "knights"
+ flosism_positive_afterlife:0 "the one's realm"
+ flosism_positive_afterlife_2:1 "great garden" # Optional translation alt
+ flosism_positive_afterlife_3:1 "Kingdom of Flowers" # Optional translation alt
+ flosism_negative_afterlife:0 "land of drought"
+ flosism_negative_afterlife_2:1 "the Pit of the damned" # Optional translation alt
+ flosism_negative_afterlife_3:1 "Destruction" # Optional translation alt
+ flosism_witchgodname_the_horned_god:0 "the Deceiver"
+ flosism_witchgodname_the_horned_god_possessive:0 "the Deceiver's"
+
+ flosism_creator_god_name:0 "$flosism_high_god_name$"
+ flosism_creator_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_health_god_name:0 "god"
+ flosism_health_god_name_possessive:0 "god's"
+ flosism_fertility_god_name:0 "$flosism_high_god_name$"
+ flosism_fertility_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_wealth_god_name:0 "$flosism_high_god_name$"
+ flosism_wealth_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_household_god_name:0 "$flosism_health_god_name$"
+ flosism_household_god_name_possessive:0 "$flosism_health_god_name_possessive$"
+ flosism_fate_god_name:0 "$flosism_high_god_name$"
+ flosism_fate_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_knowledge_god_name:0 "$flosism_high_god_name$"
+ flosism_knowledge_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_war_god_name:0 "$flosism_high_god_name$"
+ flosism_war_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_trickster_god_name:0 "Fortuna"
+ flosism_trickster_god_name_possessive:0 "Fortuna's"
+ flosism_night_god_name:0 "$flosism_high_god_name$"
+ flosism_night_god_name_possessive:0 "$flosism_high_god_name_possessive$"
+ flosism_water_god_name:0 "$flosism_health_god_name$"
+ flosism_water_god_name_possessive:0 "$flosism_health_god_name_possessive$"
+
+flosism:0 "Flosism"
+flosism_religion:0 "Flosism"
+flosism_religion_adj:0 "Flosism"
+flosism_religion_adherent:0 "Flosist"
+flosism_religion_adherent_plural:0 "Flosists"
+flosism_religion_desc:0 "A primordial faith believing in Flos - the mother goddess of vegetation, it emphasizes nature and creation, and maintaining the care of flowers. Founded in the tribe of Galínios, from the region known as Vastallos, they emphasize different attributes to different flowers. Whether this faith has connections to Dandelism is still undocumented."
+
+ #adamites:0 "Adamitism"
+ #adamites_adj:0 "Adamite"
+ #adamites_adherent:0 "Adamite"
+ #adamites_adherent_plural:0 "Adamites"
+ #adamites_desc:0 "The Adamites claim to have recaptured Adam and Eve's original state of innocence by shedding their clothes. Groups of Adamites often live in a state of absolute lawlessness, claiming that due to #this innocence their actions can be neither good nor evil."

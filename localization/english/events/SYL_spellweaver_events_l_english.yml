@@ -1,0 +1,33 @@
+﻿l_english:
+
+# Convert to spellweaver Interaction
+ convert_to_spellweaver_key:0 "Train as Spell Weaver"
+ convert_to_spellweaver_interaction:1 "$convert_to_spellweaver_key$ #weak (Scheme)#!"
+ convert_to_spellweaver_interaction_desc:0 "Attempt to train [recipient.GetShortUINameNoTooltip] to the ways of bending the threads of our reality"
+ convert_to_spellweaver:2 "$convert_to_spellweaver_key$"
+ convert_to_spellweaver_desc:0 "I will train [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] in our ways."
+ convert_to_spellweaver_desc_general:0 "Train a target in the ways of spell weaving."
+ convert_to_spellweaver_action:0 "Train"
+ convert_to_spellweaver_interaction_notification:0 "Train as Spell Weaver"
+ convert_to_spellweaver_scheme_invalidated_title:0 "@scheme_icon! Train as Spell Weaver Scheme Ends"
+ convert_to_spellweaver_general_desc:1 "A scheme to train a target learning the ways of spell weaving in hopes to spread the tradition."
+
+# Convert to spellweaver events
+# event success
+ spellweaver.0001.t:1 "Successful Training Of [target.GetFirstNameNoTooltip]"
+ spellweaver.0001.desc:0 "Following several months of rigorous training, my new spell weaver acolyte, [target.GetFirstNameNoTooltip], has passed his training with flying colors and may manipulate the threads of one's soul."
+
+ spellweaver.0001.a:0 "May the threads of fate guide [target.GetHerHim|u]"
+
+# event fail
+ spellweaver.0004.t:1 "Failed Spell Weaver Training"
+ spellweaver.0004.desc:0 "Following several months of training, my spell weaver acolyte [target.GetFirstNameNoTooltip] failed to grasp even the bare fundamentals of our mystical craft. Perhaps I could’ve done more for them?"
+
+ spellweaver.0004.a:0 "I have failed you [target.GetFirstNameNoTooltip], I'm sorry."
+
+# event player choice
+ spellweaver.0003.t:1 "Spell Weaving Tutorage"
+ spellweaver.0003.desc:0 "[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] has approached me with an offer most intriguing. Train under their tutorage and learn the mystical art of spell weaving."
+
+ spellweaver.0003.a:0 "I accept your offer!"
+ spellweaver.0003.b:0 "Im far to busy for this, begone!"
