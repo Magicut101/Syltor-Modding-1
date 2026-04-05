@@ -1,1 +1,61 @@
-﻿
+﻿dragoon = {
+	color = {
+		255
+		215
+		0
+	}
+	
+ ethos = ethos_bureaucratic
+ heritage = heritage_yularan
+ language = language_yularan
+ martial_custom = martial_custom_equal
+ head_determination = head_determination_domain
+	traditions = {
+		tradition_religion_blending
+		tradition_adaptive_skirmishing
+		tradition_legalistic
+		tradition_formation_fighting
+		tradition_parochialism
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+}
+akratian = {
+	color = {
+        218
+        165
+        32
+	}
+	
+ ethos = ethos_bureaucratic
+ heritage = heritage_yularan
+ language = language_yularan
+ martial_custom = martial_custom_equal
+ head_determination = head_determination_domain
+	traditions = {
+		tradition_welcoming
+		tradition_stalwart_defenders
+        tradition_equitable
+	    tradition_hit_and_run
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+}

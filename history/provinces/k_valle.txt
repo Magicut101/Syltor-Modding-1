@@ -1,6 +1,6 @@
 # leeps
 1396 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -13,7 +13,7 @@
 
 #Luperkenia
 1398 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -30,7 +30,7 @@
 
 #Leeperkenia
 1401 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -43,7 +43,7 @@
 
 #Thura
 1403 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -64,7 +64,7 @@
 
 # Night Haven
 1407 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -89,7 +89,7 @@
 
 #HillsValle
 1412 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -110,7 +110,7 @@
 
 #ValleVerbe
 1416 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -131,7 +131,7 @@
 
 #Altrik
 1420 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -156,7 +156,7 @@
 
 #IronTree
 1425 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -165,7 +165,7 @@
 
 #AltrikSuburbs
 1426 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding

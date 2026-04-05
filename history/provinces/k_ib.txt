@@ -1,6 +1,6 @@
 # dragoonios
 1312 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -33,7 +33,7 @@
 
 #tenebrisa
 1319 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -50,7 +50,7 @@
 
 # Eastbank
 1322 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -67,7 +67,7 @@
 
 #taxanios
 1325 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -84,7 +84,7 @@
 
 #khonepos
 1328 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -97,7 +97,7 @@
 
 #ramptopia
 1330 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -122,7 +122,7 @@
 
 #buzaxios
 1332 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -131,7 +131,7 @@
 
 #heliosion
 1336 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -152,7 +152,7 @@
 
 #ZasRo
 1340 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -165,7 +165,7 @@
 
 #lucius
 1342 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -186,7 +186,7 @@
 
 #theylsia
 1347 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -207,7 +207,7 @@
 
 #nefertankcrest
 1351 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -220,7 +220,7 @@
 
 #epipsic
 1353 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -237,7 +237,7 @@
 
 #amunshroudknoll
 1356 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -250,7 +250,7 @@
 
 #theylsia
 1358 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lennox-luxite
 	1054.1.1 = {
 		holding = castle_holding
@@ -271,7 +271,7 @@
 
 #riverrun
 1362 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -288,7 +288,7 @@
 
 #mephet
 1365 = {
-	culture = nebskoslav
+	culture = dragoon
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -301,7 +301,7 @@
 
 #inqui
 1367 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -318,7 +318,7 @@
 
 #fortemperor
 1370 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -335,7 +335,7 @@
 
 #nardak
 1373 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
@@ -348,7 +348,7 @@
 
 #riverrunproper
 1375 = {
-	culture = nebskoslav
+	culture = akratian
 	religion = lemebah
 	1054.1.1 = {
 		holding = castle_holding
