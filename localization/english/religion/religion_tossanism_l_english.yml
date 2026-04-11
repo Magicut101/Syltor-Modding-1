@@ -83,11 +83,11 @@
  tossanism_adherent_plural:0 "Bookkeepers"
  tossanism_desc:0 "Bookkeeper's Caelian is a loose faith based around the worship of Caelus and various other gods brought in by the Tossovich family after the Brothian migration into the region. This faith is the closest to the original orthodox Tossanist faith."
 
- bluepheonix:0 "Blue Phoenix"
- bluepheonix_adj:0 "Blue Phoenixian"
- bluepheonix_adherent:0 "Phoenixian"
- bluepheonix_adherent_plural:0 "Phoenixians"
- bluepheonix_desc:0 "An amalgamation of Lunatwa, Bookkeeper's Tossanism, and Soleannen, followers of this faith believe in the concept of keep balance and maintaining peace. Similar to Tossanism they believe in Elemental Spirits, but follow the concept of the Three Pheonix's, with the Blue Pheonix standing for balance, the Red Pheonix for death, and the Yellow Pheonix representing peace."
+#  bluepheonix:0 "Blue Phoenix"
+#  bluepheonix_adj:0 "Blue Phoenixian"
+#  bluepheonix_adherent:0 "Phoenixian"
+#  bluepheonix_adherent_plural:0 "Phoenixians"
+#  bluepheonix_desc:0 "An amalgamation of Lunatwa, Bookkeeper's Tossanism, and Soleannen, followers of this faith believe in the concept of keep balance and maintaining peace. Similar to Tossanism they believe in Elemental Spirits, but follow the concept of the Three Pheonix's, with the Blue Pheonix standing for balance, the Red Pheonix for death, and the Yellow Pheonix representing peace."
 
  pheonixtossanist:0 "Phoenixian"
  pheonixtossanist_adj:0 "Phoenixian"
@@ -100,3 +100,50 @@
  #adamites_adherent:0 "Tossanist"
  #adamites_adherent_plural:0 "Tossanists"
  #adamites_desc:0 "The Adamites claim to have recaptured Adam and Eve's original state of innocence by shedding their clothes. Groups of Adamites often live in a state of absolute #lawlessness, claiming that due to #this innocence their actions can be neither good nor evil."
+l_english:
+
+  # =========================
+  # Decision
+  # =========================
+
+  select_personal_deity_caelic_decision:0 "Choose Personal Patron"
+  select_personal_deity_caelic_decision_desc:0 "The faithful are called to devote themselves to a single deity of the Caelic pantheon. Through this act of devotion, you align your soul with one of the divine paths—Power, Order, Chaos, Destruction, or Control."
+  select_personal_deity_caelic_decision_tooltip:0 "Pledge yourself to a god and gain their blessing."
+  select_personal_deity_caelic_decision_tt:0 "You will choose a personal patron deity, gaining a unique blessing based on your devotion."
+
+  select_personal_deity_caelic_decision.select_caelus:0 "Devote yourself to Caelus, God of the Skies and Power"
+  select_personal_deity_caelic_decision.select_attinstainz:0 "Devote yourself to Attinstáinz, God of the Earth and the Forge"
+  select_personal_deity_caelic_decision.select_muhitan:0 "Devote yourself to Muhitan, Goddess of the Seas and Trade"
+  select_personal_deity_caelic_decision.select_adolebis:0 "Devote yourself to Adolebis, God of Fire and Destruction"
+  select_personal_deity_caelic_decision.select_ontum:0 "Devote yourself to Ontum, God of the Abyss and Control"
+
+
+  caelic_decision.0001.t:0 "A Patron Among the Gods"
+  caelic_decision.0001.desc:0 "Description Needed"
+
+  caelic_decision.0001.caelus:0 "Caelus shall guide me through the skies."
+  caelic_decision.0001.attinstainz:0 "Attinstáinz shall grant me strength through stone and steel."
+  caelic_decision.0001.muhitan:0 "Muhitan shall bless me with fortune and flowing wealth."
+  caelic_decision.0001.adolebis:0 "Adolebis shall fuel my wrath and destruction."
+  caelic_decision.0001.ontum:0 "Ontum shall grant me control over all things."
+
+  caelic_patron_caelus:0 "Devoted to Caelus"
+  caelic_patron_caelus_desc:0 "This character has pledged themselves to Caelus, God of the Skies and Power."
+  caelic_patron_attinstainz:0 "Devoted to Attinstáinz"
+  caelic_patron_attinstainz_desc:0 "This character follows Attinstáinz, God of the Earth and the Forge. "
+  caelic_patron_muhitan:0 "Devoted to Muhitan"
+  caelic_patron_muhitan_desc:0 "This character serves Muhitan, Goddess of the Seas and Trade."
+  caelic_patron_adolebis:0 "Devoted to Adolebis"
+  caelic_patron_adolebis_desc:0 "This character is a follower of Adolebis, God of Fire and Destruction."
+  caelic_patron_ontum:0 "Devoted to Ontum"
+  caelic_patron_ontum_desc:0 "This character has pledged themselves to Ontum, God of the Void  and Control."
+
+  tenet_caelic_patronage_name:0 "Caelic Patronage"
+  tenet_caelic_patronage_desc:0 "The faithful must devote themselves to a single deity, choosing their path within the pantheon."
+
+  holy_site_tossagrad_name:0 "Tossagrad"
+  holy_site_nova_balreska_name:0 "Nova Balreska"
+  holy_site_haegiel_name:0 "Haegiel"
+  holy_site_liberium_name:0 "Liberium"
+  holy_site_carthya_name:0 "Carthya"
+  holy_site_exodus_isle_name:0 "The Phoenixian Exodus"

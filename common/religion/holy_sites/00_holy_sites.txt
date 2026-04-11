@@ -104,7 +104,27 @@ haegiel = {
 		martial_per_piety_level = 1
 	}
 }
+liberium = {
+	county = c_Liberium
+	barony = b_Liberium1
 
+	character_modifier = {
+		name = holy_site_nadjaf_effect_name
+		diplomacy_per_piety_level = 1
+		clergy_opinion = 10
+	}
+}
+
+carthya = {
+	county = c_AngelsPeak
+	barony = b_AngelsPeak1
+
+	character_modifier = {
+		name = holy_site_chakla_effect_name
+		build_speed = -0.15
+		stewardship = 1
+	}
+}
 exodus_isle = {
 	county = c_PheonoxianExodus
 	barony = b_PheonixExodus1
