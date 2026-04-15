@@ -64,7 +64,21 @@
 			meditation_mechanics_active = yes
 		}
 	}
+	tenet_caelic_patronage = {
+		name = tenet_caelic_patronage_name
+		desc = tenet_caelic_patronage_desc
+		icon = core_tenet_bhakti
 
+		piety_cost = faith_tenet_cost_mid
+
+		is_shown = {
+			always = yes
+		}
+
+		parameters = {
+			select_personal_god_active = yes
+		}
+	}
 }
 
 	#############################

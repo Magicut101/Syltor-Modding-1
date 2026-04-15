@@ -151,6 +151,14 @@
  auroran_prefix:0 "Auroran"
  auroran_collective_noun:1 "Aurorans"
 
+ #yularan
+ dragoon:0 "Dragoonite"
+ dragoon_prefix:0 "Dragoonian"
+ dragoon_collective_noun:1 "Dragoonites"
+ akratian:0 "Akratian"
+ akratian_prefix:0 "Akratian"
+ akratian_collective_noun:1 "Akratians"
+
 
 
 ### basegame stuff ###

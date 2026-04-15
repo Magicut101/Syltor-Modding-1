@@ -1,0 +1,37 @@
+namespace = caelic_decision
+
+caelic_decision.0001 = {
+	type = character_event
+	title = caelic_decision.0001.t
+	desc = caelic_decision.0001.desc
+	theme = pilgrimage_destination
+    	left_portrait = {
+        	character = root
+        	animation = personality_honorable
+    	}
+
+	option = {
+		name = caelic_decision.0001.caelus
+		add_character_modifier = caelic_patron_caelus
+	}
+
+	option = {
+		name = caelic_decision.0001.attinstainz
+		add_character_modifier = caelic_patron_attinstainz
+	}
+
+	option = {
+		name = caelic_decision.0001.muhitan
+		add_character_modifier = caelic_patron_muhitan
+	}
+
+	option = {
+		name = caelic_decision.0001.adolebis
+		add_character_modifier = caelic_patron_adolebis
+	}
+
+	option = {
+		name = caelic_decision.0001.ontum
+		add_character_modifier = caelic_patron_ontum
+	}
+}

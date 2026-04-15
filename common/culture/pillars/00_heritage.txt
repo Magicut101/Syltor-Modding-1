@@ -140,6 +140,26 @@ heritage_alvadan = {
   audio_parameter = european
 }
 
+heritage_havenite = {
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_havenite
+    }
+  }
+  audio_parameter = european
+}
+
+heritage_yularan = {
+  type = heritage
+  is_shown = {
+    heritage_is_shown_trigger = {
+      HERITAGE = heritage_yularan
+    }
+  }
+  audio_parameter = european
+}
+
 # Vanilla heritages
 
 # Commented these out since they were causing errors

@@ -77,8 +77,7 @@ is_phoenixtossanist_faith = {
 		parameters = {
 		}
 		traits = {
-			virtues = { calm compassionate ambitious
-			}
+			virtues = { compassionate just generous	}
 			sins = { sadistic greedy callous }
 		}
 	}
