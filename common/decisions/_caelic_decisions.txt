@@ -25,7 +25,12 @@ select_personal_deity_caelic_decision = {
 	cooldown = { years = 2 }
 
 	effect = {
-
+		remove_character_modifier = caelic_patron_caelus
+		remove_character_modifier = caelic_patron_attinstainz
+		remove_character_modifier = caelic_patron_muhitan
+		remove_character_modifier = caelic_patron_adolebis
+		remove_character_modifier = caelic_patron_ontum
+		
 		# Tooltip preview
 		show_as_tooltip = {
 			random_list = {
