@@ -1,0 +1,197 @@
+﻿#############################################
+# Event to form Norenya         			      #
+# by Jayops10 3/7/25   						          #
+#############################################
+form_norenya_decision_decision = {
+  picture = {
+    reference = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+  }
+  desc = form_norenya_decision_decision_desc
+  selection_tooltip = form_norenya_decision_tooltip
+  decision_group_type = major
+
+  ai_check_interval_by_tier = {
+    barony = 0
+    county = 0
+    duchy = 0
+    kingdom = 36 # check every three years
+    empire = 36
+    hegemony = 36
+  }
+
+  is_shown = {
+    is_ruler = yes
+    is_playable_character = yes
+    OR = {
+      dynasty = dynasty:30000017	# burrows can always do this descision
+      culture = culture:xaburyan	# xaburyan characters are always able to dream.
+    }
+
+    NOT = {	# You can only do it once.
+      is_target_in_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:flag_formed_norenya
+      }
+    }
+
+    # or means only one of these has to be true not all of them
+    OR = {
+      government_has_flag = government_is_feudal
+      government_has_flag = government_is_republic
+      government_has_flag = government_is_clan
+      government_allows = administrative
+    }
+  }
+
+  cost = {
+    gold = 250
+  }
+
+  is_valid = {
+    prestige_level >= 2
+    completely_controls = title:d_xaburya
+    OR = {
+      AND = {
+        has_title = title:k_nebskoslavia
+        completely_controls = title:k_nebskoslavia
+      }
+      AND = {
+        has_title = title:k_carthya
+        completely_controls = title:k_carthya
+      }
+    }
+  }
+
+  is_valid_showing_failures_only = {
+    is_landed = yes
+    is_capable_adult = yes
+    is_imprisoned = no
+    #has_title = title:d_xaburya
+  }
+
+  effect = {
+    show_as_tooltip = {
+      form_norenya_decision_scripted_effect = yes
+    }
+    save_scope_as = founder
+    trigger_event = {
+      id = ryzan.0001
+    }
+    hidden_effect = {
+      add_to_global_variable_list = {
+        name = unavailable_unique_decisions
+        target = flag:flag_formed_norenya
+      }
+      set_global_variable = {
+        name = flag_formed_norenya
+        value = root
+      }
+    }
+  }
+
+  # ai will always consider and 100% of the time do it
+  ai_potential = {
+    always = yes
+  }
+
+  ai_will_do = {
+    base = 100
+  }
+}
+
+#############################################
+# Event to Become Spellweaver       			      #
+# by Jayops10 3/31/26   						          #
+#############################################
+become_spellweaver_decision = {
+  picture = {
+    reference = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+  }
+  desc = form_norenya_decision_decision_desc
+  selection_tooltip = form_norenya_decision_tooltip
+  decision_group_type = major
+
+  ai_check_interval_by_tier = {
+    barony = 124 # I believe its per month
+    county = 60
+    duchy = 48
+    kingdom = 24
+    empire = 24
+    hegemony = 24
+  }
+
+  is_shown = {
+    # no clue what this does
+    #is_playable_character = yes
+    NOT = {	# has trait spellweaver
+      has_trait = spellweaver
+    }
+    OR = {
+      dynasty = dynasty:30000017	# burrows can always do this descision
+      culture = { has_cultural_parameter = unlock_maa_spellweaver }
+      culture = culture:xaburyan	# xaburyan characters are always able to dream.
+    }
+    # or means only one of these has to be true not all of them
+    # OR = {
+    #   government_has_flag = government_is_feudal
+    #   government_has_flag = government_is_republic
+    #   government_has_flag = government_is_clan
+    #   government_allows = administrative
+    # }
+  }
+
+  cost = {
+    gold = 35
+    prestige = 200
+    piety = 250
+  }
+
+  is_valid = {
+    prestige_level >= 2
+    piety_level >= 3
+    OR = {
+      # Oathbound order cultural tradition
+      culture = { has_cultural_parameter = unlock_maa_spellweaver }
+      # holds city of xaburya
+      #completely_controls = title:d_xaburya
+      dynasty = dynasty:30000017 # burrows can always do this descision
+    }
+
+  }
+
+  is_valid_showing_failures_only = {
+    is_capable_adult = yes
+    is_imprisoned = no
+  }
+
+  effect = {
+    show_as_tooltip = {
+      become_spellweaver_scripted_effect = yes
+    }
+    save_scope_as = founder
+    trigger_event = {
+      id = ryzan.0002
+    }
+  }
+
+  # ai will always consider and 25% of the time do it
+  ai_potential = {
+    always = yes
+  }
+
+  ai_will_do = {
+    base = 40
+    modifier = {
+      has_trait = ambitious
+      add = 30
+    }
+    modifier = {
+      has_trait = zealous
+      add = 20
+    }
+    modifier = {
+      dynasty = dynasty:30000017
+      add = 60
+    }
+  }
+}

@@ -1,75 +1,84 @@
 1060 = {
-	culture = valkyries
-	religion = tossanism
-	holding = castle_holding
+  culture = valkyries
+  religion = pheonixtossanist
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  special_building = volkoregrod_temple_01
 }
 1061 = {
-	holding = none
+  holding = city_holding
 }
 
 1062 = {
-	holding = none
+  holding = castle_holding
 }
 
 1063 = {
-	holding = none
+  holding = none
 }
 
 1064 = {
-	holding = none
+  holding = none
 }
 
 1065 = {
-	holding = none
+  holding = castle_holding
 }
 
 1066 = {
-	culture = valkyries
-	religion = tossanism
-	holding = castle_holding
+  culture = valkyries
+  religion = pheonixtossanist
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 1067 = {
-	holding = none
+  holding = none
 }
 
 1068 = {
-	holding = none
+  holding = none
 }
 
 1069 = {
-	holding = none
+  holding = none
 }
 
 1070 = {
-	holding = none
+  holding = none
 }
 
 1071 = {
-	culture = valkyries
-	religion = tossanism
-	holding = castle_holding
+  culture = valkyries
+  religion = pheonixtossanist
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 1072 = {
-	holding = none
+  holding = none
 }
 
 1073 = {
-	holding = none
+  holding = none
 }
 
 # Azurov
 1074 = {
-	culture = valkyries
-	religion = tossanism
-	holding = castle_holding
+  culture = valkyries
+  religion = pheonixtossanist
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 1075 = {
-	holding = none
+  holding = none
 }
 
 1076 = {
-	holding = none
+  holding = none
 }

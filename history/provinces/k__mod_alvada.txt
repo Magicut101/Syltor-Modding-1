@@ -1,282 +1,322 @@
 747 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 748 = {
-	holding = none
+  holding = none
 }
 
 749 = {
-	holding = none
+  holding = none
 }
 
 750 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 751 = {
-	holding = none
+  holding = none
 }
 
 752 = {
-	holding = none
+  holding = none
 }
 
 753 = {
-	holding = none
+  holding = none
 }
 
 754 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 755 = {
-	holding = none
+  holding = none
 }
 
 756 = {
-	holding = none
+  holding = none
 }
 
 #C_kuangdor
 587 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = city_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 757 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 758 = {
-	holding = none
+  holding = none
 }
 
 759 = {
-	holding = none
+  holding = none
 }
 
 760 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 761 = {
-	holding = none
+  holding = none
 }
 
 762 = {
-	holding = none
+  holding = none
 }
 
 763 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 764 = {
-	holding = none
+  holding = none
 }
 
 765 = {
-	holding = none
+  holding = none
 }
 
 766 = {
-	holding = none
+  holding = none
 }
 
 767 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 768 = {
-	holding = none
+  holding = none
 }
 
 769 = {
-	holding = none
+  holding = none
 }
 
 770 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 771 = {
-	holding = none
+  holding = none
 }
 
 772 = {
-	holding = none
+  holding = none
 }
 
 773 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holding
+
+  1054.1.1 = {
+    holding = castle_holding
+    culture = fornoisan
+    religion = fornoisan
+  }
 }
 
 774 = {
-	holding = none
+  holding = none
 }
 
 775 = {
-	holding = none
+  holding = none
 }
 
 776 = {
-	holding = none
+  holding = none
 }
 
 #C IsolatedTemple
 777 = {
-	culture = almalie
-	religion = fornoisan
-	holding = castle_holding
+  1054.1.1 = {
+    holding = castle_holding
+    culture = almalie
+    religion = fornoisan
+  }
 }
 
 778 = {
-	holding = none
+  holding = none
 }
 
 779 = {
-	holding = none
+  holding = none
 }
 
 780 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 781 = {
-	holding = none
+  holding = none
 }
 
 782 = {
-	holding = none
+  holding = none
 }
 
 783 = {
-	holding = none
+  holding = none
 }
 
 #C Clearingofnornan
 784 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 785 = {
-	holding = none
+  holding = none
 }
 
 786 = {
-	holding = none
+  holding = none
 }
 
 #c Roskov
 787 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 788 = {
-	holding = none
+  holding = none
 }
 
 789 = {
-	holding = none
+  holding = none
 }
 
 #c farnamarMountain
 790 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 791 = {
-	holding = none
+  holding = none
 }
 
 792 = {
-	holding = none
+  holding = none
 }
 
 #c fanamar
 793 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 794 = {
-	holding = none
+  holding = none
 }
 
 795 = {
-	holding = none
+  holding = none
 }
 
 # FanamarForest
 796 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 797 = {
-	holding = none
+  holding = none
 }
 
 798 = {
-	holding = none
+  holding = none
 }
 
 #c ForestofDreams
 799 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+  culture = fornoisan
+  religion = fornoisan
+  1054.1.1 = {
+    holding = castle_holding
+  }
 }
 
 800 = {
-	holding = none
+  holding = none
 }
 
 801 = {
-	holding = none
+  holding = none
 }
 
 #c fanamarport
 802 = {
-	culture = fornoisan
-	religion = fornoisan
-	holding = castle_holdinga
+
+  1054.1.1 = {
+    holding = castle_holding
+    culture = fornoisan
+    religion = fornoisan
+  }
 }
 
 803 = {
-	holding = none
+  holding = none
 }
 
 804 = {
-	holding = none
+  holding = none
 }

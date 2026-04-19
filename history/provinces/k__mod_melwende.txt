@@ -1,5 +1,5 @@
 691 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }
@@ -9,7 +9,7 @@
 }
 
 693 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }
@@ -23,7 +23,7 @@
 }
 
 696 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }
@@ -65,7 +65,7 @@
 }
 
 705 = {
-	culture = angan
+	culture = heartlander
 	religion = twin_dragon
 	holding = castle_holding
 }

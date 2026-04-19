@@ -1,110 +1,143 @@
 # Darrow
 c_Carthya = {
-	867.1.1 = {	change_development_level = 6 }
-	1054.1.1 = {
-		holder = 600022
-	}
+  867.1.1 = {	change_development_level = 6 }
+  1054.1.1 = {
+    holder = 600022
+  }
 }
 
 d_carthya = {
-	867.1.1 = {	change_development_level = 7 }
+  867.1.1 = {	change_development_level = 7 }
 
-	1054.1.1 = {
-	holder = 600022
-	}
+  1054.1.1 = {
+    holder = 600022
+  }
 }
 
 # Raphie
 
 c_RaphieIsle = {
 
-	1054.1.1 = {
-	  holder = 600023
+  1054.1.1 = {
+    holder = 600023
     liege = d_carthya
-	}
+  }
 }
 
 c_AngelsPeak = {
 
-	1054.1.1 = {
-	  holder = 600023
+  1054.1.1 = {
+    holder = 600023
     liege = d_carthya
-	}
+  }
 }
 
 # Javorn
-d_xaburya = {
-	867.1.1 = {	change_development_level = 5 }
 
-	1054.1.1 = {
-	  holder = 600025
-	}
+d_xaburya_grandmaster = {
+  succession_laws = {
+    temporal_head_of_faith_succession_law
+  }
+  1050.1.1 = { holder = 600025}
+}
+
+d_xaburya = {
+  867.1.1 = {	change_development_level = 5 }
+
+  1054.1.1 = {
+    holder = 600025
+  }
 }
 
 c_Xaburya = {
-	867.1.1 = {	change_development_level = 7 }
+  867.1.1 = {	change_development_level = 7 }
 }
 
 c_StaryiSambir = {
-	1054.1.1 = {
-	  holder = 600025
-	}
+  1054.1.1 = {
+    holder = 600025
+  }
 }
 
 c_NovyiKalyniv = {
-	1054.1.1 = {
-	  holder = 600025
-	}
+  1054.1.1 = {
+    holder = 600025
+  }
 }
 
 c_Khyriv = {
-	1054.1.1 = {
-	  holder = 600025
-	}
+  1054.1.1 = {
+    holder = 600025
+  }
 }
 
 # Adelisa
 
 c_Skalati = {
-	1054.1.1 = {
-	  holder = 600026
-		liege = d_xaburya
-	}
+  1054.1.1 = {
+    holder = 600026
+    liege = d_xaburya
+  }
 }
 
 c_Chudniv = {
-	1054.1.1 = {
-	  holder = 600026
-		liege = d_xaburya
-	}
+  1054.1.1 = {
+    holder = 600026
+    liege = d_xaburya
+  }
 }
 
 c_Lebadville = {
-	1054.1.1 = {
-	  holder = 600026
-		liege = d_xaburya
-	}
+  1054.1.1 = {
+    holder = 600026
+    liege = d_xaburya
+  }
 }
 
 # Bruhs land
 
-c_neuheim = {
-	867.1.1 = {	change_development_level = 8 }
-	1054.1.1 = {
-		holder = 600014 # Bruh_
-		}
+d_neuheim = {
+  867.1.1 = {	change_development_level = 8 }
+  1054.1.1 = {
+    holder = 600014 # Bruh_
+  }
 }
 
 c_verkhnya = {
-	867.1.1 = {	change_development_level = 1 }
-	1054.1.1 = {
-		holder = 600014 # Bruh_
-		}
+  867.1.1 = {	change_development_level = 1 }
+  1054.1.1 = {
+    holder = 600014 # Bruh_
+  }
 }
 
 c_slime_host = {
-	867.1.1 = {	change_development_level = 6 }
-	1054.1.1 = {
-		holder = 600014 # Bruh_
-		}
+  867.1.1 = {	change_development_level = 6 }
+  1054.1.1 = {
+    holder = holder = 600014 # Bruh_
+  }
+}
+
+# Sarcasmo
+
+c_Fardhac = {
+  867.1.1 = {	change_development_level = 6 }
+  1054.1.1 = {
+    holder = 600153 = 600014 # Sarcasmo
+  }
+}
+
+c_Tossovichi = {
+  867.1.1 = {	change_development_level = 6 }
+  1054.1.1 = {
+    holder = 600153 = 600014 # Sarcasmo
+  }
+}
+
+# Zeph land
+
+d_skelyasti = {
+  867.1.1 = {	change_development_level = 6 }
+  1054.1.1 = {
+    holder = 600152 # Zeph
+  }
 }

@@ -1,8 +1,10 @@
 # Arvik
 1381 = {
-	culture = dorastterocker
+	culture = dragoon
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1382 = {
@@ -15,9 +17,11 @@
 
 #Mavos
 1384 = {
-	culture = dorastterocker
+	culture = dragoon
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1385 = {
@@ -34,9 +38,11 @@
 
 #Ost
 1388 = {
-	culture = dorastterocker
+	culture = dragoon
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1389 = {
@@ -45,9 +51,11 @@
 
 #NewSavras
 1390 = {
-	culture = dorastterocker
+	culture = dragoon
 	religion = dandelism
-	holding = castle_holding
+	1054.1.1 = {
+		holding = castle_holding
+		}
 }
 
 1391 = {

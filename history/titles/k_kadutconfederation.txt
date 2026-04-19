@@ -1,29 +1,47 @@
+k_kadutconfederation = {
+	1054.1.1 = { holder = 600052
+} #Ohorsi
+government = tribal
+}
+k_mianditribe = {
+	1054.1.1 = { holder = 600055
+} #Ohorsi
+government = tribal
+}
+
+
 d_kaduttribe = {
 	867.1.1 = {	change_development_level = 3 }
 	1054.1.1 = { holder = 600052
     } #Ohorsi
+	government = tribal
 }
-
+d_mianditribe = {
+	867.1.1 = {	change_development_level = 3 }
+	1054.1.1 = { holder = 600055
+    }
+}
 c_Ohros = {
 	867.1.1 = {	change_development_level = 12 }
 	1054.1.1 = { holder = 600052} #Ohrosguy
-	}
+	government = tribal
+}
 
 c_Attazeria = {
     867.1.1 = {	change_development_level = 5 }
 	1054.1.1 = { holder = 600053} #attazar
-	}
+	government = tribal
+	liege = 600052
+}
 
 c_Listemeril = {
       867.1.1 = {	change_development_level = 8 }
-	1054.1.1 = { holder = 600055
-    liege = 0
-    } #hollywoodHoots
-	}
+	1054.1.1 = { holder = 600055    } #hollywoodHoots
+	government = tribal
+
+}
 
 c_Dennura = {
     867.1.1 = {	change_development_level = 2 }
-	1054.1.1 = { holder = 600055
-    liege = 0
-	} #hollywoodHoots
+	1054.1.1 = { holder = 600055 } #hollywoodHoots
 	}

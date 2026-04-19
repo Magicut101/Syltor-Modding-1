@@ -33,7 +33,7 @@ nantianmonastary = { # nantianmonastary
 	character_modifier = {
 		name = holy_site_atamasthana_effect_name
 		domain_tax_mult = 0.05
-		stewardship = 1
+		stewardship = 2
 	}
 }
 
@@ -100,8 +100,39 @@ haegiel = {
 
 	character_modifier = {
 		name = holy_site_jorvik_effect_name
-		knight_effectiveness_mult = 0.2
-		prowess_per_piety_level = 1
+		
+		martial_per_piety_level = 1
+	}
+}
+liberium = {
+	county = c_Liberium
+	barony = b_Liberium1
+
+	character_modifier = {
+		name = holy_site_nadjaf_effect_name
+		diplomacy_per_piety_level = 1
+		clergy_opinion = 10
+	}
+}
+
+carthya = {
+	county = c_AngelsPeak
+	barony = b_AngelsPeak1
+
+	character_modifier = {
+		name = holy_site_chakla_effect_name
+		build_speed = -0.15
+		stewardship = 1
+	}
+}
+exodus_isle = {
+	county = c_PheonoxianExodus
+	barony = b_PheonixExodus1
+
+	character_modifier = {
+		name = holy_site_jorvik_effect_name
+		
+		martial_per_piety_level = 1
 	}
 }
 
@@ -112,9 +143,10 @@ kaluko = {
 
 	character_modifier = {
 		name = holy_site_jorvik_effect_name
-		knight_effectiveness_mult = 0.3
-		martial_per_piety_level = 1
-		prowess_per_piety_level = 1
+		archers_max_size_add = 3
+		martial_per_piety_level = 2
+		archers_maintenance_mult = -0.2
+		
 	}
 }
 
@@ -125,8 +157,8 @@ soluna = {
 
 	character_modifier = {
 		name = holy_site_jorvik_effect_name
-		knight_effectiveness_mult = 0.25
-		domain_tax_mult = 0.05
+		levy_size = 1
+		domain_tax_mult = 0.10
 	}
 }
 
@@ -137,8 +169,8 @@ hloamar = {
 
 	character_modifier = {
 		name = holy_site_jorvik_effect_name
-		levy_size = 0.1
-		martial = 1
+		levy_size = 0.5
+		martial = 5
 	}
 }
 
@@ -149,8 +181,8 @@ quetzal = {
 
 	character_modifier = {
 		name = holy_site_jorvik_effect_name
-		monthly_piety_gain_per_knight_mult = 0.02
-		monthly_county_control_growth_factor = 0.05
+		monthly_county_control_growth_factor = 0.1
+		levy_reinforcement_rate_same_faith = 0.2
 	}
 }
 
@@ -225,5 +257,49 @@ themianditemple = {
 		name = holy_site_jorvik_effect_name
 		build_gold_cost = -0.1
 		county_opinion_add = 10
+	}
+}
+
+liberium = { # cool mountain
+	county = c_Liberium
+	barony = b_Liberium2
+	
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		levy_size = 0.1
+		prowess_per_piety_level = 1
+	}
+}
+
+xaburya = { # xaburya go brrrrrr
+	county = c_Xaburya
+	barony = b_Xaburya5
+	
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		mountains_advantage = 5
+		martial_per_piety_level = 1
+	}
+}
+
+erebor = { # erebor funny
+	county = c_Erebor
+	barony = b_Erebor2
+	
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		domain_tax_mult = 0.05
+		stewardship = 2
+	}
+}
+
+carthya = { # erebor funny
+	county = c_Carthya
+	barony = b_CarthyaCity3
+	
+	character_modifier = {
+		name = holy_site_kent_effect_name
+		religious_vassal_opinion = 5
+		build_gold_cost = -0.1
 	}
 }

@@ -1,4 +1,8 @@
 ﻿30000022 = {
-	name = "Korol"
+	name = "dynn_Korol"
 	culture = "nebskoslav"
+}
+30000110 = {
+	name = "dynn_Ashwood"
+	culture = "savernian"
 }

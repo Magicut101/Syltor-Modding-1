@@ -1,314 +1,365 @@
 1183 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 1184 = {
-	holding = none
+  holding = none
 }
 
 1185 = {
-	holding = none
+  holding = none
 }
 
 1186 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1187 = {
-	holding = none
+  holding = none
 }
 
 1188 = {
-	holding = none
+  holding = none
 }
 
 #Remtal City
 1189 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+    special_building = remtal_port_01
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1190 = {
-	holding = none
+  1054.1.1 = {
+    holding = church_holding
+  }
 }
 
 1191 = {
-	holding = none
+  1054.1.1 = {
+    holding = city_holding
+  }
 }
 
 1192 = {
-	holding = none
+  holding = none
 }
 
 1193 = {
-	holding = none
+  holding = none
 }
 
 1194 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1195 = {
-	holding = none
+  holding = none
 }
 
 1196 = {
-	holding = none
+  holding = none
 }
 
 1197 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1198 = {
-	holding = none
+  holding = none
 }
 
 1199 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1200 = {
-	holding = none
+  holding = none
 }
 
 1201 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1202 = {
-	holding = none
+  holding = none
 }
 
 1203 = {
-	holding = none
+  holding = none
 }
 
 1204 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1205 = {
-	holding = none
+  holding = none
 }
 
 1206 = {
-	holding = none
+  holding = none
 }
 
 # nadia
 1207 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1208 = {
-	holding = none
+  holding = none
 }
 
 1209 = {
-	holding = none
+  holding = none
 }
 
 1210 = {
-	holding = none
+  holding = none
 }
 
 1211 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1212 = {
-	holding = none
+  holding = none
 }
 
 1213 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1214 = {
-	holding = none
+  holding = none
 }
 
 1215 = {
-	holding = none
+  holding = none
 }
 
 1216 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1217 = {
-	holding = none
+  holding = none
 }
 
 1218 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1219 = {
-	holding = none
+  holding = none
 }
 
 1220 = {
-	holding = none
+  holding = none
 }
 
 1221 = {
-	holding = none
+  holding = none
 }
 
 1222 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1223 = {
-	holding = none
+  holding = none
 }
 
 1224 = {
-	holding = none
+  holding = none
 }
 
 1225 = {
-	holding = none
+  holding = none
 }
 
 1226 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1227 = {
-	holding = none
+  holding = none
 }
 
 1228 = {
-	holding = none
+  holding = none
 }
 
 1229 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1230 = {
-	holding = none
+  holding = none
 }
 
 1231 = {
-	holding = none
+  holding = none
 }
 
 1232 = {
-	holding = none
+  holding = none
 }
 
 1233 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1234 = {
-	holding = none
+  holding = none
 }
 
 1235 = {
-	holding = none
+  holding = none
 }
 
 1236 = {
-	holding = none
+  holding = none
 }
 
+# liberium
 1237 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  special_building = castle_liberium_01
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1238 = {
-	holding = none
+  1054.1.1 = {
+    holding = church_holding
+  }
 }
 
 1239 = {
-	holding = none
+  holding = none
 }
 
 1240 = {
-	holding = none
+  holding = none
 }
 
 1241 = {
-	holding = none
+  holding = none
 }
 
 1242 = {
-	holding = none
+  holding = none
 }
 
 1243 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1244 = {
-	holding = none
+  holding = none
 }
 
 1245 = {
-	holding = none
+  holding = none
 }
 
 1246 = {
-	holding = none
+  holding = none
 }
 
 #Novogrod
 1249 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = nebskoslav
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = nebskoslav
 }
 
 # tatyanka
 1247 = {
-	holding = castle_holding
-	religion = tossanism
-	culture = remtali
+  1054.1.1 = {
+    holding = castle_holding
+  }
+  religion = pheonixtossanist
+  culture = remtali
 }
 
 1248 = {
-	holding = none
+  holding = none
 }
 
 

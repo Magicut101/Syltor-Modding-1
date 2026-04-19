@@ -1,10 +1,10 @@
 ﻿l_english:
  #Common luxite Localization
- luxite_religion:0 "A'ashism"
- luxite_religion_adj:0 "Ashuran"
- luxite_religion_adherent:0 "Ashuran"
- luxite_religion_adherent_plural:0 "Ashurans"
- luxite_religion_desc:0 ""
+ luxite_religion:0 "Luxite"
+ luxite_religion_adj:0 "Luxite"
+ luxite_religion_adherent:0 "Luxite"
+ luxite_religion_adherent_plural:0 "Luxites"
+ luxite_religion_desc:0 "The state religion of Soliosis, the faith is a bitheistic religion, focusing on the gods Lux, the goddess of light, and Tenebris, the god of the void. The distinction is made is propogating that good and righteous acts will allow a soul to join Lux, while 'evil' souls will be cast down into the void with Tenebris to be forgotten."
 
  tototl_high_god_name:0 "Tototetl"
  tototl_high_god_name_2:0 "$tototl_high_god_name$" # Optional translation alt
@@ -75,6 +75,8 @@
  witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #luxite
+ luxite_faithful_religion_adj:0 "Luxite"
+ luxite_faithful_religion_desc:0 "The state religion of Soliosis, the faith is a bitheistic religion, focusing on the gods Lux, the goddess of light, and Tenebris, the god of the void. The distinction is made is propogating that good and righteous acts will allow a soul to join Lux, while 'evil' souls will be cast down into the void with Tenebris to be forgotten.""
  luxite:0 "Lux"
  luxite_adj:0 "Lux"
  luxite_adherent:0 "Luxite"
@@ -88,7 +90,6 @@
 
 ### THIS IS FOR LENNOX-LUXITE TOO
 
-#lennox luxite
  lennox-luxite:0 "Northern Lux"
  lennox-luxite_adj:0 "Northern Lux"
  lennox-luxite_adherent:0 "Northern Luxite"

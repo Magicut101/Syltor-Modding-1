@@ -4,7 +4,7 @@
  ashuran_pantheon_religion_adj:0 "Ashuran"
  ashuran_pantheon_religion_adherent:0 "Ashuran"
  ashuran_pantheon_religion_adherent_plural:0 "Ashurans"
- ashuran_pantheon_religion_desc:0 ""
+ ashuran_pantheon_religion_desc:0 "Practiced by the peoples of the Ashura, it proliferates that all Dune Elves are the children of their Sun goddess A'ashia, who was responsible for the creation of the world."
 
  tototl_high_god_name:0 "Tototetl"
  tototl_high_god_name_2:0 "$tototl_high_god_name$" # Optional translation alt
@@ -75,11 +75,13 @@
  witchgodname_lunatwa_daode_tianzun_possessive:0 "Daode Tianzun's"
 
  #ashuran pantheon
- ashuran_pantheon:0 "A'ashism"
  ashuran_pantheon_adj:0 "Ashuran Pantheon"
- ashuran_pantheon_adherent:0 "Ashuric"
- ashuran_pantheon_adherent_plural:0 "Ashurics"
- ashuran_pantheon_desc:0 "Practiced by the peoples of the Ashura, it proliferates that all Dune Elves are the children of their Sun goddess A'ashia, who was responsible for the creation of the world."
+ ashuran_pantheon:0 "A'ashism"
+ ashuran_religion:0 "A'ashism"
+ ashuran_religion_adj:0 "Ashuran Pantheon"
+ ashuran_religion_adherent:0 "Ashuric"
+ ashuran_religion_adherent_plural:0 "Ashurics"
+ ashuran_religion_desc:0 "Practiced by the peoples of the Ashura, it proliferates that all Dune Elves are the children of their Sun goddess A'ashia, who was responsible for the creation of the world."
 
  #qanti pantheon
  qantifolkway_pantheon:0 "Qanti Paganism"

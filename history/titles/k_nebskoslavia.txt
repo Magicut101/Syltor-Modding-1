@@ -25,3 +25,14 @@ d_nebskograd = {
 	  holder = 600036
 	}
 }
+c_Neuminster= {
+	1064.1.1 = {
+	  holder = 600155
+	}
+}
+d_neuminster ={
+	867.1.1 = {	change_development_level = 5 }
+	1064.1.1 = {
+	  holder = 600155
+	}
+}
